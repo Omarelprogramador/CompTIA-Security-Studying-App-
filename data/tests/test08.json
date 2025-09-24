@@ -1,0 +1,1193 @@
+[
+  {
+    "id": "T08-Q0001",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a security vulnerability that enables inserting malicious code into input fields, such as search bars or login forms, to execute unauthorized commands on a database?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a una vulnerabilidad de seguridad que permite insertar código malicioso en campos de entrada, como barras de búsqueda o formularios de inicio de sesión, para ejecutar comandos no autorizados en una base de datos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "RCE",
+          "es": "RCE"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SQLi",
+          "es": "SQLi"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "XSS",
+          "es": "XSS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CSRF",
+          "es": "CSRF"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SQLi (SQL injection) is an attack that involves inserting malicious SQL code via web input fields to manipulate a database.",
+      "es": "SQLi (inyección SQL) es un ataque que implica la inserción de código SQL malicioso a través de campos de entrada web para manipular una base de datos."
+    }
+  },
+  {
+    "id": "T08-Q0002",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following indicates an SQL injection attack attempt?",
+      "es": "¿Cuál de las siguientes opciones indica un intento de ataque de inyección SQL?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "DELETE FROM itemDB WHERE itemID = '1';",
+          "es": "DELETE FROM itemDB WHERE itemID = '1';"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SELECT * FROM users WHERE userName = 'Alice' AND password = '' OR '1' = '1';",
+          "es": "SELECT * FROM users WHERE userName = 'Alice' AND password = '' OR '1' = '1';"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "DROP TABLE itemDB;",
+          "es": "DROP TABLE itemDB;"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SELECT * FROM users WHERE email = 'example@example.com' AND password = '';",
+          "es": "SELECT * FROM users WHERE email = 'example@example.com' AND password = '';"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "The query ' OR '1' = '1' is a classic SQL injection that bypasses authentication by making the condition always true.",
+      "es": "La consulta ' OR '1' = '1' es una inyección SQL clásica que elude la autenticación al hacer que la condición siempre sea verdadera."
+    }
+  },
+  {
+    "id": "T08-Q0003",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the answers listed below describe the characteristics of a cross-site scripting attack? (Select 3 answers)",
+      "es": "¿Cuáles de las siguientes respuestas describen las características de un ataque de cross-site scripting? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Exploits the trust a user's web browser has in a website",
+          "es": "Explota la confianza que el navegador web de un usuario tiene en un sitio web"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "A malicious script is injected into a trusted website",
+          "es": "Se inyecta un script malicioso en un sitio web confiable"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "User's browser executes attacker's script",
+          "es": "El navegador del usuario ejecuta el script del atacante"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Exploits the trust a website has in the user's web browser",
+          "es": "Explota la confianza que un sitio web tiene en el navegador web del usuario"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "A user is tricked by an attacker into submitting unauthorized web requests",
+          "es": "Un atacante engaña a un usuario para que envíe solicitudes web no autorizadas"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Website executes attacker's requests",
+          "es": "El sitio web ejecuta las solicitudes del atacante"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Cross-site scripting (XSS) involves an attacker injecting malicious scripts into a trusted website, which are then executed by the user's browser, exploiting the trust the browser has in the site.",
+      "es": "El cross-site scripting (XSS) implica que un atacante inyecte scripts maliciosos en un sitio web de confianza, que luego son ejecutados por el navegador del usuario, explotando la confianza que el navegador tiene en el sitio."
+    }
+  },
+  {
+    "id": "T08-Q0004",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a type of software embedded into a hardware chip?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un tipo de software incrustado en un chip de hardware?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Firmware",
+          "es": "Firmware"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Middleware",
+          "es": "Middleware"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Device driver",
+          "es": "Controlador de dispositivo"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Machine code",
+          "es": "Código de máquina"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Firmware is a specific class of computer software that provides the low-level control for a device's specific hardware.",
+      "es": "El firmware es una clase específica de software que proporciona control de bajo nivel para el hardware específico de un dispositivo."
+    }
+  },
+  {
+    "id": "T08-Q0005",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below refers to a product's life-cycle management phase in which a product is no longer being produced or sold?",
+      "es": "¿Cuál de los términos listados a continuación se refiere a la fase de gestión del ciclo de vida de un producto en la que un producto ya no se produce ni se vende?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "EOS",
+          "es": "EOS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "EOF",
+          "es": "EOF"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "EOL",
+          "es": "EOL"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "EOA",
+          "es": "EOA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "EOL (End of Life) is a term used in product lifecycle management to indicate that a product is at the end of its useful life and will no longer be sold, maintained, or supported.",
+      "es": "EOL (Fin de vida útil) es un término utilizado en la gestión del ciclo de vida del producto para indicar que un producto está al final de su vida útil y ya no se venderá, mantendrá ni soportará."
+    }
+  },
+  {
+    "id": "T08-Q0006",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "What is the main vulnerability related to legacy hardware?",
+      "es": "¿Cuál es la principal vulnerabilidad relacionada con el hardware heredado?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Compatibility issues",
+          "es": "Problemas de compatibilidad"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Lack of security updates and patches",
+          "es": "Falta de actualizaciones y parches de seguridad"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Worn-out physical components",
+          "es": "Componentes físicos desgastados"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Lack of skilled personnel to run it and maintain it",
+          "es": "Falta de personal cualificado para operarlo y mantenerlo"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "The main vulnerability of legacy hardware and software is the lack of security updates and patches, which leaves known vulnerabilities exposed and exploitable.",
+      "es": "La principal vulnerabilidad del hardware y software heredado es la falta de actualizaciones y parches de seguridad, lo que deja expuestas y explotables las vulnerabilidades conocidas."
+    }
+  },
+  {
+    "id": "T08-Q0007",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The term 'VM escape' refers to the process of breaking out of the boundaries of a guest operating system installation to access the primary hypervisor controlling all the virtual machines on the host machine.",
+      "es": "El término 'escape de VM' se refiere al proceso de romper los límites de una instalación del sistema operativo invitado para acceder al hipervisor principal que controla todas las máquinas virtuales en la máquina anfitriona."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A VM escape is a security vulnerability that allows an attacker to break out of a virtual machine and gain access to the host operating system or other virtual machines.",
+      "es": "Un escape de VM es una vulnerabilidad de seguridad que permite a un atacante salir de una máquina virtual y obtener acceso al sistema operativo anfitrión u otras máquinas virtuales."
+    }
+  },
+  {
+    "id": "T08-Q0008",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a virtualization-related vulnerability where virtualized assets allocated to one VM are improperly isolated and can be accessed or compromised by another VM?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a una vulnerabilidad relacionada con la virtualización donde los activos virtualizados asignados a una VM están aislados incorrectamente y pueden ser accedidos o comprometidos por otra VM?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Resource reuse",
+          "es": "Reutilización de recursos"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Privilege escalation",
+          "es": "Escalada de privilegios"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Resource exhaustion",
+          "es": "Agotamiento de recursos"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Concurrent session usage",
+          "es": "Uso de sesión concurrente"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Resource reuse attacks occur when virtualized resources, such as memory or storage, are not properly sanitized before being reassigned to another VM, potentially allowing the new VM to access sensitive data from the previous user.",
+      "es": "Los ataques de reutilización de recursos ocurren cuando los recursos virtualizados, como la memoria o el almacenamiento, no se limpian adecuadamente antes de ser reasignados a otra VM, lo que podría permitir que la nueva VM acceda a datos sensibles del usuario anterior."
+    }
+  },
+  {
+    "id": "T08-Q0009",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a cloud-related vulnerability type?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un tipo de vulnerabilidad relacionada con la nube?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Insecure APIs",
+          "es": "APIs inseguras"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Poor access controls",
+          "es": "Controles de acceso deficientes"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Lack of security updates",
+          "es": "Falta de actualizaciones de seguridad"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Misconfigured cloud storage",
+          "es": "Almacenamiento en la nube mal configurado"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Shadow IT / Malicious insiders",
+          "es": "Shadow IT / Amenazas internas maliciosas"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "All of the above",
+          "es": "Todos los anteriores"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "All the listed options, including insecure APIs, poor access controls, lack of security updates, misconfigured cloud storage, and shadow IT, are examples of common cloud-related vulnerabilities.",
+      "es": "Todas las opciones enumeradas, incluyendo APIs inseguras, controles de acceso deficientes, falta de actualizaciones de seguridad, almacenamiento en la nube mal configurado y shadow IT, son ejemplos de vulnerabilidades comunes relacionadas con la nube."
+    }
+  },
+  {
+    "id": "T08-Q0010",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The practice of installing mobile apps from websites and app stores other than the official marketplaces is referred to as:",
+      "es": "La práctica de instalar aplicaciones móviles desde sitios web y tiendas de aplicaciones que no son los mercados oficiales se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Jailbreaking",
+          "es": "Jailbreaking"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Rooting",
+          "es": "Rooting"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Sideloading",
+          "es": "Sideloading"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Carrier unlocking",
+          "es": "Liberación de operador"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Sideloading is the process of transferring files from one device to another, particularly when installing mobile apps from unofficial sources.",
+      "es": "El sideloading es el proceso de transferir archivos de un dispositivo a otro, especialmente al instalar aplicaciones móviles desde fuentes no oficiales."
+    }
+  },
+  {
+    "id": "T08-Q0011",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following terms is used to describe the process of removing software restrictions imposed by Apple on its iOS operating system?",
+      "es": "¿Cuál de los siguientes términos se utiliza para describir el proceso de eliminar las restricciones de software impuestas por Apple en su sistema operativo iOS?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Sideloading",
+          "es": "Sideloading"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Carrier unlocking",
+          "es": "Liberación de operador"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Rooting",
+          "es": "Rooting"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Jailbreaking",
+          "es": "Jailbreaking"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Jailbreaking is the process of gaining root access to an iOS device by bypassing the software restrictions put in place by Apple. This allows for the installation of unauthorized apps and system modifications.",
+      "es": "El jailbreaking es el proceso de obtener acceso de root a un dispositivo iOS al eludir las restricciones de software establecidas por Apple. Esto permite la instalación de aplicaciones no autorizadas y modificaciones del sistema."
+    }
+  },
+  {
+    "id": "T08-Q0012",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The term 'Rooting' refers to the capability of gaining administrative access to the operating system and system applications on:",
+      "es": "El término 'Rooting' se refiere a la capacidad de obtener acceso administrativo al sistema operativo y a las aplicaciones del sistema en:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Android devices",
+          "es": "Dispositivos Android"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "iOS devices",
+          "es": "Dispositivos iOS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Microsoft devices",
+          "es": "Dispositivos Microsoft"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "All types of mobile devices",
+          "es": "Todo tipo de dispositivos móviles"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Rooting is the process of allowing users of an Android device to gain privileged control over the device's system, similar to gaining 'root' access on Linux or Unix systems.",
+      "es": "El rooting es el proceso que permite a los usuarios de un dispositivo Android obtener control privilegiado sobre el sistema del dispositivo, similar a obtener acceso 'root' en sistemas Linux o Unix."
+    }
+  },
+  {
+    "id": "T08-Q0013",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A type of attack aimed at exploiting a vulnerability that is present in already released software but unknown to the software developer is known as:",
+      "es": "Un tipo de ataque destinado a explotar una vulnerabilidad que está presente en software ya lanzado pero que es desconocida para el desarrollador de software se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "On-path attack",
+          "es": "Ataque en la ruta (On-path attack)"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IV attack",
+          "es": "Ataque IV"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Zero-day attack",
+          "es": "Ataque de día cero"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Replay attack",
+          "es": "Ataque de repetición"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A zero-day attack exploits a software vulnerability that is unknown to the vendor, meaning there is no patch available to fix it at the time the attack is discovered.",
+      "es": "Un ataque de día cero explota una vulnerabilidad de software que es desconocida para el proveedor, lo que significa que no hay un parche disponible para solucionarla en el momento en que se descubre el ataque."
+    }
+  },
+  {
+    "id": "T08-Q0014",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Malware that restricts access to a computer system by encrypting files or locking the entire system down until the user performs a requested action is called:",
+      "es": "El malware que restringe el acceso a un sistema informático al cifrar archivos o bloquear todo el sistema hasta que el usuario realiza una acción solicitada se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Grayware",
+          "es": "Grayware"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Adware",
+          "es": "Adware"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Ransomware",
+          "es": "Ransomware"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Spyware",
+          "es": "Spyware"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Ransomware is a type of malware that encrypts a victim's files and demands a ransom payment to restore access.",
+      "es": "El ransomware es un tipo de malware que cifra los archivos de una víctima y exige un pago de rescate para restaurar el acceso."
+    }
+  },
+  {
+    "id": "T08-Q0015",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A Trojan horse is a type of software that performs harmful actions under the guise of a legitimate and useful program. The most characteristic feature of a Trojan horse is that while it may function as a legitimate program and possess all the expected functionalities, it also contains a concealed portion of malicious code that the user is unaware of.",
+      "es": "Un caballo de Troya es un tipo de software que realiza acciones dañinas bajo la apariencia de un programa legítimo y útil. La característica más distintiva de un caballo de Troya es que, si bien puede funcionar como un programa legítimo y poseer todas las funcionalidades esperadas, también contiene una parte oculta de código malicioso de la que el usuario no es consciente."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "This statement accurately describes a Trojan horse, which deceives users by appearing as a benign program while carrying out malicious activities in the background.",
+      "es": "Esta afirmación describe con precisión un caballo de Troya, que engaña a los usuarios al parecer un programa benigno mientras realiza actividades maliciosas en segundo plano."
+    }
+  },
+  {
+    "id": "T08-Q0016",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which type of Trojan enables unauthorized remote access to a compromised system?",
+      "es": "¿Qué tipo de troyano permite el acceso remoto no autorizado a un sistema comprometido?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "APT",
+          "es": "APT"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RAT",
+          "es": "RAT"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MaaS",
+          "es": "MaaS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "PUP",
+          "es": "PUP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A RAT (Remote Access Trojan) is a type of Trojan that allows an attacker to remotely control a victim's computer.",
+      "es": "Un RAT (Troyano de Acceso Remoto) es un tipo de troyano que permite a un atacante controlar remotamente el ordenador de la víctima."
+    }
+  },
+  {
+    "id": "T08-Q0017",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A standalone malicious computer program that typically propagates itself over a computer network to adversely affect system resources and network bandwidth is referred to as:",
+      "es": "Un programa informático malicioso independiente que generalmente se propaga a sí mismo a través de una red informática para afectar negativamente los recursos del sistema y el ancho de banda de la red se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Worm",
+          "es": "Gusano"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Fileless virus",
+          "es": "Virus sin archivo"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Bot",
+          "es": "Bot"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Logic bomb",
+          "es": "Bomba lógica"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A worm is a type of malware that can self-replicate and spread to other computers on a network without needing to attach itself to a host program.",
+      "es": "Un gusano es un tipo de malware que puede autorreplicarse y propagarse a otras computadoras en una red sin necesidad de adjuntarse a un programa anfitrión."
+    }
+  },
+  {
+    "id": "T08-Q0018",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Malicious software collecting information about users without their knowledge/consent is known as:",
+      "es": "El software malicioso que recopila información sobre los usuarios sin su conocimiento/consentimiento se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Cryptomalware",
+          "es": "Cryptomalware"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Adware",
+          "es": "Adware"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Ransomware",
+          "es": "Ransomware"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Spyware",
+          "es": "Spyware"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Spyware is a type of malware designed to secretly gather information about a user's activities and report it back to the attacker.",
+      "es": "El spyware es un tipo de malware diseñado para recopilar información de manera secreta sobre las actividades de un usuario y reportarla al atacante."
+    }
+  },
+  {
+    "id": "T08-Q0019",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the answers listed below refer to the characteristic features of bloatware? (Select 3 answers)",
+      "es": "¿Cuáles de las respuestas listadas a continuación se refieren a las características del bloatware? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Pre-installed on a device by the device manufacturer or retailer",
+          "es": "Preinstalado en un dispositivo por el fabricante o minorista"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Generally considered undesirable due to negative impact on system performance",
+          "es": "Generalmente considerado indeseable debido a un impacto negativo en el rendimiento del sistema"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Installed without user consent",
+          "es": "Instalado sin el consentimiento del usuario"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Can be pre-installed, downloaded, or bundled with other software",
+          "es": "Puede ser preinstalado, descargado o incluido con otro software"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Generally considered undesirable due to negative impact on system performance, privacy, and security",
+          "es": "Generalmente considerado indeseable debido a un impacto negativo en el rendimiento del sistema, la privacidad y la seguridad"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Bloatware is typically pre-installed by the manufacturer and is undesirable because it can slow down system performance and may be installed without explicit user consent.",
+      "es": "El bloatware es típicamente preinstalado por el fabricante y es indeseable porque puede ralentizar el rendimiento del sistema y puede ser instalado sin el consentimiento explícito del usuario."
+    }
+  },
+  {
+    "id": "T08-Q0020",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the following answers refer to the characteristics of a PUP? (Select 3 answers)",
+      "es": "¿Cuáles de las siguientes respuestas se refieren a las características de un PUP? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Often installed without clear user consent",
+          "es": "A menudo se instala sin el consentimiento claro del usuario"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Can be pre-installed, downloaded, or bundled with other software",
+          "es": "Puede ser preinstalado, descargado o incluido con otro software"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Generally considered undesirable due to negative impact on system performance, privacy, and security",
+          "es": "Generalmente considerado indeseable debido a un impacto negativo en el rendimiento del sistema, la privacidad y la seguridad"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Pre-installed on a device by the device manufacturer or retailer",
+          "es": "Preinstalado en un dispositivo por el fabricante o minorista"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Generally considered undesirable due to negative impact on system performance",
+          "es": "Generalmente considerado indeseable debido a un impacto negativo en el rendimiento del sistema"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "PUPs (Potentially Unwanted Programs) are often installed without a user's explicit consent, can be distributed through various means, and are generally considered undesirable due to their negative impact on performance, privacy, and security.",
+      "es": "Los PUPs (Programas Potencialmente No Deseados) a menudo se instalan sin el consentimiento explícito del usuario, pueden distribuirse a través de diversos medios y generalmente se consideran indeseables debido a su impacto negativo en el rendimiento, la privacidad y la seguridad."
+    }
+  },
+  {
+    "id": "T08-Q0021",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the statements listed below apply to the definition of a computer virus? (Select 3 answers)",
+      "es": "¿Cuáles de las siguientes afirmaciones se aplican a la definición de un virus informático? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "A self-replicating computer program containing a malicious segment",
+          "es": "Un programa informático que se autorreplica y contiene un segmento malicioso"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Malware that typically requires its host application to be run to make the virus active",
+          "es": "El malware que generalmente requiere que se ejecute su aplicación anfitriona para activar el virus"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "A standalone malicious computer program that replicates itself over a computer network",
+          "es": "Un programa informático malicioso independiente que se replica a sí mismo a través de una red informática"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Malware that can run by itself without any interaction",
+          "es": "Malware que puede ejecutarse por sí solo sin ninguna interacción"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Malicious code that typically attaches itself to an application program or other executable component",
+          "es": "Código malicioso que generalmente se adjunta a un programa de aplicación u otro componente ejecutable"
+        },
+        "correct": true
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "A self-contained malicious program or code that does not need a host to propagate itself",
+          "es": "Un programa o código malicioso autónomo que no necesita un anfitrión para propagarse"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A computer virus is a self-replicating program that attaches to a host file or program. It requires user interaction (running the host program) to activate and spread.",
+      "es": "Un virus informático es un programa que se autorreplica y se adjunta a un archivo o programa anfitrión. Requiere la interacción del usuario (ejecutar el programa anfitrión) para activarse y propagarse."
+    }
+  },
+  {
+    "id": "T08-Q0022",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following is an example of spyware?",
+      "es": "¿Cuál de los siguientes es un ejemplo de spyware?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Keylogger",
+          "es": "Keylogger"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Vulnerability scanner",
+          "es": "Escáner de vulnerabilidad"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Computer worm",
+          "es": "Gusano informático"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Packet sniffer",
+          "es": "Analizador de paquetes"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A keylogger is a type of spyware that records keystrokes entered on a keyboard, allowing an attacker to capture sensitive information like passwords and credit card numbers.",
+      "es": "Un keylogger es un tipo de spyware que registra las pulsaciones de teclas en un teclado, lo que permite a un atacante capturar información sensible como contraseñas y números de tarjetas de crédito."
+    }
+  },
+  {
+    "id": "T08-Q0023",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Malicious code activated by a specific event is called:",
+      "es": "El código malicioso activado por un evento específico se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Cryptomalware",
+          "es": "Cryptomalware"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Backdoor",
+          "es": "Backdoor"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Rootkit",
+          "es": "Rootkit"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Logic bomb",
+          "es": "Bomba lógica"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "A logic bomb is a malicious code or program that is deliberately inserted into a software system and triggered when a specific condition is met, such as a particular date, a specific event, or a certain amount of time has passed.",
+      "es": "Una bomba lógica es un código o programa malicioso que se inserta deliberadamente en un sistema de software y se activa cuando se cumple una condición específica, como una fecha determinada, un evento particular o un cierto período de tiempo ha transcurrido."
+    }
+  },
+  {
+    "id": "T08-Q0024",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a collection of software tools used by a hacker to mask intrusion and obtain administrator-level access to a computer or computer network?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a una colección de herramientas de software utilizadas por un hacker para enmascarar la intrusión y obtener acceso a nivel de administrador a una computadora o red informática?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Rootkit",
+          "es": "Rootkit"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Spyware",
+          "es": "Spyware"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Backdoor",
+          "es": "Backdoor"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Trojan",
+          "es": "Troyano"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A rootkit is a type of malicious software designed to gain and maintain unauthorized access to a computer, typically at the root or administrative level, while concealing its presence from the user and other security software.",
+      "es": "Un rootkit es un tipo de software malicioso diseñado para obtener y mantener acceso no autorizado a un ordenador, generalmente a nivel de root o administrador, mientras oculta su presencia al usuario y a otros programas de seguridad."
+    }
+  },
+  {
+    "id": "T08-Q0025",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The term 'RFID cloning' refers to copying the data stored on any RFID-enabled device (including tags, cards, key fobs, implants, and other objects embedded with RFID technology) onto another RFID-enabled device, which then can be read and used in the same way as the original tag. While RFID cloning can be utilized for legitimate purposes, such as replicating important tags for backup and testing purposes, it also poses a significant security risk, as duplicate tags can potentially be used for gaining unauthorized access or unauthorized information disclosure.",
+      "es": "El término 'clonación de RFID' se refiere a la copia de los datos almacenados en cualquier dispositivo con RFID (incluidas etiquetas, tarjetas, llaveros, implantes y otros objetos con tecnología RFID) en otro dispositivo con RFID, que luego se puede leer y usar de la misma manera que la etiqueta original. Si bien la clonación de RFID puede utilizarse para fines legítimos, como replicar etiquetas importantes para fines de respaldo y prueba, también representa un riesgo de seguridad significativo, ya que las etiquetas duplicadas pueden usarse para obtener acceso no autorizado o divulgación de información no autorizada."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "The statement accurately describes RFID cloning, its legitimate uses, and the associated security risks, such as unauthorized access.",
+      "es": "La afirmación describe con precisión la clonación de RFID, sus usos legítimos y los riesgos de seguridad asociados, como el acceso no autorizado."
+    }
+  }
+]

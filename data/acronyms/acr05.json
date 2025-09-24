@@ -1,0 +1,1607 @@
+[
+  {
+    "id": "AC05-Q0001",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a protocol used to set up secure connections and exchange of cryptographic keys in IPsec VPNs?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un protocolo utilizado para establecer conexiones seguras e intercambiar claves criptográficas en VPNs IPsec?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SSL",
+          "es": "SSL"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IKE",
+          "es": "IKE"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "ESP",
+          "es": "ESP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "DHE",
+          "es": "DHE"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "IKE (Internet Key Exchange) is a protocol used to set up secure connections and exchange cryptographic keys for IPsec VPNs.",
+      "es": "IKE (Internet Key Exchange) es un protocolo utilizado para establecer conexiones seguras e intercambiar claves criptográficas para VPNs IPsec."
+    }
+  },
+  {
+    "id": "AC05-Q0002",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "An access control model that enforces the strictest set of access rules is known as:",
+      "es": "Un modelo de control de acceso que impone el conjunto más estricto de reglas de acceso se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MAC",
+          "es": "MAC"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RBAC",
+          "es": "RBAC"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "DAC",
+          "es": "DAC"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "ABAC",
+          "es": "ABAC"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "MAC (Mandatory Access Control) is a model that enforces the strictest access rules based on security labels and clearance levels.",
+      "es": "MAC (Mandatory Access Control) es un modelo que impone las reglas de acceso más estrictas basadas en etiquetas de seguridad y niveles de autorización."
+    }
+  },
+  {
+    "id": "AC05-Q0003",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the acronyms listed below refers to a cryptographic software tool for secure email communication and data protection?",
+      "es": "¿Cuál de los acrónimos a continuación se refiere a una herramienta de software criptográfico para la comunicación segura por correo electrónico y la protección de datos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "DES",
+          "es": "DES"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "PEM",
+          "es": "PEM"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "EFS",
+          "es": "EFS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "PGP",
+          "es": "PGP"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "PGP (Pretty Good Privacy) is a cryptographic program that provides privacy and authentication for data communication, often used for email.",
+      "es": "PGP (Pretty Good Privacy) es un programa criptográfico que proporciona privacidad y autenticación para la comunicación de datos, a menudo utilizado para correo electrónico."
+    }
+  },
+  {
+    "id": "AC05-Q0004",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "What type of action allows an attacker to exploit the XSS vulnerability?",
+      "es": "¿Qué tipo de acción permite a un atacante explotar la vulnerabilidad XSS?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Code injection",
+          "es": "Inyección de código"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Banner grabbing",
+          "es": "Captura de banner"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PIN recovery",
+          "es": "Recuperación de PIN"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Input validation",
+          "es": "Validación de entrada"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "XSS (Cross-Site Scripting) is a vulnerability that allows attackers to inject malicious code into web pages viewed by other users.",
+      "es": "XSS (Cross-Site Scripting) es una vulnerabilidad que permite a los atacantes inyectar código malicioso en las páginas web vistas por otros usuarios."
+    }
+  },
+  {
+    "id": "AC05-Q0005",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A type of vulnerability where the state of a resource is verified at one point in time but may change before the resource is actually used is called:",
+      "es": "Un tipo de vulnerabilidad donde el estado de un recurso se verifica en un momento dado pero puede cambiar antes de que el recurso sea realmente utilizado se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "TOC",
+          "es": "TOC"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "TOC/TOU",
+          "es": "TOC/TOU"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "TOU",
+          "es": "TOU"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "TSIG",
+          "es": "TSIG"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "TOC/TOU (Time-of-Check to Time-of-Use) is a class of vulnerability where a program's state can change between checking a condition and using the result, leading to a race condition.",
+      "es": "TOC/TOU (Time-of-Check to Time-of-Use) es una clase de vulnerabilidad donde el estado de un programa puede cambiar entre la verificación de una condición y el uso del resultado, lo que lleva a una condición de carrera."
+    }
+  },
+  {
+    "id": "AC05-Q0006",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The term \"SMS\" is used in reference to:",
+      "es": "El término \"SMS\" se utiliza en referencia a:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Text messaging services",
+          "es": "Servicios de mensajería de texto"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Enhanced messaging services",
+          "es": "Servicios de mensajería mejorada"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Multimedia messaging services",
+          "es": "Servicios de mensajería multimedia"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Rich communication services",
+          "es": "Servicios de comunicación enriquecida"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SMS stands for Short Message Service, which is a text messaging service component of most mobile devices.",
+      "es": "SMS significa Short Message Service, que es un componente de servicio de mensajería de texto de la mayoría de los dispositivos móviles."
+    }
+  },
+  {
+    "id": "AC05-Q0007",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following terms refers to a framework and knowledge base that provides understanding of TTPs used during cyberattacks?",
+      "es": "¿Cuál de los siguientes términos se refiere a un marco y base de conocimientos que proporciona una comprensión de los TTPs utilizados durante los ciberataques?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CVSS",
+          "es": "CVSS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "ATT&CK",
+          "es": "ATT&CK"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "TAXII",
+          "es": "TAXII"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "STIX",
+          "es": "STIX"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ATT&CK (Adversarial Tactics, Techniques, and Common Knowledge) is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations.",
+      "es": "ATT&CK (Adversarial Tactics, Techniques, and Common Knowledge) es una base de conocimientos globalmente accesible de tácticas y técnicas de adversarios basada en observaciones del mundo real."
+    }
+  },
+  {
+    "id": "AC05-Q0008",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a security solution that provides the capability for detection, analysis, response, and real-time monitoring of cyber threats at the device level?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a una solución de seguridad que proporciona la capacidad de detección, análisis, respuesta y monitoreo en tiempo real de amenazas cibernéticas a nivel de dispositivo?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SWG",
+          "es": "SWG"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CASB",
+          "es": "CASB"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "EDR",
+          "es": "EDR"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "NGFW",
+          "es": "NGFW"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "EDR (Endpoint Detection and Response) is a security technology that provides continuous monitoring and response to cyber threats at the endpoint level.",
+      "es": "EDR (Endpoint Detection and Response) es una tecnología de seguridad que proporciona monitoreo continuo y respuesta a las amenazas cibernéticas a nivel de punto final."
+    }
+  },
+  {
+    "id": "AC05-Q0009",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a system containing mappings of domain names to various types of data, such as numerical IP addresses?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un sistema que contiene mapeos de nombres de dominio a varios tipos de datos, como direcciones IP numéricas?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "TCP/IP",
+          "es": "TCP/IP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DNS",
+          "es": "DNS"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SQL",
+          "es": "SQL"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "DHCP",
+          "es": "DHCP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "DNS (Domain Name System) is a hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network.",
+      "es": "DNS (Domain Name System) es un sistema de nombres jerárquico y descentralizado para computadoras, servicios u otros recursos conectados a Internet o a una red privada."
+    }
+  },
+  {
+    "id": "AC05-Q0010",
+    "type": "t/f",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The term \"OTA\" refers to the process of wirelessly transmitting data, updates, or information to electronic devices, such as smartphones, tablets, or IoT devices, typically using cellular networks, Wi-Fi, or other wireless communication methods.",
+      "es": "El término \"OTA\" se refiere al proceso de transmitir de forma inalámbrica datos, actualizaciones o información a dispositivos electrónicos, como teléfonos inteligentes, tabletas o dispositivos IoT, típicamente utilizando redes celulares, Wi-Fi u otros métodos de comunicación inalámbrica."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "OTA (Over-The-Air) is the process of wirelessly distributing new software updates, configuration settings, or data to electronic devices.",
+      "es": "OTA (Over-The-Air) es el proceso de distribuir de forma inalámbrica nuevas actualizaciones de software, configuraciones o datos a dispositivos electrónicos."
+    }
+  },
+  {
+    "id": "AC05-Q0011",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the acronyms listed below refers to a piece of hardware and associated software/firmware designed to provide cryptographic and key management functions?",
+      "es": "¿Cuál de los acrónimos a continuación se refiere a una pieza de hardware y software/firmware asociado diseñado para proporcionar funciones criptográficas y de gestión de claves?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "EFS",
+          "es": "EFS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "HSM",
+          "es": "HSM"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SFC",
+          "es": "SFC"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "TPM",
+          "es": "TPM"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "HSM (Hardware Security Module) is a physical computing device that safeguards and manages digital keys for strong authentication and provides crypto-processing.",
+      "es": "HSM (Hardware Security Module) es un dispositivo físico de computación que protege y gestiona claves digitales para una autenticación fuerte y proporciona cripto-procesamiento."
+    }
+  },
+  {
+    "id": "AC05-Q0012",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "What is a PUP? (Select 3 answers)",
+      "es": "¿Qué es un PUP? (Seleccione 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "A type of computer program not explicitly classified as malware by AV software",
+          "es": "Un tipo de programa de computadora no clasificado explícitamente como malware por el software AV"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "An application downloaded and installed without the user's consent",
+          "es": "Una aplicación descargada e instalada sin el consentimiento del usuario"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "A type of software that may adversely affect the computer's security and performance, compromise user's privacy, or display unsolicited ads",
+          "es": "Un tipo de software que puede afectar negativamente la seguridad y el rendimiento del equipo, comprometer la privacidad del usuario o mostrar anuncios no solicitados"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "An application downloaded and installed with the user's consent",
+          "es": "Una aplicación descargada e instalada con el consentimiento del usuario"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "A type of computer program explicitly classified as malware by AV applications",
+          "es": "Un tipo de programa de computadora clasificado explícitamente como malware por las aplicaciones AV"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "A type of free, utility software often bundled with a paid app",
+          "es": "Un tipo de software de utilidad gratuito a menudo empaquetado con una aplicación de pago"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "PUP (Potentially Unwanted Program) is a type of software that is often downloaded and installed without the user's explicit consent, may affect system performance, and is not always classified as malware by antivirus software.",
+      "es": "PUP (Potentially Unwanted Program) es un tipo de software que a menudo se descarga e instala sin el consentimiento explícito del usuario, puede afectar el rendimiento del sistema y no siempre es clasificado como malware por el software antivirus."
+    }
+  },
+  {
+    "id": "AC05-Q0013",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A measure of the likelihood that a biometric security system will incorrectly reject an access attempt by an authorized user is referred to as:",
+      "es": "Una medida de la probabilidad de que un sistema de seguridad biométrico rechace incorrectamente un intento de acceso por parte de un usuario autorizado se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "FAR",
+          "es": "FAR"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CER",
+          "es": "CER"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "CRC",
+          "es": "CRC"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "FRR",
+          "es": "FRR"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "FRR (False Rejection Rate) is the measure of the probability that a biometric system will fail to authenticate a legitimate user.",
+      "es": "FRR (False Rejection Rate) es la medida de la probabilidad de que un sistema biométrico no autentique a un usuario legítimo."
+    }
+  },
+  {
+    "id": "AC05-Q0014",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following enables the automation of vulnerability scanning and compliance checking?",
+      "es": "¿Cuál de los siguientes permite la automatización del escaneo de vulnerabilidades y la verificación de cumplimiento?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SAML",
+          "es": "SAML"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "OVAL",
+          "es": "OVAL"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SCAP",
+          "es": "SCAP"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SASE",
+          "es": "SASE"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SCAP (Security Content Automation Protocol) is a suite of standards for automating vulnerability management and security policy compliance.",
+      "es": "SCAP (Security Content Automation Protocol) es un conjunto de estándares para automatizar la gestión de vulnerabilidades y el cumplimiento de políticas de seguridad."
+    }
+  },
+  {
+    "id": "AC05-Q0015",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the acronyms listed below refers to a comprehensive strategy and set of procedures designed to ensure that an organization can continue its critical operations and functions during and after a disruptive event?",
+      "es": "¿Cuál de los acrónimos a continuación se refiere a una estrategia integral y un conjunto de procedimientos diseñados para asegurar que una organización pueda continuar sus operaciones y funciones críticas durante y después de un evento disruptivo?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "BIA",
+          "es": "BIA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SLE",
+          "es": "SLE"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "BCP",
+          "es": "BCP"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "BPA",
+          "es": "BPA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "BCP (Business Continuity Plan) is a plan to ensure that business operations can continue during and after a disaster.",
+      "es": "BCP (Business Continuity Plan) es un plan para asegurar que las operaciones comerciales puedan continuar durante y después de un desastre."
+    }
+  },
+  {
+    "id": "AC05-Q0016",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Given the computational limitations of IoT devices, smartcards, and mobile devices, which of the following digital signature algorithms would be the most efficient choice due to its smaller key size and lower computational requirements?",
+      "es": "Dadas las limitaciones computacionales de los dispositivos IoT, tarjetas inteligentes y dispositivos móviles, ¿cuál de los siguientes algoritmos de firma digital sería la opción más eficiente debido a su menor tamaño de clave y menores requisitos computacionales?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "RSA",
+          "es": "RSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "ECDHE",
+          "es": "ECDHE"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "DSA",
+          "es": "DSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "ECDSA",
+          "es": "ECDSA"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "ECC",
+          "es": "ECC"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ECDSA (Elliptic Curve Digital Signature Algorithm) is a digital signature algorithm that uses elliptic curve cryptography (ECC) for smaller key sizes and less computational power.",
+      "es": "ECDSA (Elliptic Curve Digital Signature Algorithm) es un algoritmo de firma digital que utiliza criptografía de curva elíptica (ECC) para tamaños de clave más pequeños y menor potencia computacional."
+    }
+  },
+  {
+    "id": "AC05-Q0017",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which type of software is used to prevent, detect, and remove malware from computer systems and networks?",
+      "es": "¿Qué tipo de software se utiliza para prevenir, detectar y eliminar malware de los sistemas y redes informáticas?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "IDS",
+          "es": "IDS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SaaS",
+          "es": "SaaS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "AV",
+          "es": "AV"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "WAF",
+          "es": "WAF"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "AV (Antivirus) software is a program that protects against and removes malicious software.",
+      "es": "El software AV (Antivirus) es un programa que protege y elimina el software malicioso."
+    }
+  },
+  {
+    "id": "AC05-Q0018",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "An estimate based on the historical data of how often a threat would be successful in exploiting a vulnerability is known as:",
+      "es": "Una estimación basada en datos históricos de cuán a menudo una amenaza tendría éxito al explotar una vulnerabilidad se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ALE",
+          "es": "ALE"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SLA",
+          "es": "SLA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "ARO",
+          "es": "ARO"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SLE",
+          "es": "SLE"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ARO (Annualized Rate of Occurrence) is the estimated frequency of a specific threat exploiting a specific vulnerability.",
+      "es": "ARO (Annualized Rate of Occurrence) es la frecuencia estimada de una amenaza específica que explota una vulnerabilidad específica."
+    }
+  },
+  {
+    "id": "AC05-Q0019",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a rule-based access control mechanism associated with files and/or directories?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un mecanismo de control de acceso basado en reglas asociado con archivos y/o directorios?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "EFS",
+          "es": "EFS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "FACL",
+          "es": "FACL"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "FIM",
+          "es": "FIM"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "NTFS",
+          "es": "NTFS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "FACL (File Access Control List) is a list of permissions associated with a file or directory, which is a rule-based access control mechanism.",
+      "es": "FACL (File Access Control List) es una lista de permisos asociada a un archivo o directorio, que es un mecanismo de control de acceso basado en reglas."
+    }
+  },
+  {
+    "id": "AC05-Q0020",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a DNS TXT record that allows the owner of a domain to specify all the servers authorized to send mail from their domain?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un registro DNS TXT que permite al propietario de un dominio especificar todos los servidores autorizados para enviar correo desde su dominio?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "DKIM",
+          "es": "DKIM"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SRV",
+          "es": "SRV"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "CNAME",
+          "es": "CNAME"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SPF",
+          "es": "SPF"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "SPF (Sender Policy Framework) is a DNS TXT record that helps prevent email spoofing by specifying which mail servers are authorized to send email on behalf of a domain.",
+      "es": "SPF (Sender Policy Framework) es un registro DNS TXT que ayuda a prevenir la suplantación de identidad por correo electrónico al especificar qué servidores de correo están autorizados a enviar correo en nombre de un dominio."
+    }
+  },
+  {
+    "id": "AC05-Q0021",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a cryptographic method used to verify that a message or data has remained unaltered during transmission and originates from an authorized source?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un método criptográfico utilizado para verificar que un mensaje o dato ha permanecido inalterado durante la transmisión y proviene de una fuente autorizada?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MAC",
+          "es": "MAC"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CBC",
+          "es": "CBC"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PEM",
+          "es": "PEM"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "GCM",
+          "es": "GCM"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "MAC (Message Authentication Code) is a cryptographic checksum generated from a message to verify its integrity and authenticity.",
+      "es": "MAC (Message Authentication Code) es una suma de comprobación criptográfica generada a partir de un mensaje para verificar su integridad y autenticidad."
+    }
+  },
+  {
+    "id": "AC05-Q0022",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a network security technology designed to monitor WLANs for unauthorized access, security threats, and suspicious activities?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a una tecnología de seguridad de red diseñada para monitorear WLANs en busca de acceso no autorizado, amenazas de seguridad y actividades sospechosas?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "UTM",
+          "es": "UTM"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "WIDS",
+          "es": "WIDS"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "NGFW",
+          "es": "NGFW"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "WAF",
+          "es": "WAF"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "WIDS (Wireless Intrusion Detection System) is a network security tool that monitors a wireless network for malicious activity and unauthorized access.",
+      "es": "WIDS (Wireless Intrusion Detection System) es una herramienta de seguridad de red que monitorea una red inalámbrica en busca de actividad maliciosa y acceso no autorizado."
+    }
+  },
+  {
+    "id": "AC05-Q0023",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the acronyms listed below refers to a client-server protocol that provides centralized AAA services for remote-access users?",
+      "es": "¿Cuál de los acrónimos a continuación se refiere a un protocolo cliente-servidor que proporciona servicios AAA centralizados para usuarios de acceso remoto?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "OAuth",
+          "es": "OAuth"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RADIUS",
+          "es": "RADIUS"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "LDAP",
+          "es": "LDAP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "OpenID",
+          "es": "OpenID"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "RADIUS (Remote Authentication Dial-In User Service) is a networking protocol that provides centralized Authentication, Authorization, and Accounting (AAA) management for users.",
+      "es": "RADIUS (Remote Authentication Dial-In User Service) es un protocolo de red que proporciona una gestión centralizada de Autenticación, Autorización y Contabilidad (AAA) para los usuarios."
+    }
+  },
+  {
+    "id": "AC05-Q0024",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which type of software enables centralized administration of mobile devices?",
+      "es": "¿Qué tipo de software permite la administración centralizada de dispositivos móviles?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MFA",
+          "es": "MFA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "MMC",
+          "es": "MMC"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MDM",
+          "es": "MDM"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MFD",
+          "es": "MFD"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "MDM (Mobile Device Management) is a type of software used to administer and secure mobile devices, such as smartphones and tablets.",
+      "es": "MDM (Mobile Device Management) es un tipo de software utilizado para administrar y proteger dispositivos móviles, como teléfonos inteligentes y tabletas."
+    }
+  },
+  {
+    "id": "AC05-Q0025",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following defines a file format for storing and exchanging personal identity information, including private keys and digital certificates?",
+      "es": "¿Cuál de los siguientes define un formato de archivo para almacenar e intercambiar información de identidad personal, incluyendo claves privadas y certificados digitales?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "P10",
+          "es": "P10"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "P11",
+          "es": "P11"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "P12",
+          "es": "P12"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "P13",
+          "es": "P13"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "P12 is a file format used to store cryptographic keys, certificates, and other personal identity information in a single, password-protected file.",
+      "es": "P12 es un formato de archivo utilizado para almacenar claves criptográficas, certificados y otra información de identidad personal en un solo archivo protegido con contraseña."
+    }
+  },
+  {
+    "id": "AC05-Q0026",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a cryptographic key exchange protocol that leverages ECC for enhanced security and efficiency?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un protocolo de intercambio de claves criptográficas que aprovecha ECC para una mayor seguridad y eficiencia?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "IKE",
+          "es": "IKE"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "ECDHE",
+          "es": "ECDHE"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "DHE",
+          "es": "DHE"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "ECDSA",
+          "es": "ECDSA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ECDHE (Elliptic Curve Diffie-Hellman Ephemeral) is a key agreement protocol that allows two parties to establish a shared secret over an insecure channel, leveraging the efficiency of ECC.",
+      "es": "ECDHE (Elliptic Curve Diffie-Hellman Ephemeral) es un protocolo de acuerdo de clave que permite a dos partes establecer un secreto compartido a través de un canal inseguro, aprovechando la eficiencia de ECC."
+    }
+  },
+  {
+    "id": "AC05-Q0027",
+    "type": "t/f",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The term \"MTTF\" refers to a metric that represents the average amount of time a device or system is expected to operate before experiencing its first failure.",
+      "es": "El término \"MTTF\" se refiere a una métrica que representa la cantidad promedio de tiempo que se espera que un dispositivo o sistema opere antes de experimentar su primer fallo."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "MTTF (Mean Time To Failure) is a reliability metric that measures the average time to the first failure of a non-repairable system.",
+      "es": "MTTF (Mean Time To Failure) es una métrica de confiabilidad que mide el tiempo promedio hasta el primer fallo de un sistema no reparable."
+    }
+  },
+  {
+    "id": "AC05-Q0028",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In modern OSs, this feature prevents malicious code from executing in certain memory regions intended for data.",
+      "es": "En los sistemas operativos modernos, esta característica evita que el código malicioso se ejecute en ciertas regiones de memoria destinadas a datos."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "DEP",
+          "es": "DEP"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "ECB",
+          "es": "ECB"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "DLP",
+          "es": "DLP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CRC",
+          "es": "CRC"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "DEP (Data Execution Prevention) is a security feature that marks certain memory areas as non-executable, preventing buffer overflow attacks.",
+      "es": "DEP (Data Execution Prevention) es una característica de seguridad que marca ciertas áreas de memoria como no ejecutables, evitando ataques de desbordamiento de búfer."
+    }
+  },
+  {
+    "id": "AC05-Q0029",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following enables the exchange of information between computer programs?",
+      "es": "¿Cuál de los siguientes permite el intercambio de información entre programas informáticos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "API",
+          "es": "API"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "UI",
+          "es": "UI"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Device drivers",
+          "es": "Controladores de dispositivos"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SDK",
+          "es": "SDK"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "API (Application Programming Interface) is a set of rules and protocols for building and interacting with software applications.",
+      "es": "API (Application Programming Interface) es un conjunto de reglas y protocolos para construir e interactuar con aplicaciones de software."
+    }
+  },
+  {
+    "id": "AC05-Q0030",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A cloud computing service model offering remote access to applications based on monthly or annual subscription fee is called:",
+      "es": "Un modelo de servicio de computación en la nube que ofrece acceso remoto a aplicaciones basado en una tarifa de suscripción mensual o anual se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PaaS",
+          "es": "PaaS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SaaS",
+          "es": "SaaS"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "IaaS",
+          "es": "IaaS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "DaaS",
+          "es": "DaaS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SaaS (Software as a Service) is a software distribution model in which a third-party provider hosts applications and makes them available to customers over the Internet.",
+      "es": "SaaS (Software as a Service) es un modelo de distribución de software en el que un proveedor externo aloja aplicaciones y las pone a disposición de los clientes a través de Internet."
+    }
+  },
+  {
+    "id": "AC05-Q0031",
+    "type": "t/f",
+    "required_answers": 1,
+    "prompt": {
+      "en": "RTBH is a type of DDoS attack.",
+      "es": "RTBH es un tipo de ataque DDoS."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "RTBH (Remotely Triggered Black Hole) is a defensive technique used to mitigate DDoS attacks by dropping unwanted traffic at the network edge.",
+      "es": "RTBH (Remotely Triggered Black Hole) es una técnica defensiva utilizada para mitigar ataques DDoS al descartar el tráfico no deseado en el borde de la red."
+    }
+  },
+  {
+    "id": "AC05-Q0032",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which AES key length provides the highest level of security?",
+      "es": "¿Qué longitud de clave AES proporciona el más alto nivel de seguridad?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "128-bit key",
+          "es": "Clave de 128 bits"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "192-bit key",
+          "es": "Clave de 192 bits"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "256-bit key",
+          "es": "Clave de 256 bits"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "320-bit key",
+          "es": "Clave de 320 bits"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "AES (Advanced Encryption Standard) supports three key lengths: 128-bit, 192-bit, and 256-bit. A longer key length provides a higher level of security.",
+      "es": "AES (Advanced Encryption Standard) soporta tres longitudes de clave: 128 bits, 192 bits y 256 bits. Una longitud de clave más larga proporciona un mayor nivel de seguridad."
+    }
+  },
+  {
+    "id": "AC05-Q0033",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a specific type of ICS?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un tipo específico de ICS?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SoC",
+          "es": "SoC"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CVSS",
+          "es": "CVSS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SCADA",
+          "es": "SCADA"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "RTOS",
+          "es": "RTOS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SCADA (Supervisory Control and Data Acquisition) is a control system architecture comprising computers, networked data communications, and graphical user interfaces for high-level process supervisory management.",
+      "es": "SCADA (Supervisory Control and Data Acquisition) es una arquitectura de sistema de control que comprende computadoras, comunicaciones de datos en red e interfaces gráficas de usuario para la gestión de supervisión de procesos de alto nivel."
+    }
+  },
+  {
+    "id": "AC05-Q0034",
+    "type": "t/f",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The MIME specification extends the email message format beyond simple text, enabling the transfer of graphics, audio, and video files over the Internet mail system. S/MIME is an enhanced version of the MIME protocol that enables email security features by providing encryption, authentication, message integrity, and other related services.",
+      "es": "La especificación MIME extiende el formato de los mensajes de correo electrónico más allá del texto simple, permitiendo la transferencia de archivos gráficos, de audio y de vídeo a través del sistema de correo de Internet. S/MIME es una versión mejorada del protocolo MIME que habilita funciones de seguridad en el correo electrónico al proporcionar cifrado, autenticación, integridad del mensaje y otros servicios relacionados."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "The statement accurately describes the functions of MIME (Multipurpose Internet Mail Extensions) and S/MIME (Secure/Multipurpose Internet Mail Extensions). S/MIME adds cryptographic security to MIME data.",
+      "es": "La declaración describe con precisión las funciones de MIME (Multipurpose Internet Mail Extensions) y S/MIME (Secure/Multipurpose Internet Mail Extensions). S/MIME añade seguridad criptográfica a los datos MIME."
+    }
+  },
+  {
+    "id": "AC05-Q0035",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which part of the IPsec protocol suite provides authentication and integrity?",
+      "es": "¿Qué parte de la suite de protocolos IPsec proporciona autenticación e integridad?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CRC",
+          "es": "CRC"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "AH",
+          "es": "AH"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SIEM",
+          "es": "SIEM"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "AES",
+          "es": "AES"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "AH (Authentication Header) is a protocol within the IPsec suite that provides authentication and integrity for IP packets.",
+      "es": "AH (Authentication Header) es un protocolo dentro de la suite IPsec que proporciona autenticación e integridad para los paquetes IP."
+    }
+  }
+]

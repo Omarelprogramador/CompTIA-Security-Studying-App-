@@ -1,0 +1,1305 @@
+[
+  {
+    "id": "T14-Q0001",
+    "type": "ms",
+    "required_answers": 4,
+    "prompt": {
+      "en": "Hardware RAID Level 0:",
+      "es": "Nivel de Hardware RAID 0:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Requires a minimum of 2 drives to implement",
+          "es": "Requiere un mínimo de 2 unidades para implementar"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Is also known as disk striping",
+          "es": "También se conoce como 'disk striping'"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Decreases reliability (failure of any disk in the array results in the loss of all data in the array)",
+          "es": "Disminuye la fiabilidad (la falla de cualquier disco en la matriz resulta en la pérdida de todos los datos en la matriz)"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Is also referred to as disk mirroring",
+          "es": "También se conoce como 'disk mirroring'"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Offers less volume capacity in comparison to RAID 1",
+          "es": "Ofrece menos capacidad de volumen en comparación con RAID 1"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Requires at least 3 drives to implement",
+          "es": "Requiere al menos 3 unidades para implementar"
+        },
+        "correct": false
+      },
+      {
+        "key": "G",
+        "text": {
+          "en": "Is suitable for systems where performance has higher priority than fault tolerance",
+          "es": "Es adecuado para sistemas donde el rendimiento tiene mayor prioridad que la tolerancia a fallos"
+        },
+        "correct": true
+      },
+      {
+        "key": "H",
+        "text": {
+          "en": "Offers improved reliability by creating identical data sets on each drive (failure of one drive does not destroy the array as each drive contains identical copy of the data)",
+          "es": "Ofrece una fiabilidad mejorada al crear conjuntos de datos idénticos en cada unidad (la falla de una unidad no destruye la matriz ya que cada unidad contiene una copia idéntica de los datos)"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "RAID 0, or disk striping, requires at least two drives. It improves performance by striping data across all drives but offers no fault tolerance. If one drive fails, all data in the array is lost. It is best used when performance is more important than data reliability.",
+      "es": "RAID 0, o 'disk striping', requiere al menos dos unidades. Mejora el rendimiento al distribuir los datos en todas las unidades, pero no ofrece tolerancia a fallos. Si una unidad falla, todos los datos en la matriz se pierden. Se utiliza mejor cuando el rendimiento es más importante que la fiabilidad de los datos."
+    }
+  },
+  {
+    "id": "T14-Q0002",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Hardware RAID Level 1:",
+      "es": "Nivel de Hardware RAID 1:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Requires at least 2 drives to implement",
+          "es": "Requiere al menos 2 unidades para implementar"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Is also known as disk striping",
+          "es": "También se conoce como 'disk striping'"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Offers improved performance in comparison to RAID 0",
+          "es": "Ofrece un rendimiento mejorado en comparación con RAID 0"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Requires at least 3 drives to implement",
+          "es": "Requiere al menos 3 unidades para implementar"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Offers improved reliability by creating identical data sets on each drive (failure of one drive does not destroy the array as each drive contains identical copy of the data)",
+          "es": "Ofrece una fiabilidad mejorada al crear conjuntos de datos idénticos en cada unidad (la falla de una unidad no destruye la matriz ya que cada unidad contiene una copia idéntica de los datos)"
+        },
+        "correct": true
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Is also referred to as disk mirroring",
+          "es": "También se conoce como 'disk mirroring'"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "RAID 1, or disk mirroring, requires a minimum of two drives. It provides fault tolerance by creating an identical copy of data on each drive. If one drive fails, the other can continue to operate without data loss.",
+      "es": "RAID 1, o 'disk mirroring', requiere un mínimo de dos unidades. Proporciona tolerancia a fallos al crear una copia idéntica de los datos en cada unidad. Si una unidad falla, la otra puede seguir funcionando sin pérdida de datos."
+    }
+  },
+  {
+    "id": "T14-Q0003",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Hardware RAID Level 5:",
+      "es": "Nivel de Hardware RAID 5:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Requires at least 2 drives to implement",
+          "es": "Requiere al menos 2 unidades para implementar"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Continues to operate in case of failure of more than 1 drive",
+          "es": "Continúa funcionando en caso de falla de más de 1 unidad"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Is also known as disk striping with double parity",
+          "es": "También se conoce como 'disk striping' con doble paridad"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Requires at least 3 drives to implement",
+          "es": "Requiere al menos 3 unidades para implementar"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Offers increased performance and fault tolerance (single drive failure does not destroy the array and lost data can be re-created by the remaining drives)",
+          "es": "Ofrece un rendimiento mejorado y tolerancia a fallos (la falla de una sola unidad no destruye la matriz y los datos perdidos pueden ser recreados por las unidades restantes)"
+        },
+        "correct": true
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Requires at least 4 drives to implement",
+          "es": "Requiere al menos 4 unidades para implementar"
+        },
+        "correct": false
+      },
+      {
+        "key": "G",
+        "text": {
+          "en": "Is also known as disk striping with parity",
+          "es": "También se conoce como 'disk striping' con paridad"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "RAID 5 requires at least three drives and uses a distributed parity method. It offers a good balance of performance, capacity, and fault tolerance, as it can withstand the failure of a single drive.",
+      "es": "RAID 5 requiere al menos tres unidades y utiliza un método de paridad distribuida. Ofrece un buen equilibrio entre rendimiento, capacidad y tolerancia a fallos, ya que puede soportar la falla de una sola unidad."
+    }
+  },
+  {
+    "id": "T14-Q0004",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Hardware RAID Level 6:",
+      "es": "Nivel de Hardware RAID 6:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Is also known as disk striping with parity",
+          "es": "También se conoce como 'disk striping' con paridad"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Requires at least 4 drives to implement",
+          "es": "Requiere al menos 4 unidades para implementar"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Offers increased performance and fault tolerance (failure of up to 2 drives does not destroy the array and lost data can be re-created by the remaining drives)",
+          "es": "Ofrece un rendimiento mejorado y tolerancia a fallos (la falla de hasta 2 unidades no destruye la matriz y los datos perdidos pueden ser recreados por las unidades restantes)"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Requires at least 3 drives to implement",
+          "es": "Requiere al menos 3 unidades para implementar"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Is also known as disk striping with double parity",
+          "es": "También se conoce como 'disk striping' con doble paridad"
+        },
+        "correct": true
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Continues to operate in case of failure of more than 2 drives",
+          "es": "Continúa funcionando en caso de falla de más de 2 unidades"
+        },
+        "correct": false
+      },
+      {
+        "key": "G",
+        "text": {
+          "en": "Requires at least 5 drives to implement",
+          "es": "Requiere al menos 5 unidades para implementar"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "RAID 6 requires a minimum of four drives and uses double parity to provide fault tolerance. This allows it to withstand the failure of up to two drives without losing data.",
+      "es": "RAID 6 requiere un mínimo de cuatro unidades y utiliza doble paridad para proporcionar tolerancia a fallos. Esto le permite soportar la falla de hasta dos unidades sin perder datos."
+    }
+  },
+  {
+    "id": "T14-Q0005",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Hardware RAID Level 10 (a.k.a. RAID 1+0):",
+      "es": "Nivel de Hardware RAID 10 (también conocido como RAID 1+0):"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Requires a minimum of 4 drives to implement",
+          "es": "Requiere un mínimo de 4 unidades para implementar"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Is referred to as stripe of mirrors, i.e., a combination of RAID 1 (disk mirroring) and RAID 0 (disk striping)",
+          "es": "Se conoce como 'stripe of mirrors', es decir, una combinación de RAID 1 ('disk mirroring') y RAID 0 ('disk striping')"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Requires a minimum of 5 drives to implement",
+          "es": "Requiere un mínimo de 5 unidades para implementar"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Offers increased performance and fault tolerance (failure of one drive in each mirrored pair of disk drives does not destroy the array)",
+          "es": "Ofrece un rendimiento mejorado y tolerancia a fallos (la falla de una unidad en cada par de discos espejados no destruye la matriz)"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Requires a minimum of 3 drives to implement",
+          "es": "Requiere un mínimo de 3 unidades para implementar"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Continues to operate in case of failure of more than 2 drives",
+          "es": "Continúa funcionando en caso de falla de más de 2 unidades"
+        },
+        "correct": false
+      },
+      {
+        "key": "G",
+        "text": {
+          "en": "Is referred to as stripe of mirrors, i.e., a combination of RAID 1 (disk striping) and RAID 0 (disk mirroring)",
+          "es": "Se conoce como 'stripe of mirrors', es decir, una combinación de RAID 1 ('disk striping') y RAID 0 ('disk mirroring')"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "RAID 10, or RAID 1+0, is a nested RAID level that combines RAID 1 (mirroring) and RAID 0 (striping). It requires a minimum of four drives and provides both high performance and fault tolerance.",
+      "es": "RAID 10, o RAID 1+0, es un nivel RAID anidado que combina RAID 1 ('mirroring') y RAID 0 ('striping'). Requiere un mínimo de cuatro unidades y proporciona tanto un alto rendimiento como tolerancia a fallos."
+    }
+  },
+  {
+    "id": "T14-Q0006",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following RAID levels does not offer fault tolerance?",
+      "es": "¿Cuál de los siguientes niveles de RAID no ofrece tolerancia a fallos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "RAID 6",
+          "es": "RAID 6"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RAID 10",
+          "es": "RAID 10"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "RAID 5",
+          "es": "RAID 5"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "RAID 0",
+          "es": "RAID 0"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "RAID 1",
+          "es": "RAID 1"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "RAID 0 is the only RAID level listed that does not provide fault tolerance. It is used to increase performance but at the risk of losing all data if a single drive fails.",
+      "es": "RAID 0 es el único nivel de RAID listado que no proporciona tolerancia a fallos. Se utiliza para aumentar el rendimiento, pero con el riesgo de perder todos los datos si una sola unidad falla."
+    }
+  },
+  {
+    "id": "T14-Q0007",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to the primary function of load balancing?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a la función principal del balanceo de carga?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Maintains identical copies of data across multiple servers to enhance data availability and reliability",
+          "es": "Mantiene copias idénticas de datos en varios servidores para mejorar la disponibilidad y fiabilidad de los datos"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Distributes workload across multiple servers for improved performance",
+          "es": "Distribuye la carga de trabajo entre varios servidores para mejorar el rendimiento"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Groups servers together to provide high availability and fault tolerance",
+          "es": "Agrupa servidores para proporcionar alta disponibilidad y tolerancia a fallos"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Distributes content geographically across multiple servers to improve performance, reduce latency, and handle high volumes of traffic",
+          "es": "Distribuye contenido geográficamente a través de múltiples servidores para mejorar el rendimiento, reducir la latencia y manejar altos volúmenes de tráfico"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Load balancing is the process of distributing network traffic across multiple servers. This ensures no single server becomes overwhelmed and improves the overall performance and reliability of an application or website.",
+      "es": "El balanceo de carga es el proceso de distribuir el tráfico de red entre varios servidores. Esto asegura que ningún servidor se sature y mejora el rendimiento general y la fiabilidad de una aplicación o sitio web."
+    }
+  },
+  {
+    "id": "T14-Q0008",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following is the primary function of clustering?",
+      "es": "¿Cuál de los siguientes es la función principal de la agrupación en clústeres?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Distributes content geographically across multiple servers to improve performance, reduce latency, and handle high volumes of traffic",
+          "es": "Distribuye contenido geográficamente a través de múltiples servidores para mejorar el rendimiento, reducir la latencia y manejar altos volúmenes de tráfico"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Groups servers together to provide high availability and fault tolerance",
+          "es": "Agrupa servidores para proporcionar alta disponibilidad y tolerancia a fallos"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Maintains identical copies of data across multiple servers to enhance data availability and reliability",
+          "es": "Mantiene copias idénticas de datos en varios servidores para mejorar la disponibilidad y fiabilidad de los datos"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Distributes workload across multiple servers for improved performance",
+          "es": "Distribuye la carga de trabajo entre varios servidores para mejorar el rendimiento"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Clustering involves grouping multiple servers (nodes) together to work as a single system. The primary goal is to provide high availability and fault tolerance, ensuring that if one node fails, another can take over its functions.",
+      "es": "La agrupación en clústeres implica agrupar varios servidores (nodos) para que funcionen como un solo sistema. El objetivo principal es proporcionar alta disponibilidad y tolerancia a fallos, asegurando que si un nodo falla, otro pueda asumir sus funciones."
+    }
+  },
+  {
+    "id": "T14-Q0009",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below refers to a duplicate of the original site, with fully operational computer systems as well as near-complete backups of user data?",
+      "es": "¿Cuál de los términos listados a continuación se refiere a una duplicación del sitio original, con sistemas informáticos completamente operativos, así como copias de seguridad casi completas de los datos del usuario?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Hot site",
+          "es": "Hot site"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Warm site",
+          "es": "Warm site"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Cold site",
+          "es": "Cold site"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Mobile site",
+          "es": "Mobile site"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A hot site is a fully functional disaster recovery site that has operational hardware, software, and data backups. It allows an organization to resume operations with minimal downtime and data loss.",
+      "es": "Un 'hot site' es un sitio de recuperación de desastres completamente funcional que tiene hardware, software y copias de seguridad de datos operativos. Permite a una organización reanudar las operaciones con un tiempo de inactividad y pérdida de datos mínimos."
+    }
+  },
+  {
+    "id": "T14-Q0010",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following terms refers to an alternate site that provides some pre-installed hardware and software and might have partial data backups, but it is not fully operational and requires additional configuration before use?",
+      "es": "¿Cuál de los siguientes términos se refiere a un sitio alternativo que proporciona algo de hardware y software preinstalados y puede tener copias de seguridad de datos parciales, pero no está completamente operativo y requiere configuración adicional antes de su uso?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Cold site",
+          "es": "Cold site"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Hot site",
+          "es": "Hot site"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Mirror site",
+          "es": "Mirror site"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Warm site",
+          "es": "Warm site"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "A warm site is a disaster recovery site that provides a middle ground between a hot and a cold site. It has some hardware and connectivity ready, but it's not fully operational and requires more setup time than a hot site.",
+      "es": "Un 'warm site' es un sitio de recuperación de desastres que proporciona un punto intermedio entre un 'hot' y un 'cold site'. Tiene algo de hardware y conectividad listos, pero no está completamente operativo y requiere más tiempo de configuración que un 'hot site'."
+    }
+  },
+  {
+    "id": "T14-Q0011",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A disaster recovery facility that provides only the physical space for recovery operations is known as:",
+      "es": "Una instalación de recuperación de desastres que proporciona solo el espacio físico para las operaciones de recuperación se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Hot site",
+          "es": "Hot site"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Warm site",
+          "es": "Warm site"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Cold site",
+          "es": "Cold site"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Mirror site",
+          "es": "Mirror site"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A cold site is the most basic and least expensive type of disaster recovery site. It is a space with power and connectivity, but no pre-installed hardware or software. It requires the most time to become operational.",
+      "es": "Un 'cold site' es el tipo más básico y menos costoso de sitio de recuperación de desastres. Es un espacio con energía y conectividad, pero sin hardware o software preinstalados. Requiere la mayor cantidad de tiempo para volverse operativo."
+    }
+  },
+  {
+    "id": "T14-Q0012",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which alternate site is the least expensive to implement?",
+      "es": "¿Qué sitio alternativo es el menos costoso de implementar?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Cold site",
+          "es": "Cold site"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Mirror site",
+          "es": "Mirror site"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Warm site",
+          "es": "Warm site"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Hot site",
+          "es": "Hot site"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A cold site is the least expensive option because it provides only the basic infrastructure, such as physical space and power, and requires the organization to provide all the equipment and data.",
+      "es": "Un 'cold site' es la opción menos costosa porque solo proporciona la infraestructura básica, como espacio físico y energía, y requiere que la organización proporcione todo el equipo y los datos."
+    }
+  },
+  {
+    "id": "T14-Q0013",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which alternate site allows for the fastest disaster recovery?",
+      "es": "¿Qué sitio alternativo permite la recuperación de desastres más rápida?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Cold site",
+          "es": "Cold site"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Hot site",
+          "es": "Hot site"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Mobile site",
+          "es": "Mobile site"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Warm site",
+          "es": "Warm site"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A hot site is the fastest disaster recovery solution because it is a fully operational duplicate of the primary site. It is ready to take over operations immediately with minimal downtime.",
+      "es": "Un 'hot site' es la solución de recuperación de desastres más rápida porque es una duplicación completamente operativa del sitio principal. Está listo para asumir las operaciones de inmediato con un tiempo de inactividad mínimo."
+    }
+  },
+  {
+    "id": "T14-Q0014",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "What is the name of a U.S. government initiative that provides a set of procedures and plans that an organization can implement to ensure continued performance of its essential functions during unexpected events?",
+      "es": "¿Cuál es el nombre de una iniciativa del gobierno de EE. UU. que proporciona un conjunto de procedimientos y planes que una organización puede implementar para garantizar el rendimiento continuo de sus funciones esenciales durante eventos inesperados?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SLA",
+          "es": "SLA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "COOP",
+          "es": "COOP"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "RPO",
+          "es": "RPO"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "BIA",
+          "es": "BIA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "COOP, or Continuity of Operations Plan, is a U.S. government directive to ensure that an organization can continue to perform its essential functions during a wide range of emergencies and unexpected events.",
+      "es": "COOP, o Plan de Continuidad de Operaciones, es una directiva del gobierno de EE. UU. para garantizar que una organización pueda continuar realizando sus funciones esenciales durante una amplia gama de emergencias y eventos inesperados."
+    }
+  },
+  {
+    "id": "T14-Q0015",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a simulated scenario conducted in a controlled environment, typically involving discussions and planning around hypothetical security incidents?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a un escenario simulado realizado en un entorno controlado, que generalmente implica discusiones y planificación en torno a incidentes de seguridad hipotéticos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Tabletop exercise",
+          "es": "Ejercicio de mesa"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Sandboxing",
+          "es": "Sandboxing"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Threat hunting",
+          "es": "Búsqueda de amenazas"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Security awareness training",
+          "es": "Capacitación en concientización de seguridad"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A tabletop exercise is a discussion-based exercise where participants walk through a simulated incident scenario, discussing their roles and responsibilities without physically performing the actions.",
+      "es": "Un ejercicio de mesa es un ejercicio basado en la discusión en el que los participantes recorren un escenario de incidente simulado, discutiendo sus roles y responsabilidades sin realizar físicamente las acciones."
+    }
+  },
+  {
+    "id": "T14-Q0016",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The process of switching to a redundant or standby system upon detecting a disruption in the primary system is called:",
+      "es": "El proceso de cambiar a un sistema redundante o en espera al detectar una interrupción en el sistema principal se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Fail over",
+          "es": "Conmutación por error"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Multipath I/O",
+          "es": "Multipath I/O"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Load balancing",
+          "es": "Balanceo de carga"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Parallel processing",
+          "es": "Procesamiento paralelo"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Failover is a crucial part of a high-availability system. It automatically switches to a standby system when the primary system fails, ensuring continuous operation.",
+      "es": "La conmutación por error es una parte crucial de un sistema de alta disponibilidad. Cambia automáticamente a un sistema en espera cuando el sistema principal falla, lo que garantiza un funcionamiento continuo."
+    }
+  },
+  {
+    "id": "T14-Q0017",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a more realistic scenario that tests cybersecurity incident response by mimicking actual attacks?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un escenario más realista que pone a prueba la respuesta a incidentes de ciberseguridad imitando ataques reales?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Fingerprinting",
+          "es": "Fingerprinting"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Simulation",
+          "es": "Simulación"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Threat hunting",
+          "es": "Búsqueda de amenazas"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Tabletop exercise",
+          "es": "Ejercicio de mesa"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A simulation is a hands-on exercise that tests the incident response team's ability to respond to a real-world attack. It is more realistic than a tabletop exercise and provides a more accurate assessment of the team's capabilities.",
+      "es": "Una simulación es un ejercicio práctico que pone a prueba la capacidad del equipo de respuesta a incidentes para responder a un ataque del mundo real. Es más realista que un ejercicio de mesa y proporciona una evaluación más precisa de las capacidades del equipo."
+    }
+  },
+  {
+    "id": "T14-Q0018",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the solutions listed below provides redundancy and fault tolerance by dividing tasks into smaller subtasks and distributing them across multiple systems to be executed simultaneously?",
+      "es": "¿Cuál de las soluciones listadas a continuación proporciona redundancia y tolerancia a fallos al dividir las tareas en subtareas más pequeñas y distribuirlas en varios sistemas para que se ejecuten simultáneamente?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Load balancing",
+          "es": "Balanceo de carga"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Multitasking",
+          "es": "Multitarea"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Clustering",
+          "es": "Agrupación en clústeres"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Parallel processing",
+          "es": "Procesamiento paralelo"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Parallel processing is a method that breaks down tasks into smaller, independent subtasks and executes them simultaneously across multiple processors or systems to improve performance and provide redundancy.",
+      "es": "El procesamiento paralelo es un método que divide las tareas en subtareas más pequeñas e independientes y las ejecuta simultáneamente en varios procesadores o sistemas para mejorar el rendimiento y proporcionar redundancia."
+    }
+  },
+  {
+    "id": "T14-Q0019",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A file-based representation of the state of a virtual machine at a given point in time is referred to as:",
+      "es": "Una representación basada en archivos del estado de una máquina virtual en un momento dado se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Restore point",
+          "es": "Punto de restauración"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Shadow copy",
+          "es": "Copia en la sombra"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Snapshot",
+          "es": "Instantánea"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "System image",
+          "es": "Imagen del sistema"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A snapshot is a point-in-time copy of a virtual machine's state, including its data, configuration, and virtual hardware. It is a common practice for creating backups and restoring a virtual machine to a previous state.",
+      "es": "Una instantánea es una copia puntual del estado de una máquina virtual, incluidos sus datos, configuración y hardware virtual. Es una práctica común para crear copias de seguridad y restaurar una máquina virtual a un estado anterior."
+    }
+  },
+  {
+    "id": "T14-Q0020",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "What type of backups are commonly used with virtual machines?",
+      "es": "¿Qué tipo de copias de seguridad se utilizan comúnmente con las máquinas virtuales?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Incremental backups",
+          "es": "Copias de seguridad incrementales"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Snapshot backups",
+          "es": "Copias de seguridad de instantáneas"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Tape backups",
+          "es": "Copias de seguridad en cinta"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Differential backups",
+          "es": "Copias de seguridad diferenciales"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Snapshot backups are a common method for backing up virtual machines. They allow for a quick and efficient way to capture the state of a virtual machine at a specific point in time.",
+      "es": "Las copias de seguridad de instantáneas son un método común para hacer copias de seguridad de máquinas virtuales. Permiten una forma rápida y eficiente de capturar el estado de una máquina virtual en un momento específico."
+    }
+  },
+  {
+    "id": "T14-Q0021",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following terms refers to a backup strategy that relies on creating and maintaining copies of data in real-time or near real-time on a separate system?",
+      "es": "¿Cuál de los siguientes términos se refiere a una estrategia de copia de seguridad que se basa en la creación y el mantenimiento de copias de datos en tiempo real o casi real en un sistema separado?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Mirroring",
+          "es": "Espejo"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Virtualization",
+          "es": "Virtualización"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Journaling",
+          "es": "Journaling"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Replication",
+          "es": "Replicación"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Replication is a backup strategy that keeps a real-time or near real-time copy of data on a separate system. It provides a high level of data redundancy and is often used for disaster recovery.",
+      "es": "La replicación es una estrategia de copia de seguridad que mantiene una copia de los datos en tiempo real o casi real en un sistema separado. Proporciona un alto nivel de redundancia de datos y se utiliza a menudo para la recuperación de desastres."
+    }
+  },
+  {
+    "id": "T14-Q0022",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A technique that allows to recover changes that occurred since the last backup in the event of a system crash is known as:",
+      "es": "Una técnica que permite recuperar los cambios que ocurrieron desde la última copia de seguridad en caso de una caída del sistema se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Replication",
+          "es": "Replicación"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Journaling",
+          "es": "Journaling"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Virtualization",
+          "es": "Virtualización"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Mirroring",
+          "es": "Espejo"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Journaling is a file system technique that records changes (journal entries) to be made to the file system in a log (the journal) before they are actually applied. In case of a system crash, the journal can be used to recover the file system to a consistent state, preventing data corruption.",
+      "es": "El 'journaling' es una técnica del sistema de archivos que registra los cambios (entradas de diario) que se van a realizar en el sistema de archivos en un registro (el diario) antes de que se apliquen realmente. En caso de una caída del sistema, el diario se puede utilizar para recuperar el sistema de archivos a un estado coherente, evitando la corrupción de los datos."
+    }
+  },
+  {
+    "id": "T14-Q0023",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a device designed to supply (and monitor the quality of) electric power to multiple outlets?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a un dispositivo diseñado para suministrar (y monitorear la calidad de) la energía eléctrica a múltiples tomas de corriente?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PSU",
+          "es": "PSU"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "MDF",
+          "es": "MDF"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PDU",
+          "es": "PDU"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "IDF",
+          "es": "IDF"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A PDU, or Power Distribution Unit, is a device with multiple outlets that distributes electric power to various pieces of equipment in a data center or network closet. More advanced PDUs can also monitor power usage and provide remote management capabilities.",
+      "es": "Una PDU, o Unidad de Distribución de Energía, es un dispositivo con múltiples tomas de corriente que distribuye energía eléctrica a varias piezas de equipo en un centro de datos o armario de red. Las PDU más avanzadas también pueden monitorear el uso de energía y proporcionar capacidades de gestión remota."
+    }
+  },
+  {
+    "id": "T14-Q0024",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "What is the name of a device that can provide short-term emergency power during an unexpected main power source outage?",
+      "es": "¿Cuál es el nombre de un dispositivo que puede proporcionar energía de emergencia a corto plazo durante un corte inesperado de la fuente de energía principal?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "UPS",
+          "es": "UPS"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "PoE",
+          "es": "PoE"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SVC",
+          "es": "SVC"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "PSU",
+          "es": "PSU"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A UPS, or Uninterruptible Power Supply, is a device that contains a battery. It provides emergency power to a connected device when the main power source fails, allowing for a graceful shutdown or a transition to a backup generator.",
+      "es": "Una UPS, o Fuente de Alimentación Ininterrumpida, es un dispositivo que contiene una batería. Proporciona energía de emergencia a un dispositivo conectado cuando la fuente de energía principal falla, lo que permite un apagado ordenado o una transición a un generador de respaldo."
+    }
+  },
+  {
+    "id": "T14-Q0025",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following power redundancy solutions would be best suited for providing long-term emergency power during an unexpected main power source outage?",
+      "es": "¿Cuál de las siguientes soluciones de redundancia de energía sería la más adecuada para proporcionar energía de emergencia a largo plazo durante un corte inesperado de la fuente de energía principal?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Dual-power supply",
+          "es": "Fuente de alimentación dual"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Standby UPS",
+          "es": "UPS en espera"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Backup generator",
+          "es": "Generador de respaldo"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Managed PDU",
+          "es": "PDU gestionada"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "While a UPS provides short-term power, a backup generator is designed to provide long-term emergency power during extended outages. It can be a vital component of a comprehensive disaster recovery plan.",
+      "es": "Si bien una UPS proporciona energía a corto plazo, un generador de respaldo está diseñado para proporcionar energía de emergencia a largo plazo durante cortes prolongados. Puede ser un componente vital de un plan integral de recuperación de desastres."
+    }
+  }
+]

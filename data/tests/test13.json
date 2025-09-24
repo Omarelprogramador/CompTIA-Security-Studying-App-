@@ -1,0 +1,1201 @@
+[
+  {
+    "id": "T13-Q0001",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a protocol used to set up secure connections and exchange of cryptographic keys in IPsec VPNs?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a un protocolo utilizado para establecer conexiones seguras e intercambiar claves criptográficas en VPNs IPsec?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SSL",
+          "es": "SSL"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IKE",
+          "es": "IKE"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "ESP",
+          "es": "ESP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "DHE",
+          "es": "DHE"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "IKE (Internet Key Exchange) is a protocol used to establish a security association (SA) between two parties in an IPsec VPN, which includes the exchange of cryptographic keys.",
+      "es": "IKE (Internet Key Exchange) es un protocolo utilizado para establecer una asociación de seguridad (SA) entre dos partes en una VPN IPsec, lo que incluye el intercambio de claves criptográficas."
+    }
+  },
+  {
+    "id": "T13-Q0002",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which part of the IPsec protocol suite provides data integrity and authentication but not encryption?",
+      "es": "¿Qué parte de la suite de protocolos IPsec proporciona integridad de datos y autenticación, pero no cifrado?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CRC",
+          "es": "CRC"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "AH",
+          "es": "AH"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "IKE",
+          "es": "IKE"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "AES",
+          "es": "AES"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "AH (Authentication Header) is an IPsec protocol that provides data origin authentication and connectionless integrity for IP packets, but it does not encrypt the data.",
+      "es": "AH (Authentication Header) es un protocolo IPsec que proporciona autenticación del origen de los datos e integridad sin conexión para los paquetes IP, pero no cifra los datos."
+    }
+  },
+  {
+    "id": "T13-Q0003",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which part of IPsec provides confidentiality, data integrity, and authentication?",
+      "es": "¿Qué parte de IPsec proporciona confidencialidad, integridad de datos y autenticación?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "AES",
+          "es": "AES"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SHA",
+          "es": "SHA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "AH",
+          "es": "AH"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "ESP",
+          "es": "ESP"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "ESP (Encapsulating Security Payload) is an IPsec protocol that provides confidentiality (encryption) as well as data integrity and authentication.",
+      "es": "ESP (Encapsulating Security Payload) es un protocolo IPsec que proporciona confidencialidad (cifrado), así como integridad de datos y autenticación."
+    }
+  },
+  {
+    "id": "T13-Q0004",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the IPsec modes provides entire packet encryption?",
+      "es": "¿Cuál de los modos de IPsec proporciona cifrado de todo el paquete?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Tunnel",
+          "es": "Túnel"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Payload",
+          "es": "Carga útil"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Transport",
+          "es": "Transporte"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Default",
+          "es": "Predeterminado"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "IPsec Tunnel mode encrypts the entire IP packet, including the original IP header, and then encapsulates it within a new IP packet.",
+      "es": "El modo Túnel de IPsec cifra todo el paquete IP, incluido el encabezado IP original, y luego lo encapsula dentro de un nuevo paquete IP."
+    }
+  },
+  {
+    "id": "T13-Q0005",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "An IPsec mode providing encryption only for the payload (the data part of the packet) is referred to as:",
+      "es": "Un modo de IPsec que proporciona cifrado solo para la carga útil (la parte de datos del paquete) se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Protected mode",
+          "es": "Modo protegido"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Tunnel mode",
+          "es": "Modo túnel"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Transport mode",
+          "es": "Modo transporte"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Safe mode",
+          "es": "Modo seguro"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "IPsec Transport mode encrypts only the payload (the data) of an IP packet, leaving the original IP header intact. This mode is typically used for host-to-host connections.",
+      "es": "El modo Transporte de IPsec cifra solo la carga útil (los datos) de un paquete IP, dejando el encabezado IP original intacto. Este modo se utiliza normalmente para conexiones de host a host."
+    }
+  },
+  {
+    "id": "T13-Q0006",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The term \"SD-WAN\" refers to a network technology that uses software to manage and optimize network connections that extend over large geographic areas.",
+      "es": "El término \"SD-WAN\" se refiere a una tecnología de red que utiliza software para gestionar y optimizar las conexiones de red que se extienden sobre grandes áreas geográficas."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SD-WAN (Software-Defined Wide Area Network) is a technology that uses a centralized control function to manage network connections over a wide area, improving performance and reducing costs.",
+      "es": "SD-WAN (Red de área amplia definida por software) es una tecnología que utiliza una función de control centralizada para administrar las conexiones de red en un área amplia, mejorando el rendimiento y reduciendo los costos."
+    }
+  },
+  {
+    "id": "T13-Q0007",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a cybersecurity framework that combines network and security functions into a single cloud-based service?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un marco de ciberseguridad que combina funciones de red y seguridad en un único servicio basado en la nube?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SASE",
+          "es": "SASE"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SWG",
+          "es": "SWG"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "CASB",
+          "es": "CASB"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SD-WAN",
+          "es": "SD-WAN"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SASE (Secure Access Service Edge) is a cloud-based security framework that combines a wide range of network and security functions, such as SD-WAN, CASB, and firewall-as-a-service, into a single platform.",
+      "es": "SASE (Secure Access Service Edge) es un marco de seguridad basado en la nube que combina una amplia gama de funciones de red y seguridad, como SD-WAN, CASB y firewall-as-a-service, en una única plataforma."
+    }
+  },
+  {
+    "id": "T13-Q0008",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to any type of information pertaining to an individual that can be used to uniquely identify that person?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a cualquier tipo de información relacionada con un individuo que se puede usar para identificar de forma única a esa persona?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PHI",
+          "es": "PHI"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Biometrics",
+          "es": "Biometría"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "ID",
+          "es": "ID"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "PII",
+          "es": "PII"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "PII (Personally Identifiable Information) is any data that can be used to identify, contact, or locate an individual, such as name, address, or social security number.",
+      "es": "PII (Información de Identificación Personal) es cualquier dato que se puede usar para identificar, contactar o localizar a un individuo, como el nombre, la dirección o el número de seguridad social."
+    }
+  },
+  {
+    "id": "T13-Q0009",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following regulates personal data privacy of the EU citizens?",
+      "es": "¿Cuál de los siguientes regula la privacidad de los datos personales de los ciudadanos de la UE?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PHI",
+          "es": "PHI"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "HIPAA",
+          "es": "HIPAA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PCI DSS",
+          "es": "PCI DSS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "GDPR",
+          "es": "GDPR"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "GDPR (General Data Protection Regulation) is a regulation in EU law on data protection and privacy for all individuals within the European Union.",
+      "es": "GDPR (General Data Protection Regulation) es una regulación en la ley de la UE sobre protección de datos y privacidad para todas las personas dentro de la Unión Europea."
+    }
+  },
+  {
+    "id": "T13-Q0010",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The US Health Insurance Portability and Accountability Act (HIPAA) provides privacy protection for:",
+      "es": "La Ley de Portabilidad y Responsabilidad del Seguro Médico de EE. UU. (HIPAA) proporciona protección de la privacidad para:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PII",
+          "es": "PII"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "PI",
+          "es": "PI"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PHI",
+          "es": "PHI"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "PIV",
+          "es": "PIV"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "HIPAA is a US law that provides privacy and security provisions for medical information, specifically PHI (Protected Health Information).",
+      "es": "HIPAA es una ley de EE. UU. que proporciona disposiciones de privacidad y seguridad para la información médica, específicamente PHI (Información de Salud Protegida)."
+    }
+  },
+  {
+    "id": "T13-Q0011",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The purpose of PCI DSS is to provide protection for:",
+      "es": "El propósito de PCI DSS es proporcionar protección para:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Credit cardholder data",
+          "es": "Datos del titular de la tarjeta de crédito"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Licensed software",
+          "es": "Software con licencia"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "User passwords",
+          "es": "Contraseñas de usuario"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Personal health information",
+          "es": "Información de salud personal"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "PCI DSS (Payment Card Industry Data Security Standard) is a set of security standards designed to protect cardholder data during credit card transactions.",
+      "es": "PCI DSS (Payment Card Industry Data Security Standard) es un conjunto de estándares de seguridad diseñados para proteger los datos del titular de la tarjeta durante las transacciones con tarjeta de crédito."
+    }
+  },
+  {
+    "id": "T13-Q0012",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the answers listed below refer(s) to encryption method(s) used to protect data at rest? (Select all that apply)",
+      "es": "¿Cuáles de las respuestas listadas a continuación se refieren a métodos de cifrado utilizados para proteger los datos en reposo? (Selecciona todos los que apliquen)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "FDE",
+          "es": "FDE"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SED",
+          "es": "SED"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "IPsec",
+          "es": "IPsec"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "TLS",
+          "es": "TLS"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "VPN",
+          "es": "VPN"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "EFS",
+          "es": "EFS"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "FDE (Full Disk Encryption), SED (Self-Encrypting Drive), and EFS (Encrypting File System) are all technologies designed to encrypt data that is stored on a disk or drive (data at rest).",
+      "es": "FDE (Cifrado de disco completo), SED (Unidad de autocifrado) y EFS (Sistema de archivos de cifrado) son todas tecnologías diseñadas para cifrar los datos que se almacenan en un disco o unidad (datos en reposo)."
+    }
+  },
+  {
+    "id": "T13-Q0013",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Encryption methods used to protect data in transit include: (Select all that apply)",
+      "es": "Los métodos de cifrado utilizados para proteger los datos en tránsito incluyen: (Selecciona todos los que apliquen)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "NFS",
+          "es": "NFS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "VPN",
+          "es": "VPN"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SED",
+          "es": "SED"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "IPsec",
+          "es": "IPsec"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "FDE",
+          "es": "FDE"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "TLS",
+          "es": "TLS"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Data in transit is data that is moving from one location to another. VPN (Virtual Private Network), IPsec (Internet Protocol Security), and TLS (Transport Layer Security) are all protocols and methods used to secure data as it travels across a network.",
+      "es": "Los datos en tránsito son datos que se mueven de una ubicación a otra. VPN (Red Privada Virtual), IPsec (Internet Protocol Security) y TLS (Transport Layer Security) son todos protocolos y métodos utilizados para proteger los datos a medida que viajan a través de una red."
+    }
+  },
+  {
+    "id": "T13-Q0014",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following data states typically requires data to be processed in an unencrypted form?",
+      "es": "¿Cuál de los siguientes estados de datos generalmente requiere que los datos se procesen en un formato no cifrado?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Data in motion",
+          "es": "Datos en movimiento"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Data at rest",
+          "es": "Datos en reposo"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Data in transit",
+          "es": "Datos en tránsito"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Data in use",
+          "es": "Datos en uso"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Data in use refers to data that is being processed by an application or a CPU. In this state, the data must be in an unencrypted form for the system to be able to work with it.",
+      "es": "Los datos en uso se refieren a los datos que están siendo procesados por una aplicación o una CPU. En este estado, los datos deben estar en un formato no cifrado para que el sistema pueda trabajar con ellos."
+    }
+  },
+  {
+    "id": "T13-Q0015",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "Which of the answers listed below refer to examples of non-human readable data types? (Select 2 answers)",
+      "es": "¿Cuáles de las respuestas listadas a continuación se refieren a ejemplos de tipos de datos no legibles por humanos? (Selecciona 2 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Binary code",
+          "es": "Código binario"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "XML files",
+          "es": "Archivos XML"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Machine language",
+          "es": "Lenguaje de máquina"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "HTML code",
+          "es": "Código HTML"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "SQL queries",
+          "es": "Consultas SQL"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Binary code and machine language are examples of non-human readable data types, as they are composed of a series of 1s and 0s that a computer can read and process directly.",
+      "es": "El código binario y el lenguaje de máquina son ejemplos de tipos de datos no legibles por humanos, ya que están compuestos por una serie de 1 y 0 que una computadora puede leer y procesar directamente."
+    }
+  },
+  {
+    "id": "T13-Q0016",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to an individual or role responsible for overseeing and ensuring compliance with data protection laws and policies within an organization?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un individuo o rol responsable de supervisar y garantizar el cumplimiento de las leyes y políticas de protección de datos dentro de una organización?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CTO",
+          "es": "CTO"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DPO",
+          "es": "DPO"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "CIO",
+          "es": "CIO"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CSO",
+          "es": "CSO"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A DPO (Data Protection Officer) is a role required by GDPR to oversee and ensure that an organization adheres to data protection regulations and policies.",
+      "es": "Un DPO (Delegado de Protección de Datos) es un rol requerido por GDPR para supervisar y garantizar que una organización se adhiera a las regulaciones y políticas de protección de datos."
+    }
+  },
+  {
+    "id": "T13-Q0017",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A mobile device's built-in functionality enabling the usage of locator applications is known as:",
+      "es": "La funcionalidad incorporada de un dispositivo móvil que permite el uso de aplicaciones de localización se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "WPS",
+          "es": "WPS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "GSM",
+          "es": "GSM"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SIM",
+          "es": "SIM"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "GPS",
+          "es": "GPS"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "GPS (Global Positioning System) is a satellite-based navigation system that provides location and time information to a receiver, such as a mobile device.",
+      "es": "GPS (Global Positioning System) es un sistema de navegación basado en satélites que proporciona información de ubicación y hora a un receptor, como un dispositivo móvil."
+    }
+  },
+  {
+    "id": "T13-Q0018",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a technology that provides control over the usage of a mobile device within a designated area?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a una tecnología que proporciona control sobre el uso de un dispositivo móvil dentro de un área designada?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Geofencing",
+          "es": "Geofencing"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Device tracking",
+          "es": "Rastreo de dispositivos"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Perimeter security",
+          "es": "Seguridad perimetral"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Geolocation",
+          "es": "Geolocalización"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Geofencing is a technology that uses GPS or RFID to create a virtual geographic boundary. When a mobile device enters or leaves the designated area, it triggers a pre-programmed action.",
+      "es": "El geofencing es una tecnología que utiliza GPS o RFID para crear un límite geográfico virtual. Cuando un dispositivo móvil entra o sale del área designada, se activa una acción preprogramada."
+    }
+  },
+  {
+    "id": "T13-Q0019",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following converts plaintext data into ciphertext using an algorithm and a key?",
+      "es": "¿Cuál de los siguientes convierte datos de texto sin formato en texto cifrado utilizando un algoritmo y una clave?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Encryption",
+          "es": "Cifrado"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Masking",
+          "es": "Enmascaramiento"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Tokenization",
+          "es": "Tokenización"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Obfuscation",
+          "es": "Ofuscación"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Encryption is the process of converting readable data (plaintext) into an unreadable format (ciphertext) using a cryptographic algorithm and a key. This process makes the data unintelligible to unauthorized users.",
+      "es": "El cifrado es el proceso de convertir datos legibles (texto sin formato) en un formato ilegible (texto cifrado) utilizando un algoritmo criptográfico y una clave. Este proceso hace que los datos sean ininteligibles para los usuarios no autorizados."
+    }
+  },
+  {
+    "id": "T13-Q0020",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a technique that enables converting input data into a fixed-size string, making it difficult to reverse or retrieve the original data?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a una técnica que permite convertir los datos de entrada en una cadena de tamaño fijo, lo que dificulta la reversión o recuperación de los datos originales?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Obfuscation",
+          "es": "Ofuscación"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Tokenization",
+          "es": "Tokenización"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Hashing",
+          "es": "Hashing"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Encryption",
+          "es": "Cifrado"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Hashing is a one-way function that takes input data of any size and produces a fixed-size string (hash). This process is irreversible, so the original data cannot be retrieved from the hash.",
+      "es": "El hashing es una función unidireccional que toma datos de entrada de cualquier tamaño y produce una cadena de tamaño fijo (hash). Este proceso es irreversible, por lo que los datos originales no se pueden recuperar del hash."
+    }
+  },
+  {
+    "id": "T13-Q0021",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "Which of the following answers refer to data masking? (Select 2 answers)",
+      "es": "¿Cuáles de las siguientes respuestas se refieren al enmascaramiento de datos? (Selecciona 2 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Replaces sensitive data with fictitious or modified data while retaining its original format",
+          "es": "Reemplaza los datos confidenciales con datos ficticios o modificados conservando su formato original"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Allows for data manipulation in environments where the actual values are not needed",
+          "es": "Permite la manipulación de datos en entornos donde no se necesitan los valores reales"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Transforms data into an unreadable format using an algorithm and an encryption key",
+          "es": "Transforma los datos en un formato ilegible utilizando un algoritmo y una clave de cifrado"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Creates a unique, fixed-length string from the original data",
+          "es": "Crea una cadena única de longitud fija a partir de los datos originales"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Replaces sensitive data with a non-sensitive identifier that has no meaning or value outside the specific system",
+          "es": "Reemplaza los datos confidenciales con un identificador no confidencial que no tiene significado ni valor fuera del sistema específico"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Data masking is a process of replacing sensitive data with realistic but fictional data. It is often used in non-production environments to allow for data manipulation and testing without exposing real sensitive information.",
+      "es": "El enmascaramiento de datos es un proceso de sustitución de datos confidenciales por datos realistas pero ficticios. A menudo se utiliza en entornos que no son de producción para permitir la manipulación y las pruebas de los datos sin exponer la información confidencial real."
+    }
+  },
+  {
+    "id": "T13-Q0022",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a situation where sensitive data is stored in a separate location and can be retrieved with a non-sensitive replacement that can also be processed just like the original data without the risk of revealing the contents of original data?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a una situación en la que los datos confidenciales se almacenan en una ubicación separada y se pueden recuperar con un reemplazo no confidencial que también se puede procesar como los datos originales sin el riesgo de revelar el contenido de los datos originales?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Masking",
+          "es": "Enmascaramiento"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Obfuscation",
+          "es": "Ofuscación"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Encryption",
+          "es": "Cifrado"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Tokenization",
+          "es": "Tokenización"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Tokenization is a data security method that replaces sensitive data with a unique non-sensitive identifier (token). The original data is stored in a secure location, and the token can be used in its place for processing.",
+      "es": "La tokenización es un método de seguridad de datos que reemplaza los datos confidenciales con un identificador no confidencial único (token). Los datos originales se almacenan en una ubicación segura y el token se puede utilizar en su lugar para su procesamiento."
+    }
+  },
+  {
+    "id": "T13-Q0023",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following modifies data or code to make it difficult to understand or reverse-engineer, but without necessarily encrypting or hiding the data?",
+      "es": "¿Cuál de los siguientes modifica datos o código para que sea difícil de entender o de aplicar ingeniería inversa, pero sin necesariamente cifrar u ocultar los datos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Tokenization",
+          "es": "Tokenización"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Encryption",
+          "es": "Cifrado"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Obfuscation",
+          "es": "Ofuscación"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Hashing",
+          "es": "Hashing"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Obfuscation is the practice of deliberately making code or data difficult to understand. It is not an encryption method, as it doesn't use a key to transform the data, but it makes the data less intelligible to a human.",
+      "es": "La ofuscación es la práctica de hacer deliberadamente que el código o los datos sean difíciles de entender. No es un método de cifrado, ya que no utiliza una clave para transformar los datos, pero hace que los datos sean menos inteligibles para un ser humano."
+    }
+  },
+  {
+    "id": "T13-Q0024",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the answers listed below refer to the advantages of segmentation as a method for securing data? (Select 3 answers)",
+      "es": "¿Cuáles de las respuestas listadas a continuación se refieren a las ventajas de la segmentación como método para asegurar los datos? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Enhances security by limiting the spread of cyberattacks",
+          "es": "Mejora la seguridad al limitar la propagación de ciberataques"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Helps organizations comply with data regulatory requirements by isolating and protecting specific data types",
+          "es": "Ayuda a las organizaciones a cumplir con los requisitos reglamentarios de datos al aislar y proteger tipos de datos específicos"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Provides security for data in transit with the use of encryption",
+          "es": "Proporciona seguridad para los datos en tránsito con el uso de cifrado"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Guarantees data recovery in case of accidental deletion or system failures",
+          "es": "Garantiza la recuperación de datos en caso de eliminación accidental o fallas del sistema"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Provides better control over user access to sensitive data",
+          "es": "Proporciona un mejor control sobre el acceso de los usuarios a los datos confidenciales"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Network segmentation is a security practice that involves dividing a network into smaller, isolated sub-networks. This approach can limit the spread of attacks (lateral movement), help with regulatory compliance by isolating sensitive data, and provide more granular control over user access.",
+      "es": "La segmentación de red es una práctica de seguridad que implica dividir una red en subredes más pequeñas y aisladas. Este enfoque puede limitar la propagación de ataques (movimiento lateral), ayudar con el cumplimiento normativo al aislar datos confidenciales y proporcionar un control más granular sobre el acceso de los usuarios."
+    }
+  },
+  {
+    "id": "T13-Q0025",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "ACL, FACL, DAC, MAC, and RBAC are all access control mechanisms that can be used to manage user permissions and protect the confidentiality, integrity, and availability of data.",
+      "es": "ACL, FACL, DAC, MAC y RBAC son todos mecanismos de control de acceso que se pueden utilizar para gestionar los permisos de los usuarios y proteger la confidencialidad, integridad y disponibilidad de los datos."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "This statement is true. ACL (Access Control List), FACL (File Access Control List), DAC (Discretionary Access Control), MAC (Mandatory Access Control), and RBAC (Role-Based Access Control) are all valid access control mechanisms.",
+      "es": "Esta afirmación es verdadera. ACL (Access Control List), FACL (File Access Control List), DAC (Discretionary Access Control), MAC (Mandatory Access Control) y RBAC (Role-Based Access Control) son todos mecanismos de control de acceso válidos."
+    }
+  }
+]

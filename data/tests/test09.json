@@ -1,0 +1,1193 @@
+[
+  {
+    "id": "T09-Q0001",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "As opposed to simple DoS attacks that usually are performed from a single system, a DDoS attack uses multiple compromised computer systems to perform the attack against its target. The intermediary systems that are used as a platform for the attack (often referred to as zombies, and collectively as a botnet) are the secondary victims of the DDoS attack.",
+      "es": "A diferencia de los ataques DoS simples que suelen realizarse desde un solo sistema, un ataque DDoS utiliza múltiples sistemas informáticos comprometidos para realizar el ataque contra su objetivo. Los sistemas intermediarios que se utilizan como plataforma para el ataque (a menudo denominados zombis, y colectivamente como una botnet) son las víctimas secundarias del ataque DDoS."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A DDoS attack is a large-scale version of a DoS attack. It involves a network of compromised systems (a botnet) to overwhelm a target, making the intermediary systems secondary victims.",
+      "es": "Un ataque DDoS es una versión a gran escala de un ataque DoS. Implica una red de sistemas comprometidos (una botnet) para abrumar a un objetivo, haciendo que los sistemas intermediarios sean víctimas secundarias."
+    }
+  },
+  {
+    "id": "T09-Q0002",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A type of DDoS attack where an attacker exploits vulnerabilities in certain services or protocols to generate responses that are much larger than the original request is referred to as:",
+      "es": "Un tipo de ataque DDoS en el que un atacante explota vulnerabilidades en ciertos servicios o protocolos para generar respuestas que son mucho más grandes que la solicitud original se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Amplified DDoS attack",
+          "es": "Ataque DDoS amplificado"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Volumetric DDoS attack",
+          "es": "Ataque DDoS volumétrico"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Reflected DDoS attack",
+          "es": "Ataque DDoS reflejado"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Application DDoS attack",
+          "es": "Ataque DDoS de aplicación"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "An amplified DDoS attack leverages services to multiply the volume of traffic sent to the target.",
+      "es": "Un ataque DDoS amplificado aprovecha servicios para multiplicar el volumen de tráfico enviado al objetivo."
+    }
+  },
+  {
+    "id": "T09-Q0003",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "What defines a reflected DDoS attack?",
+      "es": "¿Qué define un ataque DDoS reflejado?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Overwhelming the target with a high volume of traffic to saturate its bandwidth",
+          "es": "Abajo del objetivo con un alto volumen de tráfico para saturar su ancho de banda"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Exploiting vulnerabilities in network protocols to consume resources and disrupt services",
+          "es": "Explotar vulnerabilidades en protocolos de red para consumir recursos e interrumpir servicios"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Utilizing third-party servers to reflect and amplify attack traffic towards the target",
+          "es": "Utilizar servidores de terceros para reflejar y amplificar el tráfico de ataque hacia el objetivo"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Targeting vulnerabilities in applications or web servers to exhaust resources",
+          "es": "Dirigirse a vulnerabilidades en aplicaciones o servidores web para agotar los recursos"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A reflected DDoS attack uses legitimate third-party servers to send traffic to the victim, hiding the attacker's identity.",
+      "es": "Un ataque DDoS reflejado utiliza servidores de terceros legítimos para enviar tráfico a la víctima, ocultando la identidad del atacante."
+    }
+  },
+  {
+    "id": "T09-Q0004",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A DNS amplification attack is a type of DDoS attack wherein an attacker sends a small, specially crafted DNS query containing a spoofed IP address (the victim’s IP) to a compromised DNS server. Upon receiving the query, the DNS server generates a much larger response packet, which is then sent to the victim's IP address, causing potential disruption due to overwhelming traffic.",
+      "es": "Un ataque de amplificación DNS es un tipo de ataque DDoS en el que un atacante envía una pequeña consulta DNS, especialmente diseñada, que contiene una dirección IP falsificada (la IP de la víctima) a un servidor DNS comprometido. Al recibir la consulta, el servidor DNS genera un paquete de respuesta mucho más grande, que luego se envía a la dirección IP de la víctima, lo que causa una posible interrupción debido al tráfico abrumador."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "This is the correct description of a DNS amplification attack, a specific type of reflected DDoS attack.",
+      "es": "Esta es la descripción correcta de un ataque de amplificación DNS, un tipo específico de ataque DDoS reflejado."
+    }
+  },
+  {
+    "id": "T09-Q0005",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a cyberattack technique that relies on providing false DNS information to a DNS resolver for the purpose of redirecting or manipulating the resolution of domain names to malicious IP addresses?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a una técnica de ciberataque que se basa en proporcionar información DNS falsa a un resolvedor DNS con el fin de redirigir o manipular la resolución de nombres de dominio a direcciones IP maliciosas?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "DNS spoofing",
+          "es": "Suplantación de DNS (DNS spoofing)"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Credential stuffing",
+          "es": "Relleno de credenciales"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "URL hijacking",
+          "es": "Secuestro de URL"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Domain hijacking",
+          "es": "Secuestro de dominio"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "DNS spoofing, also known as DNS cache poisoning, is the technique of redirecting domain names to malicious IP addresses.",
+      "es": "La suplantación de DNS, también conocida como envenenamiento de caché DNS, es la técnica de redirigir nombres de dominio a direcciones IP maliciosas."
+    }
+  },
+  {
+    "id": "T09-Q0006",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Remapping a domain name to a rogue IP address is an example of what kind of exploit?",
+      "es": "¿Remapear un nombre de dominio a una dirección IP maliciosa es un ejemplo de qué tipo de exploit?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "URL hijacking",
+          "es": "Secuestro de URL"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DNS cache poisoning",
+          "es": "Envenenamiento de caché DNS"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Domain hijacking",
+          "es": "Secuestro de dominio"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "ARP poisoning",
+          "es": "Envenenamiento ARP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "DNS cache poisoning involves corrupting the DNS cache to remap domain names to incorrect IP addresses.",
+      "es": "El envenenamiento de caché DNS implica corromper la caché DNS para remapear los nombres de dominio a direcciones IP incorrectas."
+    }
+  },
+  {
+    "id": "T09-Q0007",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "When domain registrants due to unlawful actions of third parties lose control over their domain names, they fall victim to:",
+      "es": "Cuando los registrantes de dominios, debido a acciones ilegales de terceros, pierden el control sobre sus nombres de dominio, son víctimas de:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Sybil attack",
+          "es": "Ataque Sybil"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Domain hijacking",
+          "es": "Secuestro de dominio"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Typosquatting",
+          "es": "Typosquatting"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "URL hijacking",
+          "es": "Secuestro de URL"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Domain hijacking is the act of unlawfully taking control of a domain name.",
+      "es": "El secuestro de dominio es el acto de tomar ilegalmente el control de un nombre de dominio."
+    }
+  },
+  {
+    "id": "T09-Q0008",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following can be classified as malicious activity indicator on a wireless network?",
+      "es": "¿Cuál de los siguientes puede clasificarse como un indicador de actividad maliciosa en una red inalámbrica?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Rogue AP",
+          "es": "AP falso (Rogue AP)"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Jump server",
+          "es": "Servidor de salto (Jump server)"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Unmanaged switch",
+          "es": "Conmutador no gestionado"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Network tap",
+          "es": "Tap de red"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A rogue AP is an unauthorized wireless access point that can be used for malicious purposes, such as man-in-the-middle attacks.",
+      "es": "Un AP falso es un punto de acceso inalámbrico no autorizado que puede usarse con fines maliciosos, como ataques de intermediario."
+    }
+  },
+  {
+    "id": "T09-Q0009",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The practice of gaining unauthorized access to a Bluetooth device is known as:",
+      "es": "La práctica de obtener acceso no autorizado a un dispositivo Bluetooth se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Phishing",
+          "es": "Phishing"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Bluejacking",
+          "es": "Bluejacking"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Smishing",
+          "es": "Smishing"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Bluesnarfing",
+          "es": "Bluesnarfing"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Bluesnarfing is the act of unauthorized access and data theft from a Bluetooth-enabled device.",
+      "es": "Bluesnarfing es el acto de acceso no autorizado y robo de datos de un dispositivo con Bluetooth."
+    }
+  },
+  {
+    "id": "T09-Q0010",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "A wireless disassociation attack is a type of: (Select 2 answers)",
+      "es": "Un ataque de desasociación inalámbrica es un tipo de: (Selecciona 2 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Downgrade attack",
+          "es": "Ataque de degradación"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Deauthentication attack",
+          "es": "Ataque de desautenticación"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Brute-force attack",
+          "es": "Ataque de fuerza bruta"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "DoS attack",
+          "es": "Ataque DoS"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Cryptographic attack",
+          "es": "Ataque criptográfico"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A wireless disassociation attack is a form of DoS attack that forces clients to disconnect from a wireless network by sending deauthentication frames.",
+      "es": "Un ataque de desasociación inalámbrica es una forma de ataque DoS que obliga a los clientes a desconectarse de una red inalámbrica enviando tramas de desautenticación."
+    }
+  },
+  {
+    "id": "T09-Q0011",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A wireless jamming attack is a type of:",
+      "es": "Un ataque de interferencia inalámbrica es un tipo de:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Cryptographic attack",
+          "es": "Ataque criptográfico"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DoS attack",
+          "es": "Ataque DoS"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Brute-force attack",
+          "es": "Ataque de fuerza bruta"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Downgrade attack",
+          "es": "Ataque de degradación"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A wireless jamming attack is a DoS attack that overwhelms the wireless channel with noise, preventing legitimate communication.",
+      "es": "Un ataque de interferencia inalámbrica es un ataque DoS que satura el canal inalámbrico con ruido, impidiendo la comunicación legítima."
+    }
+  },
+  {
+    "id": "T09-Q0012",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to RFID vulnerability?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a una vulnerabilidad RFID?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Spoofing",
+          "es": "Suplantación (Spoofing)"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Eavesdropping",
+          "es": "Intercepción de comunicaciones (Eavesdropping)"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "RFID cloning",
+          "es": "Clonación RFID"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Data interception",
+          "es": "Intercepción de datos"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Replay attack",
+          "es": "Ataque de repetición (Replay attack)"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "DoS attack",
+          "es": "Ataque DoS"
+        },
+        "correct": false
+      },
+      {
+        "key": "G",
+        "text": {
+          "en": "All of the above",
+          "es": "Todas las anteriores"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "RFID systems are susceptible to all the listed vulnerabilities, including spoofing, eavesdropping, cloning, data interception, replay attacks, and DoS.",
+      "es": "Los sistemas RFID son susceptibles a todas las vulnerabilidades listadas, incluyendo suplantación, intercepción, clonación, intercepción de datos, ataques de repetición y DoS."
+    }
+  },
+  {
+    "id": "T09-Q0013",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following is a vulnerability characteristic to NFC communication?",
+      "es": "¿Cuál de las siguientes es una característica de vulnerabilidad de la comunicación NFC?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Eavesdropping",
+          "es": "Intercepción de comunicaciones (Eavesdropping)"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Data interception",
+          "es": "Intercepción de datos"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Replay attacks",
+          "es": "Ataques de repetición"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "DoS attacks",
+          "es": "Ataques DoS"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "All of the above",
+          "es": "Todas las anteriores"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "NFC communication, while short-range, is still vulnerable to eavesdropping, data interception, replay attacks, and DoS attacks.",
+      "es": "La comunicación NFC, aunque de corto alcance, sigue siendo vulnerable a la intercepción, la intercepción de datos, los ataques de repetición y los ataques DoS."
+    }
+  },
+  {
+    "id": "T09-Q0014",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which wireless attack focuses on exploiting vulnerabilities found in WEP?",
+      "es": "¿Qué ataque inalámbrico se centra en la explotación de vulnerabilidades encontradas en WEP?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "IV attack",
+          "es": "Ataque IV"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "War driving",
+          "es": "War driving"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SSID spoofing",
+          "es": "Suplantación de SSID"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Bluejacking",
+          "es": "Bluejacking"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "An IV attack exploits the weak Initialization Vector (IV) used in the WEP protocol to recover the encryption key.",
+      "es": "Un ataque IV explota el débil vector de inicialización (IV) utilizado en el protocolo WEP para recuperar la clave de cifrado."
+    }
+  },
+  {
+    "id": "T09-Q0015",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the statements listed below can be used to describe the characteristics of an on-path attack? (Select all that apply)",
+      "es": "¿Cuáles de las afirmaciones listadas a continuación pueden usarse para describir las características de un ataque on-path? (Selecciona todas las que apliquen)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "An on-path attack is also known as MITM attack",
+          "es": "Un ataque on-path también se conoce como ataque MITM"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Attackers place themselves on the communication route between two devices",
+          "es": "Los atacantes se colocan en la ruta de comunicación entre dos dispositivos"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Attackers intercept or modify packets sent between two communicating devices",
+          "es": "Los atacantes interceptan o modifican los paquetes enviados entre dos dispositivos que se comunican"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Attackers do not have access to packets exchanged during the communication between two devices",
+          "es": "Los atacantes no tienen acceso a los paquetes intercambiados durante la comunicación entre dos dispositivos"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "An on-path attack, or MITM attack, involves an attacker positioning themselves between two communicating parties to intercept and manipulate their traffic.",
+      "es": "Un ataque on-path, o ataque MITM, implica que un atacante se posicione entre dos partes que se comunican para interceptar y manipular su tráfico."
+    }
+  },
+  {
+    "id": "T09-Q0016",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A network replay attack occurs when an attacker captures sensitive user data and resends it to the receiver with the intent of gaining unauthorized access or tricking the receiver into unauthorized operations.",
+      "es": "Un ataque de repetición en red ocurre cuando un atacante captura datos de usuario sensibles y los reenvía al receptor con la intención de obtener acceso no autorizado o engañar al receptor para que realice operaciones no autorizadas."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "This is the precise definition of a replay attack, where captured data is replayed to the server to mimic a legitimate user's actions.",
+      "es": "Esta es la definición precisa de un ataque de repetición, donde los datos capturados se repiten al servidor para imitar las acciones de un usuario legítimo."
+    }
+  },
+  {
+    "id": "T09-Q0017",
+    "type": "ms",
+    "required_answers": 4,
+    "prompt": {
+      "en": "What are the characteristic features of a session ID? (Select all that apply)",
+      "es": "¿Cuáles son las características típicas de un ID de sesión? (Selecciona todas las que apliquen)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Enables the server to identify the session and retrieve the corresponding session data",
+          "es": "Permite al servidor identificar la sesión y recuperar los datos de sesión correspondientes"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "A unique identifier assigned by the website to a specific user",
+          "es": "Un identificador único asignado por el sitio web a un usuario específico"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Contains user's authentication credentials, e.g., username and password",
+          "es": "Contiene las credenciales de autenticación del usuario, p. ej., nombre de usuario y contraseña"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "A piece of data that can be stored in a cookie, or embedded as a URL parameter",
+          "es": "Un dato que se puede almacenar en una cookie, o incrustar como un parámetro de URL"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Stored on the client side (in the user's browser) and sent to the server with each request",
+          "es": "Se almacena en el lado del cliente (en el navegador del usuario) y se envía al servidor con cada solicitud"
+        },
+        "correct": true
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "A unique identifier assigned to a server",
+          "es": "Un identificador único asignado a un servidor"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A session ID is a unique token that identifies a user's session. It is generated by the server, stored on the client, and sent back with each request to maintain state. It does not contain credentials directly.",
+      "es": "Un ID de sesión es un token único que identifica la sesión de un usuario. Es generado por el servidor, almacenado en el cliente y enviado de vuelta con cada solicitud para mantener el estado. No contiene credenciales directamente."
+    }
+  },
+  {
+    "id": "T09-Q0018",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In a session replay attack, an attacker intercepts and steals a valid session ID of a user and resends it to the server with the intent of gaining unauthorized access to the user's session or tricking the server into unauthorized operations on behalf of the legitimate user.",
+      "es": "En un ataque de repetición de sesión, un atacante intercepta y roba un ID de sesión válido de un usuario y lo reenvía al servidor con la intención de obtener acceso no autorizado a la sesión del usuario o engañar al servidor para que realice operaciones no autorizadas en nombre del usuario legítimo."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "This is a correct description of a session replay attack, a form of session hijacking.",
+      "es": "Esta es una descripción correcta de un ataque de repetición de sesión, una forma de secuestro de sesión."
+    }
+  },
+  {
+    "id": "T09-Q0019",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A technique that allows an attacker to authenticate to a remote server without extracting cleartext password from a digest is called:",
+      "es": "Una técnica que permite a un atacante autenticarse en un servidor remoto sin extraer la contraseña en texto claro de un hash se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Pass the hash",
+          "es": "Pass the hash"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Replay attack",
+          "es": "Ataque de repetición"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Brute-force attack",
+          "es": "Ataque de fuerza bruta"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Spraying attack",
+          "es": "Ataque de rociado"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Pass the hash (PtH) is a technique where an attacker authenticates to a remote server using a password's hash instead of the password itself.",
+      "es": "Pass the hash (PtH) es una técnica en la que un atacante se autentica en un servidor remoto utilizando el hash de la contraseña en lugar de la contraseña en sí misma."
+    }
+  },
+  {
+    "id": "T09-Q0020",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "What type of action allows an attacker to exploit the XSS vulnerability?",
+      "es": "¿Qué tipo de acción permite a un atacante explotar la vulnerabilidad XSS?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Code injection",
+          "es": "Inyección de código"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Privilege escalation",
+          "es": "Escalada de privilegios"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Session hijacking",
+          "es": "Secuestro de sesión"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Packet sniffing",
+          "es": "Análisis de paquetes"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Cross-Site Scripting (XSS) is a code injection attack that enables attackers to inject malicious scripts into web pages.",
+      "es": "El Cross-Site Scripting (XSS) es un ataque de inyección de código que permite a los atacantes inyectar scripts maliciosos en páginas web."
+    }
+  },
+  {
+    "id": "T09-Q0021",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following exploits targets a protocol used for managing and accessing networked resources?",
+      "es": "¿Cuál de los siguientes exploits se dirige a un protocolo utilizado para gestionar y acceder a recursos de red?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CSRF/XSRF attack",
+          "es": "Ataque CSRF/XSRF"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "XML injection attack",
+          "es": "Ataque de inyección XML"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "LDAP injection attack",
+          "es": "Ataque de inyección LDAP"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SQL injection attack",
+          "es": "Ataque de inyección SQL"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "An LDAP injection attack targets applications that use LDAP to manage and access network resources.",
+      "es": "Un ataque de inyección LDAP se dirige a aplicaciones que utilizan LDAP para gestionar y acceder a los recursos de la red."
+    }
+  },
+  {
+    "id": "T09-Q0022",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which type of exploit targets web applications that generate content used to store and transport data?",
+      "es": "¿Qué tipo de exploit se dirige a las aplicaciones web que generan contenido utilizado para almacenar y transportar datos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SQL injection attack",
+          "es": "Ataque de inyección SQL"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CSRF/XSRF attack",
+          "es": "Ataque CSRF/XSRF"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "XML injection attack",
+          "es": "Ataque de inyección XML"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "LDAP injection attack",
+          "es": "Ataque de inyección LDAP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "An XML injection attack targets web applications that use XML to store and transport data, allowing an attacker to inject malicious code.",
+      "es": "Un ataque de inyección XML se dirige a aplicaciones web que utilizan XML para almacenar y transportar datos, permitiendo a un atacante inyectar código malicioso."
+    }
+  },
+  {
+    "id": "T09-Q0023",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the following facilitate(s) privilege escalation attacks? (Select all that apply)",
+      "es": "¿Cuáles de los siguientes facilitan los ataques de escalada de privilegios? (Selecciona todas las que apliquen)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "System/application vulnerabilities",
+          "es": "Vulnerabilidades del sistema/aplicación"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Password hashing",
+          "es": "Hash de contraseñas"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "System/application misconfigurations",
+          "es": "Configuraciones erróneas del sistema/aplicación"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Network segmentation",
+          "es": "Segmentación de red"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Social engineering techniques",
+          "es": "Técnicas de ingeniería social"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Privilege escalation is typically facilitated by exploiting software vulnerabilities, system misconfigurations, and social engineering to gain higher-level access.",
+      "es": "La escalada de privilegios se facilita típicamente al explotar vulnerabilidades de software, configuraciones erróneas del sistema y la ingeniería social para obtener acceso de nivel superior."
+    }
+  },
+  {
+    "id": "T09-Q0024",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the statements listed below apply to the CSRF/XSRF attack? (Select 3 answers)",
+      "es": "¿Cuáles de las afirmaciones listadas a continuación se aplican al ataque CSRF/XSRF? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Exploits the trust a website has in the user's web browser",
+          "es": "Explota la confianza que un sitio web tiene en el navegador web del usuario"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "A user is tricked by an attacker into submitting unauthorized web requests",
+          "es": "Un usuario es engañado por un atacante para que envíe solicitudes web no autorizadas"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Website executes attacker's requests",
+          "es": "El sitio web ejecuta las solicitudes del atacante"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Exploits the trust a user's web browser has in a website",
+          "es": "Explota la confianza que el navegador web de un usuario tiene en un sitio web"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "A malicious script is injected into a trusted website",
+          "es": "Se inyecta un script malicioso en un sitio web de confianza"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "User's browser executes attacker's script",
+          "es": "El navegador del usuario ejecuta el script del atacante"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "CSRF attacks exploit the trust a website places in a user's browser. An attacker tricks the user into making unauthorized requests, which the website then processes, believing they are legitimate.",
+      "es": "Los ataques CSRF explotan la confianza que un sitio web deposita en el navegador de un usuario. Un atacante engaña al usuario para que realice solicitudes no autorizadas, que el sitio web luego procesa, creyendo que son legítimas."
+    }
+  },
+  {
+    "id": "T09-Q0025",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A dot-dot-slash attack is also referred to as:",
+      "es": "Un ataque dot-dot-slash también se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Disassociation attack",
+          "es": "Ataque de desasociación"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "On-path attack",
+          "es": "Ataque on-path"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Directory traversal attack",
+          "es": "Ataque de recorrido de directorio"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Downgrade attack",
+          "es": "Ataque de degradación"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A dot-dot-slash (../) attack is a directory traversal attack that exploits a vulnerability to access files and directories stored outside the web root folder.",
+      "es": "Un ataque dot-dot-slash (../) es un ataque de recorrido de directorio que explota una vulnerabilidad para acceder a archivos y directorios almacenados fuera de la carpeta raíz de la web."
+    }
+  }
+]

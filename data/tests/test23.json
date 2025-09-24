@@ -1,0 +1,1161 @@
+[
+  {
+    "id": "T23-Q0001",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "An estimate based on the historical data of how often a threat would be successful in exploiting a vulnerability is known as:",
+      "es": "Una estimación basada en datos históricos de la frecuencia con la que una amenaza tendría éxito al explotar una vulnerabilidad se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ALE",
+          "es": "ALE"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SLA",
+          "es": "SLA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "ARO",
+          "es": "ARO"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SLE",
+          "es": "SLE"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ARO stands for Annualized Rate of Occurrence, which is an estimate of how often a threat is likely to occur over a one-year period.",
+      "es": "ARO significa Tasa de Ocurrencia Anualizada, que es una estimación de la frecuencia con la que es probable que ocurra una amenaza en un período de un año."
+    }
+  },
+  {
+    "id": "T23-Q0002",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In the context of risk assessment, the Exposure Factor (EF) is defined as the percentage of loss that a realized threat would have on an asset. If an organization has an asset valued at $10,000 and the EF is determined to be 20%, what would be the SLE?",
+      "es": "En el contexto de la evaluación de riesgos, el Factor de Exposición (EF) se define como el porcentaje de pérdida que una amenaza materializada tendría sobre un activo. Si una organización tiene un activo valorado en $10,000 y el EF se determina en 20%, ¿cuál sería el SLE?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "$500",
+          "es": "$500"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "$2,000",
+          "es": "$2,000"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "$5,000",
+          "es": "$5,000"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "$10,000",
+          "es": "$10,000"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "The Single Loss Expectancy (SLE) is calculated by multiplying the Asset Value (AV) by the Exposure Factor (EF). SLE = $10,000 x 20% = $2,000.",
+      "es": "La Expectativa de Pérdida Única (SLE) se calcula multiplicando el Valor del Activo (AV) por el Factor de Exposición (EF). SLE = $10,000 x 20% = $2,000."
+    }
+  },
+  {
+    "id": "T23-Q0003",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a comprehensive document used in risk management and project management to identify, assess, and track risks?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a un documento completo utilizado en la gestión de riesgos y la gestión de proyectos para identificar, evaluar y rastrear riesgos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Risk register",
+          "es": "Registro de riesgos"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Risk heat map",
+          "es": "Mapa de calor de riesgos"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Risk matrix",
+          "es": "Matriz de riesgos"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Risk repository",
+          "es": "Repositorio de riesgos"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A risk register is a tool used to systematically document and manage risks, including their description, impact, likelihood, and mitigation plans.",
+      "es": "Un registro de riesgos es una herramienta utilizada para documentar y gestionar sistemáticamente los riesgos, incluyendo su descripción, impacto, probabilidad y planes de mitigación."
+    }
+  },
+  {
+    "id": "T23-Q0004",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following terms is used to describe the specific level of risk an organization is prepared to accept in pursuit of its objectives?",
+      "es": "¿Cuál de los siguientes términos se utiliza para describir el nivel específico de riesgo que una organización está dispuesta a aceptar para lograr sus objetivos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Risk appetite",
+          "es": "Apetito de riesgo"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Risk tolerance",
+          "es": "Tolerancia al riesgo"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Risk acceptance",
+          "es": "Aceptación del riesgo"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Risk capacity",
+          "es": "Capacidad de riesgo"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Risk tolerance is the acceptable deviation from the risk appetite, representing the specific level of risk an organization can absorb.",
+      "es": "La tolerancia al riesgo es la desviación aceptable del apetito de riesgo, que representa el nivel específico de riesgo que una organización puede absorber."
+    }
+  },
+  {
+    "id": "T23-Q0005",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below refers to a general term that describes an organization’s overall attitude towards risk-taking?",
+      "es": "¿Cuál de los términos listados a continuación se refiere a un término general que describe la actitud general de una organización hacia la asunción de riesgos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Risk strategy",
+          "es": "Estrategia de riesgo"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Risk control",
+          "es": "Control de riesgo"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Risk appetite",
+          "es": "Apetito de riesgo"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Risk tolerance",
+          "es": "Tolerancia al riesgo"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Risk appetite is the overarching term that defines the total amount and type of risk an organization is willing to take to meet its strategic objectives.",
+      "es": "El apetito de riesgo es el término general que define la cantidad total y el tipo de riesgo que una organización está dispuesta a asumir para cumplir sus objetivos estratégicos."
+    }
+  },
+  {
+    "id": "T23-Q0006",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Contracting out a specialized technical component when the company's employees lack the necessary skills is an example of:",
+      "es": "Contratar un componente técnico especializado cuando los empleados de la empresa carecen de las habilidades necesarias es un ejemplo de:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Risk deterrence",
+          "es": "Disuasión de riesgos"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Risk avoidance",
+          "es": "Evitación de riesgos"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Risk acceptance",
+          "es": "Aceptación de riesgos"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Risk transference",
+          "es": "Transferencia de riesgos"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Risk transference involves shifting the burden of a risk to a third party, such as an external contractor.",
+      "es": "La transferencia de riesgos implica trasladar la carga de un riesgo a un tercero, como un contratista externo."
+    }
+  },
+  {
+    "id": "T23-Q0007",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Cybersecurity insurance is an example of which risk management strategy?",
+      "es": "El seguro de ciberseguridad es un ejemplo de qué estrategia de gestión de riesgos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Risk avoidance",
+          "es": "Evitación de riesgos"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Risk deterrence",
+          "es": "Disuasión de riesgos"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Risk transference",
+          "es": "Transferencia de riesgos"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Risk acceptance",
+          "es": "Aceptación de riesgos"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Cybersecurity insurance transfers the financial risk of a cyber incident to the insurance company.",
+      "es": "El seguro de ciberseguridad transfiere el riesgo financiero de un incidente cibernético a la compañía de seguros."
+    }
+  },
+  {
+    "id": "T23-Q0008",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In the context of risk acceptance, choosing not to apply certain controls or safeguards for a specific risk is called:",
+      "es": "En el contexto de la aceptación de riesgos, no aplicar ciertos controles o salvaguardas para un riesgo específico se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Exception",
+          "es": "Excepción"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Evasion",
+          "es": "Evasión"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Exemption",
+          "es": "Exención"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Exclusion",
+          "es": "Exclusión"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "An exemption is a formal decision to not implement a specific security control, often due to a low perceived risk or other business justification.",
+      "es": "Una exención es una decisión formal de no implementar un control de seguridad específico, a menudo debido a un riesgo percibido bajo u otra justificación comercial."
+    }
+  },
+  {
+    "id": "T23-Q0009",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In the risk acceptance strategy, the practice of temporarily not complying with a standard or policy due to a specific risk scenario is referred to as:",
+      "es": "En la estrategia de aceptación de riesgos, la práctica de no cumplir temporalmente con un estándar o política debido a un escenario de riesgo específico se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Exclusion",
+          "es": "Exclusión"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Exception",
+          "es": "Excepción"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Evasion",
+          "es": "Evasión"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Exemption",
+          "es": "Exención"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "An exception is a temporary waiver from a security standard or policy for a specific duration or until a risk is mitigated.",
+      "es": "Una excepción es una exención temporal de un estándar o política de seguridad por una duración específica o hasta que se mitigue un riesgo."
+    }
+  },
+  {
+    "id": "T23-Q0010",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Disabling certain system functions or shutting down the system when risks are identified is an example of:",
+      "es": "Deshabilitar ciertas funciones del sistema o apagar el sistema cuando se identifican riesgos es un ejemplo de:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Risk acceptance",
+          "es": "Aceptación de riesgos"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Risk avoidance",
+          "es": "Evitación de riesgos"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Risk transference",
+          "es": "Transferencia de riesgos"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Risk deterrence",
+          "es": "Disuasión de riesgos"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Risk avoidance involves taking actions to eliminate a risk by ceasing the activity that causes it, such as shutting down a system.",
+      "es": "La evitación de riesgos implica tomar acciones para eliminar un riesgo al cesar la actividad que lo causa, como apagar un sistema."
+    }
+  },
+  {
+    "id": "T23-Q0011",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following terms describes the process of taking proactive measures to reduce the impact of identified risks?",
+      "es": "¿Cuál de los siguientes términos describe el proceso de tomar medidas proactivas para reducir el impacto de los riesgos identificados?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Risk acceptance",
+          "es": "Aceptación de riesgos"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Risk avoidance",
+          "es": "Evitación de riesgos"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Risk transference",
+          "es": "Transferencia de riesgos"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Risk mitigation",
+          "es": "Mitigación de riesgos"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Risk mitigation involves implementing controls and safeguards to reduce the likelihood or impact of a risk.",
+      "es": "La mitigación de riesgos implica la implementación de controles y salvaguardas para reducir la probabilidad o el impacto de un riesgo."
+    }
+  },
+  {
+    "id": "T23-Q0012",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the acronyms listed below refers to a maximum allowable time to restore critical business functions after a disruption?",
+      "es": "¿Cuál de los acrónimos listados a continuación se refiere a un tiempo máximo permitido para restaurar las funciones comerciales críticas después de una interrupción?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SLA",
+          "es": "SLA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RTO",
+          "es": "RTO"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MTTF",
+          "es": "MTTF"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "RPO",
+          "es": "RPO"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "RTO (Recovery Time Objective) is the maximum acceptable time to restore business functions after an event.",
+      "es": "RTO (Objetivo de Tiempo de Recuperación) es el tiempo máximo aceptable para restaurar las funciones comerciales después de un evento."
+    }
+  },
+  {
+    "id": "T23-Q0013",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following defines the maximum acceptable amount of data loss measured by a specific point in time before a disaster or outage?",
+      "es": "¿Cuál de los siguientes define la cantidad máxima aceptable de pérdida de datos medida por un punto específico en el tiempo antes de un desastre o interrupción?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "RPO",
+          "es": "RPO"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "MTBF",
+          "es": "MTBF"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "RTO",
+          "es": "RTO"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MTTR",
+          "es": "MTTR"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "RPO (Recovery Point Objective) is the maximum amount of data that can be lost from a system after an event.",
+      "es": "RPO (Objetivo de Punto de Recuperación) es la cantidad máxima de datos que se pueden perder de un sistema después de un evento."
+    }
+  },
+  {
+    "id": "T23-Q0014",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below is used to describe the average time required to repair a failed component or device?",
+      "es": "¿Cuál de los términos listados a continuación se utiliza para describir el tiempo promedio requerido para reparar un componente o dispositivo fallido?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MTBF",
+          "es": "MTBF"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RPO",
+          "es": "RPO"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MTTR",
+          "es": "MTTR"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SLA",
+          "es": "SLA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "MTTR (Mean Time to Repair) is the average time taken to repair a system or component after a failure.",
+      "es": "MTTR (Tiempo Medio de Reparación) es el tiempo promedio que se tarda en reparar un sistema o componente después de una falla."
+    }
+  },
+  {
+    "id": "T23-Q0015",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A high MTBF value indicates that a component or system provides low reliability and is more likely to fail.",
+      "es": "Un valor alto de MTBF indica que un componente o sistema proporciona baja confiabilidad y es más probable que falle."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "MTBF (Mean Time Between Failures) is a reliability metric. A high MTBF value indicates a longer time between failures, meaning the system is more reliable.",
+      "es": "MTBF (Tiempo Medio entre Fallos) es una métrica de confiabilidad. Un valor alto de MTBF indica un tiempo más largo entre fallos, lo que significa que el sistema es más confiable."
+    }
+  },
+  {
+    "id": "T23-Q0016",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A metric that represents the average amount of time a device or system is expected to operate before experiencing its first failure is known as:",
+      "es": "Una métrica que representa la cantidad promedio de tiempo que se espera que un dispositivo o sistema opere antes de experimentar su primera falla se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MTTR",
+          "es": "MTTR"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SLA",
+          "es": "SLA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MTBR",
+          "es": "MTBR"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MTTF",
+          "es": "MTTF"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "MTTF (Mean Time to Failure) is the average time a non-repairable asset or system is expected to operate before it fails.",
+      "es": "MTTF (Tiempo Medio hasta el Fallo) es el tiempo promedio que se espera que un activo o sistema no reparable opere antes de que falle."
+    }
+  },
+  {
+    "id": "T23-Q0017",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a contractual provision that grants one party the right to inspect the other party’s operations, facilities, processes, and records?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a una cláusula contractual que otorga a una de las partes el derecho de inspeccionar las operaciones, instalaciones, procesos y registros de la otra parte?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Right-to-audit clause",
+          "es": "Cláusula de derecho de auditoría"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Oversight clause",
+          "es": "Cláusula de supervisión"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Compliance verification clause",
+          "es": "Cláusula de verificación de cumplimiento"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Transparency clause",
+          "es": "Cláusula de transparencia"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A right-to-audit clause allows one party, typically the client, to audit the vendor's operations to ensure compliance with the contract.",
+      "es": "Una cláusula de derecho de auditoría permite a una de las partes, típicamente el cliente, auditar las operaciones del proveedor para asegurar el cumplimiento del contrato."
+    }
+  },
+  {
+    "id": "T23-Q0018",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In the context of third-party risk assessment and management, which process involves conducting thorough investigations to verify the credentials, reliability, and integrity of potential vendors?",
+      "es": "En el contexto de la evaluación y gestión de riesgos de terceros, ¿qué proceso implica realizar investigaciones exhaustivas para verificar las credenciales, la fiabilidad y la integridad de los posibles proveedores?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Reference check",
+          "es": "Verificación de referencias"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Compliance review",
+          "es": "Revisión de cumplimiento"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Due diligence",
+          "es": "Debida diligencia"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Vendor appraisal",
+          "es": "Evaluación del proveedor"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Due diligence is the process of conducting a comprehensive investigation of a potential vendor to assess their risks and viability before entering into a contract.",
+      "es": "La debida diligencia es el proceso de llevar a cabo una investigación exhaustiva de un proveedor potencial para evaluar sus riesgos y viabilidad antes de celebrar un contrato."
+    }
+  },
+  {
+    "id": "T23-Q0019",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below refers to a situation where a party’s impartiality could be questioned due to potential personal or financial gains?",
+      "es": "¿Cuál de los términos listados a continuación se refiere a una situación en la que la imparcialidad de una parte podría ser cuestionada debido a posibles ganancias personales o financieras?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Dual relationship",
+          "es": "Relación dual"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Undue influence",
+          "es": "Influencia indebida"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Conflict of interest",
+          "es": "Conflicto de intereses"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Self-dealing",
+          "es": "Autotratación"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A conflict of interest arises when an individual or organization has competing interests that may compromise their ability to act impartially.",
+      "es": "Un conflicto de intereses surge cuando un individuo u organización tiene intereses contrapuestos que pueden comprometer su capacidad para actuar de manera imparcial."
+    }
+  },
+  {
+    "id": "T23-Q0020",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "An agreement between a service provider and users defining the nature, availability, quality, and scope of the service to be provided is called:",
+      "es": "Un acuerdo entre un proveedor de servicios y los usuarios que define la naturaleza, disponibilidad, calidad y alcance del servicio a proporcionar se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SOW",
+          "es": "SOW"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "MSA",
+          "es": "MSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SLA",
+          "es": "SLA"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MOU",
+          "es": "MOU"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "An SLA (Service Level Agreement) is a contract between a service provider and a user that specifies the level of service expected from the provider.",
+      "es": "Un SLA (Acuerdo de Nivel de Servicio) es un contrato entre un proveedor de servicios y un usuario que especifica el nivel de servicio esperado del proveedor."
+    }
+  },
+  {
+    "id": "T23-Q0021",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following terms refers to an agreement that specifies performance requirements for a vendor?",
+      "es": "¿Cuál de los siguientes términos se refiere a un acuerdo que especifica los requisitos de rendimiento para un proveedor?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MSA",
+          "es": "MSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SLA",
+          "es": "SLA"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MOU",
+          "es": "MOU"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SOW",
+          "es": "SOW"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A Service Level Agreement (SLA) outlines the performance metrics that a vendor is contractually obligated to meet.",
+      "es": "Un Acuerdo de Nivel de Servicio (SLA) describe las métricas de rendimiento que un proveedor está contractualmente obligado a cumplir."
+    }
+  },
+  {
+    "id": "T23-Q0022",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the acronyms listed below refers to a formal and often legally binding document that outlines specific responsibilities, roles, and terms agreed upon by two or more parties?",
+      "es": "¿Cuál de los acrónimos listados a continuación se refiere a un documento formal y a menudo legalmente vinculante que describe responsabilidades, roles y términos específicos acordados por dos o más partes?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SOW",
+          "es": "SOW"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "MOA",
+          "es": "MOA"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MSA",
+          "es": "MSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MOU",
+          "es": "MOU"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "An MOA (Memorandum of Agreement) is a legally binding document that formalizes the terms of a cooperative agreement.",
+      "es": "Un MOA (Memorando de Acuerdo) es un documento legalmente vinculante que formaliza los términos de un acuerdo de cooperación."
+    }
+  },
+  {
+    "id": "T23-Q0023",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A type of nonbinding agreement outlining mutual goals and the general framework for cooperation between two or more parties is referred to as:",
+      "es": "Un tipo de acuerdo no vinculante que describe los objetivos mutuos y el marco general para la cooperación entre dos o más partes se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MOA",
+          "es": "MOA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SOW",
+          "es": "SOW"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MOU",
+          "es": "MOU"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MSA",
+          "es": "MSA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "An MOU (Memorandum of Understanding) is a non-binding agreement that outlines a framework for cooperation and is less formal than a contract.",
+      "es": "Un MOU (Memorando de Entendimiento) es un acuerdo no vinculante que describe un marco de cooperación y es menos formal que un contrato."
+    }
+  },
+  {
+    "id": "T23-Q0024",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A type of legally binding contract that establishes the foundational terms and conditions governing future agreements between two parties is known as:",
+      "es": "Un tipo de contrato legalmente vinculante que establece los términos y condiciones fundamentales que rigen los acuerdos futuros entre dos partes se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MOU",
+          "es": "MOU"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SLA",
+          "es": "SLA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MSA",
+          "es": "MSA"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SOW",
+          "es": "SOW"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "An MSA (Master Service Agreement) is a contract that sets the groundwork for future business dealings and provides a framework for future agreements.",
+      "es": "Un MSA (Acuerdo de Servicio Maestro) es un contrato que sienta las bases para futuras relaciones comerciales y proporciona un marco para futuros acuerdos."
+    }
+  },
+  {
+    "id": "T23-Q0025",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following acronyms refers to a document that authorizes, initiates, and tracks the progress and completion of a particular job or task?",
+      "es": "¿Cuál de los siguientes acrónimos se refiere a un documento que autoriza, inicia y realiza un seguimiento del progreso y la finalización de un trabajo o tarea en particular?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SOW",
+          "es": "SOW"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "WO",
+          "es": "WO"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SLA",
+          "es": "SLA"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MSA",
+          "es": "MSA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A WO (Work Order) is a document that formally authorizes and tracks a specific task or job to be completed.",
+      "es": "Una WO (Orden de Trabajo) es un documento que autoriza y rastrea formalmente una tarea o trabajo específico a completar."
+    }
+  }
+]

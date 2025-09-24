@@ -1,0 +1,872 @@
+[
+  {
+    "id": "T03-Q0001",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "What is the name of a network protocol that enables secure file transfer over SSH?",
+      "es": "¿Cuál es el nombre de un protocolo de red que permite la transferencia segura de archivos sobre SSH?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "TFTP", "es": "TFTP" },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": { "en": "SFTP", "es": "SFTP" },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": { "en": "Telnet", "es": "Telnet" },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": { "en": "FTPS", "es": "FTPS" },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SFTP (SSH File Transfer Protocol) runs over an SSH session to provide secure file transfer. FTPS is a different protocol that uses SSL/TLS for security.",
+      "es": "SFTP (SSH File Transfer Protocol) se ejecuta sobre una sesión SSH para proporcionar una transferencia de archivos segura. FTPS es un protocolo diferente que utiliza SSL/TLS para la seguridad."
+    }
+  },
+  {
+    "id": "T03-Q0002",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "SFTP is an extension of the FTP protocol that adds support for SSL/TLS encryption.",
+      "es": "SFTP es una extensión del protocolo FTP que añade soporte para el cifrado SSL/TLS."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "True", "es": "Verdadero" },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": { "en": "False", "es": "Falso" },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "This statement is false. SFTP (SSH File Transfer Protocol) is a different protocol that operates over SSH. The protocol that extends FTP with SSL/TLS support is FTPS.",
+      "es": "Esta afirmación es falsa. SFTP (SSH File Transfer Protocol) es un protocolo diferente que opera sobre SSH. El protocolo que extiende FTP con soporte para SSL/TLS es FTPS."
+    }
+  },
+  {
+    "id": "T03-Q0003",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A type of cryptographic network protocol for secure data communication, remote command-line login, remote command execution, and other secure network services between two networked computers is known as:",
+      "es": "Un tipo de protocolo de red criptográfico para la comunicación segura de datos, inicio de sesión remoto en línea de comandos, ejecución remota de comandos y otros servicios de red seguros entre dos ordenadores en red se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "RDP", "es": "RDP" },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": { "en": "SSH", "es": "SSH" },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": { "en": "Telnet", "es": "Telnet" },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": { "en": "SCP", "es": "SCP" },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SSH (Secure Shell) is the protocol designed for secure remote login, command execution, and other secure network services over an unsecured network.",
+      "es": "SSH (Secure Shell) es el protocolo diseñado para el inicio de sesión remoto seguro, la ejecución de comandos y otros servicios de red seguros sobre una red no segura."
+    }
+  },
+  {
+    "id": "T03-Q0004",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a suite of protocols and technologies providing encryption, authentication, and data integrity for network traffic?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un conjunto de protocolos y tecnologías que proporcionan cifrado, autenticación e integridad de datos para el tráfico de red?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "TLS", "es": "TLS" },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": { "en": "SSH", "es": "SSH" },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": { "en": "IPsec", "es": "IPsec" },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": { "en": "VPN", "es": "VPN" },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "IPsec (Internet Protocol Security) is a protocol suite that secures IP communications by authenticating and encrypting each IP packet at the network layer.",
+      "es": "IPsec (Internet Protocol Security) es un conjunto de protocolos que asegura las comunicaciones IP autenticando y cifrando cada paquete IP en la capa de red."
+    }
+  },
+  {
+    "id": "T03-Q0005",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which part of IPsec provides authentication, integrity, and confidentiality?",
+      "es": "¿Qué parte de IPsec proporciona autenticación, integridad y confidencialidad?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "SPD", "es": "SPD" },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": { "en": "PFS", "es": "PFS" },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": { "en": "AH", "es": "AH" },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": { "en": "ESP", "es": "ESP" },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "ESP (Encapsulating Security Payload) provides confidentiality (encryption), data origin authentication, connectionless integrity, and anti-replay service. AH (Authentication Header) only provides authentication and integrity.",
+      "es": "ESP (Encapsulating Security Payload) proporciona confidencialidad (cifrado), autenticación del origen de los datos, integridad sin conexión y servicio anti-repetición. AH (Authentication Header) solo proporciona autenticación e integridad."
+    }
+  },
+  {
+    "id": "T03-Q0006",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A system that uses a public network (such as the Internet) as a means for creating private encrypted connections between remote locations is referred to as:",
+      "es": "Un sistema que utiliza una red pública (como Internet) como medio para crear conexiones privadas cifradas entre ubicaciones remotas se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "WWAN", "es": "WWAN" },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": { "en": "VPN", "es": "VPN" },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": { "en": "PAN", "es": "PAN" },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": { "en": "VLAN", "es": "VLAN" },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A VPN (Virtual Private Network) creates a secure, encrypted tunnel over a public network like the internet, allowing users to send and receive data as if their devices were directly connected to a private network.",
+      "es": "Una VPN (Virtual Private Network) crea un túnel seguro y cifrado sobre una red pública como Internet, permitiendo a los usuarios enviar y recibir datos como si sus dispositivos estuvieran directamente conectados a una red privada."
+    }
+  },
+  {
+    "id": "T03-Q0007",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which protocol enables secure, real-time delivery of audio and video over an IP network?",
+      "es": "¿Qué protocolo permite la entrega segura y en tiempo real de audio y video a través de una red IP?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "S/MIME", "es": "S/MIME" },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": { "en": "RTP", "es": "RTP" },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": { "en": "SIP", "es": "SIP" },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": { "en": "SRTP", "es": "SRTP" },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "SRTP (Secure Real-time Transport Protocol) is a network protocol for securely delivering audio and video over IP networks. It adds confidentiality, message authentication, and replay protection to RTP.",
+      "es": "SRTP (Secure Real-time Transport Protocol) es un protocolo de red para la entrega segura de audio y video sobre redes IP. Añade confidencialidad, autenticación de mensajes y protección contra la repetición a RTP."
+    }
+  },
+  {
+    "id": "T03-Q0008",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "An encryption protocol primarily used in Wi-Fi networks implementing the WPA2 security standard is called:",
+      "es": "Un protocolo de cifrado utilizado principalmente en redes Wi-Fi que implementan el estándar de seguridad WPA2 se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "TKIP", "es": "TKIP" },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": { "en": "CCMP", "es": "CCMP" },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": { "en": "SSL", "es": "SSL" },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": { "en": "IPsec", "es": "IPsec" },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "CCMP (Counter Mode Cipher Block Chaining Message Authentication Code Protocol) is the encryption protocol used in WPA2 and is based on the strong AES algorithm.",
+      "es": "CCMP (Counter Mode Cipher Block Chaining Message Authentication Code Protocol) es el protocolo de cifrado utilizado en WPA2 y se basa en el robusto algoritmo AES."
+    }
+  },
+  {
+    "id": "T03-Q0009",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A security protocol designed to improve the security of existing WEP implementations is known as:",
+      "es": "Un protocolo de seguridad diseñado para mejorar la seguridad de las implementaciones WEP existentes se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "WPA2", "es": "WPA2" },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": { "en": "RC4", "es": "RC4" },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": { "en": "CCMP", "es": "CCMP" },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": { "en": "TKIP", "es": "TKIP" },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "TKIP (Temporal Key Integrity Protocol) was an interim solution used with WPA to replace the insecure WEP protocol. It provided a significant security improvement over WEP but is now also considered deprecated.",
+      "es": "TKIP (Temporal Key Integrity Protocol) fue una solución provisional utilizada con WPA para reemplazar el inseguro protocolo WEP. Proporcionó una mejora de seguridad significativa sobre WEP, pero ahora también se considera obsoleto."
+    }
+  },
+  {
+    "id": "T03-Q0010",
+    "type": "ms",
+    "required_answers": 5,
+    "prompt": {
+      "en": "Which of the following answers refer(s) to deprecated/insecure encryption protocols and cryptographic hash functions? (Select all that apply)",
+      "es": "¿Cuáles de las siguientes respuestas se refieren a protocolos de cifrado y funciones hash criptográficas obsoletos/inseguros? (Selecciona todas las que apliquen)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "DES", "es": "DES" },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": { "en": "AES-256", "es": "AES-256" },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": { "en": "MD5", "es": "MD5" },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": { "en": "ECC", "es": "ECC" },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": { "en": "SHA-1", "es": "SHA-1" },
+        "correct": true
+      },
+      {
+        "key": "F",
+        "text": { "en": "SSL", "es": "SSL" },
+        "correct": true
+      },
+      {
+        "key": "G",
+        "text": { "en": "RC4", "es": "RC4" },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "DES, MD5, SHA-1, SSL (all versions), and RC4 are all considered insecure or deprecated due to known vulnerabilities. AES-256 and ECC are currently secure.",
+      "es": "DES, MD5, SHA-1, SSL (todas las versiones) y RC4 se consideran inseguros u obsoletos debido a vulnerabilidades conocidas. AES-256 y ECC son actualmente seguros."
+    }
+  },
+  {
+    "id": "T03-Q0011",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which cryptographic protocol is designed to provide secure communications over a computer network and is the successor to SSL?",
+      "es": "¿Qué protocolo criptográfico está diseñado para proporcionar comunicaciones seguras a través de una red informática y es el sucesor de SSL?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "IPsec", "es": "IPsec" },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": { "en": "TLS", "es": "TLS" },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": { "en": "AES", "es": "AES" },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": { "en": "CCMP", "es": "CCMP" },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "TLS (Transport Layer Security) is the direct successor to SSL (Secure Sockets Layer) and is the standard cryptographic protocol for securing internet communications.",
+      "es": "TLS (Transport Layer Security) es el sucesor directo de SSL (Secure Sockets Layer) y es el protocolo criptográfico estándar para asegurar las comunicaciones en Internet."
+    }
+  },
+  {
+    "id": "T03-Q0012",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Examples of techniques used for encrypting information include symmetric encryption (also called public-key encryption) and asymmetric encryption (also called secret-key encryption, or session-key encryption).",
+      "es": "Ejemplos de técnicas utilizadas para cifrar información incluyen el cifrado simétrico (también llamado cifrado de clave pública) y el cifrado asimétrico (también llamado cifrado de clave secreta o cifrado de clave de sesión)."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "True", "es": "Verdadero" },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": { "en": "False", "es": "Falso" },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "The definitions are reversed. Symmetric encryption uses a shared secret key (secret-key), while asymmetric encryption uses a public/private key pair (public-key).",
+      "es": "Las definiciones están invertidas. El cifrado simétrico utiliza una clave secreta compartida (clave secreta), mientras que el cifrado asimétrico utiliza un par de claves pública/privada (clave pública)."
+    }
+  },
+  {
+    "id": "T03-Q0013",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In asymmetric encryption, any message encrypted with the use of a public key can only be decrypted by applying the same algorithm and a matching private key (and vice versa).",
+      "es": "En el cifrado asimétrico, cualquier mensaje cifrado con el uso de una clave pública solo puede ser descifrado aplicando el mismo algoritmo y una clave privada correspondiente (y viceversa)."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "True", "es": "Verdadero" },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": { "en": "False", "es": "Falso" },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "This statement correctly describes the fundamental principle of asymmetric cryptography. A message encrypted with one key of the pair can only be decrypted by the other key.",
+      "es": "Esta afirmación describe correctamente el principio fundamental de la criptografía asimétrica. Un mensaje cifrado con una clave del par solo puede ser descifrado por la otra clave."
+    }
+  },
+  {
+    "id": "T03-Q0014",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the algorithms listed below are not symmetric ciphers? (Select 3 answers)",
+      "es": "¿Cuáles de los algoritmos listados a continuación no son cifrados simétricos? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "AES", "es": "AES" },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": { "en": "DES", "es": "DES" },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": { "en": "DHE", "es": "DHE" },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": { "en": "ECC", "es": "ECC" },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": { "en": "IDEA", "es": "IDEA" },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": { "en": "RC4", "es": "RC4" },
+        "correct": false
+      },
+      {
+        "key": "G",
+        "text": { "en": "RSA", "es": "RSA" },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "DHE (Diffie-Hellman Ephemeral), ECC (Elliptic Curve Cryptography), and RSA are all asymmetric algorithms. AES, DES, IDEA, and RC4 are symmetric ciphers.",
+      "es": "DHE (Diffie-Hellman Ephemeral), ECC (Criptografía de Curva Elíptica) y RSA son todos algoritmos asimétricos. AES, DES, IDEA y RC4 son cifrados simétricos."
+    }
+  },
+  {
+    "id": "T03-Q0015",
+    "type": "ms",
+    "required_answers": 4,
+    "prompt": {
+      "en": "Which of the following algorithms do(es) not fall into the category of asymmetric encryption? (Select all that apply)",
+      "es": "¿Cuáles de los siguientes algoritmos no pertenecen a la categoría de cifrado asimétrico? (Selecciona todos los que apliquen)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "AES", "es": "AES" },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": { "en": "DES", "es": "DES" },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": { "en": "DHE", "es": "DHE" },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": { "en": "ECC", "es": "ECC" },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": { "en": "IDEA", "es": "IDEA" },
+        "correct": true
+      },
+      {
+        "key": "F",
+        "text": { "en": "RC4", "es": "RC4" },
+        "correct": true
+      },
+      {
+        "key": "G",
+        "text": { "en": "RSA", "es": "RSA" },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "AES, DES, IDEA, and RC4 are symmetric ciphers. DHE, ECC, and RSA are asymmetric algorithms.",
+      "es": "AES, DES, IDEA y RC4 son cifrados simétricos. DHE, ECC y RSA son algoritmos asimétricos."
+    }
+  },
+  {
+    "id": "T03-Q0016",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The term \"KEK\" refers to a type of cryptographic key often used in key management systems to add an additional layer of security when encrypting and decrypting other cryptographic keys.",
+      "es": "El término \"KEK\" se refiere a un tipo de clave criptográfica utilizada a menudo en sistemas de gestión de claves para añadir una capa adicional de seguridad al cifrar y descifrar otras claves criptográficas."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "True", "es": "Verdadero" },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": { "en": "False", "es": "Falso" },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "This is true. KEK stands for Key Encryption Key, and its purpose is to encrypt other keys (called Data Encryption Keys or DEKs) for secure storage and transmission.",
+      "es": "Esto es verdadero. KEK significa Key Encryption Key (Clave de Cifrado de Claves), y su propósito es cifrar otras claves (llamadas Data Encryption Keys o DEKs) para su almacenamiento y transmisión seguros."
+    }
+  },
+  {
+    "id": "T03-Q0017",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a shared secret authentication method used in WPA, WPA2, and EAP?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un método de autenticación de secreto compartido utilizado en WPA, WPA2 y EAP?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "PSK", "es": "PSK" },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": { "en": "802.1X", "es": "802.1X" },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": { "en": "SAE", "es": "SAE" },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": { "en": "TKIP", "es": "TKIP" },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "PSK (Pre-Shared Key) is a mode used in Wi-Fi security (like WPA/WPA2) where a shared secret passphrase is used for authentication between devices.",
+      "es": "PSK (Pre-Shared Key) es un modo utilizado en la seguridad Wi-Fi (como WPA/WPA2) donde se utiliza una frase de contraseña secreta compartida para la autenticación entre dispositivos."
+    }
+  },
+  {
+    "id": "T03-Q0018",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a protocol used to set up secure connections and exchange of cryptographic keys in IPsec VPNs?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un protocolo utilizado para establecer conexiones seguras e intercambiar claves criptográficas en VPNs IPsec?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "SSL", "es": "SSL" },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": { "en": "IKE", "es": "IKE" },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": { "en": "ESP", "es": "ESP" },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": { "en": "DHE", "es": "DHE" },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "IKE (Internet Key Exchange) is the protocol used within the IPsec suite to negotiate security parameters and generate shared keys for the VPN.",
+      "es": "IKE (Internet Key Exchange) es el protocolo utilizado dentro del conjunto IPsec para negociar los parámetros de seguridad y generar claves compartidas para la VPN."
+    }
+  },
+  {
+    "id": "T03-Q0019",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a key exchange protocol that generates temporary keys for each session, providing forward secrecy to protect past and future communications?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un protocolo de intercambio de claves que genera claves temporales para cada sesión, proporcionando secreto perfecto hacia adelante para proteger las comunicaciones pasadas y futuras?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "PFS", "es": "PFS" },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": { "en": "SHA", "es": "SHA" },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": { "en": "PGP", "es": "PGP" },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": { "en": "DHE", "es": "DHE" },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "DHE (Diffie-Hellman Ephemeral) is a key exchange protocol where a new, temporary key is generated for each session. This method achieves Perfect Forward Secrecy (PFS), ensuring that past sessions remain secure even if a long-term key is compromised.",
+      "es": "DHE (Diffie-Hellman Ephemeral) es un protocolo de intercambio de claves donde se genera una nueva clave temporal para cada sesión. Este método logra el Secreto Perfecto Hacia Adelante (PFS), asegurando que las sesiones pasadas permanezcan seguras incluso si una clave a largo plazo se ve comprometida."
+    }
+  },
+  {
+    "id": "T03-Q0020",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a cryptographic key exchange protocol that leverages ECC for enhanced security and efficiency?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un protocolo de intercambio de claves criptográficas que aprovecha ECC para una mayor seguridad y eficiencia?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "IKE", "es": "IKE" },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": { "en": "ECDHE", "es": "ECDHE" },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": { "en": "DHE", "es": "DHE" },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": { "en": "ECDSA", "es": "ECDSA" },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ECDHE (Elliptic Curve Diffie-Hellman Ephemeral) is a variant of the DHE protocol that uses elliptic-curve cryptography. It offers strong security with smaller key sizes, making it more efficient.",
+      "es": "ECDHE (Elliptic Curve Diffie-Hellman Ephemeral) es una variante del protocolo DHE que utiliza criptografía de curva elíptica. Ofrece una seguridad robusta con tamaños de clave más pequeños, lo que lo hace más eficiente."
+    }
+  },
+  {
+    "id": "T03-Q0021",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a solution designed to strengthen the security of session keys?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a una solución diseñada para fortalecer la seguridad de las claves de sesión?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "ECB", "es": "ECB" },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": { "en": "PFS", "es": "PFS" },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": { "en": "EFS", "es": "EFS" },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": { "en": "PFX", "es": "PFX" },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "PFS (Perfect Forward Secrecy) is a feature of secure communication protocols where a compromise of long-term keys does not compromise past session keys. Key exchange protocols like DHE and ECDHE provide PFS.",
+      "es": "PFS (Perfect Forward Secrecy) es una característica de los protocolos de comunicación segura donde el compromiso de claves a largo plazo no compromete las claves de sesiones pasadas. Los protocolos de intercambio de claves como DHE y ECDHE proporcionan PFS."
+    }
+  },
+  {
+    "id": "T03-Q0022",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a public-key cryptosystem used for digital signatures, secure key exchange, and encryption?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un criptosistema de clave pública utilizado para firmas digitales, intercambio seguro de claves y cifrado?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "ECC", "es": "ECC" },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": { "en": "RSA", "es": "RSA" },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": { "en": "PKI", "es": "PKI" },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": { "en": "DSA", "es": "DSA" },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "The RSA (Rivest-Shamir-Adleman) algorithm is a widely used public-key cryptosystem for secure data transmission, supporting encryption, key exchange, and digital signatures.",
+      "es": "El algoritmo RSA (Rivest-Shamir-Adleman) es un criptosistema de clave pública ampliamente utilizado para la transmisión segura de datos, que soporta cifrado, intercambio de claves y firmas digitales."
+    }
+  },
+  {
+    "id": "T03-Q0023",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which cryptographic solution would be best suited for low-power devices, such as IoT devices, embedded systems, and mobile devices?",
+      "es": "¿Qué solución criptográfica sería la más adecuada para dispositivos de baja potencia, como dispositivos IoT, sistemas embebidos y dispositivos móviles?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "ECC", "es": "ECC" },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": { "en": "DES", "es": "DES" },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": { "en": "RSA", "es": "RSA" },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": { "en": "AES", "es": "AES" },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ECC (Elliptic Curve Cryptography) provides security equivalent to RSA but with much smaller key sizes, making it more efficient and ideal for devices with limited computational power.",
+      "es": "ECC (Criptografía de Curva Elíptica) proporciona una seguridad equivalente a RSA pero con tamaños de clave mucho más pequeños, lo que la hace más eficiente e ideal para dispositivos con potencia de cálculo limitada."
+    }
+  },
+  {
+    "id": "T03-Q0024",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the cryptographic algorithms listed below is the least vulnerable to attacks?",
+      "es": "¿Cuál de los algoritmos criptográficos listados a continuación es el menos vulnerable a los ataques?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "AES", "es": "AES" },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": { "en": "DES", "es": "DES" },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": { "en": "RC4", "es": "RC4" },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": { "en": "3DES", "es": "3DES" },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "AES (Advanced Encryption Standard) is the current industry standard and is considered the most secure and least vulnerable among the options listed. DES, RC4, and 3DES have known vulnerabilities or weaknesses.",
+      "es": "AES (Advanced Encryption Standard) es el estándar actual de la industria y se considera el más seguro y menos vulnerable de las opciones listadas. DES, RC4 y 3DES tienen vulnerabilidades o debilidades conocidas."
+    }
+  },
+  {
+  "id": "T03-Q0025",
+  "type": "sc",
+  "required_answers": 1,
+  "prompt": {
+    "en": "S/MIME is an enhanced version of the MIME protocol that provides email security features such as encryption, authentication, and message integrity.",
+    "es": "S/MIME es una versión mejorada del protocolo MIME que proporciona funciones de seguridad para el correo electrónico como cifrado, autenticación e integridad de los mensajes."
+  },
+  "options": [
+    {
+      "key": "A",
+      "text": { "en": "True", "es": "Verdadero" },
+      "correct": true
+    },
+    {
+      "key": "B",
+      "text": { "en": "False", "es": "Falso" },
+      "correct": false
+    }
+  ],
+  "explanation": {
+    "en": "The statement is true. S/MIME (Secure/Multipurpose Internet Mail Extensions) extends MIME by adding encryption, authentication, digital signatures, and message integrity to secure email communications.",
+    "es": "La afirmación es verdadera. S/MIME (Secure/Multipurpose Internet Mail Extensions) amplía MIME añadiendo cifrado, autenticación, firmas digitales e integridad de mensajes para asegurar las comunicaciones por correo electrónico."
+  }
+}
+]

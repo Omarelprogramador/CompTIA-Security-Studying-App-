@@ -1,0 +1,1679 @@
+[
+  {
+    "id": "AC09-Q0001",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following solutions would be best suited for a company that needs comprehensive IT services but lacks qualified IT personnel?",
+      "es": "¿Cuál de las siguientes soluciones sería la más adecuada para una empresa que necesita servicios de TI completos pero carece de personal de TI cualificado?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MSA",
+          "es": "MSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "MaaS",
+          "es": "MaaS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MSP",
+          "es": "MSP"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MSSP",
+          "es": "MSSP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "An MSP (Managed Service Provider) is a third-party company that remotely manages a customer's IT infrastructure and systems.",
+      "es": "Un MSP (Managed Service Provider) es una empresa externa que gestiona a distancia la infraestructura y los sistemas de TI de un cliente."
+    }
+  },
+  {
+    "id": "AC09-Q0002",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below refers to a third-party vendor offering IT security management services?",
+      "es": "¿Cuál de los siguientes términos se refiere a un proveedor externo que ofrece servicios de gestión de seguridad de TI?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MSP",
+          "es": "MSP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "MaaS",
+          "es": "MaaS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MSA",
+          "es": "MSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MSSP",
+          "es": "MSSP"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "An MSSP (Managed Security Service Provider) is a third-party vendor that provides security services like monitoring, security audits, and incident response.",
+      "es": "Un MSSP (Managed Security Service Provider) es un proveedor externo que ofrece servicios de seguridad como supervisión, auditorías de seguridad y respuesta a incidentes."
+    }
+  },
+  {
+    "id": "AC09-Q0003",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following acronyms refers to the broad category of hardware and software systems used for monitoring and controlling physical devices, processes, and industrial operations?",
+      "es": "¿Cuál de los siguientes acrónimos se refiere a la categoría general de sistemas de hardware y software utilizados para la supervisión y el control de dispositivos físicos, procesos y operaciones industriales?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ICS",
+          "es": "ICS"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "OT",
+          "es": "OT"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SCADA",
+          "es": "SCADA"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "EDR",
+          "es": "EDR"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ICS stands for Industrial Control Systems, which is the broad term for systems controlling industrial processes. SCADA is a type of ICS.",
+      "es": "ICS significa Industrial Control Systems, que es el término general para los sistemas que controlan los procesos industriales. SCADA es un tipo de ICS."
+    }
+  },
+  {
+    "id": "AC09-Q0004",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a basic method for establishing a dedicated point-to-point link between two networked devices?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un método básico para establecer un enlace punto a punto dedicado entre dos dispositivos en red?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PPTP",
+          "es": "PPTP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IGMP",
+          "es": "IGMP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PPP",
+          "es": "PPP"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MPLS",
+          "es": "MPLS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "PPP (Point-to-Point Protocol) is a data link layer protocol used to establish a direct connection between two nodes.",
+      "es": "PPP (Point-to-Point Protocol) es un protocolo de capa de enlace de datos utilizado para establecer una conexión directa entre dos nodos."
+    }
+  },
+  {
+    "id": "AC09-Q0005",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following defines the maximum acceptable amount of data loss measured by a specific point in time before a disaster or outage?",
+      "es": "¿Cuál de los siguientes define la cantidad máxima aceptable de pérdida de datos medida por un punto específico en el tiempo antes de un desastre o interrupción?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "RPO",
+          "es": "RPO"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "MTBF",
+          "es": "MTBF"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "RTO",
+          "es": "RTO"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MTTR",
+          "es": "MTTR"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "RPO (Recovery Point Objective) is the maximum acceptable amount of data loss, measured in time.",
+      "es": "RPO (Recovery Point Objective) es la cantidad máxima aceptable de pérdida de datos, medida en tiempo."
+    }
+  },
+  {
+    "id": "AC09-Q0006",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below refers to a framework for managing access to digital resources?",
+      "es": "¿Cuál de los siguientes términos se refiere a un marco para la gestión del acceso a recursos digitales?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PAM",
+          "es": "PAM"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SSO",
+          "es": "SSO"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "IAM",
+          "es": "IAM"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MFA",
+          "es": "MFA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "IAM (Identity and Access Management) is a framework of policies and technologies for managing digital identities and controlling access to resources.",
+      "es": "IAM (Identity and Access Management) es un marco de políticas y tecnologías para gestionar identidades digitales y controlar el acceso a los recursos."
+    }
+  },
+  {
+    "id": "AC09-Q0007",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the following answers refer to SCAP? (Select 3 answers)",
+      "es": "¿Cuáles de las siguientes respuestas se refieren a SCAP? (Seleccione 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "A type of security system designed to collect logs and events from various sources",
+          "es": "Un tipo de sistema de seguridad diseñado para recopilar registros y eventos de varias fuentes"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Designed to provide a centralized user interface for accessing collected data",
+          "es": "Diseñado para proporcionar una interfaz de usuario centralizada para acceder a los datos recopilados"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "A collection of standards developed by NIST",
+          "es": "Una colección de estándares desarrollados por NIST"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Provides a common language for communicating security information",
+          "es": "Proporciona un lenguaje común para comunicar información de seguridad"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Allows different security tools to share data and work together more effectively",
+          "es": "Permite que diferentes herramientas de seguridad compartan datos y trabajen juntas de manera más efectiva"
+        },
+        "correct": true
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Enables real-time threat detection, incident response, and compliance monitoring",
+          "es": "Permite la detección de amenazas en tiempo real, la respuesta a incidentes y el monitoreo del cumplimiento"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SCAP (Security Content Automation Protocol) is a suite of specifications developed by NIST to provide a standardized approach to security automation, vulnerability management, and policy compliance.",
+      "es": "SCAP (Security Content Automation Protocol) es un conjunto de especificaciones desarrolladas por el NIST para proporcionar un enfoque estandarizado para la automatización de la seguridad, la gestión de vulnerabilidades y el cumplimiento de políticas."
+    }
+  },
+  {
+    "id": "AC09-Q0008",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A Windows feature used for centrally managing and enforcing policies and settings for users and computers in a network is referred to as:",
+      "es": "Una característica de Windows utilizada para gestionar y aplicar de forma centralizada políticas y configuraciones para usuarios y ordenadores en una red se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SAE",
+          "es": "SAE"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "NTLM",
+          "es": "NTLM"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "GPO",
+          "es": "GPO"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SSO",
+          "es": "SSO"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "GPO (Group Policy Object) is a collection of settings that define what a system will look like and how it will behave for a user or group of users.",
+      "es": "GPO (Group Policy Object) es una colección de configuraciones que definen el aspecto y el comportamiento de un sistema para un usuario o grupo de usuarios."
+    }
+  },
+  {
+    "id": "AC09-Q0009",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a protocol used for automating the issuance and management of certificates within a PKI environment?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un protocolo utilizado para automatizar la emisión y gestión de certificados dentro de un entorno PKI?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PKCS",
+          "es": "PKCS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SCEP",
+          "es": "SCEP"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "CSR",
+          "es": "CSR"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "OCSP",
+          "es": "OCSP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SCEP (Simple Certificate Enrollment Protocol) is a protocol for the enrollment of certificates for network devices.",
+      "es": "SCEP (Simple Certificate Enrollment Protocol) es un protocolo para el registro de certificados para dispositivos de red."
+    }
+  },
+  {
+    "id": "AC09-Q0010",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the following answers refer to the characteristic features of RSA? (Select 3 answers)",
+      "es": "¿Cuáles de las siguientes respuestas se refieren a las características de RSA? (Seleccione 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Asymmetric encryption algorithm",
+          "es": "Algoritmo de cifrado asimétrico"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "A public key used for encryption and a private key used for decryption",
+          "es": "Una clave pública utilizada para el cifrado y una clave privada utilizada para el descifrado"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Suitable for bulk data encryption",
+          "es": "Adecuado para el cifrado de datos masivo"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Used for secure communications, digital signatures, and key exchange",
+          "es": "Utilizado para comunicaciones seguras, firmas digitales e intercambio de claves"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Symmetric encryption algorithm",
+          "es": "Algoritmo de cifrado simétrico"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "A single key used for both encryption and decryption",
+          "es": "Una sola clave utilizada tanto para el cifrado como para el descifrado"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "RSA (Rivest-Shamir-Adleman) is an asymmetric cryptographic algorithm. It uses a public key for encryption and a private key for decryption and is often used for secure communications, digital signatures, and key exchange.",
+      "es": "RSA (Rivest-Shamir-Adleman) es un algoritmo de cifrado asimétrico. Utiliza una clave pública para el cifrado y una clave privada para el descifrado y se utiliza a menudo para comunicaciones seguras, firmas digitales e intercambio de claves."
+    }
+  },
+  {
+    "id": "AC09-Q0011",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "Which of the answers listed below describe the characteristics of a non-persistent VDI? (Select 2 answers)",
+      "es": "¿Cuáles de las respuestas a continuación describen las características de un VDI no persistente? (Seleccione 2 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "At the end of a session, user desktop reverts to its original state",
+          "es": "Al final de una sesión, el escritorio del usuario vuelve a su estado original"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Each user runs their own copy of virtual desktop",
+          "es": "Cada usuario ejecuta su propia copia de escritorio virtual"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "At the end of a session, user data and personal settings are saved",
+          "es": "Al final de una sesión, los datos de usuario y la configuración personal se guardan"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Virtual desktop is shared among multiple users",
+          "es": "El escritorio virtual es compartido por varios usuarios"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "In a non-persistent VDI, a shared virtual desktop image is used by multiple users, and all changes are discarded at the end of each session.",
+      "es": "En un VDI no persistente, una imagen de escritorio virtual compartida es utilizada por varios usuarios, y todos los cambios se descartan al final de cada sesión."
+    }
+  },
+  {
+    "id": "AC09-Q0012",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to an obsolete protocol used for secure data transfer over the web?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un protocolo obsoleto utilizado para la transferencia segura de datos a través de la web?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SMTPS",
+          "es": "SMTPS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SRTP",
+          "es": "SRTP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SHTTP",
+          "es": "SHTTP"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "S/MIME",
+          "es": "S/MIME"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SHTTP (Secure Hypertext Transfer Protocol) is an obsolete alternative to HTTPS for securing web communications.",
+      "es": "SHTTP (Secure Hypertext Transfer Protocol) es una alternativa obsoleta a HTTPS para asegurar las comunicaciones web."
+    }
+  },
+  {
+    "id": "AC09-Q0013",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "In a persistent VDI: (Select 2 answers)",
+      "es": "En un VDI persistente: (Seleccione 2 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Each user runs their own copy of virtual desktop",
+          "es": "Cada usuario ejecuta su propia copia de escritorio virtual"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "At the end of a session, user desktop reverts to its original state",
+          "es": "Al final de una sesión, el escritorio del usuario vuelve a su estado original"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Virtual desktop is shared among multiple users",
+          "es": "El escritorio virtual es compartido por varios usuarios"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "At the end of a session, user data and personal settings are saved",
+          "es": "Al final de una sesión, los datos de usuario y la configuración personal se guardan"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "In a persistent VDI, each user has a dedicated virtual desktop that they can customize and save their data to, and changes persist across sessions.",
+      "es": "En un VDI persistente, cada usuario tiene un escritorio virtual dedicado que puede personalizar y en el que puede guardar sus datos, y los cambios persisten entre sesiones."
+    }
+  },
+  {
+    "id": "AC09-Q0014",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "An authentication mechanism that generates one-time passwords based on a counter value and a secret key is known as:",
+      "es": "Un mecanismo de autenticación que genera contraseñas de un solo uso basadas en un valor de contador y una clave secreta se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "OAuth",
+          "es": "OAuth"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "HOTP",
+          "es": "HOTP"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "RADIUS",
+          "es": "RADIUS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "TOTP",
+          "es": "TOTP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "HOTP (HMAC-based One-Time Password) uses a counter as a moving factor to generate a one-time password.",
+      "es": "HOTP (HMAC-based One-Time Password) utiliza un contador como factor móvil para generar una contraseña de un solo uso."
+    }
+  },
+  {
+    "id": "AC09-Q0015",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the acronyms listed below refers to a documented process for addressing identified issues and preventing their repetition?",
+      "es": "¿Cuál de los siguientes acrónimos se refiere a un proceso documentado para abordar los problemas identificados y evitar su repetición?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "DRP",
+          "es": "DRP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "COOP",
+          "es": "COOP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "QA",
+          "es": "QA"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CAR",
+          "es": "CAR"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "CAR (Corrective Action Report) is a formal document used to record a problem and detail the steps taken to fix it and prevent its recurrence.",
+      "es": "CAR (Corrective Action Report) es un documento formal utilizado para registrar un problema y detallar los pasos tomados para solucionarlo y evitar su recurrencia."
+    }
+  },
+  {
+    "id": "AC09-Q0016",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a software tool designed to simplify the process of creating and maintaining online content?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a una herramienta de software diseñada para simplificar el proceso de creación y mantenimiento de contenido en línea?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "VDI",
+          "es": "VDI"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SaaS",
+          "es": "SaaS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "CMS",
+          "es": "CMS"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SDK",
+          "es": "SDK"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A CMS (Content Management System) is an application used to manage digital content, such as websites.",
+      "es": "Un CMS (Content Management System) es una aplicación utilizada para gestionar contenido digital, como sitios web."
+    }
+  },
+  {
+    "id": "AC09-Q0017",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which block cipher mode combines CTM for encryption with an authentication mechanism to ensure both data confidentiality and integrity?",
+      "es": "¿Qué modo de cifrado de bloque combina CTM para el cifrado con un mecanismo de autenticación para garantizar tanto la confidencialidad como la integridad de los datos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CBC",
+          "es": "CBC"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "GCM",
+          "es": "GCM"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "ECB",
+          "es": "ECB"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CFB",
+          "es": "CFB"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "GCM (Galois/Counter Mode) is a block cipher mode that provides authenticated encryption, combining confidentiality and integrity.",
+      "es": "GCM (Galois/Counter Mode) es un modo de cifrado de bloque que proporciona cifrado autenticado, combinando confidencialidad e integridad."
+    }
+  },
+  {
+    "id": "AC09-Q0018",
+    "type": "t/f",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The term \"FPGA\" refers to a reconfigurable integrated circuit that can be programmed and customized to perform various digital functions and tasks.",
+      "es": "El término \"FPGA\" se refiere a un circuito integrado reconfigurable que puede ser programado y personalizado para realizar varias funciones y tareas digitales."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "FPGA (Field-Programmable Gate Array) is an integrated circuit that can be reconfigured by a customer or designer after manufacturing.",
+      "es": "FPGA (Field-Programmable Gate Array) es un circuito integrado que puede ser reconfigurado por un cliente o diseñador después de la fabricación."
+    }
+  },
+  {
+    "id": "AC09-Q0019",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the answers listed below refer to SIEM? (Select 3 answers)",
+      "es": "¿Cuáles de las respuestas a continuación se refieren a SIEM? (Seleccione 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Allows different security tools to share data and work together more effectively",
+          "es": "Permite que diferentes herramientas de seguridad compartan datos y trabajen juntas de manera más efectiva"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Designed to provide a centralized user interface for accessing collected data",
+          "es": "Diseñado para proporcionar una interfaz de usuario centralizada para acceder a los datos recopilados"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "A collection of standards developed by NIST",
+          "es": "Una colección de estándares desarrollados por NIST"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Enables real-time threat detection, incident response, and compliance monitoring",
+          "es": "Permite la detección de amenazas en tiempo real, la respuesta a incidentes y el monitoreo del cumplimiento"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "A type of security system designed to collect logs and events from various sources",
+          "es": "Un tipo de sistema de seguridad diseñado para recopilar registros y eventos de varias fuentes"
+        },
+        "correct": true
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Provides a common language for communicating security information",
+          "es": "Proporciona un lenguaje común para comunicar información de seguridad"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SIEM (Security Information and Event Management) is a system that combines security information management (SIM) and security event management (SEM) to provide real-time analysis of security alerts generated by network hardware and applications.",
+      "es": "SIEM (Security Information and Event Management) es un sistema que combina la gestión de la información de seguridad (SIM) y la gestión de eventos de seguridad (SEM) para proporcionar un análisis en tiempo real de las alertas de seguridad generadas por el hardware y las aplicaciones de la red."
+    }
+  },
+  {
+    "id": "AC09-Q0020",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a trusted third-party service for validating user identity in a federated identity system?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un servicio de terceros de confianza para validar la identidad del usuario en un sistema de identidad federada?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "RA",
+          "es": "RA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IdP",
+          "es": "IdP"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "CA",
+          "es": "CA"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Kerberos",
+          "es": "Kerberos"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "An IdP (Identity Provider) is a system that creates, maintains, and manages identity information for principals and provides authentication services to other applications.",
+      "es": "Un IdP (Identity Provider) es un sistema que crea, mantiene y gestiona la información de identidad de los principales y proporciona servicios de autenticación a otras aplicaciones."
+    }
+  },
+  {
+    "id": "AC09-Q0021",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a deprecated TLS-based method for securing SMTP?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un método obsoleto basado en TLS para asegurar SMTP?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "IDPS",
+          "es": "IDPS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "STARTTLS",
+          "es": "STARTTLS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "DKIM",
+          "es": "DKIM"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SMTPS",
+          "es": "SMTPS"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "SMTPS (Simple Mail Transfer Protocol Secure) is a method for securing SMTP using TLS. It is now considered deprecated in favor of STARTTLS, which uses a single port and upgrades the connection to TLS.",
+      "es": "SMTPS (Simple Mail Transfer Protocol Secure) es un método para asegurar SMTP usando TLS. Ahora se considera obsoleto a favor de STARTTLS, que usa un solo puerto y actualiza la conexión a TLS."
+    }
+  },
+  {
+    "id": "AC09-Q0022",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following enables running macros in Microsoft Office applications?",
+      "es": "¿Cuál de los siguientes permite ejecutar macros en aplicaciones de Microsoft Office?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "DOM",
+          "es": "DOM"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "API",
+          "es": "API"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "DLL",
+          "es": "DLL"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "VBA",
+          "es": "VBA"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "VBA (Visual Basic for Applications) is a programming language used for automating tasks and creating custom functions in Microsoft Office applications.",
+      "es": "VBA (Visual Basic for Applications) es un lenguaje de programación utilizado para automatizar tareas y crear funciones personalizadas en las aplicaciones de Microsoft Office."
+    }
+  },
+  {
+    "id": "AC09-Q0023",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a language used to structure and describe data in a format that is both human- and machine-readable?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un lenguaje utilizado para estructurar y describir datos en un formato que es legible tanto para humanos como para máquinas?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "HTML",
+          "es": "HTML"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "XML",
+          "es": "XML"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "JSON",
+          "es": "JSON"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "XHTML",
+          "es": "XHTML"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "XML (Extensible Markup Language) is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable.",
+      "es": "XML (Extensible Markup Language) es un lenguaje de marcado que define un conjunto de reglas para codificar documentos en un formato que es legible tanto para humanos como para máquinas."
+    }
+  },
+  {
+    "id": "AC09-Q0024",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In SNMP, each node in a MIB is uniquely identified by a(n):",
+      "es": "En SNMP, cada nodo en un MIB es identificado de forma única por un(n):"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "OID",
+          "es": "OID"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IP",
+          "es": "IP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "OUI",
+          "es": "OUI"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MAC",
+          "es": "MAC"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "OID (Object Identifier) is a unique name for a managed object in a Management Information Base (MIB) hierarchy.",
+      "es": "OID (Object Identifier) es un nombre único para un objeto gestionado en una jerarquía de la Base de Información de Gestión (MIB)."
+    }
+  },
+  {
+    "id": "AC09-Q0025",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following acronyms refers to a block cipher mode that works by chaining the ciphertext blocks together, such that each ciphertext block depends on the previous block?",
+      "es": "¿Cuál de los siguientes acrónimos se refiere a un modo de cifrado de bloque que funciona encadenando los bloques de texto cifrado, de modo que cada bloque de texto cifrado depende del bloque anterior?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CBC",
+          "es": "CBC"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "GCM",
+          "es": "GCM"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "ECB",
+          "es": "ECB"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CFB",
+          "es": "CFB"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "CBC (Cipher Block Chaining) is a block cipher mode that uses an initialization vector (IV) to chain the blocks together, making each block dependent on the preceding one.",
+      "es": "CBC (Cipher Block Chaining) es un modo de cifrado de bloque que utiliza un vector de inicialización (IV) para encadenar los bloques, haciendo que cada bloque dependa del anterior."
+    }
+  },
+  {
+    "id": "AC09-Q0026",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a dedicated protocol designed for enabling real-time text-based communication over the Internet?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un protocolo dedicado diseñado para permitir la comunicación en tiempo real basada en texto a través de Internet?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "IRC",
+          "es": "IRC"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RTC",
+          "es": "RTC"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "IM",
+          "es": "IM"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MMS",
+          "es": "MMS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "IRC (Internet Relay Chat) is a protocol for real-time text messaging.",
+      "es": "IRC (Internet Relay Chat) es un protocolo para la mensajería de texto en tiempo real."
+    }
+  },
+  {
+    "id": "AC09-Q0027",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A specialized electronic component that accelerates visual rendering is called:",
+      "es": "Un componente electrónico especializado que acelera la representación visual se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "TPU",
+          "es": "TPU"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "GPU",
+          "es": "GPU"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "DSP",
+          "es": "DSP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CPU",
+          "es": "CPU"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "GPU (Graphics Processing Unit) is a specialized electronic circuit designed to rapidly manipulate and alter memory to accelerate the creation of images in a frame buffer.",
+      "es": "GPU (Graphics Processing Unit) es un circuito electrónico especializado diseñado para manipular y alterar la memoria rápidamente para acelerar la creación de imágenes en un búfer de fotogramas."
+    }
+  },
+  {
+    "id": "AC09-Q0028",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a protocol that enables the exchange of messages and data between applications running on different OSs and using different programming languages?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un protocolo que permite el intercambio de mensajes y datos entre aplicaciones que se ejecutan en diferentes sistemas operativos y utilizan diferentes lenguajes de programación?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "VDE",
+          "es": "VDE"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SOAP",
+          "es": "SOAP"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "VDI",
+          "es": "VDI"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SMTP",
+          "es": "SMTP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SOAP (Simple Object Access Protocol) is a messaging protocol that enables communication between applications running on different platforms.",
+      "es": "SOAP (Simple Object Access Protocol) es un protocolo de mensajería que permite la comunicación entre aplicaciones que se ejecutan en diferentes plataformas."
+    }
+  },
+  {
+    "id": "AC09-Q0029",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a deprecated MS Windows authentication protocol replaced by Kerberos?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un protocolo de autenticación de MS Windows obsoleto reemplazado por Kerberos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PPTP",
+          "es": "PPTP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "WEP",
+          "es": "WEP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "NTLM",
+          "es": "NTLM"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SNMPv2",
+          "es": "SNMPv2"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "NTLM (NT LAN Manager) is a suite of Microsoft security protocols that provides authentication, integrity, and confidentiality for users. It was superseded by Kerberos.",
+      "es": "NTLM (NT LAN Manager) es un conjunto de protocolos de seguridad de Microsoft que proporciona autenticación, integridad y confidencialidad para los usuarios. Fue reemplazado por Kerberos."
+    }
+  },
+  {
+    "id": "AC09-Q0030",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following enables delivery of various data packet types over the same network link?",
+      "es": "¿Cuál de los siguientes permite la entrega de varios tipos de paquetes de datos a través del mismo enlace de red?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "LWAPP",
+          "es": "LWAPP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "MPLS",
+          "es": "MPLS"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MLPPP",
+          "es": "MLPPP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MIBS",
+          "es": "MIBS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "MPLS (Multiprotocol Label Switching) is a protocol that directs data from one network node to the next based on short path labels rather than long network addresses.",
+      "es": "MPLS (Multiprotocol Label Switching) es un protocolo que dirige los datos de un nodo de red al siguiente basándose en etiquetas de ruta cortas en lugar de direcciones de red largas."
+    }
+  },
+  {
+    "id": "AC09-Q0031",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a Windows-specific feature for handling exceptions, errors, and abnormal conditions in software?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a una característica específica de Windows para manejar excepciones, errores y condiciones anormales en el software?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "EPC",
+          "es": "EPC"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SEH",
+          "es": "SEH"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "EH",
+          "es": "EH"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "EXR",
+          "es": "EXR"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SEH (Structured Exception Handling) is a mechanism in Microsoft Windows and other operating systems for handling hardware and software exceptions.",
+      "es": "SEH (Structured Exception Handling) es un mecanismo en Microsoft Windows y otros sistemas operativos para manejar excepciones de hardware y software."
+    }
+  },
+  {
+    "id": "AC09-Q0032",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following acronyms refers to a security mechanism used in the DNS to authenticate and secure communications between DNS servers during zone transfers and other transactions?",
+      "es": "¿Cuál de los siguientes acrónimos se refiere a un mecanismo de seguridad utilizado en el DNS para autenticar y asegurar las comunicaciones entre servidores DNS durante las transferencias de zona y otras transacciones?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SOA",
+          "es": "SOA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DKIM",
+          "es": "DKIM"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SPF",
+          "es": "SPF"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "TSIG",
+          "es": "TSIG"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "TSIG (Transaction Signature) is a mechanism for authenticating DNS updates and zone transfers using shared secret keys.",
+      "es": "TSIG (Transaction Signature) es un mecanismo para autenticar las actualizaciones de DNS y las transferencias de zona utilizando claves secretas compartidas."
+    }
+  },
+  {
+    "id": "AC09-Q0033",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a cable rack that interconnects wiring between an MDF and workstation devices?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un rack de cables que interconecta el cableado entre un MDF y los dispositivos de la estación de trabajo?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ICS",
+          "es": "ICS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "MDI",
+          "es": "MDI"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "IDF",
+          "es": "IDF"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MTU",
+          "es": "MTU"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "IDF (Intermediate Distribution Frame) is a cable rack used to connect and manage telecommunications wiring between a Main Distribution Frame (MDF) and a specific area or floor.",
+      "es": "IDF (Intermediate Distribution Frame) es un rack de cables utilizado para conectar y gestionar el cableado de telecomunicaciones entre un Main Distribution Frame (MDF) y un área o piso específico."
+    }
+  },
+  {
+    "id": "AC09-Q0034",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following technologies enables automated handling of multiple security incidents?",
+      "es": "¿Cuál de las siguientes tecnologías permite la gestión automatizada de múltiples incidentes de seguridad?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SOAP",
+          "es": "SOAP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SIEM",
+          "es": "SIEM"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SOAR",
+          "es": "SOAR"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SASE",
+          "es": "SASE"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SOAR (Security Orchestration, Automation, and Response) is a set of technologies that allows an organization to automatically collect data from multiple sources and respond to security incidents without human intervention.",
+      "es": "SOAR (Security Orchestration, Automation, and Response) es un conjunto de tecnologías que permite a una organización recopilar datos automáticamente de múltiples fuentes y responder a incidentes de seguridad sin intervención humana."
+    }
+  },
+  {
+    "id": "AC09-Q0035",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "What is the name of a solution that increases the efficiency of IP address space management by allowing network administrators to divide networks into subnets of different sizes?",
+      "es": "¿Cuál es el nombre de una solución que aumenta la eficiencia de la gestión del espacio de direcciones IP al permitir a los administradores de red dividir las redes en subredes de diferentes tamaños?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "DNAT",
+          "es": "DNAT"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "VLSM",
+          "es": "VLSM"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MPLS",
+          "es": "MPLS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "VLAN",
+          "es": "VLAN"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "VLSM (Variable-Length Subnet Masking) is a technique that allows network administrators to use different subnet masks for different subnets within a single network.",
+      "es": "VLSM (Variable-Length Subnet Masking) es una técnica que permite a los administradores de red utilizar diferentes máscaras de subred para diferentes subredes dentro de una única red."
+    }
+  }
+]

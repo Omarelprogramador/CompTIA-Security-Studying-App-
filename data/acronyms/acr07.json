@@ -1,0 +1,1695 @@
+[
+  {
+    "id": "AC07-Q0001",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "What is the fastest way for checking the validity of a digital certificate?",
+      "es": "¿Cuál es la forma más rápida de verificar la validez de un certificado digital?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CRL",
+          "es": "CRL"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "OSPF",
+          "es": "OSPF"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "CSR",
+          "es": "CSR"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "OCSP",
+          "es": "OCSP"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "OCSP (Online Certificate Status Protocol) is a protocol used for obtaining the revocation status of a digital certificate in real-time. It's faster than checking a CRL (Certificate Revocation List).",
+      "es": "OCSP (Online Certificate Status Protocol) es un protocolo utilizado para obtener el estado de revocación de un certificado digital en tiempo real. Es más rápido que verificar una CRL (Certificate Revocation List)."
+    }
+  },
+  {
+    "id": "AC07-Q0002",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below refers to a process of intercepting network traffic data for analysis and troubleshooting purposes?",
+      "es": "¿Cuál de los siguientes términos se refiere a un proceso de interceptación de datos de tráfico de red con fines de análisis y resolución de problemas?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "AIS",
+          "es": "AIS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "PCAP",
+          "es": "PCAP"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "EDR",
+          "es": "EDR"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MaaS",
+          "es": "MaaS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "PCAP (Packet Capture) is the process of intercepting and logging traffic passing over a computer network or part of a network. It's often used for network analysis and troubleshooting.",
+      "es": "PCAP (Packet Capture) es el proceso de interceptar y registrar el tráfico que pasa por una red de computadoras o parte de una red. A menudo se utiliza para el análisis y la resolución de problemas de la red."
+    }
+  },
+  {
+    "id": "AC07-Q0003",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In a Kerberos-protected network, this type of secure token is granted to users during their initial login to enable them access to multiple network services without the need to re-enter their login information.",
+      "es": "En una red protegida por Kerberos, este tipo de token seguro se otorga a los usuarios durante su inicio de sesión inicial para permitirles el acceso a múltiples servicios de red sin la necesidad de volver a introducir su información de inicio de sesión."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "OTP",
+          "es": "OTP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "TGT",
+          "es": "TGT"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "AS",
+          "es": "AS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "TGS",
+          "es": "TGS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "TGT stands for Ticket-Granting Ticket, a component of the Kerberos authentication protocol. It is used to request service tickets, providing a form of Single Sign-On.",
+      "es": "TGT significa Ticket-Granting Ticket, un componente del protocolo de autenticación Kerberos. Se utiliza para solicitar tickets de servicio, proporcionando una forma de Single Sign-On."
+    }
+  },
+  {
+    "id": "AC07-Q0004",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a language primarily used for automating the assessment of security vulnerabilities and configuration issues on computer systems?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un lenguaje utilizado principalmente para automatizar la evaluación de vulnerabilidades de seguridad y problemas de configuración en sistemas informáticos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "OVAL",
+          "es": "OVAL"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SAML",
+          "es": "SAML"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "XML",
+          "es": "XML"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SOAP",
+          "es": "SOAP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "OVAL (Open Vulnerability and Assessment Language) is a standardized language for describing and assessing the state of computer systems with respect to vulnerabilities and security configuration issues.",
+      "es": "OVAL (Open Vulnerability and Assessment Language) es un lenguaje estandarizado para describir y evaluar el estado de los sistemas informáticos con respecto a vulnerabilidades y problemas de configuración de seguridad."
+    }
+  },
+  {
+    "id": "AC07-Q0005",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A remote access authentication protocol used primarily in Microsoft networks that periodically re-authenticates client at random intervals to prevent session hijacking is known as:",
+      "es": "Un protocolo de autenticación de acceso remoto utilizado principalmente en redes de Microsoft que re-autentica periódicamente al cliente a intervalos aleatorios para evitar el secuestro de sesión se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PEAP",
+          "es": "PEAP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "MSCHAP",
+          "es": "MSCHAP"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "LEAP",
+          "es": "LEAP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CHAP",
+          "es": "CHAP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "MSCHAP (Microsoft Challenge-Handshake Authentication Protocol) is a version of CHAP that includes features specific to Microsoft networks, such as random re-authentication.",
+      "es": "MSCHAP (Microsoft Challenge-Handshake Authentication Protocol) es una versión de CHAP que incluye características específicas de las redes de Microsoft, como la re-autenticación aleatoria."
+    }
+  },
+  {
+    "id": "AC07-Q0006",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the acronyms listed below refers to a formal and legally binding document that specifies detailed terms, obligations, and responsibilities of all parties involved?",
+      "es": "¿Cuál de los siguientes acrónimos se refiere a un documento formal y legalmente vinculante que especifica términos, obligaciones y responsabilidades detalladas de todas las partes involucradas?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SOW",
+          "es": "SOW"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "MOA",
+          "es": "MOA"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MSA",
+          "es": "MSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MOU",
+          "es": "MOU"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "An MOA (Memorandum of Agreement) is a legally binding document between two or more parties outlining their shared understanding and intentions.",
+      "es": "Un MOA (Memorandum of Agreement) es un documento legalmente vinculante entre dos o más partes que describe su entendimiento e intenciones compartidas."
+    }
+  },
+  {
+    "id": "AC07-Q0007",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to CSRF?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a CSRF?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "A cyberattack in which an attacker intercepts and maliciously retransmits data or authentication requests to gain unauthorized access or impersonate a legitimate user or system",
+          "es": "Un ciberataque en el que un atacante intercepta y retransmite maliciosamente datos o solicitudes de autenticación para obtener acceso no autorizado o suplantar a un usuario o sistema legítimo"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "A type of malicious attack where unauthorized commands are transmitted from a user's browser to a web application without their knowledge or consent, often leading to actions being taken on their behalf",
+          "es": "Un tipo de ataque malicioso donde comandos no autorizados son transmitidos desde el navegador de un usuario a una aplicación web sin su conocimiento o consentimiento, a menudo llevando a que se tomen acciones en su nombre"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "A security vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users, potentially leading to data theft or manipulation",
+          "es": "Una vulnerabilidad de seguridad que permite a los atacantes inyectar scripts maliciosos en páginas web vistas por otros usuarios, lo que puede llevar al robo o manipulación de datos"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "A type of cyberattack where malicious code is injected into a web application's input fields to manipulate the database and gain unauthorized access to data or perform malicious actions",
+          "es": "Un tipo de ciberataque donde se inyecta código malicioso en los campos de entrada de una aplicación web para manipular la base de datos y obtener acceso no autorizado a datos o realizar acciones maliciosas"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "CSRF (Cross-Site Request Forgery) is a type of attack that tricks a web browser into executing an unwanted action on a trusted site where the user is currently authenticated.",
+      "es": "CSRF (Cross-Site Request Forgery) es un tipo de ataque que engaña a un navegador web para que ejecute una acción no deseada en un sitio de confianza donde el usuario está actualmente autenticado."
+    }
+  },
+  {
+    "id": "AC07-Q0008",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "ARP provides:",
+      "es": "ARP proporciona:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "IP-to-FQDN mapping",
+          "es": "Mapeo de IP a FQDN"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "MAC-to-IP mapping",
+          "es": "Mapeo de MAC a IP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "FQDN-to-IP mapping",
+          "es": "Mapeo de FQDN a IP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "IP-to-MAC mapping",
+          "es": "Mapeo de IP a MAC"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "ARP (Address Resolution Protocol) is a protocol used to resolve an IP address to a physical MAC address.",
+      "es": "ARP (Address Resolution Protocol) es un protocolo utilizado para resolver una dirección IP a una dirección MAC física."
+    }
+  },
+  {
+    "id": "AC07-Q0009",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A set of procedures put in place to recover IT systems and data following a major disruption is called:",
+      "es": "Un conjunto de procedimientos establecidos para recuperar sistemas y datos de TI después de una interrupción importante se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "DRP",
+          "es": "DRP"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "BIA",
+          "es": "BIA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SLE",
+          "es": "SLE"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "BCP",
+          "es": "BCP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "DRP (Disaster Recovery Plan) is a documented process for an organization to resume operations after a disaster.",
+      "es": "DRP (Disaster Recovery Plan) es un proceso documentado para que una organización reanude sus operaciones después de un desastre."
+    }
+  },
+  {
+    "id": "AC07-Q0010",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a network protocol used for synchronizing clocks over a computer network?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un protocolo de red utilizado para sincronizar relojes a través de una red de computadoras?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "NTP",
+          "es": "NTP"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "VTP",
+          "es": "VTP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "NNTP",
+          "es": "NNTP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "RTP",
+          "es": "RTP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "NTP (Network Time Protocol) is used to synchronize the clocks of computer systems over packet-switched, variable-latency data networks.",
+      "es": "NTP (Network Time Protocol) se utiliza para sincronizar los relojes de los sistemas informáticos a través de redes de datos de conmutación de paquetes y latencia variable."
+    }
+  },
+  {
+    "id": "AC07-Q0011",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "An integrated circuit combining components typically found in a standard computer system is referred to as:",
+      "es": "Un circuito integrado que combina componentes que se encuentran típicamente en un sistema informático estándar se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "HSM",
+          "es": "HSM"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "TPM",
+          "es": "TPM"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SoC",
+          "es": "SoC"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "BIOS",
+          "es": "BIOS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SoC (System on a Chip) is an integrated circuit that integrates most or all components of a computer or other electronic system.",
+      "es": "SoC (System on a Chip) es un circuito integrado que integra la mayoría o todos los componentes de una computadora u otro sistema electrónico."
+    }
+  },
+  {
+    "id": "AC07-Q0012",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following acronyms refers to a document that authorizes, initiates, and tracks the progress and completion of a particular job or task?",
+      "es": "¿Cuál de los siguientes acrónimos se refiere a un documento que autoriza, inicia y rastrea el progreso y la finalización de un trabajo o tarea en particular?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SOW",
+          "es": "SOW"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "WO",
+          "es": "WO"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SLA",
+          "es": "SLA"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MSA",
+          "es": "MSA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A WO (Work Order) is a document that officially requests and authorizes work to be done. It typically includes details about the task, the responsible parties, and the expected timeframe.",
+      "es": "Una WO (Work Order) es un documento que solicita y autoriza oficialmente que se realice un trabajo. Normalmente incluye detalles sobre la tarea, las partes responsables y el plazo esperado."
+    }
+  },
+  {
+    "id": "AC07-Q0013",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a protocol used by routers, hosts, and network devices to generate error messages and troubleshoot problems with delivery of IP packets?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un protocolo utilizado por enrutadores, hosts y dispositivos de red para generar mensajes de error y solucionar problemas con la entrega de paquetes IP?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CCMP",
+          "es": "CCMP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RSTP",
+          "es": "RSTP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "ICMP",
+          "es": "ICMP"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SNMP",
+          "es": "SNMP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ICMP (Internet Control Message Protocol) is a network layer protocol used by networked devices to diagnose network communication issues. It is notably used by the 'ping' utility.",
+      "es": "ICMP (Internet Control Message Protocol) es un protocolo de capa de red utilizado por dispositivos en red para diagnosticar problemas de comunicación en la red. Se utiliza notablemente por la utilidad 'ping'."
+    }
+  },
+  {
+    "id": "AC07-Q0014",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the following terms refer to the characteristic features of DSL? (Select 3 answers)",
+      "es": "¿Cuáles de los siguientes términos se refieren a las características de DSL? (Seleccione 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Leased lines",
+          "es": "Líneas arrendadas"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Copper cabling",
+          "es": "Cableado de cobre"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Telephone lines",
+          "es": "Líneas telefónicas"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Fiber-optic cabling",
+          "es": "Cableado de fibra óptica"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Last mile solutions",
+          "es": "Soluciones de última milla"
+        },
+        "correct": true
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "WAN links",
+          "es": "Enlaces WAN"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "DSL (Digital Subscriber Line) is a technology for high-speed data transmission over existing telephone lines, which are typically made of copper. It's often considered a 'last mile' solution because it provides the final connection from the local telephone company to the end user.",
+      "es": "DSL (Digital Subscriber Line) es una tecnología para la transmisión de datos de alta velocidad a través de las líneas telefónicas existentes, que suelen ser de cobre. A menudo se considera una solución de 'última milla' porque proporciona la conexión final desde la compañía telefónica local hasta el usuario final."
+    }
+  },
+  {
+    "id": "AC07-Q0015",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A type of trusted third party that issues digital certificates used for creating digital signatures and public-private key pairs is known as:",
+      "es": "Un tipo de tercero de confianza que emite certificados digitales utilizados para crear firmas digitales y pares de claves públicas-privadas se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "RA",
+          "es": "RA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IKE",
+          "es": "IKE"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "CA",
+          "es": "CA"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CSP",
+          "es": "CSP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A CA (Certificate Authority) is a trusted entity that issues digital certificates. These certificates are used to verify the identity of individuals, websites, and other entities on the network.",
+      "es": "Una CA (Certificate Authority) es una entidad de confianza que emite certificados digitales. Estos certificados se utilizan para verificar la identidad de individuos, sitios web y otras entidades en la red."
+    }
+  },
+  {
+    "id": "AC07-Q0016",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a mobile device deployment model that allows employees to use private mobile devices for accessing company's restricted data and applications?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un modelo de despliegue de dispositivos móviles que permite a los empleados usar dispositivos móviles privados para acceder a datos y aplicaciones restringidos de la empresa?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "COPE",
+          "es": "COPE"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "BYOD",
+          "es": "BYOD"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "JBOD",
+          "es": "JBOD"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CYOD",
+          "es": "CYOD"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "BYOD (Bring Your Own Device) is a policy that allows employees to use their personal mobile devices for work purposes.",
+      "es": "BYOD (Bring Your Own Device) es una política que permite a los empleados usar sus dispositivos móviles personales para fines laborales."
+    }
+  },
+  {
+    "id": "AC07-Q0017",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "What is the name of a U.S. government initiative providing a set of procedures and plans that an organization can implement to ensure continued performance of its essential functions during unexpected events?",
+      "es": "¿Cuál es el nombre de una iniciativa del gobierno de EE.UU. que proporciona un conjunto de procedimientos y planes que una organización puede implementar para asegurar el rendimiento continuo de sus funciones esenciales durante eventos inesperados?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SLA",
+          "es": "SLA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "COOP",
+          "es": "COOP"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "RPO",
+          "es": "RPO"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "BCP",
+          "es": "BCP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "COOP (Continuity of Operations) is a U.S. government initiative to ensure that essential functions continue to be performed during a wide range of emergencies.",
+      "es": "COOP (Continuity of Operations) es una iniciativa del gobierno de EE.UU. para asegurar que las funciones esenciales continúen realizándose durante una amplia gama de emergencias."
+    }
+  },
+  {
+    "id": "AC07-Q0018",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a policy framework that allows domain owners to specify how email receivers should handle emails that fail authentication checks?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un marco de política que permite a los propietarios de dominios especificar cómo los receptores de correo electrónico deben manejar los correos electrónicos que fallan las verificaciones de autenticación?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "DKIM",
+          "es": "DKIM"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SPF",
+          "es": "SPF"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PGP",
+          "es": "PGP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "DMARC",
+          "es": "DMARC"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "DMARC (Domain-based Message Authentication, Reporting, and Conformance) is a protocol that uses SPF and DKIM to provide a policy framework for email authentication and spam management.",
+      "es": "DMARC (Domain-based Message Authentication, Reporting, and Conformance) es un protocolo que utiliza SPF y DKIM para proporcionar un marco de políticas para la autenticación de correo electrónico y la gestión de spam."
+    }
+  },
+  {
+    "id": "AC07-Q0019",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a deprecated wireless authentication protocol developed by Cisco?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un protocolo de autenticación inalámbrica obsoleto desarrollado por Cisco?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PEAP",
+          "es": "PEAP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "EAP-TTLS",
+          "es": "EAP-TTLS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "LEAP",
+          "es": "LEAP"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "EAP-TLS",
+          "es": "EAP-TLS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "LEAP (Lightweight Extensible Authentication Protocol) is a wireless LAN authentication protocol developed by Cisco. It's now deprecated due to its security vulnerabilities.",
+      "es": "LEAP (Lightweight Extensible Authentication Protocol) es un protocolo de autenticación de red LAN inalámbrica desarrollado por Cisco. Ahora está obsoleto debido a sus vulnerabilidades de seguridad."
+    }
+  },
+  {
+    "id": "AC07-Q0020",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A cloud-based solution that provides ongoing oversight and supervision of IT assets and services is called:",
+      "es": "Una solución basada en la nube que proporciona supervisión y vigilancia continuas de los activos y servicios de TI se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PaaS",
+          "es": "PaaS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IaaS",
+          "es": "IaaS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SaaS",
+          "es": "SaaS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MaaS",
+          "es": "MaaS"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "MaaS (Monitoring as a Service) is a type of cloud service that provides a third-party service for monitoring the performance and health of IT assets.",
+      "es": "MaaS (Monitoring as a Service) es un tipo de servicio en la nube que proporciona un servicio de terceros para monitorear el rendimiento y la salud de los activos de TI."
+    }
+  },
+  {
+    "id": "AC07-Q0021",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following terms is used to describe all aspects of software development?",
+      "es": "¿Cuál de los siguientes términos se utiliza para describir todos los aspectos del desarrollo de software?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PLC",
+          "es": "PLC"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SDLC",
+          "es": "SDLC"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "QA",
+          "es": "QA"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SDLM",
+          "es": "SDLM"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SDLC (Software Development Life Cycle) is a framework that defines the various stages in the software development process, from planning to maintenance.",
+      "es": "SDLC (Software Development Life Cycle) es un marco que define las diversas etapas en el proceso de desarrollo de software, desde la planificación hasta el mantenimiento."
+    }
+  },
+  {
+    "id": "AC07-Q0022",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a markup language for exchanging authentication and authorization data?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un lenguaje de marcado para intercambiar datos de autenticación y autorización?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SAML",
+          "es": "SAML"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "XML",
+          "es": "XML"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SOAP",
+          "es": "SOAP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "XHTML",
+          "es": "XHTML"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SAML (Security Assertion Markup Language) is an XML-based language for exchanging authentication and authorization data between security domains.",
+      "es": "SAML (Security Assertion Markup Language) es un lenguaje basado en XML para intercambiar datos de autenticación y autorización entre dominios de seguridad."
+    }
+  },
+  {
+    "id": "AC07-Q0023",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "What are the characteristic features of SAML? (Select 3 answers)",
+      "es": "¿Cuáles son las características de SAML? (Seleccione 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Enables only the exchange of SSO authorization data",
+          "es": "Permite solo el intercambio de datos de autorización SSO"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Handles both authentication and authorization for SSO",
+          "es": "Maneja tanto la autenticación como la autorización para SSO"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Uses XML for data exchange",
+          "es": "Utiliza XML para el intercambio de datos"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Commonly used in enterprise environments and legacy systems",
+          "es": "Comúnmente utilizado en entornos empresariales y sistemas heredados"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Enables only the exchange of SSO authentication data",
+          "es": "Permite solo el intercambio de datos de autenticación SSO"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Uses JSON for data exchange",
+          "es": "Utiliza JSON para el intercambio de datos"
+        },
+        "correct": false
+      },
+      {
+        "key": "G",
+        "text": {
+          "en": "Specifically designed for web and mobile applications",
+          "es": "Diseñado específicamente para aplicaciones web y móviles"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SAML (Security Assertion Markup Language) is a protocol for exchanging authentication and authorization data. It is XML-based and is widely used for Single Sign-On (SSO) in enterprise environments.",
+      "es": "SAML (Security Assertion Markup Language) es un protocolo para el intercambio de datos de autenticación y autorización. Está basado en XML y se utiliza ampliamente para Single Sign-On (SSO) en entornos empresariales."
+    }
+  },
+  {
+    "id": "AC07-Q0024",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which DNS TXT records are used for spam management? (Select 3 answers)",
+      "es": "¿Qué registros DNS TXT se utilizan para la gestión de spam? (Seleccione 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SPF",
+          "es": "SPF"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DKIM",
+          "es": "DKIM"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SRV",
+          "es": "SRV"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "DMARC",
+          "es": "DMARC"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "PTR",
+          "es": "PTR"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SPF (Sender Policy Framework), DKIM (DomainKeys Identified Mail), and DMARC (Domain-based Message Authentication, Reporting, and Conformance) are all DNS TXT records used to authenticate email and prevent spam.",
+      "es": "SPF (Sender Policy Framework), DKIM (DomainKeys Identified Mail) y DMARC (Domain-based Message Authentication, Reporting, and Conformance) son todos registros DNS TXT utilizados para autenticar el correo electrónico y prevenir el spam."
+    }
+  },
+  {
+    "id": "AC07-Q0025",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following terms can be used as a synonym for an aerial drone?",
+      "es": "¿Cuál de los siguientes términos se puede utilizar como sinónimo de un dron aéreo?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "UGV",
+          "es": "UGV"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "UAV",
+          "es": "UAV"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "USV",
+          "es": "USV"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "UAP",
+          "es": "UAP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "UAV stands for Unmanned Aerial Vehicle, which is another term for an aerial drone.",
+      "es": "UAV significa Unmanned Aerial Vehicle, que es otro término para un dron aéreo."
+    }
+  },
+  {
+    "id": "AC07-Q0026",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A software development approach that aims for speedy application creation and continuous improvement through iterative development and user collaboration is referred to as:",
+      "es": "Un enfoque de desarrollo de software que busca la creación rápida de aplicaciones y la mejora continua a través del desarrollo iterativo y la colaboración del usuario se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "FDD",
+          "es": "FDD"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DevOps",
+          "es": "DevOps"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "RAD",
+          "es": "RAD"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SaaS",
+          "es": "SaaS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "RAD (Rapid Application Development) is a software development methodology that prioritizes rapid prototyping and iteration over extensive upfront planning.",
+      "es": "RAD (Rapid Application Development) es una metodología de desarrollo de software que prioriza la creación rápida de prototipos y la iteración sobre una planificación inicial exhaustiva."
+    }
+  },
+  {
+    "id": "AC07-Q0027",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the protocols listed below is referred to as a connectionless, unreliable, or best-effort protocol?",
+      "es": "¿Cuál de los protocolos a continuación se conoce como un protocolo sin conexión, no fiable o de mejor esfuerzo?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MPLS",
+          "es": "MPLS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "TCP",
+          "es": "TCP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SMTP",
+          "es": "SMTP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "UDP",
+          "es": "UDP"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "UDP (User Datagram Protocol) is a connectionless protocol that does not provide any reliability, making it a 'best-effort' protocol.",
+      "es": "UDP (User Datagram Protocol) es un protocolo sin conexión que no proporciona ninguna fiabilidad, lo que lo convierte en un protocolo de 'mejor esfuerzo'."
+    }
+  },
+  {
+    "id": "AC07-Q0028",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a software tool that provides a single management interface for mobile devices, PCs, printers, IoT devices and wearables?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a una herramienta de software que proporciona una única interfaz de gestión para dispositivos móviles, PCs, impresoras, dispositivos IoT y wearables?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MDM",
+          "es": "MDM"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RCS",
+          "es": "RCS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "UEM",
+          "es": "UEM"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MAM",
+          "es": "MAM"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "UEM (Unified Endpoint Management) is a software solution that provides a single console for managing all endpoints, including traditional and mobile devices, as well as IoT devices.",
+      "es": "UEM (Unified Endpoint Management) es una solución de software que proporciona una única consola para gestionar todos los endpoints, incluyendo dispositivos tradicionales y móviles, así como dispositivos IoT."
+    }
+  },
+  {
+    "id": "AC07-Q0029",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a technology that allows USB devices to act as both hosts and peripherals, enabling them to connect to and communicate with other USB devices directly without the need for a computer or dedicated host?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a una tecnología que permite a los dispositivos USB actuar como hosts y periféricos, permitiéndoles conectarse y comunicarse directamente con otros dispositivos USB sin la necesidad de una computadora o un host dedicado?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PnP",
+          "es": "PnP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "OTG",
+          "es": "OTG"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "P2P",
+          "es": "P2P"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "HCI",
+          "es": "HCI"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "OTG (On-The-Go) is a technology that allows a USB device to act as a host, enabling it to connect directly to other USB devices.",
+      "es": "OTG (On-The-Go) es una tecnología que permite a un dispositivo USB actuar como un host, permitiéndole conectarse directamente a otros dispositivos USB."
+    }
+  },
+  {
+    "id": "AC07-Q0030",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A messaging service that allows users to send content such as images, videos, and audio along with text messages to mobile devices is known as:",
+      "es": "Un servicio de mensajería que permite a los usuarios enviar contenido como imágenes, videos y audio junto con mensajes de texto a dispositivos móviles se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MMS",
+          "es": "MMS"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IRC",
+          "es": "IRC"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "IM",
+          "es": "IM"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SMS",
+          "es": "SMS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "MMS (Multimedia Messaging Service) is a standard for sending messages that include multimedia content like images, video, and audio.",
+      "es": "MMS (Multimedia Messaging Service) es un estándar para el envío de mensajes que incluyen contenido multimedia como imágenes, video y audio."
+    }
+  },
+  {
+    "id": "AC07-Q0031",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "What is a common target of XSS?",
+      "es": "¿Cuál es un objetivo común de XSS?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Physical security",
+          "es": "Seguridad física"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Alternate sites",
+          "es": "Sitios alternativos"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Dynamic web pages",
+          "es": "Páginas web dinámicas"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Removable storage",
+          "es": "Almacenamiento extraíble"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "XSS (Cross-Site Scripting) attacks target dynamic web pages by injecting malicious scripts into them, which are then executed by other users' browsers.",
+      "es": "Los ataques XSS (Cross-Site Scripting) se dirigen a páginas web dinámicas inyectando scripts maliciosos en ellas, que luego son ejecutados por los navegadores de otros usuarios."
+    }
+  },
+  {
+    "id": "AC07-Q0032",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a security policy enforcement software tool or service placed between cloud service users and cloud applications?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a una herramienta o servicio de software de aplicación de políticas de seguridad colocado entre los usuarios de servicios en la nube y las aplicaciones en la nube?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "UTM",
+          "es": "UTM"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CASB",
+          "es": "CASB"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "NGFW",
+          "es": "NGFW"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "DMVPN",
+          "es": "DMVPN"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A CASB (Cloud Access Security Broker) is a security policy enforcement point placed between cloud service consumers and cloud service providers to enforce security policies.",
+      "es": "Un CASB (Cloud Access Security Broker) es un punto de aplicación de políticas de seguridad colocado entre los consumidores de servicios en la nube y los proveedores de servicios en la nube para aplicar las políticas de seguridad."
+    }
+  },
+  {
+    "id": "AC07-Q0033",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a set of procedures put in place to recover IT systems and data following a major disruption?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un conjunto de procedimientos establecidos para recuperar sistemas y datos de TI después de una interrupción importante?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "BCP",
+          "es": "BCP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DRP",
+          "es": "DRP"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "IRP",
+          "es": "IRP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "ERP",
+          "es": "ERP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A DRP (Disaster Recovery Plan) outlines the procedures for an organization to recover from a major disruption and resume IT operations.",
+      "es": "Un DRP (Disaster Recovery Plan) describe los procedimientos para que una organización se recupere de una interrupción importante y reanude las operaciones de TI."
+    }
+  },
+  {
+    "id": "AC07-Q0034",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A technology that enables real-time analysis of security alerts generated by network hardware and applications is called:",
+      "es": "Una tecnología que permite el análisis en tiempo real de las alertas de seguridad generadas por el hardware y las aplicaciones de la red se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "LACP",
+          "es": "LACP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DSCP",
+          "es": "DSCP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SIEM",
+          "es": "SIEM"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "LWAPP",
+          "es": "LWAPP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SIEM (Security Information and Event Management) is a system that combines security information management (SIM) and security event management (SEM) to provide real-time analysis of security alerts.",
+      "es": "SIEM (Security Information and Event Management) es un sistema que combina la gestión de información de seguridad (SIM) y la gestión de eventos de seguridad (SEM) para proporcionar un análisis en tiempo real de las alertas de seguridad."
+    }
+  },
+  {
+    "id": "AC07-Q0035",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following acronyms refers to a senior executive responsible for technology-related decision-making and planning?",
+      "es": "¿Cuál de los siguientes acrónimos se refiere a un ejecutivo senior responsable de la toma de decisiones y la planificación relacionadas con la tecnología?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CIO",
+          "es": "CIO"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CEO",
+          "es": "CEO"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "CTO",
+          "es": "CTO"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CSO",
+          "es": "CSO"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "CTO (Chief Technology Officer) is the senior executive responsible for a company's technology strategy and research and development.",
+      "es": "CTO (Chief Technology Officer) es el ejecutivo senior responsable de la estrategia tecnológica de una empresa y de la investigación y el desarrollo."
+    }
+  }
+]

@@ -1,0 +1,1615 @@
+[
+  {
+    "id": "AC04-Q0001",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a concept that provides insights into methods and tools that cybercriminals use to carry out attacks?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un concepto que proporciona información sobre los métodos y herramientas que los ciberdelincuentes utilizan para llevar a cabo ataques?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "TTP",
+          "es": "TTP"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CVE",
+          "es": "CVE"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "ATT&CK",
+          "es": "ATT&CK"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CVSS",
+          "es": "CVSS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "TTP stands for Tactics, Techniques, and Procedures, a framework that provides insights into the methods and tools used by threat actors.",
+      "es": "TTP significa Tácticas, Técnicas y Procedimientos, un marco que proporciona información sobre los métodos y herramientas utilizados por los actores de amenazas."
+    }
+  },
+  {
+    "id": "AC04-Q0002",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A dedicated security solution that filters, monitors, and blocks HTTP/HTTPS traffic between a web application and the Internet is referred to as:",
+      "es": "Una solución de seguridad dedicada que filtra, monitorea y bloquea el tráfico HTTP/HTTPS entre una aplicación web e Internet se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "UTM",
+          "es": "UTM"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "NGFW",
+          "es": "NGFW"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "UEM",
+          "es": "UEM"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "WAF",
+          "es": "WAF"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "WAF stands for Web Application Firewall, which is a security solution that protects web applications from attacks.",
+      "es": "WAF significa Web Application Firewall, que es una solución de seguridad que protege las aplicaciones web de los ataques."
+    }
+  },
+  {
+    "id": "AC04-Q0003",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following solutions provides active network security breach response on an individual computer system?",
+      "es": "¿Cuál de las siguientes soluciones proporciona una respuesta activa a las violaciones de seguridad de la red en un sistema informático individual?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "NIDS",
+          "es": "NIDS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "HIDS",
+          "es": "HIDS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "NIPS",
+          "es": "NIPS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "HIPS",
+          "es": "HIPS"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "HIPS stands for Host-based Intrusion Prevention System, which provides active protection on a single host.",
+      "es": "HIPS significa Host-based Intrusion Prevention System, que proporciona protección activa en un solo host."
+    }
+  },
+  {
+    "id": "AC04-Q0004",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the acronyms listed below refers to a risk assessment formula defining probable financial loss due to a risk over a one-year period?",
+      "es": "¿Cuál de los acrónimos a continuación se refiere a una fórmula de evaluación de riesgos que define la pérdida financiera probable debido a un riesgo durante un período de un año?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ARO",
+          "es": "ARO"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SLE",
+          "es": "SLE"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "ALE",
+          "es": "ALE"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SLA",
+          "es": "SLA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ALE stands for Annualized Loss Expectancy, which is the probable financial loss over a one-year period.",
+      "es": "ALE significa Annualized Loss Expectancy, que es la pérdida financiera probable durante un período de un año."
+    }
+  },
+  {
+    "id": "AC04-Q0005",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A software technology designed to provide confidentiality for an entire data storage device is known as:",
+      "es": "Una tecnología de software diseñada para proporcionar confidencialidad a un dispositivo de almacenamiento de datos completo se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "TPM",
+          "es": "TPM"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "FDE",
+          "es": "FDE"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "EFS",
+          "es": "EFS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "HSM",
+          "es": "HSM"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "FDE stands for Full Disk Encryption, which provides encryption for an entire disk.",
+      "es": "FDE significa Full Disk Encryption, que proporciona encriptación para todo un disco."
+    }
+  },
+  {
+    "id": "AC04-Q0006",
+    "type": "t/f",
+    "required_answers": 1,
+    "prompt": {
+      "en": "High MTBF value indicates that a component or system provides low reliability and is more likely to fail.",
+      "es": "Un valor de MTBF alto indica que un componente o sistema proporciona baja fiabilidad y es más probable que falle."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "MTBF stands for Mean Time Between Failures, so a high value indicates greater reliability and less likelihood of failure.",
+      "es": "MTBF significa Mean Time Between Failures, por lo que un valor alto indica mayor fiabilidad y menor probabilidad de fallo."
+    }
+  },
+  {
+    "id": "AC04-Q0007",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which part of the AAA security architecture deals with the verification of the identity of a person or process?",
+      "es": "¿Qué parte de la arquitectura de seguridad AAA se ocupa de la verificación de la identidad de una persona o proceso?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Accounting",
+          "es": "Contabilidad"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Authentication",
+          "es": "Autenticación"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Auditing",
+          "es": "Auditoría"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Authorization",
+          "es": "Autorización"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Authentication is the process of verifying a user's identity, which is the first step in the AAA (Authentication, Authorization, and Accounting) security architecture.",
+      "es": "La autenticación es el proceso de verificar la identidad de un usuario, que es el primer paso en la arquitectura de seguridad AAA (Autenticación, Autorización y Contabilidad)."
+    }
+  },
+  {
+    "id": "AC04-Q0008",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a routing protocol used in computer networks to determine the best path for routing data packets from one network node to another?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un protocolo de enrutamiento utilizado en redes de computadoras para determinar el mejor camino para enrutar paquetes de datos de un nodo de red a otro?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "BGP",
+          "es": "BGP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "EIGRP",
+          "es": "EIGRP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "RIP",
+          "es": "RIP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "OSPF",
+          "es": "OSPF"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "OSPF stands for Open Shortest Path First, a routing protocol that determines the best path for data packets.",
+      "es": "OSPF significa Open Shortest Path First, un protocolo de enrutamiento que determina el mejor camino para los paquetes de datos."
+    }
+  },
+  {
+    "id": "AC04-Q0009",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to an industry standard for assessing and scoring the severity of computer system security vulnerabilities?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un estándar de la industria para evaluar y calificar la gravedad de las vulnerabilidades de seguridad de los sistemas informáticos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SIEM",
+          "es": "SIEM"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CVSS",
+          "es": "CVSS"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "OSINT",
+          "es": "OSINT"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SOAR",
+          "es": "SOAR"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "CVSS stands for Common Vulnerability Scoring System, which is a framework for rating the severity of vulnerabilities.",
+      "es": "CVSS significa Common Vulnerability Scoring System, que es un marco para calificar la gravedad de las vulnerabilidades."
+    }
+  },
+  {
+    "id": "AC04-Q0010",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a hardware or software solution providing secure remote access to networks and resources?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a una solución de hardware o software que proporciona acceso remoto seguro a redes y recursos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "NAC",
+          "es": "NAC"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RDP",
+          "es": "RDP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SSH",
+          "es": "SSH"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "RAS",
+          "es": "RAS"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "RAS stands for Remote Access Service, a solution for providing secure remote access to networks.",
+      "es": "RAS significa Remote Access Service, una solución para proporcionar acceso remoto seguro a las redes."
+    }
+  },
+  {
+    "id": "AC04-Q0011",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "Which of the wireless technologies listed below are deprecated and should not be used due to their known vulnerabilities? (Select 2 answers)",
+      "es": "¿Cuál de las siguientes tecnologías inalámbricas están obsoletas y no deben usarse debido a sus vulnerabilidades conocidas? (Seleccione 2 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "WPS",
+          "es": "WPS"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "WAP",
+          "es": "WAP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "WPA2",
+          "es": "WPA2"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "WAF",
+          "es": "WAF"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "WEP",
+          "es": "WEP"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "WEP and WPS are wireless security protocols that have known vulnerabilities and should not be used. WEP (Wired Equivalent Privacy) is known to be easily cracked, and WPS (Wi-Fi Protected Setup) has a major design flaw that allows for a brute-force attack.",
+      "es": "WEP y WPS son protocolos de seguridad inalámbrica que tienen vulnerabilidades conocidas y no deben usarse. Se sabe que WEP (Wired Equivalent Privacy) es fácil de descifrar, y WPS (Wi-Fi Protected Setup) tiene una falla de diseño importante que permite un ataque de fuerza bruta."
+    }
+  },
+  {
+    "id": "AC04-Q0012",
+    "type": "ms",
+    "required_answers": 4,
+    "prompt": {
+      "en": "Which of the following answers refer(s) to SSDs? (Select all that apply)",
+      "es": "¿Cuál de las siguientes respuestas se refiere(n) a los SSD? (Seleccione todas las que correspondan)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Low performance",
+          "es": "Bajo rendimiento"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Relatively high device cost",
+          "es": "Costo de dispositivo relativamente alto"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Lower capacity in comparison to magnetic drives",
+          "es": "Menor capacidad en comparación con las unidades magnéticas"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "High performance",
+          "es": "Alto rendimiento"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Relatively low device cost",
+          "es": "Costo de dispositivo relativamente bajo"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Higher capacity in comparison to magnetic drives",
+          "es": "Mayor capacidad en comparación con las unidades magnéticas"
+        },
+        "correct": false
+      },
+      {
+        "key": "G",
+        "text": {
+          "en": "Lack of moving parts (takes advantage of memory chips instead of magnetic platters)",
+          "es": "Falta de partes móviles (aprovecha los chips de memoria en lugar de los platos magnéticos)"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "SSDs (Solid-State Drives) have high performance and lack moving parts, but they are also more expensive and have lower capacity compared to traditional magnetic hard drives.",
+      "es": "Los SSD (Solid-State Drives) tienen un alto rendimiento y carecen de partes móviles, pero también son más caros y tienen menor capacidad en comparación con los discos duros magnéticos tradicionales."
+    }
+  },
+  {
+    "id": "AC04-Q0013",
+    "type": "t/f",
+    "required_answers": 1,
+    "prompt": {
+      "en": "An SWG is a software component, or a hardware device designed to prevent unauthorized traffic from entering an internal network of an organization. An SWG implementation may include various security services, such as packet filtering, URL/content filtering, malware inspection, application controls, AUP enforcement, or DLP.",
+      "es": "Un SWG es un componente de software, o un dispositivo de hardware diseñado para prevenir que el tráfico no autorizado entre en la red interna de una organización. Una implementación de SWG puede incluir varios servicios de seguridad, como filtrado de paquetes, filtrado de URL/contenido, inspección de malware, controles de aplicaciones, cumplimiento de AUP o DLP."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "The description provided is for a firewall. An SWG (Secure Web Gateway) is specifically for controlling and filtering web traffic, not all unauthorized traffic.",
+      "es": "La descripción proporcionada es para un firewall. Un SWG (Secure Web Gateway) es específicamente para controlar y filtrar el tráfico web, no todo el tráfico no autorizado."
+    }
+  },
+  {
+    "id": "AC04-Q0014",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A type of forensic evidence that can be used to detect unauthorized access attempts or other malicious activities is called:",
+      "es": "Un tipo de evidencia forense que se puede utilizar para detectar intentos de acceso no autorizados u otras actividades maliciosas se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CVE",
+          "es": "CVE"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IoC",
+          "es": "IoC"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "AIS",
+          "es": "AIS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "OSINT",
+          "es": "OSINT"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "IoC stands for Indicator of Compromise, which is a piece of forensic data that indicates a security breach.",
+      "es": "IoC significa Indicator of Compromise, que es una pieza de datos forenses que indica una violación de seguridad."
+    }
+  },
+  {
+    "id": "AC04-Q0015",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a remote access authentication protocol that periodically re-authenticates client at random intervals to prevent session hijacking?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un protocolo de autenticación de acceso remoto que re-autentica periódicamente al cliente a intervalos aleatorios para evitar el secuestro de sesión?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "EAP",
+          "es": "EAP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CHAP",
+          "es": "CHAP"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PAP",
+          "es": "PAP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "PEAP",
+          "es": "PEAP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "CHAP stands for Challenge-Handshake Authentication Protocol, which uses a three-way handshake and periodic re-authentication to prevent replay attacks and session hijacking.",
+      "es": "CHAP significa Challenge-Handshake Authentication Protocol, que utiliza un apretón de manos de tres vías y re-autenticación periódica para evitar ataques de repetición y secuestro de sesión."
+    }
+  },
+  {
+    "id": "AC04-Q0016",
+    "type": "t/f",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A type of surveillance system comprising video cameras and monitors that enable continuous monitoring and recording of specific areas is commonly referred to as CCTV.",
+      "es": "Un tipo de sistema de vigilancia que consta de cámaras de video y monitores que permiten el monitoreo y la grabación continua de áreas específicas se conoce comúnmente como CCTV."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "CCTV stands for Closed-Circuit Television, which is a type of video surveillance system.",
+      "es": "CCTV significa Closed-Circuit Television, que es un tipo de sistema de videovigilancia."
+    }
+  },
+  {
+    "id": "AC04-Q0017",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to an ECC-based method for creating and verifying digital signatures?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un método basado en ECC para crear y verificar firmas digitales?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "DHE",
+          "es": "DHE"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "ECDSA",
+          "es": "ECDSA"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "HMAC",
+          "es": "HMAC"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "ECDHE",
+          "es": "ECDHE"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ECDSA stands for Elliptic Curve Digital Signature Algorithm, which is a variant of the Digital Signature Algorithm (DSA) that uses elliptic curve cryptography (ECC).",
+      "es": "ECDSA significa Elliptic Curve Digital Signature Algorithm, que es una variante del Algoritmo de Firma Digital (DSA) que utiliza criptografía de curva elíptica (ECC)."
+    }
+  },
+  {
+    "id": "AC04-Q0018",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "Which of the actions listed below can be taken by an IDS? (Select 2 answers)",
+      "es": "¿Cuáles de las acciones a continuación puede tomar un IDS? (Seleccione 2 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Firewall reconfiguration",
+          "es": "Reconfiguración de firewall"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Closing down connection",
+          "es": "Cerrar conexión"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Logging",
+          "es": "Registro"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Terminating process",
+          "es": "Terminar proceso"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Sending an alert",
+          "es": "Enviar una alerta"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "IDS stands for Intrusion Detection System, which is a passive tool that detects intrusions and can log them or send alerts. It does not actively prevent or block them.",
+      "es": "IDS significa Intrusion Detection System, que es una herramienta pasiva que detecta intrusiones y puede registrarlas o enviar alertas. No las previene ni bloquea activamente."
+    }
+  },
+  {
+    "id": "AC04-Q0019",
+    "type": "t/f",
+    "required_answers": 1,
+    "prompt": {
+      "en": "FTPS is an extension to the SSH protocol and runs by default on port number 22.",
+      "es": "FTPS es una extensión del protocolo SSH y se ejecuta por defecto en el puerto número 22."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "The description provided is for SFTP (SSH File Transfer Protocol). FTPS (File Transfer Protocol Secure) uses SSL/TLS for encryption and typically runs on ports 990 or 21.",
+      "es": "La descripción proporcionada es para SFTP (SSH File Transfer Protocol). FTPS (File Transfer Protocol Secure) utiliza SSL/TLS para la encriptación y típicamente se ejecuta en los puertos 990 o 21."
+    }
+  },
+  {
+    "id": "AC04-Q0020",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following terms refers to a dedicated transport mechanism for cyber threat information?",
+      "es": "¿Cuál de los siguientes términos se refiere a un mecanismo de transporte dedicado para la información de amenazas cibernéticas?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "STIX",
+          "es": "STIX"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CVE",
+          "es": "CVE"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "TAXII",
+          "es": "TAXII"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CVSS",
+          "es": "CVSS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "TAXII stands for Trusted Automated eXchange of Indicator Information, which is a protocol for sharing threat intelligence.",
+      "es": "TAXII significa Trusted Automated eXchange of Indicator Information, que es un protocolo para compartir inteligencia de amenazas."
+    }
+  },
+  {
+    "id": "AC04-Q0021",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a legacy symmetric-key block cipher encryption algorithm?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un algoritmo de encriptación de cifrado de bloque de clave simétrica heredado?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "RC4",
+          "es": "RC4"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DES",
+          "es": "DES"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "RSA",
+          "es": "RSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "DSA",
+          "es": "DSA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "DES stands for Data Encryption Standard, which is a symmetric-key block cipher that is now considered insecure due to its short key length.",
+      "es": "DES significa Data Encryption Standard, que es un cifrado de bloque de clave simétrica que ahora se considera inseguro debido a la corta longitud de su clave."
+    }
+  },
+  {
+    "id": "AC04-Q0022",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A Microsoft-proprietary protocol providing a user with graphical interface for connecting to another networked host is known as:",
+      "es": "Un protocolo propietario de Microsoft que proporciona al usuario una interfaz gráfica para conectarse a otro host en red se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "VDI",
+          "es": "VDI"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RDP",
+          "es": "RDP"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SSH",
+          "es": "SSH"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "VNC",
+          "es": "VNC"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "RDP stands for Remote Desktop Protocol, which allows a user to connect to another computer and use a graphical interface.",
+      "es": "RDP significa Remote Desktop Protocol, que permite a un usuario conectarse a otro ordenador y utilizar una interfaz gráfica."
+    }
+  },
+  {
+    "id": "AC04-Q0023",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following acronyms refers to a comprehensive strategy and set of procedures designed to ensure that an organization can continue its critical operations and functions during and after a disruptive event?",
+      "es": "¿Cuál de los siguientes acrónimos se refiere a una estrategia integral y un conjunto de procedimientos diseñados para garantizar que una organización pueda continuar sus operaciones y funciones críticas durante y después de un evento disruptivo?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "DRP",
+          "es": "DRP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CP",
+          "es": "CP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "BCP",
+          "es": "BCP"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "COOP",
+          "es": "COOP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "BCP stands for Business Continuity Plan, which is a plan to ensure that business operations can continue during and after a disaster.",
+      "es": "BCP significa Business Continuity Plan, que es un plan para garantizar que las operaciones comerciales puedan continuar durante y después de un desastre."
+    }
+  },
+  {
+    "id": "AC04-Q0024",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which type of Trojan enables unauthorized remote access to a compromised system?",
+      "es": "¿Qué tipo de troyano permite el acceso remoto no autorizado a un sistema comprometido?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "APT",
+          "es": "APT"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RAT",
+          "es": "RAT"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MaaS",
+          "es": "MaaS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "PUP",
+          "es": "PUP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "RAT stands for Remote Access Trojan, a type of malware that enables an attacker to remotely control a compromised system.",
+      "es": "RAT significa Remote Access Trojan, un tipo de malware que permite a un atacante controlar remotamente un sistema comprometido."
+    }
+  },
+  {
+    "id": "AC04-Q0025",
+    "type": "t/f",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The term \"AI\" refers to computer systems and algorithms that can perform tasks typically requiring human intelligence, such as problem-solving, learning, and decision-making.",
+      "es": "El término \"IA\" se refiere a sistemas informáticos y algoritmos que pueden realizar tareas que típicamente requieren inteligencia humana, como la resolución de problemas, el aprendizaje y la toma de decisiones."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "AI stands for Artificial Intelligence, which is the field of computer science dedicated to creating systems that can perform tasks that would normally require human intelligence.",
+      "es": "IA significa Inteligencia Artificial, que es el campo de la ciencia de la computación dedicado a crear sistemas que puedan realizar tareas que normalmente requerirían inteligencia humana."
+    }
+  },
+  {
+    "id": "AC04-Q0026",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the algorithms listed below does not fall into the category of asymmetric encryption?",
+      "es": "¿Cuál de los siguientes algoritmos no entra en la categoría de encriptación asimétrica?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "RSA",
+          "es": "RSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "GPG",
+          "es": "GPG"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "DSA",
+          "es": "DSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "AES",
+          "es": "AES"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "DHE",
+          "es": "DHE"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "ECDHE",
+          "es": "ECDHE"
+        },
+        "correct": false
+      },
+      {
+        "key": "G",
+        "text": {
+          "en": "PGP",
+          "es": "PGP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "AES stands for Advanced Encryption Standard, which is a symmetric-key algorithm. All the others are either asymmetric or protocols that use asymmetric cryptography.",
+      "es": "AES significa Advanced Encryption Standard, que es un algoritmo de clave simétrica. Todos los demás son asimétricos o protocolos que utilizan criptografía asimétrica."
+    }
+  },
+  {
+    "id": "AC04-Q0027",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A type of cyberattack focused on making a website, service, or network unavailable to users by overloading it with traffic or malicious requests is called:",
+      "es": "Un tipo de ciberataque centrado en hacer que un sitio web, servicio o red no esté disponible para los usuarios al sobrecargarlo con tráfico o solicitudes maliciosas se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SQLi",
+          "es": "SQLi"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "XSS",
+          "es": "XSS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "CSRF",
+          "es": "CSRF"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "DoS",
+          "es": "DoS"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "DoS stands for Denial of Service, which is an attack that aims to make a service unavailable by overwhelming it with traffic.",
+      "es": "DoS significa Denial of Service, que es un ataque que tiene como objetivo hacer que un servicio no esté disponible al abrumarlo con tráfico."
+    }
+  },
+  {
+    "id": "AC04-Q0028",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In quantitative risk assessment, this term is used for estimating the likelihood of occurrence of a future threat.",
+      "es": "En la evaluación de riesgos cuantitativa, este término se utiliza para estimar la probabilidad de ocurrencia de una amenaza futura."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ALE",
+          "es": "ALE"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SLA",
+          "es": "SLA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "ARO",
+          "es": "ARO"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SLE",
+          "es": "SLE"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ARO stands for Annualized Rate of Occurrence, which is the estimated frequency of a threat occurring in a year.",
+      "es": "ARO significa Annualized Rate of Occurrence, que es la frecuencia estimada de la ocurrencia de una amenaza en un año."
+    }
+  },
+  {
+    "id": "AC04-Q0029",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a cryptographic file generated by an entity requesting a digital certificate from a CA?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un archivo criptográfico generado por una entidad que solicita un certificado digital a una CA?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "OID",
+          "es": "OID"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CSR",
+          "es": "CSR"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "DN",
+          "es": "DN"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CRL",
+          "es": "CRL"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "CSR stands for Certificate Signing Request, which is a file containing information about a digital certificate request.",
+      "es": "CSR significa Certificate Signing Request, que es un archivo que contiene información sobre una solicitud de certificado digital."
+    }
+  },
+  {
+    "id": "AC04-Q0030",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a broad term that encompasses various control and automation systems used in industrial settings to control and monitor physical processes and machinery?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un término amplio que abarca varios sistemas de control y automatización utilizados en entornos industriales para controlar y monitorear procesos físicos y maquinaria?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ICS",
+          "es": "ICS"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "PLC",
+          "es": "PLC"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SCADA",
+          "es": "SCADA"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "HMI",
+          "es": "HMI"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ICS stands for Industrial Control Systems, a broad category of systems used to control and monitor industrial processes.",
+      "es": "ICS significa Industrial Control Systems, una categoría amplia de sistemas utilizados para controlar y monitorear procesos industriales."
+    }
+  },
+  {
+    "id": "AC04-Q0031",
+    "type": "t/f",
+    "required_answers": 1,
+    "prompt": {
+      "en": "ACL, FACL, DAC, MAC, and RBAC are all access control mechanisms that can be used to manage user permissions and protect the confidentiality, integrity, and availability of data.",
+      "es": "ACL, FACL, DAC, MAC y RBAC son todos mecanismos de control de acceso que se pueden utilizar para gestionar los permisos de los usuarios y proteger la confidencialidad, integridad y disponibilidad de los datos."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ACL (Access Control List), FACL (File Access Control List), DAC (Discretionary Access Control), MAC (Mandatory Access Control), and RBAC (Role-Based Access Control) are all valid access control mechanisms.",
+      "es": "ACL (Access Control List), FACL (File Access Control List), DAC (Discretionary Access Control), MAC (Mandatory Access Control) y RBAC (Role-Based Access Control) son todos mecanismos de control de acceso válidos."
+    }
+  },
+  {
+    "id": "AC04-Q0032",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A type of access control model that grants object owners the authority to determine access permissions is referred to as:",
+      "es": "Un tipo de modelo de control de acceso que otorga a los propietarios de objetos la autoridad para determinar los permisos de acceso se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ACL",
+          "es": "ACL"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RBAC",
+          "es": "RBAC"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "DAC",
+          "es": "DAC"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MAC",
+          "es": "MAC"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "DAC stands for Discretionary Access Control, where the owner of an object can grant or deny access to it.",
+      "es": "DAC significa Discretionary Access Control, donde el propietario de un objeto puede otorgar o denegar el acceso a él."
+    }
+  },
+  {
+    "id": "AC04-Q0033",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which wireless technology enables identification and tracking of tags attached to objects?",
+      "es": "¿Qué tecnología inalámbrica permite la identificación y el seguimiento de etiquetas adjuntas a objetos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "WTLS",
+          "es": "WTLS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "GPS",
+          "es": "GPS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "RFID",
+          "es": "RFID"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "NFC",
+          "es": "NFC"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "RFID stands for Radio-Frequency Identification, which uses radio waves to identify and track objects with attached tags.",
+      "es": "RFID significa Radio-Frequency Identification, que utiliza ondas de radio para identificar y rastrear objetos con etiquetas adjuntas."
+    }
+  },
+  {
+    "id": "AC04-Q0034",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a tunneling protocol that is often used in combination with IPsec to secure VPN connections?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un protocolo de túnel que a menudo se usa en combinación con IPsec para asegurar las conexiones VPN?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "GRE",
+          "es": "GRE"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "L2TP",
+          "es": "L2TP"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "BGP",
+          "es": "BGP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SSL",
+          "es": "SSL"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "L2TP stands for Layer 2 Tunneling Protocol, which is often used with IPsec to provide a secure VPN connection.",
+      "es": "L2TP significa Layer 2 Tunneling Protocol, que a menudo se usa con IPsec para proporcionar una conexión VPN segura."
+    }
+  },
+  {
+    "id": "AC04-Q0035",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a cloud computing service model in which clients, instead of buying all the hardware and software, purchase computing resources as an outsourced service from suppliers who own and maintain all the necessary equipment and software?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un modelo de servicio de computación en la nube en el que los clientes, en lugar de comprar todo el hardware y software, compran recursos informáticos como un servicio externalizado de proveedores que poseen y mantienen todo el equipo y software necesario?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SaaS",
+          "es": "SaaS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DaaS",
+          "es": "DaaS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PaaS",
+          "es": "PaaS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "IaaS",
+          "es": "IaaS"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "IaaS stands for Infrastructure as a Service, which is a cloud computing model where a provider offers virtualized computing resources over the internet.",
+      "es": "IaaS significa Infrastructure as a Service, que es un modelo de computación en la nube en el que un proveedor ofrece recursos informáticos virtualizados a través de Internet."
+    }
+  }
+]

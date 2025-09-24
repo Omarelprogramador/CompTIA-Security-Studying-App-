@@ -1,0 +1,1217 @@
+[
+  {
+    "id": "T05-Q0001",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a family of cryptographic hash functions designed for various security-related applications, including digital signatures, password storage, secure communications, and data integrity verification?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a una familia de funciones hash criptográficas diseñadas para diversas aplicaciones relacionadas con la seguridad, incluyendo firmas digitales, almacenamiento de contraseñas, comunicaciones seguras y verificación de la integridad de los datos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "RSA",
+          "es": "RSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "AES",
+          "es": "AES"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PKCS",
+          "es": "PKCS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SHA",
+          "es": "SHA"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "SHA (Secure Hash Algorithm) is a family of cryptographic hash functions used for various security applications.",
+      "es": "SHA (Secure Hash Algorithm) es una familia de funciones hash criptográficas utilizada para diversas aplicaciones de seguridad."
+    }
+  },
+  {
+    "id": "T05-Q0002",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the hash functions listed below offers the highest level of security?",
+      "es": "¿Cuál de las funciones hash a continuación ofrece el nivel más alto de seguridad?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MD5",
+          "es": "MD5"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SHA-3",
+          "es": "SHA-3"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "RIPEMD-160",
+          "es": "RIPEMD-160"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "HMAC",
+          "es": "HMAC"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SHA-3 is the most recent and secure cryptographic hash function among the options listed.",
+      "es": "SHA-3 es la función hash criptográfica más reciente y segura entre las opciones enumeradas."
+    }
+  },
+  {
+    "id": "T05-Q0003",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following combines a cryptographic hash function with a secret key to provide a means of verifying both the authenticity and integrity of a message or data?",
+      "es": "¿Cuál de los siguientes combina una función hash criptográfica con una clave secreta para proporcionar un medio de verificar tanto la autenticidad como la integridad de un mensaje o dato?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MD5",
+          "es": "MD5"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DSA",
+          "es": "DSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "HMAC",
+          "es": "HMAC"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "DES",
+          "es": "DES"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "HMAC (Hashed Message Authentication Code) is a specific type of message authentication code (MAC) involving a cryptographic hash function and a secret key.",
+      "es": "HMAC (Hashed Message Authentication Code) es un tipo específico de código de autenticación de mensajes (MAC) que involucra una función hash criptográfica y una clave secreta."
+    }
+  },
+  {
+    "id": "T05-Q0004",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a non-cryptographic hash function often used for error-checking purposes?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a una función hash no criptográfica a menudo utilizada para fines de verificación de errores?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MD5",
+          "es": "MD5"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CRC",
+          "es": "CRC"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SHA",
+          "es": "SHA"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "RIPEMD",
+          "es": "RIPEMD"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "CRC (Cyclic Redundancy Check) is a non-cryptographic hash function used for detecting accidental changes to data, often in network transmissions.",
+      "es": "CRC (Cyclic Redundancy Check) es una función hash no criptográfica utilizada para detectar cambios accidentales en los datos, a menudo en transmisiones de red."
+    }
+  },
+  {
+    "id": "T05-Q0005",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a type of additional input that increases password complexity and provides better protection against brute-force, dictionary, and rainbow table attacks?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un tipo de entrada adicional que aumenta la complejidad de la contraseña y proporciona una mejor protección contra ataques de fuerza bruta, diccionario y tablas arco iris?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Seed",
+          "es": "Seed"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IV",
+          "es": "IV"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Salt",
+          "es": "Salt"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Shim",
+          "es": "Shim"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A salt is a unique, random string of data added to a password before it is hashed. This prevents attackers from using pre-computed rainbow tables to crack the hash.",
+      "es": "Una sal es una cadena de datos única y aleatoria que se añade a una contraseña antes de que sea hasheada. Esto evita que los atacantes utilicen tablas arco iris precomputadas para descifrar el hash."
+    }
+  },
+  {
+    "id": "T05-Q0006",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A pseudo-random data added to a password before hashing is referred to as:",
+      "es": "Los datos pseudoaleatorios añadidos a una contraseña antes de ser hasheada se denominan:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Shim",
+          "es": "Shim"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Salt",
+          "es": "Salt"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "IV",
+          "es": "IV"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Seed",
+          "es": "Seed"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Salting is the practice of adding a unique, random string (the 'salt') to each password before it's hashed and stored. This makes it so that even identical passwords have different hash values.",
+      "es": "El 'salting' es la práctica de añadir una cadena única y aleatoria (la 'sal') a cada contraseña antes de ser hasheada y almacenada. Esto hace que incluso las contraseñas idénticas tengan valores hash diferentes."
+    }
+  },
+  {
+    "id": "T05-Q0007",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which cryptographic technique is used to prevent the effectiveness of rainbow tables in cracking hashed passwords?",
+      "es": "¿Qué técnica criptográfica se utiliza para prevenir la efectividad de las tablas arco iris en el descifrado de contraseñas hasheadas?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Data masking",
+          "es": "Enmascaramiento de datos"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Two-Factor Authentication (2FA)",
+          "es": "Autenticación de dos factores (2FA)"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Key stretching",
+          "es": "Estiramiento de clave"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Salting",
+          "es": "Salting"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Salting makes rainbow tables ineffective because each hashed password now has a unique salt, meaning the attacker cannot use a pre-computed hash for a common password.",
+      "es": "El 'salting' hace que las tablas arco iris sean ineficaces porque cada contraseña hasheada ahora tiene una sal única, lo que significa que el atacante no puede usar un hash precomputado para una contraseña común."
+    }
+  },
+  {
+    "id": "T05-Q0008",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a cryptographic technique that verifies the authenticity and integrity of digital documents or messages by using a unique encrypted identifier from the sender?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a una técnica criptográfica que verifica la autenticidad e integridad de documentos o mensajes digitales mediante el uso de un identificador encriptado único del remitente?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Digital signature",
+          "es": "Firma digital"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Cryptographic hash function",
+          "es": "Función hash criptográfica"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Digital certificate",
+          "es": "Certificado digital"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Asymmetric encryption",
+          "es": "Cifrado asimétrico"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A digital signature is a mathematical scheme for verifying the authenticity of digital messages or documents. It provides authentication, integrity, and non-repudiation.",
+      "es": "Una firma digital es un esquema matemático para verificar la autenticidad de mensajes o documentos digitales. Proporciona autenticación, integridad y no repudio."
+    }
+  },
+  {
+    "id": "T05-Q0009",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the following answers refer to algorithms used for generating and verifying digital signatures? (Select 3 answers)",
+      "es": "¿Cuáles de las siguientes respuestas se refieren a algoritmos utilizados para generar y verificar firmas digitales? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ECDSA",
+          "es": "ECDSA"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RSA",
+          "es": "RSA"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "ECDHE",
+          "es": "ECDHE"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "DSA",
+          "es": "DSA"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "GPG/PGP",
+          "es": "GPG/PGP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "DSA (Digital Signature Algorithm), RSA (Rivest-Shamir-Adleman), and ECDSA (Elliptic Curve Digital Signature Algorithm) are all common algorithms used for creating and verifying digital signatures.",
+      "es": "DSA (Digital Signature Algorithm), RSA (Rivest-Shamir-Adleman), y ECDSA (Elliptic Curve Digital Signature Algorithm) son todos algoritmos comunes utilizados para crear y verificar firmas digitales."
+    }
+  },
+  {
+    "id": "T05-Q0010",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the answers listed below refer to DSA? (Select 3 answers)",
+      "es": "¿Cuáles de las respuestas a continuación se refieren a DSA? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Asymmetric algorithm",
+          "es": "Algoritmo asimétrico"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Used for the key exchange process",
+          "es": "Utilizado para el proceso de intercambio de claves"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Symmetric algorithm",
+          "es": "Algoritmo simétrico"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Provides authentication, integrity, and non-repudiation",
+          "es": "Proporciona autenticación, integridad y no repudio"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Specifically designed for creating and verifying digital signatures",
+          "es": "Diseñado específicamente para crear y verificar firmas digitales"
+        },
+        "correct": true
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Used for encryption",
+          "es": "Utilizado para cifrado"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "DSA (Digital Signature Algorithm) is an asymmetric algorithm, meaning it uses different keys for different functions. It is specifically designed for digital signatures, providing authentication, integrity, and non-repudiation.",
+      "es": "DSA (Digital Signature Algorithm) es un algoritmo asimétrico, lo que significa que utiliza diferentes claves para diferentes funciones. Está diseñado específicamente para firmas digitales, proporcionando autenticación, integridad y no repudio."
+    }
+  },
+  {
+    "id": "T05-Q0011",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the following answers refer to the characteristic features of RSA? (Select 3 answers)",
+      "es": "¿Cuáles de las siguientes respuestas se refieren a las características de RSA? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Asymmetric encryption algorithm",
+          "es": "Algoritmo de cifrado asimétrico"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "A public key used for encryption and a private key used for decryption",
+          "es": "Una clave pública utilizada para el cifrado y una clave privada utilizada para el descifrado"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Suitable for bulk data encryption",
+          "es": "Adecuado para el cifrado de datos masivos"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Used for secure communications, digital signatures, and key exchange",
+          "es": "Utilizado para comunicaciones seguras, firmas digitales e intercambio de claves"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Symmetric encryption algorithm",
+          "es": "Algoritmo de cifrado simétrico"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "A single key used for both encryption and decryption",
+          "es": "Una sola clave utilizada para el cifrado y el descifrado"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "RSA is an asymmetric algorithm that uses a public key for encryption and a private key for decryption. It is used for secure communications, digital signatures, and key exchange, but it is not efficient for bulk data encryption.",
+      "es": "RSA es un algoritmo asimétrico que utiliza una clave pública para el cifrado y una clave privada para el descifrado. Se utiliza para comunicaciones seguras, firmas digitales e intercambio de claves, pero no es eficiente para el cifrado de datos masivos."
+    }
+  },
+  {
+    "id": "T05-Q0012",
+    "type": "ms",
+    "required_answers": 4,
+    "prompt": {
+      "en": "Which of the answers listed below describe(s) the characteristics of ECDSA? (Select all that apply)",
+      "es": "¿Cuáles de las respuestas a continuación describen las características de ECDSA? (Selecciona todas las que apliquen)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Provides authentication, integrity, and non-repudiation",
+          "es": "Proporciona autenticación, integridad y no repudio"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Based on elliptic curve cryptography",
+          "es": "Basado en criptografía de curva elíptica"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Designed for data encryption",
+          "es": "Diseñado para el cifrado de datos"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Specifically designed for creating and verifying digital signatures",
+          "es": "Diseñado específicamente para crear y verificar firmas digitales"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "More computationally efficient than other signature algorithms",
+          "es": "Más computacionalmente eficiente que otros algoritmos de firma"
+        },
+        "correct": true
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Enables the key exchange process",
+          "es": "Permite el proceso de intercambio de claves"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ECDSA (Elliptic Curve Digital Signature Algorithm) is a more efficient version of DSA based on elliptic curve cryptography. It is designed for digital signatures, providing the same security properties as DSA, but with smaller key sizes.",
+      "es": "ECDSA (Elliptic Curve Digital Signature Algorithm) es una versión más eficiente de DSA basada en criptografía de curva elíptica. Está diseñado para firmas digitales, proporcionando las mismas propiedades de seguridad que DSA, pero con tamaños de clave más pequeños."
+    }
+  },
+  {
+    "id": "T05-Q0013",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Given the computational limitations of IoT devices, smartcards, and mobile devices, which of the following digital signature algorithms would be the most efficient choice due to its smaller key size and lower processing requirements?",
+      "es": "Dadas las limitaciones computacionales de los dispositivos IoT, las tarjetas inteligentes y los dispositivos móviles, ¿cuál de los siguientes algoritmos de firma digital sería la opción más eficiente debido a su menor tamaño de clave y menores requisitos de procesamiento?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "RSA",
+          "es": "RSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "ECDHE",
+          "es": "ECDHE"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "DSA",
+          "es": "DSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "ECDSA",
+          "es": "ECDSA"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "ECC",
+          "es": "ECC"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ECDSA is the most efficient choice for resource-constrained devices due to its use of Elliptic Curve Cryptography, which provides the same level of security as other algorithms but with much smaller key sizes.",
+      "es": "ECDSA es la opción más eficiente para dispositivos con recursos limitados debido a su uso de Criptografía de Curva Elíptica, que proporciona el mismo nivel de seguridad que otros algoritmos pero con tamaños de clave mucho más pequeños."
+    }
+  },
+  {
+    "id": "T05-Q0014",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Key stretching is a cryptographic technique that enhances the security of sensitive data, such as cryptographic keys and passwords. It works by repeatedly applying a resource-intensive function or algorithm to the input data, thus increasing the computational effort required to derive the original key or password, which makes the data more resistant to brute-force, dictionary, or rainbow table attacks.",
+      "es": "El estiramiento de clave es una técnica criptográfica que mejora la seguridad de los datos sensibles, como claves criptográficas y contraseñas. Funciona aplicando repetidamente una función o algoritmo que consume muchos recursos a los datos de entrada, lo que aumenta el esfuerzo computacional requerido para derivar la clave o contraseña original, lo que hace que los datos sean más resistentes a los ataques de fuerza bruta, diccionario o tablas arco iris."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Key stretching is a true cryptographic technique used to make brute-force attacks more difficult by intentionally slowing down the hashing process, forcing attackers to spend more time and resources on each guess.",
+      "es": "El estiramiento de clave es una técnica criptográfica real utilizada para dificultar los ataques de fuerza bruta al ralentizar intencionalmente el proceso de 'hashing', obligando a los atacantes a gastar más tiempo y recursos en cada intento."
+    }
+  },
+  {
+    "id": "T05-Q0015",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following is an example of a key stretching algorithm?",
+      "es": "¿Cuál de los siguientes es un ejemplo de un algoritmo de estiramiento de clave?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "RIPEMD",
+          "es": "RIPEMD"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SHA",
+          "es": "SHA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "HMAC",
+          "es": "HMAC"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "PBKDF2",
+          "es": "PBKDF2"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "PBKDF2 (Password-Based Key Derivation Function 2) is a specific algorithm designed for key stretching. It repeatedly applies a hash function to a password and a salt to produce a derived key.",
+      "es": "PBKDF2 (Password-Based Key Derivation Function 2) es un algoritmo específico diseñado para el estiramiento de clave. Aplica repetidamente una función hash a una contraseña y una sal para producir una clave derivada."
+    }
+  },
+  {
+    "id": "T05-Q0016",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The term \"Open public ledger\" is used to describe a distributed database stored across multiple computers in a P2P network.",
+      "es": "El término \"Libro de contabilidad público abierto\" se utiliza para describir una base de datos distribuida almacenada en múltiples computadoras en una red P2P."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "This statement is true. An open public ledger, such as a blockchain, is a distributed database that is transparent and accessible to anyone on the network.",
+      "es": "Esta afirmación es verdadera. Un libro de contabilidad público abierto, como una cadena de bloques, es una base de datos distribuida que es transparente y accesible para cualquier persona en la red."
+    }
+  },
+  {
+    "id": "T05-Q0017",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Blockchain technology is an example of:",
+      "es": "La tecnología de cadena de bloques es un ejemplo de:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Online payment gateway",
+          "es": "Pasarela de pago en línea"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Centralized database",
+          "es": "Base de datos centralizada"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Open public ledger",
+          "es": "Libro de contabilidad público abierto"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Cloud storage system",
+          "es": "Sistema de almacenamiento en la nube"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Blockchain is a type of open public ledger, which is a distributed database shared among multiple computers. This decentralized nature is a key characteristic of blockchain technology.",
+      "es": "La cadena de bloques es un tipo de libro de contabilidad público abierto, que es una base de datos distribuida compartida entre múltiples computadoras. Esta naturaleza descentralizada es una característica clave de la tecnología de cadena de bloques."
+    }
+  },
+  {
+    "id": "T05-Q0018",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a set of standards and specifications that define various cryptographic techniques, including formats for public keys, private keys, digital signatures, and digital certificates?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un conjunto de estándares y especificaciones que definen diversas técnicas criptográficas, incluyendo formatos para claves públicas, claves privadas, firmas digitales y certificados digitales?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ITIL",
+          "es": "ITIL"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RFC",
+          "es": "RFC"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PKCS",
+          "es": "PKCS"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "ISO/IEC",
+          "es": "ISO/IEC"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "PKCS (Public-Key Cryptography Standards) is a group of standards created by RSA Laboratories. They are widely used in public-key infrastructure (PKI).",
+      "es": "PKCS (Public-Key Cryptography Standards) es un grupo de estándares creados por RSA Laboratories. Son ampliamente utilizados en la infraestructura de clave pública (PKI)."
+    }
+  },
+  {
+    "id": "T05-Q0019",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following defines a file format for storing and exchanging personal identity information, including private keys and digital certificates?",
+      "es": "¿Cuál de los siguientes define un formato de archivo para almacenar e intercambiar información de identidad personal, incluyendo claves privadas y certificados digitales?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "P10",
+          "es": "P10"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "P11",
+          "es": "P11"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "P12",
+          "es": "P12"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "P13",
+          "es": "P13"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "P12 (PKCS #12) is a file format used to store cryptographic data, including private keys and certificates, in a single file.",
+      "es": "P12 (PKCS #12) es un formato de archivo utilizado para almacenar datos criptográficos, incluyendo claves privadas y certificados, en un solo archivo."
+    }
+  },
+  {
+    "id": "T05-Q0020",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A type of digital document that verifies the identity of an individual, device, service, or organization in online communications is known as:",
+      "es": "Un tipo de documento digital que verifica la identidad de un individuo, dispositivo, servicio u organización en comunicaciones en línea se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Encryption key",
+          "es": "Clave de cifrado"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Digital certificate",
+          "es": "Certificado digital"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Identity token",
+          "es": "Token de identidad"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Digital signature",
+          "es": "Firma digital"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A digital certificate is an electronic document used to prove ownership of a public key. It is commonly used in online communications to verify the identity of a website, server, or individual.",
+      "es": "Un certificado digital es un documento electrónico utilizado para probar la propiedad de una clave pública. Se usa comúnmente en las comunicaciones en línea para verificar la identidad de un sitio web, servidor o individuo."
+    }
+  },
+  {
+    "id": "T05-Q0021",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "What is the role of Registration Authority (RA) in PKI? (Select 2 answers)",
+      "es": "¿Cuál es el rol de la Autoridad de Registro (RA) en la PKI? (Selecciona 2 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Accepting requests for digital certificates",
+          "es": "Aceptar solicitudes de certificados digitales"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Validating digital certificates",
+          "es": "Validar certificados digitales"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Authenticating the entity making the request",
+          "es": "Autenticar la entidad que realiza la solicitud"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Providing backup source for cryptographic keys",
+          "es": "Proporcionar fuente de respaldo para claves criptográficas"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Issuing digital certificates",
+          "es": "Emitir certificados digitales"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A Registration Authority (RA) is a subordinate entity that assists a Certificate Authority (CA) in verifying user requests for digital certificates. Its roles include accepting requests and authenticating the identity of the requesting entity.",
+      "es": "Una Autoridad de Registro (RA) es una entidad subordinada que asiste a una Autoridad de Certificación (CA) en la verificación de solicitudes de certificados digitales de los usuarios. Sus roles incluyen aceptar solicitudes y autenticar la identidad de la entidad solicitante."
+    }
+  },
+  {
+    "id": "T05-Q0022",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a trusted third party responsible for issuing, revoking, and managing digital certificates?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a una tercera parte de confianza responsable de emitir, revocar y gestionar certificados digitales?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "RA",
+          "es": "RA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DN",
+          "es": "DN"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "CA",
+          "es": "CA"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CSP",
+          "es": "CSP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A Certificate Authority (CA) is a trusted entity that issues digital certificates, which are used to verify the identity of a website or individual.",
+      "es": "Una Autoridad de Certificación (CA) es una entidad de confianza que emite certificados digitales, que se utilizan para verificar la identidad de un sitio web o un individuo."
+    }
+  },
+  {
+    "id": "T05-Q0023",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a means for periodic publication of all digital certificates that have been revoked?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un medio de publicación periódica de todos los certificados digitales que han sido revocados?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CRL",
+          "es": "CRL"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "OSPF",
+          "es": "OSPF"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "RA",
+          "es": "RA"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CSR",
+          "es": "CSR"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A CRL (Certificate Revocation List) is a list of digital certificates that have been revoked by a Certificate Authority (CA) and should no longer be trusted.",
+      "es": "Una CRL (Certificate Revocation List) es una lista de certificados digitales que han sido revocados por una Autoridad de Certificación (CA) y ya no deben ser de confianza."
+    }
+  },
+  {
+    "id": "T05-Q0024",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a protocol that enables on-demand querying of the revocation status of a digital certificate?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un protocolo que permite la consulta a pedido del estado de revocación de un certificado digital?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CSP",
+          "es": "CSP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "OCSP",
+          "es": "OCSP"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "DN",
+          "es": "DN"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CRL",
+          "es": "CRL"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "OCSP (Online Certificate Status Protocol) is used to determine the revocation status of a digital certificate without having to download a full CRL. It is more efficient for checking the status of a single certificate.",
+      "es": "OCSP (Online Certificate Status Protocol) se utiliza para determinar el estado de revocación de un certificado digital sin tener que descargar una CRL completa. Es más eficiente para verificar el estado de un solo certificado."
+    }
+  },
+  {
+    "id": "T05-Q0025",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "What is the fastest way to check the validity of a single digital certificate?",
+      "es": "¿Cuál es la forma más rápida de verificar la validez de un solo certificado digital?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CSR",
+          "es": "CSR"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DN",
+          "es": "DN"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "CRL",
+          "es": "CRL"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "OCSP",
+          "es": "OCSP"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "OCSP (Online Certificate Status Protocol) provides an immediate response to a query about the revocation status of a specific digital certificate, making it faster than downloading and parsing a full CRL.",
+      "es": "OCSP (Online Certificate Status Protocol) proporciona una respuesta inmediata a una consulta sobre el estado de revocación de un certificado digital específico, lo que lo hace más rápido que descargar y analizar una CRL completa."
+    }
+  }
+]

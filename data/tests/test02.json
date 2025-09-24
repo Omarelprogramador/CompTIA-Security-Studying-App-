@@ -1,0 +1,1137 @@
+[
+  {
+    "id": "T02-Q0001",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following terms describes the process of identifying differences between an organization's current security posture and its desired security posture?",
+      "es": "¿Cuál de los siguientes términos describe el proceso de identificar las diferencias entre la postura de seguridad actual de una organización y la postura de seguridad deseada?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Tabletop exercise",
+          "es": "Ejercicio de simulación"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Gap analysis",
+          "es": "Análisis de brechas"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Security awareness training",
+          "es": "Capacitación en concienciación de seguridad"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Risk assessment",
+          "es": "Evaluación de riesgos"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A gap analysis is a process that compares the current state of security with a desired future state to identify what is missing.",
+      "es": "Un análisis de brechas es un proceso que compara el estado actual de seguridad con un estado futuro deseado para identificar lo que falta."
+    }
+  },
+  {
+    "id": "T02-Q0002",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The term \"Zero Trust security\" refers to a cybersecurity model that eliminates implicit trust from networks and requires all users and devices to be continuously verified before being granted access to resources. The implementation of the Zero Trust security involves two distinct components: a Data Plane, responsible for defining and managing security policies, and a Control Plane, responsible for enforcing the security policies established by the Data Plane.",
+      "es": "El término \"Seguridad de Confianza Cero\" se refiere a un modelo de ciberseguridad que elimina la confianza implícita de las redes y requiere que todos los usuarios y dispositivos sean verificados continuamente antes de concederles acceso a los recursos. La implementación de la seguridad de Confianza Cero implica dos componentes distintos: un Plano de Datos, responsable de definir y gestionar las políticas de seguridad, y un Plano de Control, responsable de hacer cumplir las políticas de seguridad establecidas por el Plano de Datos."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "The roles are reversed. The Control Plane defines and manages policies, while the Data Plane enforces them.",
+      "es": "Los roles están invertidos. El Plano de Control define y gestiona las políticas, mientras que el Plano de Datos las hace cumplir."
+    }
+  },
+  {
+    "id": "T02-Q0003",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a Zero Trust Control Plane security approach that takes into account user identity, device security, network conditions, and other contextual information to enable dynamic access decisions?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un enfoque de seguridad del Plano de Control de Confianza Cero que tiene en cuenta la identidad del usuario, la seguridad del dispositivo, las condiciones de la red y otra información contextual para habilitar decisiones de acceso dinámicas?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Implicit trust",
+          "es": "Confianza implícita"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Monitoring and logging",
+          "es": "Monitorización y registro"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Adaptive identity",
+          "es": "Identidad adaptativa"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Microsegmentation",
+          "es": "Microsegmentación"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Adaptive identity is a key component of Zero Trust, allowing for dynamic access decisions based on contextual factors.",
+      "es": "La identidad adaptativa es un componente clave de Confianza Cero, permitiendo decisiones de acceso dinámicas basadas en factores contextuales."
+    }
+  },
+  {
+    "id": "T02-Q0004",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "What are the key components of the Zero Trust Control Plane's Policy Decision Point (PDP)? (Select 2 answers)",
+      "es": "¿Cuáles son los componentes clave del Punto de Decisión de Políticas (PDP) del Plano de Control de Confianza Cero? (Selecciona 2 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Policy Engine (PE)",
+          "es": "Motor de Políticas (PE)"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Monitoring and logging",
+          "es": "Monitorización y registro"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Policy Enforcement Point (PEP)",
+          "es": "Punto de Aplicación de Políticas (PEP)"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Microsegmentation",
+          "es": "Microsegmentación"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Policy Administrator (PA)",
+          "es": "Administrador de Políticas (PA)"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "The Zero Trust Control Plane's Policy Decision Point (PDP) consists of the Policy Engine (PE) and the Policy Administrator (PA).",
+      "es": "El Punto de Decisión de Políticas (PDP) del Plano de Control de Confianza Cero consiste en el Motor de Políticas (PE) y el Administrador de Políticas (PA)."
+    }
+  },
+  {
+    "id": "T02-Q0005",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In the Zero Trust security architecture, the Policy Enforcement Point (PEP) is a Data Plane component that enforces the security policies defined at the Control Plane by the Policy Decision Point (PDP).",
+      "es": "En la arquitectura de seguridad de Confianza Cero, el Punto de Aplicación de Políticas (PEP) es un componente del Plano de Datos que hace cumplir las políticas de seguridad definidas en el Plano de Control por el Punto de Decisión de Políticas (PDP)."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "The Policy Enforcement Point (PEP) acts as a gateway or a filter, enforcing the policies set by the PDP. This statement is correct.",
+      "es": "El Punto de Aplicación de Políticas (PEP) actúa como una puerta de enlace o un filtro, haciendo cumplir las políticas establecidas por el PDP. Esta afirmación es correcta."
+    }
+  },
+  {
+    "id": "T02-Q0006",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "An access control vestibule (a.k.a. mantrap) is a physical security access control system used to prevent unauthorized users from gaining access to restricted areas. An example mantrap could be a two-door entrance point connected to a guard station wherein a person entering from the outside remains locked inside until he/she provides authentication token required to unlock the inner door.",
+      "es": "Un vestíbulo de control de acceso (también conocido como 'mantrap') es un sistema de control de acceso de seguridad física utilizado para evitar que usuarios no autorizados accedan a áreas restringidas. Un ejemplo de 'mantrap' podría ser un punto de entrada con dos puertas conectado a un puesto de guardia, donde una persona que entra desde el exterior permanece encerrada hasta que proporciona el token de autenticación requerido para desbloquear la puerta interior."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "This statement accurately describes a mantrap, which is a physical control used to prevent tailgating and unauthorized access.",
+      "es": "Esta afirmación describe con precisión un 'mantrap', que es un control físico utilizado para evitar el 'tailgating' y el acceso no autorizado."
+    }
+  },
+  {
+    "id": "T02-Q0007",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "Which of the following statements about honeypots are true? (Select 2 answers)",
+      "es": "¿Cuáles de las siguientes afirmaciones sobre los 'honeypots' son verdaderas? (Selecciona 2 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Honeypots are always part of a honeynet",
+          "es": "Los honeypots siempre forman parte de una honeynet"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Honeypots mimic real systems to attract cyber attackers",
+          "es": "Los honeypots imitan sistemas reales para atraer a los ciberatacantes"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Honeypots are a type of anti-malware solution",
+          "es": "Los honeypots son un tipo de solución antimalware"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Honeypots contain apparent vulnerabilities that are closely monitored by a security team",
+          "es": "Los honeypots contienen vulnerabilidades aparentes que son monitoreadas de cerca por un equipo de seguridad"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Honeypots are used to launch attacks on cyber attackers",
+          "es": "Los honeypots se utilizan para lanzar ataques contra los ciberatacantes"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Honeypots are decoy systems designed to lure attackers and collect information about their techniques. They are not used to launch attacks.",
+      "es": "Los 'honeypots' son sistemas señuelo diseñados para atraer a atacantes y recopilar información sobre sus técnicas. No se utilizan para lanzar ataques."
+    }
+  },
+  {
+    "id": "T02-Q0008",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "What is a honeynet in the context of cybersecurity?",
+      "es": "¿Qué es una 'honeynet' en el contexto de la ciberseguridad?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "A network of IDSs",
+          "es": "Una red de IDSs"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "A network of honeypots",
+          "es": "Una red de 'honeypots'"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "A network of infected hosts",
+          "es": "Una red de hosts infectados"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "A network of IPSs",
+          "es": "Una red de IPSs"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A honeynet is a network of multiple honeypots to simulate a larger, more realistic network environment.",
+      "es": "Una 'honeynet' es una red de varios 'honeypots' para simular un entorno de red más grande y realista."
+    }
+  },
+  {
+    "id": "T02-Q0009",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a honeynet example?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un ejemplo de 'honeynet'?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "A network of fake websites",
+          "es": "Una red de sitios web falsos"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "A network of fake servers",
+          "es": "Una red de servidores falsos"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "A network of fake databases",
+          "es": "Una red de bases de datos falsas"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "A network of fake file shares",
+          "es": "Una red de recursos compartidos de archivos falsos"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "All of the above",
+          "es": "Todas las anteriores"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "A honeynet can be a network of any type of decoy systems, including fake websites, servers, databases, or file shares.",
+      "es": "Una 'honeynet' puede ser una red de cualquier tipo de sistemas señuelo, incluyendo sitios web, servidores, bases de datos o recursos compartidos de archivos falsos."
+    }
+  },
+  {
+    "id": "T02-Q0010",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A honeyfile can be any type of file (e.g., a document, email message, image, or video file) containing real user data intentionally placed within a network or system to attract potential attackers or unauthorized users.",
+      "es": "Un 'honeyfile' puede ser cualquier tipo de archivo (por ejemplo, un documento, mensaje de correo electrónico, imagen o archivo de vídeo) que contenga datos de usuario reales y que se coloque intencionalmente en una red o sistema para atraer a posibles atacantes o usuarios no autorizados."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "A honeyfile contains fake data, not real user data, to avoid a data breach if the file is accessed. The rest of the statement is true.",
+      "es": "Un 'honeyfile' contiene datos falsos, no datos de usuario reales, para evitar una violación de datos si se accede al archivo. El resto de la afirmación es verdadera."
+    }
+  },
+  {
+    "id": "T02-Q0011",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A honeyfile can be used for:",
+      "es": "Un 'honeyfile' se puede utilizar para:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Attracting cyber attackers",
+          "es": "Atraer ciberatacantes"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Triggering alerts when accessed",
+          "es": "Desencadenar alertas cuando se accede"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Monitoring network activity",
+          "es": "Monitorizar la actividad de la red"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "All of the above",
+          "es": "Todas las anteriores"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Honeyfiles are designed to attract attackers, trigger alerts when accessed, and help monitor network activity.",
+      "es": "Los 'honeyfiles' están diseñados para atraer a atacantes, desencadenar alertas cuando se accede a ellos y ayudar a monitorizar la actividad de la red."
+    }
+  },
+  {
+    "id": "T02-Q0012",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "What is a honeytoken?",
+      "es": "¿Qué es un 'honeytoken'?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "A decoy file that is designed to attract attackers",
+          "es": "Un archivo señuelo que está diseñado para atraer a los atacantes"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "A unique identifier assigned to a honeyfile",
+          "es": "Un identificador único asignado a un 'honeyfile'"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "A decoy system that is designed to lure potential attackers",
+          "es": "Un sistema señuelo que está diseñado para atraer a posibles atacantes"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "A unique identifier that is designed to track attackers",
+          "es": "Un identificador único que está diseñado para rastrear a los atacantes"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "A honeytoken is a unique identifier, often a fake credential or key, that is used to track attackers and their movements within a network.",
+      "es": "Un 'honeytoken' es un identificador único, a menudo una credencial o clave falsa, que se utiliza para rastrear a los atacantes y sus movimientos dentro de una red."
+    }
+  },
+  {
+    "id": "T02-Q0013",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "Which of the following should not be used as honeytokens? (Select all that apply)",
+      "es": "¿Cuáles de los siguientes no deben usarse como 'honeytokens'? (Selecciona todas las que apliquen)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Active user account credentials",
+          "es": "Credenciales de cuentas de usuario activas"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Database entries mimicking real data",
+          "es": "Entradas de base de datos que imitan datos reales"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Actual URLs to live websites or resources",
+          "es": "URLs reales a sitios web o recursos en vivo"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Dummy server logs with enticing information",
+          "es": "Registros de servidor falsos con información atractiva"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Fake identifiers, including usernames, passwords, email addresses, and IP addresses",
+          "es": "Identificadores falsos, incluyendo nombres de usuario, contraseñas, direcciones de correo electrónico y direcciones IP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Honeytokens should be fake to avoid security risks. Active credentials and actual URLs could lead to real security incidents if compromised.",
+      "es": "Los 'honeytokens' deben ser falsos para evitar riesgos de seguridad. Las credenciales activas y las URLs reales podrían llevar a incidentes de seguridad reales si se ven comprometidas."
+    }
+  },
+  {
+    "id": "T02-Q0014",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A process used by organizations to assess and evaluate the potential impact of disruptive incidents or disasters on their critical business functions and operations is referred to as:",
+      "es": "Un proceso utilizado por las organizaciones para evaluar el impacto potencial de incidentes disruptivos o desastres en sus funciones y operaciones de negocio críticas se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "BPA",
+          "es": "Análisis del Impacto en el Negocio (BIA)"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "BIA",
+          "es": "Análisis del Impacto en el Negocio (BIA)"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SLE",
+          "es": "Pérdida por Evento Único (SLE)"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "BCP",
+          "es": "Plan de Continuidad del Negocio (BCP)"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A Business Impact Analysis (BIA) is used to determine the effects of an interruption on business operations.",
+      "es": "Un Análisis de Impacto en el Negocio (BIA) se utiliza para determinar los efectos de una interrupción en las operaciones del negocio."
+    }
+  },
+  {
+    "id": "T02-Q0015",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A hierarchical system for the creation, management, storage, distribution, and revocation of digital certificates is known as:",
+      "es": "Un sistema jerárquico para la creación, gestión, almacenamiento, distribución y revocación de certificados digitales se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PKI",
+          "es": "Infraestructura de Clave Pública (PKI)"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RA",
+          "es": "Autoridad de Registro (RA)"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PKCS",
+          "es": "Estándares de Criptografía de Clave Pública (PKCS)"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CA",
+          "es": "Autoridad de Certificación (CA)"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A Public Key Infrastructure (PKI) is the entire framework that manages public keys and digital certificates.",
+      "es": "Una Infraestructura de Clave Pública (PKI) es el marco completo que gestiona las claves públicas y los certificados digitales."
+    }
+  },
+  {
+    "id": "T02-Q0016",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below best describes the characteristics of a public-private key pair?",
+      "es": "¿Cuál de las respuestas a continuación describe mejor las características de un par de claves pública-privada?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Both keys are examples of a symmetrical key",
+          "es": "Ambas claves son ejemplos de una clave simétrica"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Two keys that are identical",
+          "es": "Dos claves que son idénticas"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "A pair of keys where one is used for encryption and the other for decryption",
+          "es": "Un par de claves donde una se utiliza para el cifrado y la otra para el descifrado"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Both keys are examples of a shared key",
+          "es": "Ambas claves son ejemplos de una clave compartida"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "In asymmetric cryptography, a public key is used to encrypt data, and a different but mathematically related private key is used to decrypt it.",
+      "es": "En la criptografía asimétrica, una clave pública se utiliza para cifrar datos, y una clave privada diferente pero matemáticamente relacionada se utiliza para descifrarlos."
+    }
+  },
+  {
+    "id": "T02-Q0017",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "What is the typical use of a public key?",
+      "es": "¿Cuál es el uso típico de una clave pública?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Data encryption",
+          "es": "Cifrado de datos"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Data decryption",
+          "es": "Descifrado de datos"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "User/device authentication",
+          "es": "Autenticación de usuario/dispositivo"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "All of the above",
+          "es": "Todas las anteriores"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "The public key is typically used to encrypt data that can only be decrypted by the corresponding private key. It is also used in digital signatures for verification, which is a form of authentication, but data encryption is the most common and direct use.",
+      "es": "La clave pública se utiliza típicamente para cifrar datos que solo pueden ser descifrados por la clave privada correspondiente. También se utiliza en firmas digitales para la verificación, que es una forma de autenticación, pero el cifrado de datos es el uso más común y directo."
+    }
+  },
+  {
+    "id": "T02-Q0018",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Key escrow is a cryptographic technique that enables storing copies of encryption keys with a trusted third party. A Recovery Agent (RA) is a trusted third party (an individual, entity, or system) who is authorized to assist in the retrieval of encryption keys and data on behalf of the data owner. Key escrow and RA are both used to ensure that encrypted data can be decrypted even if the data owner loses access to their encryption key. Since key escrow and RAs are both components of a single security solution, the only way to implement key escrow systems is with the use of RAs.",
+      "es": "El 'key escrow' es una técnica criptográfica que permite almacenar copias de las claves de cifrado con un tercero de confianza. Un Agente de Recuperación (RA) es un tercero de confianza (un individuo, entidad o sistema) que está autorizado a ayudar en la recuperación de claves de cifrado y datos en nombre del propietario de los datos. Tanto el 'key escrow' como el RA se utilizan para garantizar que los datos cifrados se puedan descifrar incluso si el propietario de los datos pierde el acceso a su clave de cifrado. Dado que el 'key escrow' y los RA son ambos componentes de una única solución de seguridad, la única forma de implementar sistemas de 'key escrow' es mediante el uso de RAs."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "While Recovery Agents are a common way to implement key escrow, other methods exist, such as using multiple agents or different key storage mechanisms. Therefore, the statement that it's the 'only' way is false.",
+      "es": "Aunque los Agentes de Recuperación son una forma común de implementar el 'key escrow', existen otros métodos, como el uso de múltiples agentes o diferentes mecanismos de almacenamiento de claves. Por lo tanto, la afirmación de que es la 'única' forma es falsa."
+    }
+  },
+  {
+    "id": "T02-Q0019",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a data storage device equipped with hardware-level encryption functionality?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un dispositivo de almacenamiento de datos equipado con funcionalidad de cifrado a nivel de hardware?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "HSM",
+          "es": "Módulo de Seguridad de Hardware (HSM)"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "TPM",
+          "es": "Módulo de Plataforma Confiable (TPM)"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "EFS",
+          "es": "Sistema de Archivos Cifrados (EFS)"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SED",
+          "es": "Unidad de Cifrado Automático (SED)"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "A Self-Encrypting Drive (SED) is a type of hard drive that has a built-in cryptographic module for hardware-based encryption.",
+      "es": "Una Unidad de Cifrado Automático (SED) es un tipo de disco duro que tiene un módulo criptográfico incorporado para el cifrado basado en hardware."
+    }
+  },
+  {
+    "id": "T02-Q0020",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to software technology designed to provide confidentiality for an entire data storage device?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a la tecnología de software diseñada para proporcionar confidencialidad a un dispositivo de almacenamiento de datos completo?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "TPM",
+          "es": "Módulo de Plataforma Confiable (TPM)"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "FDE",
+          "es": "Cifrado de Disco Completo (FDE)"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "EFS",
+          "es": "Sistema de Archivos Cifrados (EFS)"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "HSM",
+          "es": "Módulo de Seguridad de Hardware (HSM)"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Full Disk Encryption (FDE) is a software solution that encrypts all data on a hard drive.",
+      "es": "El Cifrado de Disco Completo (FDE) es una solución de software que cifra todos los datos en un disco duro."
+    }
+  },
+  {
+    "id": "T02-Q0021",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "An MS Windows component that enables encryption of individual files is called:",
+      "es": "Un componente de MS Windows que permite el cifrado de archivos individuales se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SED",
+          "es": "SED"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "EFS",
+          "es": "EFS"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "BitLocker",
+          "es": "BitLocker"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "FDE",
+          "es": "FDE"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "The Encrypting File System (EFS) is a feature of Windows that allows users to transparently encrypt files on an NTFS file system.",
+      "es": "El Sistema de Archivos Cifrados (EFS) es una característica de Windows que permite a los usuarios cifrar archivos de forma transparente en un sistema de archivos NTFS."
+    }
+  },
+  {
+    "id": "T02-Q0022",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "Which of the following software application tools are specifically designed for implementing encryption algorithms to secure data communication and storage? (Select 2 answers)",
+      "es": "¿Cuáles de las siguientes herramientas de software están diseñadas específicamente para implementar algoritmos de cifrado para asegurar la comunicación y el almacenamiento de datos? (Selecciona 2 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "VPN",
+          "es": "VPN"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "GPG",
+          "es": "GPG"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SSH",
+          "es": "SSH"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "IPsec",
+          "es": "IPsec"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "PGP",
+          "es": "PGP"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "PGP (Pretty Good Privacy) and GPG (GNU Privacy Guard) are cryptographic software programs that provide encryption and authentication for data communication.",
+      "es": "PGP (Pretty Good Privacy) y GPG (GNU Privacy Guard) son programas de software criptográfico que proporcionan cifrado y autenticación para la comunicación de datos."
+    }
+  },
+  {
+    "id": "T02-Q0023",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "What is the name of a network protocol that secures web traffic via SSL/TLS encryption?",
+      "es": "¿Cuál es el nombre de un protocolo de red que asegura el tráfico web mediante cifrado SSL/TLS?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SFTP",
+          "es": "SFTP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "HTTPS",
+          "es": "HTTPS"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "FTPS",
+          "es": "FTPS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SNMP",
+          "es": "SNMP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "HTTPS (Hypertext Transfer Protocol Secure) uses SSL/TLS to encrypt web traffic and ensure secure communication.",
+      "es": "HTTPS (Hypertext Transfer Protocol Secure) utiliza SSL/TLS para cifrar el tráfico web y asegurar una comunicación segura."
+    }
+  },
+  {
+    "id": "T02-Q0024",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a deprecated TLS-based method for secure transmission of email messages?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un método obsoleto basado en TLS para la transmisión segura de mensajes de correo electrónico?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "S/MIME",
+          "es": "S/MIME"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "STARTTLS",
+          "es": "STARTTLS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "DKIM",
+          "es": "DKIM"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SMTPS",
+          "es": "SMTPS"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "SMTPS (Simple Mail Transfer Protocol Secure) is an older method that used a dedicated port for encrypted email. It has largely been replaced by STARTTLS.",
+      "es": "SMTPS (Simple Mail Transfer Protocol Secure) es un método más antiguo que utilizaba un puerto dedicado para el correo electrónico cifrado. Ha sido reemplazado en gran medida por STARTTLS."
+    }
+  },
+  {
+    "id": "T02-Q0025",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to an obsolete protocol used for secure data transfer over the web?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un protocolo obsoleto utilizado para la transferencia segura de datos a través de la web?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SMTPS",
+          "es": "SMTPS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SRTP",
+          "es": "SRTP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SHTTP",
+          "es": "SHTTP"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "S/MIME",
+          "es": "S/MIME"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SHTTP (Secure Hypertext Transfer Protocol) was an early alternative to HTTPS but was never widely adopted and is now considered obsolete.",
+      "es": "SHTTP (Secure Hypertext Transfer Protocol) fue una alternativa temprana a HTTPS pero nunca fue ampliamente adoptada y ahora se considera obsoleta."
+    }
+  }
+]

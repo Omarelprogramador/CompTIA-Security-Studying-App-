@@ -1,0 +1,391 @@
+[
+{
+      "id": "T07-Q0001",
+      "question": "Exploiting known vulnerability is a common threat vector for:",
+      "options": [
+        "Legacy systems/apps",
+        "Unsupported systems/apps",
+        "Newly released systems/apps",
+        "Systems/apps with zero-day vulnerability"
+      ],
+      "correct_answers": [
+        "Legacy systems/apps",
+        "Unsupported systems/apps"
+      ],
+      "user_answer": "Unsupported systems/apps",
+      "result": "incorrect"
+    },
+    {
+      "id": "T07-Q0002",
+      "question": "A solution that simplifies configuration of new wireless networks by allowing non-technical users to easily configure network security settings and add new devices to an existing network is called:",
+      "options": [
+        "WPA",
+        "WPS",
+        "WEP",
+        "WAP"
+      ],
+      "correct_answers": [
+        "WPS"
+      ],
+      "user_answer": "WPS",
+      "result": "incorrect"
+    },
+    {
+      "id": "T07-Q0003",
+      "question": "Which of the wireless technologies listed below are considered potential threat vectors and should be avoided due to their known vulnerabilities? (Select all that apply)",
+      "options": [
+        "WPS",
+        "WAP",
+        "WPA",
+        "WAF",
+        "WPA2",
+        "WEP"
+      ],
+      "correct_answers": [
+        "WPS",
+        "WPA",
+        "WPA2",
+        "WEP"
+      ],
+      "user_answer": [
+        "WPS",
+        "WPA",
+        "WPA2",
+        "WEP"
+      ],
+      "result": "incorrect"
+    },
+    {
+      "id": "T07-Q0004",
+      "question": "The term \"Evil twin\" refers to a rogue WAP set up for eavesdropping or stealing sensitive user data. Evil twin replaces the legitimate AP and by advertising its own presence with the same Service Set Identifier (SSID, a.k.a. network name) appears as a legitimate AP to connecting hosts.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answers": [
+        "True"
+      ],
+      "user_answer": "True",
+      "result": "incorrect"
+    },
+    {
+      "id": "T07-Q0005",
+      "question": "Which of the following answers refers to a threat vector characteristic only to wired networks?",
+      "options": [
+        "ARP Spoofing",
+        "VLAN hopping",
+        "Cable tapping",
+        "Port sniffing",
+        "All of the above"
+      ],
+      "correct_answers": [
+        "Cable tapping"
+      ],
+      "user_answer": "Cable tapping",
+      "result": "incorrect"
+    },
+    {
+      "id": "T07-Q0006",
+      "question": "Examples of threat vectors related to Bluetooth communication include: bluesmacking (a type of DoS attack that targets Bluetooth devices by overwhelming them with excessive traffic), bluejacking (the practice of sending unsolicited messages or data to a Bluetooth-enabled device), bluesnarfing (gaining unauthorized access to a Bluetooth device and data theft), and bluebugging (gaining remote control over a Bluetooth device).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answers": [
+        "True"
+      ],
+      "user_answer": "True",
+      "result": "incorrect"
+    },
+    {
+      "id": "T07-Q0007",
+      "question": "Which of the answers listed below refers to the most probable cause of an unauthorized access caused by the exploitation of a specific network entry point?",
+      "options": [
+        "Outdated AV software",
+        "Browser cookies",
+        "Open service ports",
+        "Insufficient logging and monitoring"
+      ],
+      "correct_answers": [
+        "Open service ports"
+      ],
+      "user_answer": "Open service ports",
+      "result": "incorrect"
+    },
+    {
+      "id": "T07-Q0008",
+      "question": "The importance of changing default usernames and passwords can be illustrated by the example of certain network devices (such as routers), which are often shipped with default and well-known admin credentials that can be looked up on the web.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answers": [
+        "True"
+      ],
+      "user_answer": "True",
+      "result": "incorrect"
+    },
+    {
+      "id": "T07-Q0009",
+      "question": "Which of the following would be the best solution for a company that needs IT services but lacks any IT personnel?",
+      "options": [
+        "MSA",
+        "MaaS",
+        "MSP",
+        "MSSP"
+      ],
+      "correct_answers": [
+        "MSP"
+      ],
+      "user_answer": "MSP",
+      "result": "incorrect"
+    },
+    {
+      "id": "T07-Q0010",
+      "question": "Which of the terms listed below refers to a third-party vendor offering IT security management services?",
+      "options": [
+        "MSP",
+        "MaaS",
+        "MSA",
+        "MSSP"
+      ],
+      "correct_answers": [
+        "MSSP"
+      ],
+      "user_answer": "MSSP",
+      "result": "incorrect"
+    },
+    {
+      "id": "T07-Q0011",
+      "question": "Which of the following answers refer to common threat vectors that apply to MSPs, vendors, and suppliers in the supply chain? (Select 2 answers)",
+      "options": [
+        "Compliance violations",
+        "Brand reputation damage",
+        "Propagation of malware",
+        "Operational disruptions",
+        "Social engineering techniques"
+      ],
+      "correct_answers": [
+        "Propagation of malware",
+        "Social engineering techniques"
+      ],
+      "user_answer": [
+        "Propagation of malware",
+        "Social engineering techniques"
+      ],
+      "result": "incorrect"
+    },
+    {
+      "id": "T07-Q0012",
+      "question": "A social engineering technique whereby attackers under disguise of a legitimate request attempt to gain access to confidential information is commonly referred to as:",
+      "options": [
+        "Phishing",
+        "Smishing",
+        "Pharming",
+        "Spoofing"
+      ],
+      "correct_answers": [
+        "Phishing"
+      ],
+      "user_answer": "Phishing",
+      "result": "incorrect"
+    },
+    {
+      "id": "T07-Q0013",
+      "question": "Which social engineering attack relies on identity theft?",
+      "options": [
+        "Pretexting",
+        "Spear phishing",
+        "Tailgating",
+        "Impersonation"
+      ],
+      "correct_answers": [
+        "Impersonation"
+      ],
+      "user_answer": "Impersonation",
+      "result": "incorrect"
+    },
+    {
+      "id": "T07-Q0014",
+      "question": "A BEC attack is an example of:",
+      "options": [
+        "Smishing",
+        "Phishing",
+        "Vishing",
+        "Pharming"
+      ],
+      "correct_answers": [
+        "Phishing"
+      ],
+      "user_answer": "Phishing",
+      "result": "incorrect"
+    },
+    {
+      "id": "T07-Q0015",
+      "question": "Which of the answers listed below refers to a social engineering technique where an attacker creates a false scenario or situation to deceive the victim into revealing sensitive information?",
+      "options": [
+        "Impersonation",
+        "Credential harvesting",
+        "Pretexting",
+        "Watering hole attack"
+      ],
+      "correct_answers": [
+        "Pretexting"
+      ],
+      "user_answer": "Pretexting",
+      "result": "incorrect"
+    },
+    {
+      "id": "T07-Q0016",
+      "question": "Which of the following terms refers to a platform used for watering hole attacks?",
+      "options": [
+        "Mail gateways",
+        "Websites",
+        "PBX systems",
+        "Web browsers"
+      ],
+      "correct_answers": [
+        "Websites"
+      ],
+      "user_answer": "Websites",
+      "result": "incorrect"
+    },
+    {
+      "id": "T07-Q0017",
+      "question": "The term \"URL hijacking\" (a.k.a. \"Typosquatting\") refers to a deceptive practice involving the deliberate registration of domain names with misspellings or slight variations that closely resemble well-established and popular domain names. The primary goal of this strategy is to exploit the common typographical errors made by users while entering URLs into their web browser's address bar. Beyond capturing inadvertent traffic, typosquatting may also be used for hosting phishing sites to trick users into divulging sensitive information, distributing malware through deceptive websites, generating ad revenue by redirecting mistyped traffic, or engaging in brand impersonation to harm the reputation of authentic brands or deceive users.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answers": [
+        "True"
+      ],
+      "user_answer": "True",
+      "result": "incorrect"
+    },
+    {
+      "id": "T07-Q0018",
+      "question": "Which type of application attack relies on introducing external code into the address space of a running program?",
+      "options": [
+        "Buffer overflow",
+        "Memory injection",
+        "Replay attack",
+        "Pointer dereference"
+      ],
+      "correct_answers": [
+        "Memory injection"
+      ],
+      "user_answer": "Memory injection",
+      "result": "incorrect"
+    },
+    {
+      "id": "T07-Q0019",
+      "question": "A collection of precompiled functions designed to be used by more than one Microsoft Windows application simultaneously to save system resources is known as:",
+      "options": [
+        "DLL",
+        "API",
+        "EXE",
+        "INI"
+      ],
+      "correct_answers": [
+        "DLL"
+      ],
+      "user_answer": "DLL",
+      "result": "incorrect"
+    },
+    {
+      "id": "T07-Q0020",
+      "question": "Which of the answers listed below refers to an application attack that relies on executing a library of code?",
+      "options": [
+        "Memory leak",
+        "DLL injection",
+        "Pointer dereference",
+        "Buffer overflow"
+      ],
+      "correct_answers": [
+        "DLL injection"
+      ],
+      "user_answer": "DLL injection",
+      "result": "incorrect"
+    },
+    {
+      "id": "T07-Q0021",
+      "question": "A type of exploit in which an application overwrites the contents of a memory area it should not have access to is called:",
+      "options": [
+        "DLL injection",
+        "Buffer overflow",
+        "Memory leak",
+        "Privilege escalation"
+      ],
+      "correct_answers": [
+        "Buffer overflow"
+      ],
+      "user_answer": "Buffer overflow",
+      "result": "incorrect"
+    },
+    {
+      "id": "T07-Q0022",
+      "question": "A malfunction in a preprogrammed sequential access to a shared resource is described as:",
+      "options": [
+        "Race condition",
+        "Concurrency error",
+        "Multithreading",
+        "Synchronization error"
+      ],
+      "correct_answers": [
+        "Race condition"
+      ],
+      "user_answer": "Race condition",
+      "result": "incorrect"
+    },
+    {
+      "id": "T07-Q0023",
+      "question": "A type of vulnerability where the state of a resource is verified at one point in time but may change before the resource is actually used is referred to as:",
+      "options": [
+        "TOC",
+        "TOC/TOU",
+        "TOU",
+        "TSIG"
+      ],
+      "correct_answers": [
+        "TOC/TOU"
+      ],
+      "user_answer": "TOC/TOU",
+      "result": "incorrect"
+    },
+    {
+      "id": "T07-Q0024",
+      "question": "A malicious application update is a type of malware that can be installed through a seemingly legitimate software update. The introduction of a malicious update into the application code can be enabled through various means, including:",
+      "options": [
+        "Unsigned application code",
+        "Unencrypted update channel (HTTP vs HTTPS)",
+        "Fake update website",
+        "Unauthorized access to update server",
+        "Compromised software development process",
+        "All of the above"
+      ],
+      "correct_answers": [
+        "All of the above"
+      ],
+      "user_answer": "All of the above",
+      "result": "incorrect"
+    },
+    {
+      "id": "T07-Q0025",
+      "question": "Which of the following answers does not refer to a common type of OS-based vulnerability?",
+      "options": [
+        "Access control and permissions vulnerabilities (weak passwords, privilege escalation)",
+        "Vulnerabilities in installed applications, system utilities, and device drivers",
+        "Memory-related vulnerabilities (memory leaks, buffer overflows, race conditions)",
+        "Patch and update management vulnerabilities (security patch and update delays, malicious updates)",
+        "Vulnerabilities related to system/security misconfigurations",
+        "Network-related vulnerabilities (DoS attacks, remote code execution attacks)",
+        "All of the above answer choices are examples of OS-based vulnerabilities"
+      ],
+      "correct_answers": [
+        "All of the above answer choices are examples of OS-based vulnerabilities"
+      ],
+      "user_answer": "All of the above answer choices are examples of OS-based vulnerabilities",
+      "result": "incorrect"
+    }
+]

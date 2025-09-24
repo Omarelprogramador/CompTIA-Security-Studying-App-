@@ -1,0 +1,1201 @@
+[
+  {
+    "id": "T17-Q0001",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the following statements describe the features of dynamic code analysis? (Select 3 answers)",
+      "es": "¿Cuáles de las siguientes afirmaciones describen las características del análisis de código dinámico? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Typically used later in the software development lifecycle",
+          "es": "Típicamente utilizado más tarde en el ciclo de vida de desarrollo de software"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Involves examining the code without executing it",
+          "es": "Implica examinar el código sin ejecutarlo"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Analyzes runtime properties like memory usage, performance, and error handling to identify issues such as memory leaks, performance bottlenecks, and runtime errors",
+          "es": "Analiza las propiedades de tiempo de ejecución como el uso de memoria, el rendimiento y el manejo de errores para identificar problemas como fugas de memoria, cuellos de botella de rendimiento y errores de tiempo de ejecución"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Often used early in the development process",
+          "es": "A menudo se utiliza al principio del proceso de desarrollo"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Examines code structure, syntax, and semantics to detect issues like syntax errors, coding standards violations, security vulnerabilities, and bugs",
+          "es": "Examina la estructura del código, la sintaxis y la semántica para detectar problemas como errores de sintaxis, violaciones de estándares de codificación, vulnerabilidades de seguridad y errores"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Involves executing the code and analyzing its behavior at runtime",
+          "es": "Implica ejecutar el código y analizar su comportamiento en tiempo de ejecución"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Dynamic code analysis, also known as DAST (Dynamic Application Security Testing), involves executing an application and analyzing its behavior at runtime. It is used to find runtime issues like memory leaks and performance bottlenecks and is typically performed later in the software development lifecycle.",
+      "es": "El análisis de código dinámico, también conocido como DAST (Pruebas de Seguridad de Aplicaciones Dinámicas), implica ejecutar una aplicación y analizar su comportamiento en tiempo de ejecución. Se utiliza para encontrar problemas de tiempo de ejecución como fugas de memoria y cuellos de botella de rendimiento y se realiza típicamente más tarde en el ciclo de vida de desarrollo de software."
+    }
+  },
+  {
+    "id": "T17-Q0002",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below refers to tracking and managing software application components, such as third-party libraries and other dependencies?",
+      "es": "¿Cuál de los términos listados a continuación se refiere al seguimiento y la gestión de los componentes de una aplicación de software, como las bibliotecas de terceros y otras dependencias?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Version control",
+          "es": "Control de versiones"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Package monitoring",
+          "es": "Monitoreo de paquetes"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Configuration enforcement",
+          "es": "Aplicación de la configuración"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Application hardening",
+          "es": "Endurecimiento de la aplicación"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Package monitoring, often part of Software Composition Analysis (SCA), is the practice of tracking and managing software components and their dependencies to identify vulnerabilities and maintain security.",
+      "es": "El monitoreo de paquetes, a menudo parte del Análisis de Composición de Software (SCA), es la práctica de rastrear y gestionar los componentes de software y sus dependencias para identificar vulnerabilidades y mantener la seguridad."
+    }
+  },
+  {
+    "id": "T17-Q0003",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following terms refers to threat intelligence gathered from publicly available sources?",
+      "es": "¿Cuál de los siguientes términos se refiere a la inteligencia de amenazas obtenida de fuentes de acceso público?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "IoC",
+          "es": "IoC"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "OSINT",
+          "es": "OSINT"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "RFC",
+          "es": "RFC"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CVE/NVD",
+          "es": "CVE/NVD"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "OSINT (Open-Source Intelligence) is the practice of gathering information from publicly available sources. In cybersecurity, this is a key part of threat intelligence, providing insights into potential threats and vulnerabilities from the public domain.",
+      "es": "OSINT (Inteligencia de Fuentes Abiertas) es la práctica de recopilar información de fuentes de acceso público. En ciberseguridad, esto es una parte clave de la inteligencia de amenazas, proporcionando información sobre posibles amenazas y vulnerabilidades del dominio público."
+    }
+  },
+  {
+    "id": "T17-Q0004",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below refers to a US government initiative for real-time sharing of cyber threat indicators?",
+      "es": "¿Cuál de los términos listados a continuación se refiere a una iniciativa del gobierno de los EE. UU. para el intercambio en tiempo real de indicadores de amenazas cibernéticas?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "AIS",
+          "es": "AIS"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "STIX",
+          "es": "STIX"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "TTP",
+          "es": "TTP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CVSS",
+          "es": "CVSS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "AIS (Automated Indicator Sharing) is a US Department of Homeland Security initiative that enables the real-time sharing of cyber threat indicators between the federal government and the private sector.",
+      "es": "AIS (Intercambio de Indicadores Automatizado) es una iniciativa del Departamento de Seguridad Nacional de EE. UU. que permite el intercambio en tiempo real de indicadores de amenazas cibernéticas entre el gobierno federal y el sector privado."
+    }
+  },
+  {
+    "id": "T17-Q0005",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "What is STIX?",
+      "es": "¿Qué es STIX?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "A type of vulnerability database",
+          "es": "Un tipo de base de datos de vulnerabilidades"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Common language for describing cyber threat information",
+          "es": "Lenguaje común para describir información de amenazas cibernéticas"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "US government initiative for real-time sharing of cyber threat indicators",
+          "es": "Iniciativa del gobierno de EE. UU. para el intercambio en tiempo real de indicadores de amenazas cibernéticas"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Transport mechanism for cyber threat information",
+          "es": "Mecanismo de transporte para información de amenazas cibernéticas"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "STIX (Structured Threat Information eXpression) is a language and serialization format used to exchange cyber threat intelligence. It provides a common way to describe threats, tactics, techniques, and procedures (TTPs), and other threat information.",
+      "es": "STIX (Expresión de Información de Amenazas Estructurada) es un lenguaje y formato de serialización utilizado para intercambiar inteligencia de amenazas cibernéticas. Proporciona una forma común de describir amenazas, tácticas, técnicas y procedimientos (TTPs) y otra información de amenazas."
+    }
+  },
+  {
+    "id": "T17-Q0006",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A dedicated transport mechanism for cyber threat information is called:",
+      "es": "Un mecanismo de transporte dedicado para la información de amenazas cibernéticas se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "TCP/IP",
+          "es": "TCP/IP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "TLS",
+          "es": "TLS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "TAXII",
+          "es": "TAXII"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "S/MIME",
+          "es": "S/MIME"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "TAXII (Trusted Automated eXchange of Indicator Information) is a protocol for the automated exchange of cyber threat information. It is designed to work with STIX, providing the transport mechanism for the threat data described in STIX format.",
+      "es": "TAXII (Intercambio Automatizado Confiable de Información de Indicadores) es un protocolo para el intercambio automatizado de información de amenazas cibernéticas. Está diseñado para trabajar con STIX, proporcionando el mecanismo de transporte para los datos de amenazas descritos en formato STIX."
+    }
+  },
+  {
+    "id": "T17-Q0007",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following provides insights into the methods and tools used by cybercriminals to carry out attacks?",
+      "es": "¿Cuál de los siguientes proporciona información sobre los métodos y herramientas utilizados por los ciberdelincuentes para llevar a cabo ataques?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CVE",
+          "es": "CVE"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IoC",
+          "es": "IoC"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "AIS",
+          "es": "AIS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "TTP",
+          "es": "TTP"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "TTP (Tactics, Techniques, and Procedures) provides a high-level description of how a threat actor operates. Tactics are the 'what,' techniques are the 'how,' and procedures are the step-by-step methods used to carry out an attack. This information is a key component of cyber threat intelligence.",
+      "es": "TTP (Tácticas, Técnicas y Procedimientos) proporciona una descripción de alto nivel de cómo opera un actor de amenazas. Las tácticas son el 'qué', las técnicas son el 'cómo' y los procedimientos son los métodos paso a paso utilizados para llevar a cabo un ataque. Esta información es un componente clave de la inteligencia de amenazas cibernéticas."
+    }
+  },
+  {
+    "id": "T17-Q0008",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following statements does not apply to dark web?",
+      "es": "¿Cuál de las siguientes afirmaciones no se aplica a la dark web?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Typically requires specialized software to access its contents",
+          "es": "Típicamente requiere software especializado para acceder a su contenido"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Forms a large part of the deep web",
+          "es": "Forma una gran parte de la deep web"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Not indexed by traditional search engines",
+          "es": "No está indexado por los motores de búsqueda tradicionales"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Often associated with trading stolen data, malware, and cyber threats",
+          "es": "A menudo se asocia con el comercio de datos robados, malware y amenazas cibernéticas"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "The dark web is a small portion of the deep web, not a large part of it. The deep web refers to any part of the internet that is not indexed by search engines, while the dark web is a specific part of the deep web that is intentionally hidden and requires special software like Tor to access.",
+      "es": "La dark web es una pequeña porción de la deep web, no una gran parte de ella. La deep web se refiere a cualquier parte de Internet que no está indexada por los motores de búsqueda, mientras que la dark web es una parte específica de la deep web que está intencionalmente oculta y requiere software especial como Tor para acceder."
+    }
+  },
+  {
+    "id": "T17-Q0009",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Penetration testing: (Select all that apply)",
+      "es": "Prueba de penetración: (Selecciona todas las que apliquen)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Bypasses security controls",
+          "es": "Evita los controles de seguridad"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Only identifies lack of security controls",
+          "es": "Solo identifica la falta de controles de seguridad"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Actively tests security controls",
+          "es": "Prueba activamente los controles de seguridad"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Exploits vulnerabilities",
+          "es": "Explota vulnerabilidades"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Passively tests security controls",
+          "es": "Prueba pasivamente los controles de seguridad"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Penetration testing is an active security assessment that goes beyond simple identification of vulnerabilities. It involves actively testing security controls, bypassing them if possible, and exploiting vulnerabilities to demonstrate the potential impact of a real-world attack. This contrasts with vulnerability scanning, which is a passive process.",
+      "es": "La prueba de penetración es una evaluación de seguridad activa que va más allá de la simple identificación de vulnerabilidades. Implica probar activamente los controles de seguridad, eludirlos si es posible y explotar las vulnerabilidades para demostrar el impacto potencial de un ataque en el mundo real. Esto contrasta con el escaneo de vulnerabilidad, que es un proceso pasivo."
+    }
+  },
+  {
+    "id": "T17-Q0010",
+    "type": "tf",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A responsible disclosure program is a formal process established by an organization to encourage security researchers and ethical hackers to report vulnerabilities they discover in the organization's systems or software. A bug bounty program is a specific type of responsible disclosure program that offers financial rewards to security researchers for reporting valid vulnerabilities.",
+      "es": "Un programa de divulgación responsable es un proceso formal establecido por una organización para alentar a los investigadores de seguridad y a los hackers éticos a informar sobre las vulnerabilidades que descubren en los sistemas o software de la organización. Un programa de recompensas por errores es un tipo específico de programa de divulgación responsable que ofrece recompensas financieras a los investigadores de seguridad por informar vulnerabilidades válidas."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "The statement is true. A responsible disclosure program is a broader policy that encourages reporting, while a bug bounty program is a specific type of responsible disclosure that incentivizes reporting with monetary rewards.",
+      "es": "La afirmación es verdadera. Un programa de divulgación responsable es una política más amplia que fomenta la notificación, mientras que un programa de recompensas por errores es un tipo específico de divulgación responsable que incentiva la notificación con recompensas monetarias."
+    }
+  },
+  {
+    "id": "T17-Q0011",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "An antivirus software identifying non-malicious file as a virus due to faulty virus signature file is an example of:",
+      "es": "Un software antivirus que identifica un archivo no malicioso como un virus debido a un archivo de firma de virus defectuoso es un ejemplo de:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Fault tolerance",
+          "es": "Tolerancia a fallos"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False positive error",
+          "es": "Error de falso positivo"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Quarantine feature",
+          "es": "Función de cuarentena"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "False negative error",
+          "es": "Error de falso negativo"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A false positive, in a security context, is when a security system incorrectly flags a legitimate or benign activity as malicious. In this case, the antivirus software incorrectly identifies a safe file as a threat.",
+      "es": "Un falso positivo, en un contexto de seguridad, es cuando un sistema de seguridad marca incorrectamente una actividad legítima o benigna como maliciosa. En este caso, el software antivirus identifica incorrectamente un archivo seguro como una amenaza."
+    }
+  },
+  {
+    "id": "T17-Q0012",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a situation where no alarm is raised when an attack has taken place?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a una situación en la que no se levanta una alarma cuando ha tenido lugar un ataque?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "False negative",
+          "es": "Falso negativo"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "True positive",
+          "es": "Verdadero positivo"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "False positive",
+          "es": "Falso positivo"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "True negative",
+          "es": "Verdadero negativo"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A false negative is a security system failure where a real threat or attack is not detected and an alarm is not raised. This is a significant security risk as the attack goes unnoticed.",
+      "es": "Un falso negativo es una falla del sistema de seguridad donde una amenaza o ataque real no se detecta y no se levanta una alarma. Esto es un riesgo de seguridad significativo ya que el ataque pasa desapercibido."
+    }
+  },
+  {
+    "id": "T17-Q0013",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A measure of the likelihood that a security system will incorrectly reject an access attempt by an authorized user is referred to as:",
+      "es": "Una medida de la probabilidad de que un sistema de seguridad rechace incorrectamente un intento de acceso de un usuario autorizado se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "FAR",
+          "es": "FAR"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CER",
+          "es": "CER"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "CRC",
+          "es": "CRC"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "FRR",
+          "es": "FRR"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "FRR (False Rejection Rate) is a biometric security metric that measures the likelihood of a security system incorrectly rejecting an access attempt by an authorized user. This is also known as a Type I error.",
+      "es": "FRR (Tasa de Rechazo Falso) es una métrica de seguridad biométrica que mide la probabilidad de que un sistema de seguridad rechace incorrectamente un intento de acceso de un usuario autorizado. Esto también se conoce como un error de Tipo I."
+    }
+  },
+  {
+    "id": "T17-Q0014",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following terms refers to a framework and knowledge base that provides understanding of TTPs used during cyberattacks?",
+      "es": "¿Cuál de los siguientes términos se refiere a un marco y base de conocimiento que proporciona una comprensión de los TTPs utilizados durante los ciberataques?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CVSS",
+          "es": "CVSS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "ATT&CK",
+          "es": "ATT&CK"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "STIX",
+          "es": "STIX"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "TAXII",
+          "es": "TAXII"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "MITRE ATT&CK is a globally accessible knowledge base of adversary tactics and techniques based on real-world observations. It provides a common language for describing how attackers operate, helping security professionals understand and defend against attacks.",
+      "es": "MITRE ATT&CK es una base de conocimiento accesible a nivel mundial de tácticas y técnicas de adversarios basada en observaciones del mundo real. Proporciona un lenguaje común para describir cómo operan los atacantes, ayudando a los profesionales de la seguridad a comprender y defenderse contra los ataques."
+    }
+  },
+  {
+    "id": "T17-Q0015",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to an industry standard for assessing and scoring the severity of computer system security vulnerabilities?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a un estándar de la industria para evaluar y puntuar la gravedad de las vulnerabilidades de seguridad de los sistemas informáticos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SIEM",
+          "es": "SIEM"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CVSS",
+          "es": "CVSS"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "OSINT",
+          "es": "OSINT"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SOAR",
+          "es": "SOAR"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "CVSS (Common Vulnerability Scoring System) is a free and open industry standard for assessing the severity of software vulnerabilities. It provides a numerical score representing the vulnerability's severity and is widely used to prioritize vulnerability management efforts.",
+      "es": "CVSS (Sistema de Puntuación de Vulnerabilidades Comunes) es un estándar de la industria libre y abierto para evaluar la gravedad de las vulnerabilidades de software. Proporciona una puntuación numérica que representa la gravedad de la vulnerabilidad y se utiliza ampliamente para priorizar los esfuerzos de gestión de vulnerabilidades."
+    }
+  },
+  {
+    "id": "T17-Q0016",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following refers to a system that identifies, defines, and catalogs publicly known cybersecurity vulnerabilities?",
+      "es": "¿Cuál de los siguientes se refiere a un sistema que identifica, define y cataloga las vulnerabilidades de ciberseguridad conocidas públicamente?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "TAXII",
+          "es": "TAXII"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CVE",
+          "es": "CVE"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "STIX",
+          "es": "STIX"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CVSS",
+          "es": "CVSS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "CVE (Common Vulnerabilities and Exposures) is a list of publicly disclosed cybersecurity vulnerabilities. It is a dictionary that provides a common identifier (CVE ID) for each vulnerability, allowing for easy sharing and correlation of information.",
+      "es": "CVE (Vulnerabilidades y Exposiciones Comunes) es una lista de vulnerabilidades de ciberseguridad divulgadas públicamente. Es un diccionario que proporciona un identificador común (ID de CVE) para cada vulnerabilidad, lo que permite un fácil intercambio y correlación de información."
+    }
+  },
+  {
+    "id": "T17-Q0017",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "What is Exposure Factor (EF) in vulnerability analysis?",
+      "es": "¿Qué es el Factor de Exposición (EF) en el análisis de vulnerabilidad?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "The likelihood that a vulnerability will be exploited in a real-world scenario",
+          "es": "La probabilidad de que una vulnerabilidad sea explotada en un escenario del mundo real"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "The rate at which vulnerabilities are discovered and reported",
+          "es": "La tasa a la que se descubren y reportan las vulnerabilidades"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "The degree of loss that a realized threat would have on a specific asset",
+          "es": "El grado de pérdida que una amenaza realizada tendría en un activo específico"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "The measure of the potential impact of a vulnerability on an organization's assets",
+          "es": "La medida del impacto potencial de una vulnerabilidad en los activos de una organización"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Exposure Factor (EF) is a key component of quantitative risk analysis. It represents the percentage of an asset's value that is lost if a specific threat is realized. For example, an EF of 1.0 means the asset is completely destroyed.",
+      "es": "El Factor de Exposición (EF) es un componente clave del análisis de riesgo cuantitativo. Representa el porcentaje del valor de un activo que se pierde si se realiza una amenaza específica. Por ejemplo, un EF de 1.0 significa que el activo está completamente destruido."
+    }
+  },
+  {
+    "id": "T17-Q0018",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the statements listed below does not refer to a vulnerability response and remediation technique?",
+      "es": "¿Cuál de las afirmaciones listadas a continuación no se refiere a una técnica de respuesta y remediación de vulnerabilidades?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Applying updates or fixes provided by software vendors to address the vulnerability (patching)",
+          "es": "Aplicar actualizaciones o correcciones proporcionadas por los proveedores de software para abordar la vulnerabilidad (parcheo)"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Ensuring financial recovery from the costs associated with a successful cyberattack (insurance)",
+          "es": "Asegurar la recuperación financiera de los costos asociados con un ciberataque exitoso (seguro)"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Dividing a network into smaller, isolated zones to limit the potential impact of a vulnerability (segmentation)",
+          "es": "Dividir una red en zonas más pequeñas y aisladas para limitar el impacto potencial de una vulnerabilidad (segmentación)"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Mitigating the risk associated with a vulnerability that cannot be immediately patched by implementing alternative security measures (compensating controls)",
+          "es": "Mitigar el riesgo asociado con una vulnerabilidad que no se puede parchar de inmediato mediante la implementación de medidas de seguridad alternativas (controles de compensación)"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Delaying or forgoing a patch for a specific system, e.g., when applying a patch may not be feasible due to compatibility issues or potential disruptions to critical systems (exceptions and exemptions)",
+          "es": "Retrasar o renunciar a un parche para un sistema específico, por ejemplo, cuando la aplicación de un parche puede no ser factible debido a problemas de compatibilidad o posibles interrupciones en sistemas críticos (excepciones y exenciones)"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "All of the above answers are examples of vulnerability response and remediation techniques",
+          "es": "Todas las respuestas anteriores son ejemplos de técnicas de respuesta y remediación de vulnerabilidades"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Insurance is a risk management strategy for financial recovery, not a technical vulnerability response or remediation technique. Patching, segmentation, compensating controls, and exceptions are all technical or procedural methods to address or mitigate vulnerabilities.",
+      "es": "El seguro es una estrategia de gestión de riesgos para la recuperación financiera, no una técnica técnica de respuesta o remediación de vulnerabilidades. El parcheo, la segmentación, los controles de compensación y las excepciones son todos métodos técnicos o de procedimiento para abordar o mitigar las vulnerabilidades."
+    }
+  },
+  {
+    "id": "T17-Q0019",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The practice of isolating potentially malicious or suspicious entities to prevent them from causing harm to the rest of the network or system is known as:",
+      "es": "La práctica de aislar entidades potencialmente maliciosas o sospechosas para evitar que causen daño al resto de la red o sistema se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Sandboxing",
+          "es": "Sandboxing"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Containerization",
+          "es": "Contenerización"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Quarantine",
+          "es": "Cuarentena"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Segmentation",
+          "es": "Segmentación"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Quarantine is the act of isolating a suspicious file, email, or other entity to prevent it from infecting or harming the rest of the system. This allows security professionals to analyze the threat without risking further damage.",
+      "es": "La cuarentena es el acto de aislar un archivo, correo electrónico u otra entidad sospechosa para evitar que infecte o dañe el resto del sistema. Esto permite a los profesionales de la seguridad analizar la amenaza sin arriesgarse a un mayor daño."
+    }
+  },
+  {
+    "id": "T17-Q0020",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the following answers refer to SCAP? (Select 3 answers)",
+      "es": "¿Cuáles de las siguientes respuestas se refieren a SCAP? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "A type of security system designed to collect logs and events from various sources",
+          "es": "Un tipo de sistema de seguridad diseñado para recopilar registros y eventos de varias fuentes"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Designed to provide a centralized user interface for accessing collected data",
+          "es": "Diseñado para proporcionar una interfaz de usuario centralizada para acceder a los datos recopilados"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "A collection of standards developed by NIST",
+          "es": "Una colección de estándares desarrollados por NIST"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Provides a common language for communicating security information",
+          "es": "Proporciona un lenguaje común para comunicar información de seguridad"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Allows different security tools to share data and work together more effectively",
+          "es": "Permite que diferentes herramientas de seguridad compartan datos y trabajen juntas de manera más efectiva"
+        },
+        "correct": true
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Enables real-time threat detection, incident response, and compliance monitoring",
+          "es": "Permite la detección de amenazas en tiempo real, la respuesta a incidentes y el monitoreo del cumplimiento"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SCAP (Security Content Automation Protocol) is a collection of standards developed by NIST. It provides a common language for communicating security-related information and enables different security tools to share data and work together more effectively.",
+      "es": "SCAP (Protocolo de Automatización de Contenido de Seguridad) es una colección de estándares desarrollados por NIST. Proporciona un lenguaje común para comunicar información relacionada con la seguridad y permite que diferentes herramientas de seguridad compartan datos y trabajen juntas de manera más efectiva."
+    }
+  },
+  {
+    "id": "T17-Q0021",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the answers listed below refer to SIEM? (Select 3 answers)",
+      "es": "¿Cuáles de las respuestas listadas a continuación se refieren a SIEM? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Allows different security tools to share data and work together more effectively",
+          "es": "Permite que diferentes herramientas de seguridad compartan datos y trabajen juntas de manera más efectiva"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Designed to provide a centralized user interface for accessing collected data",
+          "es": "Diseñado para proporcionar una interfaz de usuario centralizada para acceder a los datos recopilados"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "A collection of standards developed by NIST",
+          "es": "Una colección de estándares desarrollados por NIST"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Enables real-time threat detection, incident response, and compliance monitoring",
+          "es": "Permite la detección de amenazas en tiempo real, la respuesta a incidentes y el monitoreo del cumplimiento"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "A type of security system designed to collect logs and events from various sources",
+          "es": "Un tipo de sistema de seguridad diseñado para recopilar registros y eventos de varias fuentes"
+        },
+        "correct": true
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Provides a common language for communicating security information",
+          "es": "Proporciona un lenguaje común para comunicar información de seguridad"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SIEM (Security Information and Event Management) is a security system that collects logs and events from various sources. It is designed to provide a centralized interface for accessing this data, enabling real-time threat detection, incident response, and compliance monitoring.",
+      "es": "SIEM (Gestión de Información y Eventos de Seguridad) es un sistema de seguridad que recopila registros y eventos de varias fuentes. Está diseñado para proporcionar una interfaz centralizada para acceder a estos datos, lo que permite la detección de amenazas en tiempo real, la respuesta a incidentes y el monitoreo del cumplimiento."
+    }
+  },
+  {
+    "id": "T17-Q0022",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following acronyms refers to software or hardware-based security solutions designed to detect and prevent unauthorized use and transmission of confidential information?",
+      "es": "¿Cuál de los siguientes acrónimos se refiere a soluciones de seguridad basadas en software o hardware diseñadas para detectar y prevenir el uso y la transmisión no autorizados de información confidencial?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "IPS",
+          "es": "IPS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DLP",
+          "es": "DLP"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "IDS",
+          "es": "IDS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "DEP",
+          "es": "DEP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "DLP (Data Loss Prevention) is a set of tools and processes used to ensure that sensitive data is not lost, misused, or accessed by unauthorized users. DLP solutions monitor, detect, and block unauthorized data transfers.",
+      "es": "DLP (Prevención de Pérdida de Datos) es un conjunto de herramientas y procesos utilizados para garantizar que los datos confidenciales no se pierdan, se usen incorrectamente o sean accedidos por usuarios no autorizados. Las soluciones DLP monitorean, detectan y bloquean las transferencias de datos no autorizadas."
+    }
+  },
+  {
+    "id": "T17-Q0023",
+    "type": "tf",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Simple Network Management Protocol (SNMP) is a UDP-based, application layer protocol used in network management systems to monitor network-attached devices. SNMP is typically integrated into most modern network infrastructure devices such as routers, bridges, switches, servers, printers, copiers, fax machines, and other network-attached devices. An SNMP-managed network comprises three essential components: a managed device, a network-management software module that resides on a managed device (Agent), and a Network Management Station (NMS), which runs applications responsible for monitoring and controlling managed devices, as well as collecting SNMP information from Agents. The manager receives notifications (Traps and InformRequests) on UDP port 162, while the SNMP Agent receives requests on UDP port 161.",
+      "es": "El Protocolo Simple de Gestión de Red (SNMP) es un protocolo de capa de aplicación basado en UDP utilizado en sistemas de gestión de red para monitorear dispositivos conectados a la red. SNMP se integra típicamente en la mayoría de los dispositivos de infraestructura de red modernos, como enrutadores, puentes, conmutadores, servidores, impresoras, fotocopiadoras, máquinas de fax y otros dispositivos conectados a la red. Una red gestionada por SNMP se compone de tres componentes esenciales: un dispositivo gestionado, un módulo de software de gestión de red que reside en un dispositivo gestionado (Agente) y una Estación de Gestión de Red (NMS), que ejecuta aplicaciones responsables de monitorear y controlar los dispositivos gestionados, así como de recopilar información SNMP de los Agentes. El gestor recibe notificaciones (Trampas e InformRequests) en el puerto UDP 162, mientras que el Agente SNMP recibe solicitudes en el puerto UDP 161."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "The statement accurately describes the components, function, and port numbers of SNMP. SNMP is a foundational protocol for network management and is widely used in IT infrastructure.",
+      "es": "La afirmación describe con precisión los componentes, la función y los números de puerto de SNMP. SNMP es un protocolo fundamental para la gestión de redes y se utiliza ampliamente en la infraestructura de TI."
+    }
+  },
+  {
+    "id": "T17-Q0024",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "An SNMP-compliant device includes a virtual database containing information about configuration and state of the device that can be queried by an SNMP management station. This type of data repository is referred to as:",
+      "es": "Un dispositivo compatible con SNMP incluye una base de datos virtual que contiene información sobre la configuración y el estado del dispositivo que puede ser consultada por una estación de gestión SNMP. Este tipo de repositorio de datos se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MIB",
+          "es": "MIB"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DCS",
+          "es": "DCS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "NMS",
+          "es": "NMS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SIEM",
+          "es": "SIEM"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "MIB (Management Information Base) is a virtual database of objects that can be managed by SNMP. It is a hierarchical structure that defines the managed objects and their properties on an SNMP-compliant device.",
+      "es": "MIB (Base de Información de Gestión) es una base de datos virtual de objetos que pueden ser gestionados por SNMP. Es una estructura jerárquica que define los objetos gestionados y sus propiedades en un dispositivo compatible con SNMP."
+    }
+  },
+  {
+    "id": "T17-Q0025",
+    "type": "tf",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Of the three existing versions of the Simple Network Management Protocol (SNMP), versions 1 and 2 (SNMPv1 and SNMPv2) offer authentication based on community strings sent in an unencrypted form (a.k.a. cleartext). SNMPv3 provides packet encryption, authentication, and hashing mechanisms that allow for checking whether data has changed in transit.",
+      "es": "De las tres versiones existentes del Protocolo Simple de Gestión de Red (SNMP), las versiones 1 y 2 (SNMPv1 y SNMPv2) ofrecen autenticación basada en cadenas de comunidad enviadas en forma no cifrada (también conocido como texto claro). SNMPv3 proporciona mecanismos de cifrado de paquetes, autenticación y hash que permiten verificar si los datos han cambiado en tránsito."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "The statement is true. SNMPv1 and SNMPv2 are known for their lack of strong security, relying on cleartext community strings for authentication. SNMPv3 was developed to address these security shortcomings by adding support for encryption and more robust authentication and integrity checks.",
+      "es": "La afirmación es verdadera. SNMPv1 y SNMPv2 son conocidos por su falta de seguridad fuerte, dependiendo de cadenas de comunidad de texto claro para la autenticación. SNMPv3 se desarrolló para abordar estas deficiencias de seguridad al agregar soporte para el cifrado y mecanismos de autenticación e integridad más robustos."
+    }
+  }
+]

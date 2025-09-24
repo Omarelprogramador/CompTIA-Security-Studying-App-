@@ -1,0 +1,1631 @@
+[
+  {
+    "id": "AC02-Q0001",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following acronyms refers to software or hardware-based security solutions designed to detect and prevent unauthorized use and transmission of confidential information?",
+      "es": "¿Cuál de los siguientes acrónimos se refiere a soluciones de seguridad basadas en software o hardware diseñadas para detectar y prevenir el uso y la transmisión no autorizados de información confidencial?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "IPS",
+          "es": "IPS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DLP",
+          "es": "DLP"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "IDS",
+          "es": "IDS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "DEP",
+          "es": "DEP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "DLP stands for Data Loss Prevention, a system designed to protect sensitive information from being accessed or transmitted without authorization.",
+      "es": "DLP significa Data Loss Prevention, un sistema diseñado para proteger la información sensible de ser accedida o transmitida sin autorización."
+    }
+  },
+  {
+    "id": "AC02-Q0002",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A rule-based access control mechanism implemented on routers, switches, and firewalls is referred to as:",
+      "es": "Un mecanismo de control de acceso basado en reglas implementado en routers, switches y firewalls se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ACL",
+          "es": "ACL"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CSR",
+          "es": "CSR"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MAC",
+          "es": "MAC"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "AUP",
+          "es": "AUP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ACL stands for Access Control List, a list of permissions attached to a resource.",
+      "es": "ACL significa Access Control List, una lista de permisos adjunta a un recurso."
+    }
+  },
+  {
+    "id": "AC02-Q0003",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which type of firmware performs initial hardware checks after the computer is powered on?",
+      "es": "¿Qué tipo de firmware realiza las comprobaciones iniciales de hardware después de encender el ordenador?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "BIOS",
+          "es": "BIOS"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "POST",
+          "es": "POST"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "CMOS",
+          "es": "CMOS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "PROM",
+          "es": "PROM"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "BIOS (Basic Input/Output System) is the firmware that performs the initial hardware checks, known as POST, when a computer is powered on.",
+      "es": "BIOS (Basic Input/Output System) es el firmware que realiza las comprobaciones iniciales de hardware, conocidas como POST, cuando un ordenador se enciende."
+    }
+  },
+  {
+    "id": "AC02-Q0004",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a software technology designed to simplify network infrastructure management?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a una tecnología de software diseñada para simplificar la gestión de la infraestructura de red?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SDN",
+          "es": "SDN"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "QoS",
+          "es": "QoS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "VDI",
+          "es": "VDI"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CDN",
+          "es": "CDN"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SDN stands for Software-Defined Networking, which centralizes the control of a network by decoupling the control plane from the data plane.",
+      "es": "SDN significa Software-Defined Networking, que centraliza el control de una red desacoplando el plano de control del plano de datos."
+    }
+  },
+  {
+    "id": "AC02-Q0005",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following is an MS Windows component that enables encryption of individual files?",
+      "es": "¿Cuál de los siguientes es un componente de MS Windows que permite la encriptación de archivos individuales?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "EFS",
+          "es": "EFS"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "NTFS",
+          "es": "NTFS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "DFS",
+          "es": "DFS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "NFS",
+          "es": "NFS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "EFS stands for Encrypting File System, a feature of Windows that enables transparent encryption of files and folders.",
+      "es": "EFS significa Encrypting File System, una característica de Windows que permite la encriptación transparente de archivos y carpetas."
+    }
+  },
+  {
+    "id": "AC02-Q0006",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A system that uses public network (such as the Internet) as a means for creating private encrypted connections between remote locations is known as:",
+      "es": "Un sistema que utiliza una red pública (como Internet) como medio para crear conexiones privadas encriptadas entre ubicaciones remotas se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "WWAN",
+          "es": "WWAN"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "VPN",
+          "es": "VPN"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PAN",
+          "es": "PAN"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "VLAN",
+          "es": "VLAN"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "VPN stands for Virtual Private Network, which creates a secure, encrypted connection over a public network.",
+      "es": "VPN significa Virtual Private Network, que crea una conexión segura y encriptada a través de una red pública."
+    }
+  },
+  {
+    "id": "AC02-Q0007",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a security standard introduced to address the vulnerabilities found in WEP?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un estándar de seguridad introducido para abordar las vulnerabilidades encontradas en WEP?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "TKIP",
+          "es": "TKIP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "AES",
+          "es": "AES"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "WPA",
+          "es": "WPA"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CCMP",
+          "es": "CCMP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "WPA stands for Wi-Fi Protected Access, a security protocol that was developed to address the shortcomings of WEP.",
+      "es": "WPA significa Wi-Fi Protected Access, un protocolo de seguridad que se desarrolló para abordar las deficiencias de WEP."
+    }
+  },
+  {
+    "id": "AC02-Q0008",
+    "type": "t/f",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The term \"KEK\" refers to a type of cryptographic key often used in key management systems to add an additional layer of security when encrypting and decrypting other cryptographic keys.",
+      "es": "El término \"KEK\" se refiere a un tipo de clave criptográfica a menudo utilizada en sistemas de gestión de claves para añadir una capa adicional de seguridad al encriptar y desencriptar otras claves criptográficas."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "KEK stands for Key Encryption Key. It is used to encrypt and protect other keys, providing an extra layer of security.",
+      "es": "KEK significa Key Encryption Key. Se utiliza para encriptar y proteger otras claves, proporcionando una capa adicional de seguridad."
+    }
+  },
+  {
+    "id": "AC02-Q0009",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "POP3 is used for:",
+      "es": "POP3 se utiliza para:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Name resolution",
+          "es": "Resolución de nombres"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Sending email messages",
+          "es": "Enviar mensajes de correo electrónico"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "File exchange",
+          "es": "Intercambio de archivos"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Email retrieval",
+          "es": "Recuperación de correo electrónico"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "POP3 stands for Post Office Protocol 3, which is used by email clients to retrieve email messages from a mail server.",
+      "es": "POP3 significa Post Office Protocol 3, que es utilizado por los clientes de correo electrónico para recuperar mensajes de correo electrónico de un servidor de correo."
+    }
+  },
+  {
+    "id": "AC02-Q0010",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which cloud service model would provide the best solution for a web developer intending to create a web app?",
+      "es": "¿Qué modelo de servicio en la nube proporcionaría la mejor solución para un desarrollador web que tiene la intención de crear una aplicación web?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "XaaS",
+          "es": "XaaS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SaaS",
+          "es": "SaaS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PaaS",
+          "es": "PaaS"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "IaaS",
+          "es": "IaaS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "PaaS stands for Platform as a Service, which provides a platform for developers to build, run, and manage applications without the complexity of building and maintaining the infrastructure.",
+      "es": "PaaS significa Platform as a Service, que proporciona una plataforma para que los desarrolladores construyan, ejecuten y gestionen aplicaciones sin la complejidad de construir y mantener la infraestructura."
+    }
+  },
+  {
+    "id": "AC02-Q0011",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a cryptographic hash function that has been widely used in the past but is now considered deprecated for security-sensitive applications due to known vulnerabilities?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a una función de hash criptográfico que ha sido ampliamente utilizada en el pasado pero que ahora se considera obsoleta para aplicaciones sensibles a la seguridad debido a vulnerabilidades conocidas?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MD5",
+          "es": "MD5"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SHA",
+          "es": "SHA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "CRC",
+          "es": "CRC"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "HMAC",
+          "es": "HMAC"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "MD5 stands for Message-Digest Algorithm 5. It is no longer recommended for use in security-sensitive applications due to its susceptibility to collision attacks.",
+      "es": "MD5 significa Message-Digest Algorithm 5. Ya no se recomienda su uso en aplicaciones sensibles a la seguridad debido a su susceptibilidad a los ataques de colisión."
+    }
+  },
+  {
+    "id": "AC02-Q0012",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a suite of protocols and technologies providing encryption, authentication, and data integrity for network traffic?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un conjunto de protocolos y tecnologías que proporcionan encriptación, autenticación e integridad de datos para el tráfico de red?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "TLS",
+          "es": "TLS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SSH",
+          "es": "SSH"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "IPsec",
+          "es": "IPsec"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "VPN",
+          "es": "VPN"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "IPsec stands for Internet Protocol Security, a suite of protocols that provides security for IP traffic.",
+      "es": "IPsec significa Internet Protocol Security, un conjunto de protocolos que proporciona seguridad para el tráfico IP."
+    }
+  },
+  {
+    "id": "AC02-Q0013",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A network protocol providing an alternative solution to the manual allocation of IP addresses is called:",
+      "es": "Un protocolo de red que proporciona una solución alternativa a la asignación manual de direcciones IP se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "DNS",
+          "es": "DNS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SNMP",
+          "es": "SNMP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "NAT",
+          "es": "NAT"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "DHCP",
+          "es": "DHCP"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "DHCP stands for Dynamic Host Configuration Protocol, which automatically assigns IP addresses to devices on a network.",
+      "es": "DHCP significa Dynamic Host Configuration Protocol, que asigna automáticamente direcciones IP a los dispositivos en una red."
+    }
+  },
+  {
+    "id": "AC02-Q0014",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following regulations protects the privacy and personal data of the EU citizens?",
+      "es": "¿Cuál de las siguientes regulaciones protege la privacidad y los datos personales de los ciudadanos de la UE?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PHI",
+          "es": "PHI"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "HIPAA",
+          "es": "HIPAA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PCI DSS",
+          "es": "PCI DSS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "GDPR",
+          "es": "GDPR"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "GDPR stands for General Data Protection Regulation, a regulation in EU law on data protection and privacy.",
+      "es": "GDPR significa General Data Protection Regulation, una regulación en la ley de la UE sobre protección de datos y privacidad."
+    }
+  },
+  {
+    "id": "AC02-Q0015",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a mechanical data storage medium type that relies on magnetic plates and moving parts for data storage and retrieval?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un tipo de medio de almacenamiento de datos mecánico que se basa en placas magnéticas y partes móviles para el almacenamiento y la recuperación de datos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "RAM",
+          "es": "RAM"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "HDD",
+          "es": "HDD"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "NVMe",
+          "es": "NVMe"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SSD",
+          "es": "SSD"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "HDD stands for Hard Disk Drive, which uses magnetic plates and a mechanical arm to read and write data.",
+      "es": "HDD significa Hard Disk Drive, que utiliza placas magnéticas y un brazo mecánico para leer y escribir datos."
+    }
+  },
+  {
+    "id": "AC02-Q0016",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following terms refers to an environmental control system?",
+      "es": "¿Cuál de los siguientes términos se refiere a un sistema de control ambiental?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SCADA",
+          "es": "SCADA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "HIPS",
+          "es": "HIPS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "TEMPEST",
+          "es": "TEMPEST"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "HVAC",
+          "es": "HVAC"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "HVAC stands for Heating, Ventilation, and Air Conditioning, which is a system for environmental comfort.",
+      "es": "HVAC significa Heating, Ventilation, and Air Conditioning, que es un sistema para el confort ambiental."
+    }
+  },
+  {
+    "id": "AC02-Q0017",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A type of network connecting computers within a small geographical area such as a building or group of buildings is referred to as:",
+      "es": "Un tipo de red que conecta ordenadores dentro de un área geográfica pequeña, como un edificio o un grupo de edificios, se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PAN",
+          "es": "PAN"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "LAN",
+          "es": "LAN"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MAN",
+          "es": "MAN"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "WAN",
+          "es": "WAN"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "LAN stands for Local Area Network, a network that connects computers in a limited area.",
+      "es": "LAN significa Local Area Network, una red que conecta ordenadores en un área limitada."
+    }
+  },
+  {
+    "id": "AC02-Q0018",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the solutions listed below hides the internal IP addresses by modifying IP address information in IP packet headers while in transit across a traffic routing device?",
+      "es": "¿Cuál de las soluciones a continuación oculta las direcciones IP internas modificando la información de la dirección IP en los encabezados de los paquetes IP mientras están en tránsito a través de un dispositivo de enrutamiento de tráfico?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "QoS",
+          "es": "QoS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DHCP",
+          "es": "DHCP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "NAT",
+          "es": "NAT"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "DNS",
+          "es": "DNS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "NAT stands for Network Address Translation, a method of remapping one IP address space into another.",
+      "es": "NAT significa Network Address Translation, un método para reasignar un espacio de direcciones IP en otro."
+    }
+  },
+  {
+    "id": "AC02-Q0019",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a shared secret authentication method used in WPA, WPA2, and EAP?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un método de autenticación de secreto compartido utilizado en WPA, WPA2 y EAP?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PSK",
+          "es": "PSK"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "802.1X",
+          "es": "802.1X"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SAE",
+          "es": "SAE"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "TKIP",
+          "es": "TKIP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "PSK stands for Pre-Shared Key, a shared secret phrase or password used for authentication.",
+      "es": "PSK significa Pre-Shared Key, una frase o contraseña secreta compartida utilizada para la autenticación."
+    }
+  },
+  {
+    "id": "AC02-Q0020",
+    "type": "t/f",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Copies of lost private encryption keys can be retrieved from a key escrow by RAs (i.e., individuals with access to key database and permission level allowing them to extract keys from escrow).",
+      "es": "Las copias de claves de encriptación privadas perdidas se pueden recuperar de una custodia de claves por RAs (es decir, individuos con acceso a la base de datos de claves y nivel de permiso que les permite extraer claves de la custodia)."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Key escrow is a practice in which the keys needed to decrypt encrypted data are held in a secure database by a third party.",
+      "es": "La custodia de claves es una práctica en la que las claves necesarias para desencriptar datos encriptados se mantienen en una base de datos segura por un tercero."
+    }
+  },
+  {
+    "id": "AC02-Q0021",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which type of unsolicited messaging relies on text-based communication?",
+      "es": "¿Qué tipo de mensajería no solicitada se basa en la comunicación por texto?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "VAM",
+          "es": "VAM"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SPIM",
+          "es": "SPIM"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "JMS",
+          "es": "JMS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SPIT",
+          "es": "SPIT"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SPIM stands for Spam over Internet Messaging, which refers to unsolicited messages sent via instant messaging or other text-based communication platforms.",
+      "es": "SPIM significa Spam over Internet Messaging, que se refiere a mensajes no solicitados enviados a través de mensajería instantánea u otras plataformas de comunicación basadas en texto."
+    }
+  },
+  {
+    "id": "AC02-Q0022",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a secure replacement for Telnet?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un reemplazo seguro para Telnet?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CHAP",
+          "es": "CHAP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "FTP",
+          "es": "FTP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SNMP",
+          "es": "SNMP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SSH",
+          "es": "SSH"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "SSH stands for Secure Shell, a network protocol that provides a secure channel over an unsecured network.",
+      "es": "SSH significa Secure Shell, un protocolo de red que proporciona un canal seguro sobre una red no segura."
+    }
+  },
+  {
+    "id": "AC02-Q0023",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a family of cryptographic hash functions used in a variety of security applications, including digital signatures, password storage, secure communications, and data integrity verification?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a una familia de funciones de hash criptográficas utilizadas en una variedad de aplicaciones de seguridad, incluyendo firmas digitales, almacenamiento de contraseñas, comunicaciones seguras y verificación de la integridad de los datos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "RSA",
+          "es": "RSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IDEA",
+          "es": "IDEA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "AES",
+          "es": "AES"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SHA",
+          "es": "SHA"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "SHA stands for Secure Hash Algorithm, a family of cryptographic hash functions published by the National Institute of Standards and Technology (NIST).",
+      "es": "SHA significa Secure Hash Algorithm, una familia de funciones de hash criptográficas publicadas por el National Institute of Standards and Technology (NIST)."
+    }
+  },
+  {
+    "id": "AC02-Q0024",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In the AAA security architecture, the process of granting or denying access to resources is known as:",
+      "es": "En la arquitectura de seguridad AAA, el proceso de conceder o denegar el acceso a los recursos se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Auditing",
+          "es": "Auditoría"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Authentication",
+          "es": "Autenticación"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Authorization",
+          "es": "Autorización"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Accounting",
+          "es": "Contabilidad"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Authorization is the process of granting or denying a user or system access to resources based on a set of rules.",
+      "es": "La autorización es el proceso de conceder o denegar a un usuario o sistema el acceso a los recursos basándose en un conjunto de reglas."
+    }
+  },
+  {
+    "id": "AC02-Q0025",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below applies to the authentication process?",
+      "es": "¿Cuál de los siguientes términos se aplica al proceso de autenticación?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MFA",
+          "es": "MFA"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "MMC",
+          "es": "MMC"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MDM",
+          "es": "MDM"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MFD",
+          "es": "MFD"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "MFA stands for Multi-Factor Authentication, a method of authentication that requires a user to provide two or more verification factors.",
+      "es": "MFA significa Multi-Factor Authentication, un método de autenticación que requiere que un usuario proporcione dos o más factores de verificación."
+    }
+  },
+  {
+    "id": "AC02-Q0026",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the following answers refer to NIPS? (Select 3 answers)",
+      "es": "¿Cuáles de las siguientes respuestas se refieren a NIPS? (Seleccione 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Takes proactive measures to block or mitigate intrusion attempts",
+          "es": "Toma medidas proactivas para bloquear o mitigar los intentos de intrusión"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Generates alerts and notifies security personnel or administrators when suspicious activity is detected",
+          "es": "Genera alertas y notifica al personal de seguridad o a los administradores cuando se detecta actividad sospechosa"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Operates in an inline mode, actively intercepting and inspecting network traffic",
+          "es": "Opera en modo en línea, interceptando e inspeccionando activamente el tráfico de red"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Monitors network traffic without direct involvement in traffic routing or packet modification",
+          "es": "Monitorea el tráfico de red sin una participación directa en el enrutamiento del tráfico o la modificación de paquetes"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Does not take direct action to block or prevent attacks",
+          "es": "No toma medidas directas para bloquear o prevenir ataques"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "It can drop or reject network packets, terminate connections, or take other actions to stop the attack",
+          "es": "Puede descartar o rechazar paquetes de red, terminar conexiones o tomar otras acciones para detener el ataque"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "NIPS stands for Network Intrusion Prevention System. Unlike a passive Intrusion Detection System (IDS), an NIPS actively works to block and prevent threats by operating in-line and taking direct action on traffic.",
+      "es": "NIPS significa Network Intrusion Prevention System. A diferencia de un sistema de detección de intrusiones pasivo (IDS), un NIPS trabaja activamente para bloquear y prevenir amenazas al operar en línea y tomar medidas directas sobre el tráfico."
+    }
+  },
+  {
+    "id": "AC02-Q0027",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below refers to threat intelligence gathered from publicly available sources?",
+      "es": "¿Cuál de los siguientes términos se refiere a la inteligencia de amenazas recopilada de fuentes disponibles públicamente?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "IoC",
+          "es": "IoC"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "OSINT",
+          "es": "OSINT"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "RFC",
+          "es": "RFC"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CVE/NVD",
+          "es": "CVE/NVD"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "OSINT stands for Open-Source Intelligence, which refers to the collection and analysis of information from publicly available sources to produce actionable intelligence.",
+      "es": "OSINT significa Open-Source Intelligence, que se refiere a la recopilación y el análisis de información de fuentes disponibles públicamente para producir inteligencia procesable."
+    }
+  },
+  {
+    "id": "AC02-Q0028",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a common PnP interface that allows a PC to communicate with peripherals and other devices?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a una interfaz PnP común que permite a un PC comunicarse con periféricos y otros dispositivos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "IDE",
+          "es": "IDE"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "PCIe",
+          "es": "PCIe"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "USB",
+          "es": "USB"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "eSATA",
+          "es": "eSATA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "USB stands for Universal Serial Bus, a standard for connecting peripherals to computers.",
+      "es": "USB significa Universal Serial Bus, un estándar para conectar periféricos a ordenadores."
+    }
+  },
+  {
+    "id": "AC02-Q0029",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the solutions listed below allows to check whether a digital certificate has been revoked?",
+      "es": "¿Cuál de las soluciones a continuación permite comprobar si un certificado digital ha sido revocado?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "OCR",
+          "es": "OCR"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CRL",
+          "es": "CRL"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "CSR",
+          "es": "CSR"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "OSPF",
+          "es": "OSPF"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "CRL stands for Certificate Revocation List, a list of digital certificates that have been revoked by the issuing Certificate Authority.",
+      "es": "CRL significa Certificate Revocation List, una lista de certificados digitales que han sido revocados por la Autoridad de Certificación emisora."
+    }
+  },
+  {
+    "id": "AC02-Q0030",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A type of computer security solution that allows to define and enforce network access policies is called:",
+      "es": "Un tipo de solución de seguridad informática que permite definir y hacer cumplir las políticas de acceso a la red se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "NAT",
+          "es": "NAT"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "ACL",
+          "es": "ACL"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "NAC",
+          "es": "NAC"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "DLP",
+          "es": "DLP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "NAC stands for Network Access Control, a computer networking solution that uses a set of protocols to define and enforce policies that control who can access a network.",
+      "es": "NAC significa Network Access Control, una solución de redes informáticas que utiliza un conjunto de protocolos para definir y hacer cumplir las políticas que controlan quién puede acceder a una red."
+    }
+  },
+  {
+    "id": "AC02-Q0031",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following solutions alleviates the problem of the depleting IPv4 address space by allowing multiple hosts on the same private LAN to share a single public IP address?",
+      "es": "¿Cuál de las siguientes soluciones alivia el problema del agotamiento del espacio de direcciones IPv4 al permitir que múltiples hosts en la misma LAN privada compartan una única dirección IP pública?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "DNS",
+          "es": "DNS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "APIPA",
+          "es": "APIPA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "NAT",
+          "es": "NAT"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "DHCP",
+          "es": "DHCP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "NAT stands for Network Address Translation, a method of remapping one IP address space into another by modifying network address information in the IP header of packets.",
+      "es": "NAT significa Network Address Translation, un método de reasignar un espacio de direcciones IP en otro modificando la información de la dirección de red en el encabezado IP de los paquetes."
+    }
+  },
+  {
+    "id": "AC02-Q0032",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to an individual or role responsible for overseeing and ensuring compliance with data protection laws and policies within an organization?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un individuo o rol responsable de supervisar y garantizar el cumplimiento de las leyes y políticas de protección de datos dentro de una organización?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CTO",
+          "es": "CTO"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DPO",
+          "es": "DPO"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "CIO",
+          "es": "CIO"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CSO",
+          "es": "CSO"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "DPO stands for Data Protection Officer, a role mandated by GDPR to oversee data protection strategy and implementation.",
+      "es": "DPO significa Data Protection Officer, un rol exigido por GDPR para supervisar la estrategia y la implementación de la protección de datos."
+    }
+  },
+  {
+    "id": "AC02-Q0033",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following terms refers to an agreement that specifies performance requirements for a vendor?",
+      "es": "¿Cuál de los siguientes términos se refiere a un acuerdo que especifica los requisitos de rendimiento para un proveedor?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MSA",
+          "es": "MSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SLA",
+          "es": "SLA"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MOU",
+          "es": "MOU"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SOW",
+          "es": "SOW"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SLA stands for Service Level Agreement, a contract between a service provider and a customer that specifies the level of service to be provided.",
+      "es": "SLA significa Service Level Agreement, un contrato entre un proveedor de servicios y un cliente que especifica el nivel de servicio que se va a proporcionar."
+    }
+  },
+  {
+    "id": "AC02-Q0034",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A legal contract between the holder of confidential information and another person to whom that information is disclosed restricting that other person from disclosing the confidential information to any other party is referred to as:",
+      "es": "Un contrato legal entre el titular de información confidencial y otra persona a la que se le divulga esa información, que restringe a esa otra persona de divulgar la información confidencial a cualquier otra parte, se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ISA",
+          "es": "ISA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "NDA",
+          "es": "NDA"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "BPA",
+          "es": "BPA"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SLA",
+          "es": "SLA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "NDA stands for Non-Disclosure Agreement, a legal contract that outlines confidential material or knowledge that the parties agree not to disclose.",
+      "es": "NDA significa Non-Disclosure Agreement, un contrato legal que describe material o conocimiento confidencial que las partes acuerdan no divulgar."
+    }
+  },
+  {
+    "id": "AC02-Q0035",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a protocol designed to secure data transmitted over WLANs?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un protocolo diseñado para asegurar los datos transmitidos a través de WLANs?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SCP",
+          "es": "SCP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IPsec",
+          "es": "IPsec"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SSH",
+          "es": "SSH"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "WTLS",
+          "es": "WTLS"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "WTLS stands for Wireless Transport Layer Security, a security layer of the Wireless Application Protocol (WAP) that provides secure connections.",
+      "es": "WTLS significa Wireless Transport Layer Security, una capa de seguridad del Protocolo de Aplicación Inalámbrica (WAP) que proporciona conexiones seguras."
+    }
+  }
+]

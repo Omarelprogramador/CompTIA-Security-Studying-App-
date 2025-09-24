@@ -1,0 +1,1097 @@
+[
+  {
+    "id": "T04-Q0001",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a legacy symmetric-key block cipher encryption algorithm?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un algoritmo de cifrado de bloque de clave simétrica heredado?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "RC4",
+          "es": "RC4"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DES",
+          "es": "DES"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "RSA",
+          "es": "RSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "DSA",
+          "es": "DSA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "DES (Data Encryption Standard) is a legacy symmetric-key block cipher encryption algorithm. It has been largely replaced by AES due to its short key length.",
+      "es": "DES (Data Encryption Standard) es un algoritmo de cifrado de bloque de clave simétrica heredado. Ha sido en gran parte reemplazado por AES debido a su corta longitud de clave."
+    }
+  },
+  {
+    "id": "T04-Q0002",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a deprecated stream cipher used in some legacy applications, such as WEP?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un cifrado de flujo obsoleto utilizado en algunas aplicaciones heredadas, como WEP?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "RSA",
+          "es": "RSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DES",
+          "es": "DES"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SSL",
+          "es": "SSL"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "RC4",
+          "es": "RC4"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "RC4 is a deprecated stream cipher that was widely used in legacy applications like WEP and WPA. It is no longer considered secure.",
+      "es": "RC4 es un cifrado de flujo obsoleto que se usaba ampliamente en aplicaciones heredadas como WEP y WPA. Ya no se considera seguro."
+    }
+  },
+  {
+    "id": "T04-Q0003",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a deprecated (largely replaced by AES) symmetric-key block cipher encryption algorithm?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un algoritmo de cifrado de bloque de clave simétrica obsoleto (en gran parte reemplazado por AES)?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ECDSA",
+          "es": "ECDSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RSA",
+          "es": "RSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "IDEA",
+          "es": "IDEA"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "DSA",
+          "es": "DSA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "IDEA (International Data Encryption Algorithm) is a symmetric-key block cipher that was an alternative to DES but has been largely replaced by AES.",
+      "es": "IDEA (International Data Encryption Algorithm) es un cifrado de bloque de clave simétrica que fue una alternativa a DES pero ha sido en gran parte reemplazado por AES."
+    }
+  },
+  {
+    "id": "T04-Q0004",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "What is the recommended replacement for DES?",
+      "es": "¿Cuál es el reemplazo recomendado para DES?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "DSA",
+          "es": "DSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RSA",
+          "es": "RSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "RC4",
+          "es": "RC4"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "AES",
+          "es": "AES"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "AES (Advanced Encryption Standard) is the recommended replacement for DES due to its stronger security and larger key lengths.",
+      "es": "AES (Advanced Encryption Standard) es el reemplazo recomendado para DES debido a su seguridad más fuerte y mayores longitudes de clave."
+    }
+  },
+  {
+    "id": "T04-Q0005",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "An IV is a random or pseudorandom value used in cryptography to ensure that the same plaintext input does not produce the same ciphertext output, even when the same encryption key is used. The IV is typically used with encryption algorithms in block cipher modes to enhance security by introducing randomness to the encryption process.",
+      "es": "Un IV es un valor aleatorio o pseudoaleatorio utilizado en criptografía para asegurar que la misma entrada de texto plano no produzca la misma salida de texto cifrado, incluso cuando se utiliza la misma clave de cifrado. El IV se utiliza típicamente con algoritmos de cifrado en modos de cifrado de bloque para mejorar la seguridad al introducir aleatoriedad en el proceso de cifrado."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "This statement accurately describes an Initialization Vector (IV), which adds randomness to the encryption process and prevents identical plaintext blocks from encrypting to identical ciphertext blocks.",
+      "es": "Esta afirmación describe con precisión un Vector de Inicialización (IV), que añade aleatoriedad al proceso de cifrado y evita que bloques de texto plano idénticos se cifren en bloques de texto cifrado idénticos."
+    }
+  },
+  {
+    "id": "T04-Q0006",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a logical operation commonly used in the context of cybersecurity, particularly in encryption and obfuscation techniques?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a una operación lógica comúnmente utilizada en el contexto de la ciberseguridad, particularmente en técnicas de cifrado y ofuscación?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "AND",
+          "es": "AND"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "OR",
+          "es": "OR"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "NOT",
+          "es": "NOT"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "XOR",
+          "es": "XOR"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "The XOR (exclusive OR) operation is a fundamental component of many cryptographic algorithms, used for scrambling data and creating keystreams due to its reversible nature.",
+      "es": "La operación XOR (OR exclusivo) es un componente fundamental de muchos algoritmos criptográficos, utilizado para mezclar datos y crear flujos de clave debido a su naturaleza reversible."
+    }
+  },
+  {
+    "id": "T04-Q0007",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a block cipher mode that works by chaining the ciphertext blocks together, such that each ciphertext block depends on the previous block?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un modo de cifrado de bloque que funciona encadenando los bloques de texto cifrado, de modo que cada bloque de texto cifrado depende del bloque anterior?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CBC",
+          "es": "CBC"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "GCM",
+          "es": "GCM"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "ECB",
+          "es": "ECB"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CFB",
+          "es": "CFB"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "CBC (Cipher Block Chaining) mode links each ciphertext block to the one before it, making the final ciphertext dependent on the entire plaintext, which adds a layer of security.",
+      "es": "El modo CBC (Cipher Block Chaining) enlaza cada bloque de texto cifrado con el anterior, haciendo que el texto cifrado final dependa de todo el texto plano, lo que añade una capa de seguridad."
+    }
+  },
+  {
+    "id": "T04-Q0008",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which block mode transforms a block cipher into a stream cipher enabling the encryption of individual bits or bytes of data?",
+      "es": "¿Qué modo de bloque transforma un cifrado de bloque en un cifrado de flujo permitiendo el cifrado de bits o bytes de datos individuales?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CFB",
+          "es": "CFB"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CBC",
+          "es": "CBC"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "GCM",
+          "es": "GCM"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "ECB",
+          "es": "ECB"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "CFB (Cipher Feedback) mode turns a block cipher into a stream cipher by using the previous ciphertext block as input to the block cipher, effectively encrypting data in smaller units.",
+      "es": "El modo CFB (Cipher Feedback) convierte un cifrado de bloque en un cifrado de flujo utilizando el bloque de texto cifrado anterior como entrada para el cifrado de bloque, cifrando así los datos en unidades más pequeñas."
+    }
+  },
+  {
+    "id": "T04-Q0009",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A block cipher mode that combines a unique counter with an encryption key to generate a stream of pseudorandom data blocks which are then used for encrypting data is called:",
+      "es": "Un modo de cifrado de bloque que combina un contador único con una clave de cifrado para generar un flujo de bloques de datos pseudoaleatorios que luego se utilizan para cifrar datos se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CBC",
+          "es": "CBC"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "GCM",
+          "es": "GCM"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "CFB",
+          "es": "CFB"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CTM",
+          "es": "CTM"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "CTM (Counter Mode) is a block cipher mode that uses a counter to generate a unique block for each plaintext block, which is then XORed with the plaintext to produce the ciphertext.",
+      "es": "CTM (Counter Mode) es un modo de cifrado de bloque que utiliza un contador para generar un bloque único para cada bloque de texto plano, que luego se combina con el texto plano mediante XOR para producir el texto cifrado."
+    }
+  },
+  {
+    "id": "T04-Q0010",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the block cipher modes listed below is the simplest/weakest and therefore not recommended for use?",
+      "es": "¿Cuál de los modos de cifrado de bloque a continuación es el más simple/débil y, por lo tanto, no se recomienda su uso?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CBC",
+          "es": "CBC"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "GCM",
+          "es": "GCM"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "ECB",
+          "es": "ECB"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CTM",
+          "es": "CTM"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ECB (Electronic Codebook) mode is the simplest and weakest block cipher mode because it encrypts each block independently, which can reveal patterns in the data.",
+      "es": "El modo ECB (Electronic Codebook) es el modo de cifrado de bloque más simple y débil porque cifra cada bloque de forma independiente, lo que puede revelar patrones en los datos."
+    }
+  },
+  {
+    "id": "T04-Q0011",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which block cipher mode combines CTM for encryption with an authentication mechanism to ensure both data confidentiality and integrity?",
+      "es": "¿Qué modo de cifrado de bloque combina CTM para el cifrado con un mecanismo de autenticación para asegurar tanto la confidencialidad como la integridad de los datos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CBC",
+          "es": "CBC"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "GCM",
+          "es": "GCM"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "ECB",
+          "es": "ECB"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CFB",
+          "es": "CFB"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "GCM (Galois/Counter Mode) is an authenticated encryption mode that combines the CTR (Counter) mode for confidentiality with an authentication mechanism for integrity.",
+      "es": "GCM (Galois/Counter Mode) es un modo de cifrado autenticado que combina el modo CTR (Counter) para la confidencialidad con un mecanismo de autenticación para la integridad."
+    }
+  },
+  {
+    "id": "T04-Q0012",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In cryptography, the number of bits in a key used by a cryptographic algorithm is referred to as key size or key length. The key length determines the maximum number of combinations required to break the encryption algorithm, therefore typically a longer key means stronger cryptographic security.",
+      "es": "En criptografía, el número de bits en una clave utilizada por un algoritmo criptográfico se conoce como tamaño de clave o longitud de clave. La longitud de la clave determina el número máximo de combinaciones necesarias para romper el algoritmo de cifrado, por lo tanto, típicamente una clave más larga significa una seguridad criptográfica más fuerte."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "This statement is true. A longer key length increases the number of possible keys, making it exponentially more difficult for an attacker to perform a brute-force attack to guess the key.",
+      "es": "Esta afirmación es verdadera. Una longitud de clave más larga aumenta el número de claves posibles, haciendo que sea exponencialmente más difícil para un atacante realizar un ataque de fuerza bruta para adivinar la clave."
+    }
+  },
+  {
+    "id": "T04-Q0013",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which AES key length provides the highest level of security?",
+      "es": "¿Qué longitud de clave AES proporciona el más alto nivel de seguridad?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "128-bit key",
+          "es": "Clave de 128 bits"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "192-bit key",
+          "es": "Clave de 192 bits"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "256-bit key",
+          "es": "Clave de 256 bits"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "320-bit key",
+          "es": "Clave de 320 bits"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "AES supports key lengths of 128, 192, and 256 bits. A 256-bit key offers the highest level of security among these options, as a longer key is more difficult to crack.",
+      "es": "AES admite longitudes de clave de 128, 192 y 256 bits. Una clave de 256 bits ofrece el nivel más alto de seguridad entre estas opciones, ya que una clave más larga es más difícil de descifrar."
+    }
+  },
+  {
+    "id": "T04-Q0014",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to an embedded microcontroller used for secure boot, disk encryption, and system integrity verification?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un microcontrolador incrustado utilizado para arranque seguro, cifrado de disco y verificación de la integridad del sistema?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "TPM",
+          "es": "TPM"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SoC",
+          "es": "SoC"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "UEFI",
+          "es": "UEFI"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "HSM",
+          "es": "HSM"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "TPM (Trusted Platform Module) is a specialized chip on a computer's motherboard that provides hardware-based security functions, including secure boot and cryptographic key storage.",
+      "es": "TPM (Trusted Platform Module) es un chip especializado en la placa base de una computadora que proporciona funciones de seguridad basadas en hardware, incluyendo el arranque seguro y el almacenamiento de claves criptográficas."
+    }
+  },
+  {
+    "id": "T04-Q0015",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a piece of hardware and associated software/firmware designed to provide cryptographic and key management functions?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a una pieza de hardware y software/firmware asociado diseñado para proporcionar funciones criptográficas y de gestión de claves?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "EFS",
+          "es": "EFS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "HSM",
+          "es": "HSM"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SFC",
+          "es": "SFC"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "TPM",
+          "es": "TPM"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "HSM (Hardware Security Module) is a dedicated physical device that safeguards and manages digital keys and performs cryptographic functions.",
+      "es": "HSM (Hardware Security Module) es un dispositivo físico dedicado que protege y gestiona las claves digitales y realiza funciones criptográficas."
+    }
+  },
+  {
+    "id": "T04-Q0016",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a centralized server that is used to distribute cryptographic keys and authenticate users and services within a computer network?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un servidor centralizado que se utiliza para distribuir claves criptográficas y autenticar usuarios y servicios dentro de una red de computadoras?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PKI",
+          "es": "PKI"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RAS",
+          "es": "RAS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "KDC",
+          "es": "KDC"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "NAS",
+          "es": "NAS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "KDC (Key Distribution Center) is a central component of the Kerberos protocol, responsible for distributing session keys to users and services.",
+      "es": "KDC (Key Distribution Center) es un componente central del protocolo Kerberos, responsable de distribuir claves de sesión a usuarios y servicios."
+    }
+  },
+  {
+    "id": "T04-Q0017",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In a Kerberos-protected network, this type of secure token is granted to users during their initial login to enable them to access multiple network services without the need to re-enter their login credentials.",
+      "es": "En una red protegida por Kerberos, este tipo de token seguro se otorga a los usuarios durante su inicio de sesión inicial para permitirles acceder a múltiples servicios de red sin la necesidad de volver a ingresar sus credenciales de inicio de sesión."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "OTP",
+          "es": "OTP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "TGT",
+          "es": "TGT"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "AS",
+          "es": "AS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "TGS",
+          "es": "TGS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "TGT (Ticket-Granting Ticket) is a credential that allows a user to request service tickets from the Ticket-Granting Service (TGS) without re-authenticating with the Authentication Server (AS).",
+      "es": "TGT (Ticket-Granting Ticket) es una credencial que permite a un usuario solicitar tickets de servicio al Servicio de Otorgamiento de Tickets (TGS) sin tener que volver a autenticarse con el Servidor de Autenticación (AS)."
+    }
+  },
+  {
+    "id": "T04-Q0018",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In cryptography and security, the term \"Secure enclave\" typically refers to a protected and isolated hardware or software environment within a computing device, such as a smartphone, tablet, or computer, where sensitive data and cryptographic operations can be stored and processed securely.",
+      "es": "En criptografía y seguridad, el término \"Enclave seguro\" se refiere típicamente a un entorno de hardware o software protegido y aislado dentro de un dispositivo informático, como un teléfono inteligente, tableta o computadora, donde los datos sensibles y las operaciones criptográficas pueden ser almacenados y procesados de forma segura."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A secure enclave is a specific type of processor or processor feature that provides a trusted execution environment (TEE), which is isolated from the main operating system.",
+      "es": "Un enclave seguro es un tipo específico de procesador o característica de procesador que proporciona un entorno de ejecución confiable (TEE), que está aislado del sistema operativo principal."
+    }
+  },
+  {
+    "id": "T04-Q0019",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The term \"Obfuscation\" is used to describe techniques employed to obscure or hide the true meaning or nature of data, making it challenging for unauthorized parties to decipher or reverse-engineer the information.",
+      "es": "El término \"Ofuscación\" se utiliza para describir las técnicas empleadas para oscurecer u ocultar el verdadero significado o la naturaleza de los datos, lo que hace difícil para las partes no autorizadas descifrar o realizar ingeniería inversa de la información."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Obfuscation is the process of making data or code intentionally difficult to understand while keeping its functionality intact.",
+      "es": "La ofuscación es el proceso de hacer que los datos o el código sean intencionalmente difíciles de entender manteniendo su funcionalidad intacta."
+    }
+  },
+  {
+    "id": "T04-Q0020",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "What is the purpose of steganography?",
+      "es": "¿Cuál es el propósito de la esteganografía?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Checking data integrity",
+          "es": "Verificar la integridad de los datos"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Verifying hash values",
+          "es": "Verificar valores hash"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Hiding data within another piece of data",
+          "es": "Ocultar datos dentro de otra pieza de datos"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Encrypting data",
+          "es": "Cifrar datos"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Steganography is the practice of concealing a file, message, image, or video within another file, message, image, or video.",
+      "es": "La esteganografía es la práctica de ocultar un archivo, mensaje, imagen o video dentro de otro archivo, mensaje, imagen o video."
+    }
+  },
+  {
+    "id": "T04-Q0021",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In the field of data security, the term \"Tokenization\" refers to the process of replacing sensitive data with nonsensitive information which holds a reference to the original data and enables its processing but has no value when breached.",
+      "es": "En el campo de la seguridad de los datos, el término \"Tokenización\" se refiere al proceso de reemplazar datos sensibles con información no sensible que contiene una referencia a los datos originales y permite su procesamiento, pero no tiene valor si se vulnera."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "This statement is an accurate description of tokenization, which is often used to protect credit card data or other personal information by replacing it with a randomly generated token.",
+      "es": "Esta afirmación es una descripción precisa de la tokenización, que se utiliza a menudo para proteger los datos de tarjetas de crédito u otra información personal al reemplazarlos con un token generado aleatoriamente."
+    }
+  },
+  {
+    "id": "T04-Q0022",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Replacing password characters in a password field with a series of asterisks is an example of:",
+      "es": "Reemplazar los caracteres de la contraseña en un campo de contraseña con una serie de asteriscos es un ejemplo de:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Data masking",
+          "es": "Enmascaramiento de datos"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Tokenization",
+          "es": "Tokenización"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Anonymization",
+          "es": "Anonimización"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Pseudo-anonymization",
+          "es": "Pseudoanonimización"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Data masking, or obfuscation, is the process of hiding sensitive data with a character or symbol, such as an asterisk, while retaining its format.",
+      "es": "El enmascaramiento de datos, u ofuscación, es el proceso de ocultar datos sensibles con un carácter o símbolo, como un asterisco, mientras se mantiene su formato."
+    }
+  },
+  {
+    "id": "T04-Q0023",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A hash function is a mathematical algorithm that maps data of arbitrary size to a fixed-size hash value, typically represented as a short string of characters. The hash function result, also known as a digest or checksum, provides a unique representation of the original data input. The functionality of hash functions relies on the fact that if there is any change to the data after the original hash was generated, the new hash value calculated after content modification will be different from the original result because hash functions are designed to be sensitive to changes in the input data.",
+      "es": "Una función hash es un algoritmo matemático que mapea datos de tamaño arbitrario a un valor hash de tamaño fijo, típicamente representado como una cadena corta de caracteres. El resultado de la función hash, también conocido como 'digest' o 'checksum', proporciona una representación única de la entrada de datos original. La funcionalidad de las funciones hash se basa en el hecho de que si hay algún cambio en los datos después de que se generó el hash original, el nuevo valor hash calculado después de la modificación del contenido será diferente del resultado original porque las funciones hash están diseñadas para ser sensibles a los cambios en los datos de entrada."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "This statement accurately describes the characteristics and purpose of a cryptographic hash function, emphasizing its role in data integrity verification.",
+      "es": "Esta afirmación describe con precisión las características y el propósito de una función hash criptográfica, enfatizando su papel en la verificación de la integridad de los datos."
+    }
+  },
+  {
+    "id": "T04-Q0024",
+    "type": "ms",
+    "required_answers": 5,
+    "prompt": {
+      "en": "Hash functions find use in a variety of applications, including:",
+      "es": "Las funciones hash se utilizan en una variedad de aplicaciones, incluyendo:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Cryptography",
+          "es": "Criptografía"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Data integrity verification",
+          "es": "Verificación de la integridad de los datos"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Password verification and storage",
+          "es": "Verificación y almacenamiento de contraseñas"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Digital signatures",
+          "es": "Firmas digitales"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Blockchain technology",
+          "es": "Tecnología de cadena de bloques"
+        },
+        "correct": true
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "All of the above",
+          "es": "Todas las anteriores"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Hash functions are a cornerstone of modern cybersecurity, used in all the listed applications to ensure data integrity, security, and immutability.",
+      "es": "Las funciones hash son una piedra angular de la ciberseguridad moderna, utilizadas en todas las aplicaciones listadas para asegurar la integridad de los datos, la seguridad y la inmutabilidad."
+    }
+  },
+  {
+    "id": "T04-Q0025",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a cryptographic hash function that has been widely used in the past but is now considered deprecated for security-sensitive applications due to known vulnerabilities?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a una función hash criptográfica que ha sido ampliamente utilizada en el pasado pero ahora se considera obsoleta para aplicaciones sensibles a la seguridad debido a vulnerabilidades conocidas?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MD5",
+          "es": "MD5"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SHA",
+          "es": "SHA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "CRC",
+          "es": "CRC"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "HMAC",
+          "es": "HMAC"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "MD5 (Message-Digest Algorithm 5) is a hash function that has been found to be vulnerable to collision attacks and is no longer recommended for applications requiring strong security.",
+      "es": "MD5 (Message-Digest Algorithm 5) es una función hash que se ha encontrado vulnerable a ataques de colisión y ya no se recomienda para aplicaciones que requieren una seguridad fuerte."
+    }
+  }
+]

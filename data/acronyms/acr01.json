@@ -1,0 +1,1615 @@
+[
+  {
+    "id": "AC01-Q0001",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A type of user identification mechanism used as a countermeasure against automated software (such as network bots) is known as:",
+      "es": "Un tipo de mecanismo de identificación de usuario utilizado como contramedida contra el software automatizado (como los bots de red) se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MFA",
+          "es": "MFA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CAPTCHA",
+          "es": "CAPTCHA"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "ACL",
+          "es": "ACL"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "NIPS",
+          "es": "NIPS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "CAPTCHA is a challenge-response test used to determine whether or not the user is human.",
+      "es": "CAPTCHA es una prueba de desafío-respuesta utilizada para determinar si el usuario es humano o no."
+    }
+  },
+  {
+    "id": "AC01-Q0002",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following is the recommended replacement for DES?",
+      "es": "¿Cuál de los siguientes es el reemplazo recomendado para DES?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "DSA",
+          "es": "DSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RSA",
+          "es": "RSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "RC4",
+          "es": "RC4"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "AES",
+          "es": "AES"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "AES (Advanced Encryption Standard) is the recommended replacement for DES due to its stronger security.",
+      "es": "AES (Advanced Encryption Standard) es el reemplazo recomendado para DES debido a su seguridad más fuerte."
+    }
+  },
+  {
+    "id": "AC01-Q0003",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below refers to the process of creating and maintaining computer applications?",
+      "es": "¿Cuál de los siguientes términos se refiere al proceso de creación y mantenimiento de aplicaciones informáticas?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "RAD",
+          "es": "RAD"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SDLC",
+          "es": "SDLC"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "OOP",
+          "es": "OOP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SaaS",
+          "es": "SaaS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SDLC stands for Software Development Life Cycle, which describes the process of planning, creating, testing, and deploying software.",
+      "es": "SDLC significa Ciclo de Vida de Desarrollo de Software, que describe el proceso de planificación, creación, prueba y despliegue de software."
+    }
+  },
+  {
+    "id": "AC01-Q0004",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A type of firmware interface designed as a replacement for BIOS is called:",
+      "es": "Un tipo de interfaz de firmware diseñado como reemplazo para BIOS se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "UEFI",
+          "es": "UEFI"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "GPT",
+          "es": "GPT"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "ACPI",
+          "es": "ACPI"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "PXE",
+          "es": "PXE"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "UEFI (Unified Extensible Firmware Interface) is a replacement for the legacy BIOS.",
+      "es": "UEFI (Unified Extensible Firmware Interface) es un reemplazo para el BIOS heredado."
+    }
+  },
+  {
+    "id": "AC01-Q0005",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a network security solution providing a single point of protection against various types of threats?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a una solución de seguridad de red que proporciona un único punto de protección contra varios tipos de amenazas?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "IDP",
+          "es": "IDP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "AV",
+          "es": "AV"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "UTM",
+          "es": "UTM"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "NGFW",
+          "es": "NGFW"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "UTM (Unified Threat Management) is a single security solution that combines multiple security functions.",
+      "es": "UTM (Unified Threat Management) es una única solución de seguridad que combina múltiples funciones de seguridad."
+    }
+  },
+  {
+    "id": "AC01-Q0006",
+    "type": "t/f",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A WAP is a specific type of AP that is used to create WLANs.",
+      "es": "Un WAP es un tipo específico de AP que se utiliza para crear WLANs."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "WAP stands for Wireless Access Point, which is a type of AP (Access Point) used to create WLANs (Wireless Local Area Networks).",
+      "es": "WAP significa Wireless Access Point, que es un tipo de AP (Access Point) utilizado para crear WLANs (Wireless Local Area Networks)."
+    }
+  },
+  {
+    "id": "AC01-Q0007",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a language used for creating and organizing the content of web pages?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un lenguaje utilizado para crear y organizar el contenido de las páginas web?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "HTML",
+          "es": "HTML"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CSS",
+          "es": "CSS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "JS",
+          "es": "JS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "HTTP",
+          "es": "HTTP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "HTML (HyperText Markup Language) is the standard markup language for documents designed to be displayed in a web browser.",
+      "es": "HTML (HyperText Markup Language) es el lenguaje de marcado estándar para documentos diseñados para ser mostrados en un navegador web."
+    }
+  },
+  {
+    "id": "AC01-Q0008",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which network protocol enables retrieving contents of an Internet page from a web server?",
+      "es": "¿Qué protocolo de red permite recuperar el contenido de una página de Internet desde un servidor web?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SNMP",
+          "es": "SNMP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "HTTP",
+          "es": "HTTP"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SMTP",
+          "es": "SMTP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "IMAP",
+          "es": "IMAP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "HTTP (Hypertext Transfer Protocol) is the protocol for transmitting data over the World Wide Web.",
+      "es": "HTTP (Hypertext Transfer Protocol) es el protocolo para transmitir datos a través de la World Wide Web."
+    }
+  },
+  {
+    "id": "AC01-Q0009",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "What is the name of a network protocol that secures web traffic via SSL/TLS encryption?",
+      "es": "¿Cuál es el nombre de un protocolo de red que asegura el tráfico web a través de la encriptación SSL/TLS?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SFTP",
+          "es": "SFTP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "HTTPS",
+          "es": "HTTPS"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "FTPS",
+          "es": "FTPS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SHTTP",
+          "es": "SHTTP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "HTTPS (Hypertext Transfer Protocol Secure) is the secure version of HTTP, which uses SSL/TLS to encrypt data.",
+      "es": "HTTPS (Hypertext Transfer Protocol Secure) es la versión segura de HTTP, que utiliza SSL/TLS para encriptar los datos."
+    }
+  },
+  {
+    "id": "AC01-Q0010",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The purpose of PCI DSS is to provide protection for:",
+      "es": "El propósito del PCI DSS es proporcionar protección para:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Credit cardholder data",
+          "es": "Datos de titulares de tarjetas de crédito"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Licensed software",
+          "es": "Software con licencia"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "User passwords",
+          "es": "Contraseñas de usuario"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Personal health information",
+          "es": "Información personal de salud"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "PCI DSS stands for Payment Card Industry Data Security Standard, which protects cardholder data.",
+      "es": "PCI DSS significa Payment Card Industry Data Security Standard, que protege los datos de los titulares de tarjetas."
+    }
+  },
+  {
+    "id": "AC01-Q0011",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which term describes the predicted loss of value to an asset based on a single security incident?",
+      "es": "¿Qué término describe la pérdida de valor predicha para un activo basada en un único incidente de seguridad?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SLE",
+          "es": "SLE"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "ARO",
+          "es": "ARO"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "ALE",
+          "es": "ALE"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SLA",
+          "es": "SLA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SLE stands for Single Loss Expectancy, which is the expected monetary loss of a single security incident.",
+      "es": "SLE significa Single Loss Expectancy, que es la pérdida monetaria esperada de un solo incidente de seguridad."
+    }
+  },
+  {
+    "id": "AC01-Q0012",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following acronyms refers to a software that provides the functionality of a physical computer?",
+      "es": "¿Cuál de los siguientes acrónimos se refiere a un software que proporciona la funcionalidad de un equipo físico?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SDN",
+          "es": "SDN"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SaaS",
+          "es": "SaaS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "VM",
+          "es": "VM"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SoC",
+          "es": "SoC"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "VM stands for Virtual Machine, a software that emulates a physical computer.",
+      "es": "VM significa Virtual Machine, un software que emula un equipo físico."
+    }
+  },
+  {
+    "id": "AC01-Q0013",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "What is the common term for a group of protocols used to carry voice data over a packet-switched network?",
+      "es": "¿Cuál es el término común para un grupo de protocolos utilizados para transportar datos de voz a través de una red de conmutación de paquetes?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ISDN",
+          "es": "ISDN"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "PBX",
+          "es": "PBX"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "VoIP",
+          "es": "VoIP"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "PSTN",
+          "es": "PSTN"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "VoIP stands for Voice over IP, which is the technology used to transmit voice data over the Internet.",
+      "es": "VoIP significa Voice over IP, que es la tecnología utilizada para transmitir datos de voz a través de Internet."
+    }
+  },
+  {
+    "id": "AC01-Q0014",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below refers to a formal contract between business partners outlining the rights, responsibilities, and obligations of each partner regarding the management, operation, and decision-making processes within the business?",
+      "es": "¿Cuál de los siguientes términos se refiere a un contrato formal entre socios comerciales que describe los derechos, responsabilidades y obligaciones de cada socio con respecto a los procesos de gestión, operación y toma de decisiones dentro del negocio?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MSA",
+          "es": "MSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SLA",
+          "es": "SLA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "BPA",
+          "es": "BPA"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MOA",
+          "es": "MOA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "BPA stands for Business Partner Agreement, a formal document outlining the relationship between business partners.",
+      "es": "BPA significa Business Partner Agreement, un documento formal que describe la relación entre socios comerciales."
+    }
+  },
+  {
+    "id": "AC01-Q0015",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following file transfer protocols does not provide encryption?",
+      "es": "¿Cuál de los siguientes protocolos de transferencia de archivos no proporciona encriptación?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SCP",
+          "es": "SCP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "FTPS",
+          "es": "FTPS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "FTP",
+          "es": "FTP"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SFTP",
+          "es": "SFTP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "FTP (File Transfer Protocol) is a standard network protocol used for the transfer of computer files between a client and server on a computer network. It does not provide encryption.",
+      "es": "FTP (File Transfer Protocol) es un protocolo de red estándar utilizado para la transferencia de archivos de computadora entre un cliente y un servidor en una red de computadoras. No proporciona encriptación."
+    }
+  },
+  {
+    "id": "AC01-Q0016",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The US Health Insurance Portability and Accountability Act (HIPAA) provides privacy protection for: (Select best answer)",
+      "es": "La Ley de Portabilidad y Responsabilidad de Seguros de Salud de EE.UU. (HIPAA) proporciona protección de privacidad para: (Seleccione la mejor respuesta)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PII",
+          "es": "PII"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "ESN",
+          "es": "ESN"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PHI",
+          "es": "PHI"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "PIV",
+          "es": "PIV"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "HIPAA provides privacy for PHI, or Protected Health Information.",
+      "es": "HIPAA proporciona privacidad para PHI, o Información de Salud Protegida."
+    }
+  },
+  {
+    "id": "AC01-Q0017",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a hierarchical system for the creation, management, storage, distribution, and revocation of digital certificates?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un sistema jerárquico para la creación, gestión, almacenamiento, distribución y revocación de certificados digitales?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PKI",
+          "es": "PKI"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RA",
+          "es": "RA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PKCS",
+          "es": "PKCS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CA",
+          "es": "CA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "PKI stands for Public Key Infrastructure, a system used to create and manage digital certificates.",
+      "es": "PKI significa Public Key Infrastructure, un sistema utilizado para crear y gestionar certificados digitales."
+    }
+  },
+  {
+    "id": "AC01-Q0018",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following acronyms refers to any type of information pertaining to an individual that can be used to uniquely identify that person?",
+      "es": "¿Cuál de los siguientes acrónimos se refiere a cualquier tipo de información relacionada con un individuo que puede ser utilizada para identificar de forma única a esa persona?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PHI",
+          "es": "PHI"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "PIV",
+          "es": "PIV"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PII",
+          "es": "PII"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "PKI",
+          "es": "PKI"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "PII stands for Personally Identifiable Information, which is any data that can be used to identify a specific person.",
+      "es": "PII significa Personally Identifiable Information, que es cualquier dato que puede ser utilizado para identificar a una persona específica."
+    }
+  },
+  {
+    "id": "AC01-Q0019",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "An authentication subsystem that enables a user to access multiple, connected system components (such as separate hosts on a network) after a single login on only one of the components is referred to as:",
+      "es": "Un subsistema de autenticación que permite a un usuario acceder a múltiples componentes de un sistema conectado (como hosts separados en una red) después de un solo inicio de sesión en solo uno de los componentes se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "NAC",
+          "es": "NAC"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SSO",
+          "es": "SSO"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "AAA",
+          "es": "AAA"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MFA",
+          "es": "MFA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SSO stands for Single Sign-On, a feature that allows a user to access multiple systems with a single login.",
+      "es": "SSO significa Single Sign-On, una característica que permite a un usuario acceder a múltiples sistemas con un solo inicio de sesión."
+    }
+  },
+  {
+    "id": "AC01-Q0020",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the cryptographic algorithms listed below is the least vulnerable to attacks?",
+      "es": "¿Cuál de los siguientes algoritmos criptográficos es el menos vulnerable a los ataques?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "AES",
+          "es": "AES"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DES",
+          "es": "DES"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "RC4",
+          "es": "RC4"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "3DES",
+          "es": "3DES"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "AES (Advanced Encryption Standard) is the most secure of the listed algorithms and is widely used today.",
+      "es": "AES (Advanced Encryption Standard) es el más seguro de los algoritmos listados y es ampliamente utilizado hoy en día."
+    }
+  },
+  {
+    "id": "AC01-Q0021",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers illustrates the difference between passive and active network security breach response?",
+      "es": "¿Cuál de las siguientes respuestas ilustra la diferencia entre la respuesta pasiva y activa a una violación de seguridad de la red?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "HIPS vs. NIPS",
+          "es": "HIPS vs. NIPS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "UTM vs. Firewall",
+          "es": "UTM vs. Firewall"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "NIPS vs. UTM",
+          "es": "NIPS vs. UTM"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "IDS vs. IPS",
+          "es": "IDS vs. IPS"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "IDS (Intrusion Detection System) is a passive tool, while IPS (Intrusion Prevention System) is an active one. IDS detects intrusions, and IPS actively blocks them.",
+      "es": "IDS (Intrusion Detection System) es una herramienta pasiva, mientras que IPS (Intrusion Prevention System) es una activa. IDS detecta intrusiones e IPS las bloquea activamente."
+    }
+  },
+  {
+    "id": "AC01-Q0022",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "An SELinux kernel security feature for implementing stricter access controls and policies is known as:",
+      "es": "Una característica de seguridad del kernel SELinux para implementar controles y políticas de acceso más estrictos se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "DAC",
+          "es": "DAC"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RBAC",
+          "es": "RBAC"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MAC",
+          "es": "MAC"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "ABAC",
+          "es": "ABAC"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "MAC stands for Mandatory Access Control, a system that controls access to objects based on security clearance levels.",
+      "es": "MAC significa Mandatory Access Control, un sistema que controla el acceso a los objetos basándose en los niveles de autorización de seguridad."
+    }
+  },
+  {
+    "id": "AC01-Q0023",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which wireless security protocol has been deprecated in favor of newer standards due to known vulnerabilities resulting from implementation flaws?",
+      "es": "¿Qué protocolo de seguridad inalámbrica ha sido obsoleto a favor de estándares más nuevos debido a vulnerabilidades conocidas resultantes de fallas de implementación?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "EAP",
+          "es": "EAP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "AES",
+          "es": "AES"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "WPA2",
+          "es": "WPA2"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "WEP",
+          "es": "WEP"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "WEP (Wired Equivalent Privacy) is a deprecated security protocol due to its vulnerabilities. WPA and WPA2 are more secure alternatives.",
+      "es": "WEP (Wired Equivalent Privacy) es un protocolo de seguridad obsoleto debido a sus vulnerabilidades. WPA y WPA2 son alternativas más seguras."
+    }
+  },
+  {
+    "id": "AC01-Q0024",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which access control model allows for defining granular rules that consider user roles, time constraints, and network access restrictions?",
+      "es": "¿Qué modelo de control de acceso permite definir reglas granulares que consideran roles de usuario, restricciones de tiempo y restricciones de acceso a la red?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ABAC",
+          "es": "ABAC"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "MAC",
+          "es": "MAC"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "RuBAC",
+          "es": "RuBAC"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "DAC",
+          "es": "DAC"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "RBAC",
+          "es": "RBAC"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ABAC stands for Attribute-Based Access Control, a fine-grained access control system.",
+      "es": "ABAC significa Attribute-Based Access Control, un sistema de control de acceso de grano fino."
+    }
+  },
+  {
+    "id": "AC01-Q0025",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which type of control access model connects user permissions to their specific responsibilities?",
+      "es": "¿Qué tipo de modelo de control de acceso conecta los permisos de los usuarios con sus responsabilidades específicas?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "DAC",
+          "es": "DAC"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RBAC",
+          "es": "RBAC"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MAC",
+          "es": "MAC"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "ABAC",
+          "es": "ABAC"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "RBAC stands for Role-Based Access Control, where permissions are based on the user's role.",
+      "es": "RBAC significa Role-Based Access Control, donde los permisos se basan en el rol del usuario."
+    }
+  },
+  {
+    "id": "AC01-Q0026",
+    "type": "t/f",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The term \"CIA triad\" is used to describe the basic principles of information security.",
+      "es": "El término \"tríada CIA\" se utiliza para describir los principios básicos de la seguridad de la información."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "The CIA triad stands for Confidentiality, Integrity, and Availability, which are the three core principles of information security.",
+      "es": "La tríada CIA significa Confidencialidad, Integridad y Disponibilidad, que son los tres principios fundamentales de la seguridad de la información."
+    }
+  },
+  {
+    "id": "AC01-Q0027",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A type of document stipulating rules of behavior to be followed by users of computers, networks, and associated resources is called:",
+      "es": "Un tipo de documento que estipula reglas de comportamiento a seguir por los usuarios de ordenadores, redes y recursos asociados se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SLA",
+          "es": "SLA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "EULA",
+          "es": "EULA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "AUP",
+          "es": "AUP"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "BPA",
+          "es": "BPA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "AUP stands for Acceptable Use Policy, which outlines the acceptable behavior for users of a system.",
+      "es": "AUP significa Acceptable Use Policy, que describe el comportamiento aceptable para los usuarios de un sistema."
+    }
+  },
+  {
+    "id": "AC01-Q0028",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "LDAP is an example of:",
+      "es": "LDAP es un ejemplo de:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Data encryption protocol",
+          "es": "Protocolo de encriptación de datos"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Address resolution protocol",
+          "es": "Protocolo de resolución de direcciones"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Directory access protocol",
+          "es": "Protocolo de acceso a directorios"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "File exchange protocol",
+          "es": "Protocolo de intercambio de archivos"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "LDAP stands for Lightweight Directory Access Protocol, used to access and manage directory services.",
+      "es": "LDAP significa Lightweight Directory Access Protocol, utilizado para acceder y gestionar servicios de directorio."
+    }
+  },
+  {
+    "id": "AC01-Q0029",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a suite of protocols used for connecting hosts on the Internet?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un conjunto de protocolos utilizados para conectar hosts en Internet?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "NetBIOS",
+          "es": "NetBIOS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IPv4",
+          "es": "IPv4"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "TCP/IP",
+          "es": "TCP/IP"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "IPv6",
+          "es": "IPv6"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "TCP/IP (Transmission Control Protocol/Internet Protocol) is the suite of protocols used to connect devices on the internet.",
+      "es": "TCP/IP (Transmission Control Protocol/Internet Protocol) es el conjunto de protocolos utilizados para conectar dispositivos en Internet."
+    }
+  },
+  {
+    "id": "AC01-Q0030",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "The SMTP protocol is used for: (Select 2 answers)",
+      "es": "El protocolo SMTP se utiliza para: (Seleccione 2 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Sending email messages between mail servers",
+          "es": "Enviar mensajes de correo electrónico entre servidores de correo"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Name resolution services",
+          "es": "Servicios de resolución de nombres"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Serving of web pages",
+          "es": "Servicio de páginas web"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Retrieving email messages from mail servers",
+          "es": "Recuperar mensajes de correo electrónico de servidores de correo"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Sending email messages from a client device",
+          "es": "Enviar mensajes de correo electrónico desde un dispositivo cliente"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "SMTP (Simple Mail Transfer Protocol) is used for sending emails from a client to a server and between servers.",
+      "es": "SMTP (Simple Mail Transfer Protocol) se utiliza para enviar correos electrónicos de un cliente a un servidor y entre servidores."
+    }
+  },
+  {
+    "id": "AC01-Q0031",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a data storage device equipped with hardware-level encryption functionality?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un dispositivo de almacenamiento de datos equipado con funcionalidad de encriptación a nivel de hardware?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "HSM",
+          "es": "HSM"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "TPM",
+          "es": "TPM"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "EFS",
+          "es": "EFS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SED",
+          "es": "SED"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "SED stands for Self-Encrypting Drive, a type of hard drive that includes built-in encryption hardware.",
+      "es": "SED significa Self-Encrypting Drive, un tipo de disco duro que incluye hardware de encriptación incorporado."
+    }
+  },
+  {
+    "id": "AC01-Q0032",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A documented plan outlining the steps that should be taken in each phase of a cybersecurity incident is referred to as:",
+      "es": "Un plan documentado que describe los pasos que se deben seguir en cada fase de un incidente de ciberseguridad se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "DRP",
+          "es": "DRP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "BCP",
+          "es": "BCP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "IRP",
+          "es": "IRP"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "ERP",
+          "es": "ERP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "IRP stands for Incident Response Plan, which is a documented plan to handle cybersecurity incidents.",
+      "es": "IRP significa Incident Response Plan, que es un plan documentado para manejar incidentes de ciberseguridad."
+    }
+  },
+  {
+    "id": "AC01-Q0033",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below refers to a company that provides Internet access?",
+      "es": "¿Cuál de los siguientes términos se refiere a una empresa que proporciona acceso a Internet?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ISP",
+          "es": "ISP"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CSP",
+          "es": "CSP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "IdP",
+          "es": "IdP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MSP",
+          "es": "MSP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ISP stands for Internet Service Provider, a company that provides internet access to its customers.",
+      "es": "ISP significa Internet Service Provider, una empresa que proporciona acceso a Internet a sus clientes."
+    }
+  },
+  {
+    "id": "AC01-Q0034",
+    "type": "t/f",
+    "required_answers": 1,
+    "prompt": {
+      "en": "As opposed to simple DoS attacks that usually are performed from a single system, a DDoS attack uses multiple compromised computer systems to perform the attack against its target. The intermediary systems that are used as platform for the attack (often referred to as zombies, and collectively as a botnet) are the secondary victims of the DDoS attack.",
+      "es": "A diferencia de los ataques DoS simples que suelen realizarse desde un solo sistema, un ataque DDoS utiliza múltiples sistemas informáticos comprometidos para realizar el ataque contra su objetivo. Los sistemas intermediarios que se utilizan como plataforma para el ataque (a menudo denominados 'zombies', y colectivamente como una 'botnet') son las víctimas secundarias del ataque DDoS."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "DDoS stands for Distributed Denial of Service, which uses a network of compromised devices (a botnet) to launch a coordinated attack.",
+      "es": "DDoS significa Distributed Denial of Service, que utiliza una red de dispositivos comprometidos (una botnet) para lanzar un ataque coordinado."
+    }
+  },
+  {
+    "id": "AC01-Q0035",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A type of cryptographic network protocol for secure data communication, remote command-line login, remote command execution, and other secure network services between two networked computers is known as:",
+      "es": "Un tipo de protocolo de red criptográfica para la comunicación segura de datos, inicio de sesión remoto en línea de comandos, ejecución remota de comandos y otros servicios de red segura entre dos equipos conectados en red se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "RDP",
+          "es": "RDP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SSH",
+          "es": "SSH"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Telnet",
+          "es": "Telnet"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SCP",
+          "es": "SCP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SSH stands for Secure Shell, a cryptographic protocol that provides secure remote access to a computer.",
+      "es": "SSH significa Secure Shell, un protocolo criptográfico que proporciona acceso remoto seguro a un equipo."
+    }
+  }
+]

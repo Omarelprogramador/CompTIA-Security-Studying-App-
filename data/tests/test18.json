@@ -1,0 +1,557 @@
+[
+  {
+    "id": "T18-Q0001",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In SNMP, each node in a MIB is uniquely identified by a(n):",
+      "es": "En SNMP, cada nodo en una MIB se identifica de forma única mediante un(a):"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "DSU", "es": "DSU" }, "correct": false },
+      { "key": "B", "text": { "en": "OID", "es": "OID" }, "correct": true },
+      { "key": "C", "text": { "en": "CSU", "es": "CSU" }, "correct": false },
+      { "key": "D", "text": { "en": "OUI", "es": "OUI" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "An OID (Object Identifier) is a globally unique identifier used in SNMP to name managed objects. Each node in the MIB (Management Information Base) tree has a unique OID, allowing network management systems to reference specific data points.",
+      "es": "Un OID (Identificador de Objeto) es un identificador único a nivel mundial que se utiliza en SNMP para nombrar objetos gestionados. Cada nodo en el árbol MIB (Base de Información de Gestión) tiene un OID único, lo que permite a los sistemas de gestión de red referenciar puntos de datos específicos."
+    }
+  },
+  {
+    "id": "T18-Q0002",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a network protocol developed by Cisco for collecting information about IP traffic flowing across network devices like routers, switches, and firewalls?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a un protocolo de red desarrollado por Cisco para recopilar información sobre el tráfico IP que fluye a través de dispositivos de red como enrutadores, conmutadores y firewalls?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "OpenVAS", "es": "OpenVAS" }, "correct": false },
+      { "key": "B", "text": { "en": "iPerf", "es": "iPerf" }, "correct": false },
+      { "key": "C", "text": { "en": "pfSense", "es": "pfSense" }, "correct": false },
+      { "key": "D", "text": { "en": "NetFlow", "es": "NetFlow" }, "correct": true }
+    ],
+    "explanation": {
+      "en": "NetFlow is a network protocol developed by Cisco for collecting and analyzing IP traffic. It provides detailed information about network usage, including who is using the network, what they are accessing, and when.",
+      "es": "NetFlow es un protocolo de red desarrollado por Cisco para recopilar y analizar el tráfico IP. Proporciona información detallada sobre el uso de la red, incluyendo quién está usando la red, a qué están accediendo y cuándo."
+    }
+  },
+  {
+    "id": "T18-Q0003",
+    "type": "tf",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Firewall rules are evaluated based on their order of precedence. Rules at the top of the list take precedence over rules further down the list. Once a matching rule is found, no further evaluation of subsequent rules occurs. The \"implicit deny\" policy on a firewall is a common default behavior in which any traffic that does not explicitly match any of the configured allow rules is automatically denied or blocked. In other words, if a packet does not meet the criteria of any allow rule, the default behavior of the firewall is to deny the traffic.",
+      "es": "Las reglas del firewall se evalúan en función de su orden de precedencia. Las reglas en la parte superior de la lista tienen prioridad sobre las reglas más abajo en la lista. Una vez que se encuentra una regla coincidente, no se produce una evaluación adicional de las reglas subsiguientes. La política de \"denegación implícita\" en un firewall es un comportamiento predeterminado común en el que cualquier tráfico que no coincida explícitamente con ninguna de las reglas de permiso configuradas se deniega o bloquea automáticamente. En otras palabras, si un paquete no cumple con los criterios de ninguna regla de permiso, el comportamiento predeterminado del firewall es denegar el tráfico."
+    },
+    "options": [
+      { "key": "A", "text": { "en": "True", "es": "Verdadero" }, "correct": true },
+      { "key": "B", "text": { "en": "False", "es": "Falso" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "The statement is true. Firewall rules are processed sequentially from top to bottom. The first rule that a packet matches is the one that is applied, and the process stops. The implicit deny rule at the end of the rule list ensures that any traffic not explicitly allowed is automatically blocked, which is a key principle of a secure firewall configuration.",
+      "es": "La afirmación es verdadera. Las reglas del firewall se procesan secuencialmente de arriba a abajo. La primera regla con la que coincide un paquete es la que se aplica, y el proceso se detiene. La regla de denegación implícita al final de la lista de reglas asegura que cualquier tráfico no permitido explícitamente se bloquee automáticamente, lo cual es un principio clave de una configuración de firewall segura."
+    }
+  },
+  {
+    "id": "T18-Q0004",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following refers to a set of rules defining how a firewall manages network traffic?",
+      "es": "¿Cuál de los siguientes se refiere a un conjunto de reglas que definen cómo un firewall gestiona el tráfico de la red?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "MAC", "es": "MAC" }, "correct": false },
+      { "key": "B", "text": { "en": "ACL", "es": "ACL" }, "correct": true },
+      { "key": "C", "text": { "en": "NAC", "es": "NAC" }, "correct": false },
+      { "key": "D", "text": { "en": "DLP", "es": "DLP" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "An ACL (Access Control List) is a set of rules that defines which network traffic is allowed or denied to pass through a firewall. ACLs are fundamental to firewall operation and are used to control access to network resources.",
+      "es": "Una ACL (Lista de Control de Acceso) es un conjunto de reglas que define qué tráfico de red está permitido o denegado para pasar a través de un firewall. Las ACL son fundamentales para el funcionamiento del firewall y se utilizan para controlar el acceso a los recursos de la red."
+    }
+  },
+  {
+    "id": "T18-Q0005",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A lightly protected subnet (a.k.a. DMZ) consisting of publicly available servers placed on the outside of the company's firewall is known as:",
+      "es": "Una subred ligeramente protegida (también conocida como DMZ) que consta de servidores disponibles públicamente ubicados en el exterior del firewall de la empresa se conoce como:"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Captive portal", "es": "Portal cautivo" }, "correct": false },
+      { "key": "B", "text": { "en": "Quarantine network", "es": "Red de cuarentena" }, "correct": false },
+      { "key": "C", "text": { "en": "Extranet", "es": "Extranet" }, "correct": false },
+      { "key": "D", "text": { "en": "Screened subnet", "es": "Subred filtrada" }, "correct": true }
+    ],
+    "explanation": {
+      "en": "A screened subnet, commonly known as a DMZ (Demilitarized Zone), is a separate network segment that sits between an organization's internal network and an external network, typically the internet. It is designed to host public-facing servers, providing a layer of security by isolating them from the internal network.",
+      "es": "Una subred filtrada, comúnmente conocida como DMZ (Zona Desmilitarizada), es un segmento de red separado que se encuentra entre la red interna de una organización y una red externa, típicamente Internet. Está diseñada para alojar servidores de cara al público, proporcionando una capa de seguridad al aislarlos de la red interna."
+    }
+  },
+  {
+    "id": "T18-Q0006",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below most accurately describes patterns or behaviors observed in network traffic over time?",
+      "es": "¿Cuál de las respuestas listadas a continuación describe con mayor precisión los patrones o comportamientos observados en el tráfico de la red a lo largo del tiempo?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Trends", "es": "Tendencias" }, "correct": true },
+      { "key": "B", "text": { "en": "Anomalies", "es": "Anomalías" }, "correct": false },
+      { "key": "C", "text": { "en": "Threats", "es": "Amenazas" }, "correct": false },
+      { "key": "D", "text": { "en": "Signatures", "es": "Firmas" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "In network security, trends are long-term patterns or behaviors observed in network traffic. Analyzing these trends helps establish a baseline of normal network activity, which in turn helps in identifying deviations or anomalies that may indicate a security threat.",
+      "es": "En la seguridad de la red, las tendencias son patrones o comportamientos a largo plazo observados en el tráfico de la red. El análisis de estas tendencias ayuda a establecer una base de referencia de la actividad normal de la red, lo que a su vez ayuda a identificar desviaciones o anomalías que pueden indicar una amenaza de seguridad."
+    }
+  },
+  {
+    "id": "T18-Q0007",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following terms refers to predefined patterns or characteristics of known threats or attack methods?",
+      "es": "¿Cuál de los siguientes términos se refiere a patrones o características predefinidas de amenazas o métodos de ataque conocidos?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Security logs", "es": "Registros de seguridad" }, "correct": false },
+      { "key": "B", "text": { "en": "Baselines", "es": "Líneas de base" }, "correct": false },
+      { "key": "C", "text": { "en": "Trends", "es": "Tendencias" }, "correct": false },
+      { "key": "D", "text": { "en": "Signatures", "es": "Firmas" }, "correct": true }
+    ],
+    "explanation": {
+      "en": "A signature, in the context of security, is a predefined pattern or characteristic of a known threat or attack. Signature-based detection systems, such as signature-based IDS/IPS, use these signatures to identify and block malicious traffic.",
+      "es": "Una firma, en el contexto de la seguridad, es un patrón o característica predefinida de una amenaza o ataque conocido. Los sistemas de detección basados en firmas, como los IDS/IPS basados en firmas, utilizan estas firmas para identificar y bloquear el tráfico malicioso."
+    }
+  },
+  {
+    "id": "T18-Q0008",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A type of IDS/IPS that compares current network traffic against a database of known attack patterns is called:",
+      "es": "Un tipo de IDS/IPS que compara el tráfico de red actual con una base de datos de patrones de ataque conocidos se llama:"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Heuristic", "es": "Heurístico" }, "correct": false },
+      { "key": "B", "text": { "en": "Anomaly-based", "es": "Basado en anomalías" }, "correct": false },
+      { "key": "C", "text": { "en": "Behavioral", "es": "Conductual" }, "correct": false },
+      { "key": "D", "text": { "en": "Signature-based", "es": "Basado en firmas" }, "correct": true }
+    ],
+    "explanation": {
+      "en": "A signature-based IDS/IPS uses a database of known attack patterns (signatures) to detect threats. When network traffic matches a signature, the system raises an alert or takes action to prevent the attack. This method is effective against known threats but can be less effective against new or unknown attacks.",
+      "es": "Un IDS/IPS basado en firmas utiliza una base de datos de patrones de ataque conocidos (firmas) para detectar amenazas. Cuando el tráfico de la red coincide con una firma, el sistema emite una alerta o toma medidas para prevenir el ataque. Este método es efectivo contra amenazas conocidas, pero puede ser menos efectivo contra ataques nuevos o desconocidos."
+    }
+  },
+  {
+    "id": "T18-Q0009",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Agent-based web filtering: (Select 3 answers)",
+      "es": "Filtrado web basado en agente: (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Requires installing software on each device that needs to be monitored",
+          "es": "Requiere instalar software en cada dispositivo que necesita ser monitoreado"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Provides flexibility and granular control over web activity at the device level",
+          "es": "Proporciona flexibilidad y control granular sobre la actividad web a nivel de dispositivo"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Involves increased management overhead and system resource consumption",
+          "es": "Implica una mayor sobrecarga de gestión y consumo de recursos del sistema"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Simplifies administration and ensures consistent enforcement of web filtering policies across the network",
+          "es": "Simplifica la administración y asegura la aplicación consistente de las políticas de filtrado web en toda la red"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Does not require software to be installed on each individual device",
+          "es": "No requiere que se instale software en cada dispositivo individual"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Requires a functioning central server for web filtering to operate",
+          "es": "Requiere un servidor central en funcionamiento para que el filtrado web funcione"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Agent-based web filtering requires software (an agent) to be installed on each device. This provides fine-grained control over web activity, even when the device is off the network. However, it increases management overhead for installation and updates and consumes local system resources.",
+      "es": "El filtrado web basado en agente requiere que se instale software (un agente) en cada dispositivo. Esto proporciona un control detallado sobre la actividad web, incluso cuando el dispositivo está fuera de la red. Sin embargo, aumenta la sobrecarga de gestión para la instalación y las actualizaciones y consume recursos del sistema local."
+    }
+  },
+  {
+    "id": "T18-Q0010",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Web filtering via centralized proxy: (Select 3 answers)",
+      "es": "Filtrado web a través de un proxy centralizado: (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Involves increased management overhead and system resource consumption",
+          "es": "Implica una mayor sobrecarga de gestión y consumo de recursos del sistema"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Does not require software to be installed on each individual device",
+          "es": "No requiere que se instale software en cada dispositivo individual"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+        "en": "Requires installing software on each device that needs to be monitored",
+          "es": "Requiere instalar software en cada dispositivo que necesita ser monitoreado"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Simplifies administration and ensures consistent enforcement of web filtering policies across the network",
+          "es": "Simplifica la administración y asegura la aplicación consistente de las políticas de filtrado web en toda la red"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Provides flexibility and granular control over web activity at the device level",
+          "es": "Proporciona flexibilidad y control granular sobre la actividad web a nivel de dispositivo"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Requires a functioning central server for web filtering to operate",
+          "es": "Requiere un servidor central en funcionamiento para que el filtrado web funcione"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Web filtering via a centralized proxy is a network-level solution that doesn't require individual software installation. It centralizes control and simplifies administration, but it does require a functioning central server to handle all web traffic.",
+      "es": "El filtrado web a través de un proxy centralizado es una solución a nivel de red que no requiere la instalación de software individual. Centraliza el control y simplifica la administración, pero requiere un servidor central en funcionamiento para manejar todo el tráfico web."
+    }
+  },
+  {
+    "id": "T18-Q0011",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "Which of the answers listed below refer to filtering techniques that can allow or block access to a site based on its web address? (Select 2 answers)",
+      "es": "¿Cuáles de las respuestas listadas a continuación se refieren a las técnicas de filtrado que pueden permitir o bloquear el acceso a un sitio según su dirección web? (Selecciona 2 respuestas)"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "SSL/TLS inspection", "es": "Inspección SSL/TLS" }, "correct": false },
+      { "key": "B", "text": { "en": "URL scanning", "es": "Escaneo de URL" }, "correct": true },
+      { "key": "C", "text": { "en": "Content categorization", "es": "Categorización de contenido" }, "correct": false },
+      { "key": "D", "text": { "en": "DNS filtering", "es": "Filtrado DNS" }, "correct": true },
+      { "key": "E", "text": { "en": "Reputation-based filtering", "es": "Filtrado basado en la reputación" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "Both URL scanning and DNS filtering are techniques that use a site's web address (URL or DNS name) to decide whether to allow or block access. URL scanning inspects the full URL, while DNS filtering blocks access at the DNS level before a connection is even established.",
+      "es": "Tanto el escaneo de URL como el filtrado DNS son técnicas que utilizan la dirección web de un sitio (URL o nombre DNS) para decidir si permitir o bloquear el acceso. El escaneo de URL inspecciona la URL completa, mientras que el filtrado DNS bloquea el acceso a nivel de DNS antes de que se establezca una conexión."
+    }
+  },
+  {
+    "id": "T18-Q0012",
+    "type": "tf",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Content categorization in web filtering involves classifying web content into predefined categories based on its subject matter or type. This technique enables organizations to apply filtering policies selectively, for example restricting access to certain categories during work hours or blocking access to categories associated with security risks or non-work-related activities.",
+      "es": "La categorización de contenido en el filtrado web implica clasificar el contenido web en categorías predefinidas según su tema o tipo. Esta técnica permite a las organizaciones aplicar políticas de filtrado de forma selectiva, por ejemplo, restringir el acceso a ciertas categorías durante las horas de trabajo o bloquear el acceso a categorías asociadas con riesgos de seguridad o actividades no relacionadas con el trabajo."
+    },
+    "options": [
+      { "key": "A", "text": { "en": "True", "es": "Verdadero" }, "correct": true },
+      { "key": "B", "text": { "en": "False", "es": "Falso" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "The statement is true. Content categorization is a core function of modern web filtering, allowing for nuanced policies based on content type (e.g., social media, news, gambling, or malware sites) rather than just a simple block or allow list.",
+      "es": "La afirmación es verdadera. La categorización de contenido es una función principal del filtrado web moderno, lo que permite políticas matizadas basadas en el tipo de contenido (por ejemplo, redes sociales, noticias, juegos de azar o sitios de malware) en lugar de solo una simple lista de bloqueo o permiso."
+    }
+  },
+  {
+    "id": "T18-Q0013",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In Windows Active Directory environment, this feature enables centralized management and configuration of operating systems, applications, and user account settings.",
+      "es": "En el entorno de Windows Active Directory, esta función permite la gestión y configuración centralizadas de sistemas operativos, aplicaciones y configuraciones de cuentas de usuario."
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Local Users and Groups", "es": "Usuarios y Grupos Locales" }, "correct": false },
+      { "key": "B", "text": { "en": "Resource Monitor", "es": "Monitor de Recursos" }, "correct": false },
+      { "key": "C", "text": { "en": "Group Policy", "es": "Política de Grupo" }, "correct": true },
+      { "key": "D", "text": { "en": "User Account Control", "es": "Control de Cuentas de Usuario" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "Group Policy is a feature of Microsoft Windows Active Directory that controls the working environment of user accounts and computer accounts. It provides centralized management and configuration of operating systems, applications, and user settings, which is essential for enforcing security policies in an enterprise environment.",
+      "es": "La Política de Grupo es una característica de Microsoft Windows Active Directory que controla el entorno de trabajo de las cuentas de usuario y las cuentas de computadora. Proporciona una gestión y configuración centralizadas de los sistemas operativos, las aplicaciones y las configuraciones de los usuarios, lo cual es esencial para aplicar políticas de seguridad en un entorno empresarial."
+    }
+  },
+  {
+    "id": "T18-Q0014",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "What is SELinux?",
+      "es": "¿Qué es SELinux?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "A security feature in Linux OSs", "es": "Una función de seguridad en los SO de Linux" }, "correct": true },
+      { "key": "B", "text": { "en": "A secure boot mechanism implemented in certain Linux distributions", "es": "Un mecanismo de arranque seguro implementado en ciertas distribuciones de Linux" }, "correct": false },
+      { "key": "C", "text": { "en": "An open-source web server software", "es": "Un software de servidor web de código abierto" }, "correct": false },
+      { "key": "D", "text": { "en": "A Linux distribution", "es": "Una distribución de Linux" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "SELinux (Security-Enhanced Linux) is a security architecture for Linux operating systems that allows administrators to define fine-grained access control policies. It is a security module, not a full operating system or web server, and it provides an additional layer of security beyond traditional Linux permissions.",
+      "es": "SELinux (Linux con Seguridad Mejorada) es una arquitectura de seguridad para sistemas operativos Linux que permite a los administradores definir políticas de control de acceso detalladas. Es un módulo de seguridad, no un sistema operativo completo o un servidor web, y proporciona una capa adicional de seguridad más allá de los permisos tradicionales de Linux."
+    }
+  },
+  {
+    "id": "T18-Q0015",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a security mechanism imposed by SELinux over system access?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un mecanismo de seguridad impuesto por SELinux sobre el acceso al sistema?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "DAC", "es": "DAC" }, "correct": false },
+      { "key": "B", "text": { "en": "RBAC", "es": "RBAC" }, "correct": false },
+      { "key": "C", "text": { "en": "MAC", "es": "MAC" }, "correct": true },
+      { "key": "D", "text": { "en": "ABAC", "es": "ABAC" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "SELinux implements Mandatory Access Control (MAC). Unlike Discretionary Access Control (DAC), where a file owner can grant or deny access, MAC policies are enforced system-wide by the operating system kernel, and the owner of the resource cannot override them. This provides a stronger security posture by preventing malicious users or processes from granting themselves unauthorized access.",
+      "es": "SELinux implementa el Control de Acceso Obligatorio (MAC). A diferencia del Control de Acceso Discrecional (DAC), donde un propietario de archivo puede otorgar o denegar el acceso, las políticas MAC son aplicadas en todo el sistema por el núcleo del sistema operativo, y el propietario del recurso no puede anularlas. Esto proporciona una postura de seguridad más fuerte al evitar que los usuarios o procesos maliciosos se otorguen a sí mismos acceso no autorizado."
+    }
+  },
+  {
+    "id": "T18-Q0016",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the protocols listed below is used to enable secure web browsing?",
+      "es": "¿Cuál de los protocolos listados a continuación se utiliza para habilitar la navegación web segura?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "L2TP", "es": "L2TP" }, "correct": false },
+      { "key": "B", "text": { "en": "HTTPS", "es": "HTTPS" }, "correct": true },
+      { "key": "C", "text": { "en": "SSH", "es": "SSH" }, "correct": false },
+      { "key": "D", "text": { "en": "IPsec", "es": "IPsec" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "HTTPS (Hypertext Transfer Protocol Secure) is the secure version of HTTP. It uses SSL/TLS encryption to secure communication between a web browser and a website, protecting against eavesdropping and data tampering.",
+      "es": "HTTPS (Protocolo de Transferencia de Hipertexto Seguro) es la versión segura de HTTP. Utiliza el cifrado SSL/TLS para asegurar la comunicación entre un navegador web y un sitio web, protegiendo contra la escucha y la manipulación de datos."
+    }
+  },
+  {
+    "id": "T18-Q0017",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "Which of the following protocols allow(s) for secure file transfer? (Select all that apply)",
+      "es": "¿Cuál de los siguientes protocolos permite la transferencia segura de archivos? (Selecciona todas las que apliquen)"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "FTPS", "es": "FTPS" }, "correct": true },
+      { "key": "B", "text": { "en": "TFTP", "es": "TFTP" }, "correct": false },
+      { "key": "C", "text": { "en": "FTP", "es": "FTP" }, "correct": false },
+      { "key": "D", "text": { "en": "SFTP", "es": "SFTP" }, "correct": true }
+    ],
+    "explanation": {
+      "en": "FTPS (FTP Secure) and SFTP (SSH File Transfer Protocol) are both protocols for secure file transfer. FTPS uses SSL/TLS to encrypt FTP connections, while SFTP runs on top of the SSH protocol and provides a secure channel for file transfer.",
+      "es": "Tanto FTPS (FTP Seguro) como SFTP (Protocolo de Transferencia de Archivos SSH) son protocolos para la transferencia segura de archivos. FTPS utiliza SSL/TLS para cifrar las conexiones FTP, mientras que SFTP se ejecuta sobre el protocolo SSH y proporciona un canal seguro para la transferencia de archivos."
+    }
+  },
+  {
+    "id": "T18-Q0018",
+    "type": "tf",
+    "required_answers": 1,
+    "prompt": {
+      "en": "FTPS is an extension to the SSH protocol and runs by default on TCP port 22.",
+      "es": "FTPS es una extensión del protocolo SSH y se ejecuta por defecto en el puerto TCP 22."
+    },
+    "options": [
+      { "key": "A", "text": { "en": "True", "es": "Verdadero" }, "correct": false },
+      { "key": "B", "text": { "en": "False", "es": "Falso" }, "correct": true }
+    ],
+    "explanation": {
+      "en": "The statement is false. SFTP (Secure File Transfer Protocol) is an extension of the SSH protocol and runs on TCP port 22. FTPS (File Transfer Protocol Secure) is an extension of the FTP protocol and typically runs on ports 990 (for explicit SSL/TLS) or 21 (for implicit SSL/TLS).",
+      "es": "La afirmación es falsa. SFTP (Protocolo de Transferencia de Archivos Seguro) es una extensión del protocolo SSH y se ejecuta en el puerto TCP 22. FTPS (Protocolo de Transferencia de Archivos Seguro) es una extensión del protocolo FTP y típicamente se ejecuta en los puertos 990 (para SSL/TLS explícito) o 21 (para SSL/TLS implícito)."
+    }
+  },
+  {
+    "id": "T18-Q0019",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a secure replacement for Telnet?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a un reemplazo seguro para Telnet?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "RSH", "es": "RSH" }, "correct": false },
+      { "key": "B", "text": { "en": "IPsec", "es": "IPsec" }, "correct": false },
+      { "key": "C", "text": { "en": "SSH", "es": "SSH" }, "correct": true },
+      { "key": "D", "text": { "en": "RTPS", "es": "RTPS" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "SSH (Secure Shell) is a cryptographic network protocol for operating network services securely over an unsecured network. It provides a secure channel for a remote terminal, making it the de facto secure replacement for the unencrypted Telnet protocol.",
+      "es": "SSH (Secure Shell) es un protocolo de red criptográfico para operar servicios de red de forma segura a través de una red no segura. Proporciona un canal seguro para un terminal remoto, lo que lo convierte en el reemplazo seguro de facto para el protocolo Telnet no cifrado."
+    }
+  },
+  {
+    "id": "T18-Q0020",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a deprecated protocol designed as a secure way to send emails from a client to a mail server and between mail servers?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un protocolo obsoleto diseñado como una forma segura de enviar correos electrónicos desde un cliente a un servidor de correo y entre servidores de correo?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "IMAPS", "es": "IMAPS" }, "correct": false },
+      { "key": "B", "text": { "en": "SFTP", "es": "SFTP" }, "correct": false },
+      { "key": "C", "text": { "en": "POP3S", "es": "POP3S" }, "correct": false },
+      { "key": "D", "text": { "en": "SMTPS", "es": "SMTPS" }, "correct": true }
+    ],
+    "explanation": {
+      "en": "SMTPS (Simple Mail Transfer Protocol Secure) was a method for securing SMTP traffic using SSL/TLS. While it was once used, the more modern and widely accepted method is to use STARTTLS with standard SMTP (port 587) to upgrade an unencrypted connection to an encrypted one. SMTPS is considered deprecated.",
+      "es": "SMTPS (Protocolo de Transferencia de Correo Simple Seguro) era un método para asegurar el tráfico SMTP utilizando SSL/TLS. Aunque se usó una vez, el método más moderno y ampliamente aceptado es usar STARTTLS con SMTP estándar (puerto 587) para actualizar una conexión no cifrada a una cifrada. SMTPS se considera obsoleto."
+    }
+  },
+  {
+    "id": "T18-Q0021",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "Which of the protocols listed below enable secure retrieval of emails from a mail server to an email client? (Select 2 answers)",
+      "es": "¿Cuáles de los protocolos listados a continuación permiten la recuperación segura de correos electrónicos desde un servidor de correo a un cliente de correo electrónico? (Selecciona 2 respuestas)"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "FTPS", "es": "FTPS" }, "correct": false },
+      { "key": "B", "text": { "en": "IMAPS", "es": "IMAPS" }, "correct": true },
+      { "key": "C", "text": { "en": "POP3S", "es": "POP3S" }, "correct": true },
+      { "key": "D", "text": { "en": "STARTTLS", "es": "STARTTLS" }, "correct": false },
+      { "key": "E", "text": { "en": "SMTPS", "es": "SMTPS" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "IMAPS (Internet Message Access Protocol Secure) and POP3S (Post Office Protocol 3 Secure) are the secure versions of IMAP and POP3, respectively. Both are used by email clients to retrieve emails from a mail server, with the 'S' indicating that they use SSL/TLS for encryption.",
+      "es": "IMAPS (Protocolo de Acceso a Mensajes de Internet Seguro) y POP3S (Protocolo de Oficina de Correos 3 Seguro) son las versiones seguras de IMAP y POP3, respectivamente. Ambos son utilizados por los clientes de correo electrónico para recuperar correos electrónicos de un servidor de correo, con la 'S' indicando que utilizan SSL/TLS para el cifrado."
+    }
+  },
+  {
+    "id": "T18-Q0022",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following protocols enables secure access and management of emails on a mail server from an email client?",
+      "es": "¿Cuál de los siguientes protocolos permite el acceso y la gestión segura de correos electrónicos en un servidor de correo desde un cliente de correo electrónico?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "POP3S", "es": "POP3S" }, "correct": false },
+      { "key": "B", "text": { "en": "SMTPS", "es": "SMTPS" }, "correct": false },
+      { "key": "C", "text": { "en": "IMAPS", "es": "IMAPS" }, "correct": true },
+      { "key": "D", "text": { "en": "S/MIME", "es": "S/MIME" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "IMAPS (Internet Message Access Protocol Secure) allows an email client to access and manage emails directly on the mail server. This includes creating folders, moving messages, and managing flags (e.g., read, unread). POP3S, in contrast, is primarily for downloading emails from the server, typically deleting them from the server after they are downloaded.",
+      "es": "IMAPS (Protocolo de Acceso a Mensajes de Internet Seguro) permite que un cliente de correo electrónico acceda y gestione los correos electrónicos directamente en el servidor de correo. Esto incluye la creación de carpetas, el movimiento de mensajes y la gestión de banderas (por ejemplo, leído, no leído). POP3S, en contraste, es principalmente para descargar correos electrónicos del servidor, típicamente eliminándolos del servidor después de ser descargados."
+    }
+  },
+  {
+    "id": "T18-Q0023",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a secure network protocol used to provide encryption, authentication, and integrity for real-time multimedia communication?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a un protocolo de red seguro utilizado para proporcionar cifrado, autenticación e integridad para la comunicación multimedia en tiempo real?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "IPsec", "es": "IPsec" }, "correct": false },
+      { "key": "B", "text": { "en": "SIP", "es": "SIP" }, "correct": false },
+      { "key": "C", "text": { "en": "VoIP", "es": "VoIP" }, "correct": false },
+      { "key": "D", "text": { "en": "SRTP", "es": "SRTP" }, "correct": true }
+    ],
+    "explanation": {
+      "en": "SRTP (Secure Real-time Transport Protocol) is a secure protocol for delivering audio and video data over IP networks. It provides encryption, message authentication, and integrity for RTP (Real-time Transport Protocol) traffic, protecting against eavesdropping and replay attacks.",
+      "es": "SRTP (Protocolo de Transporte en Tiempo Real Seguro) es un protocolo seguro para la entrega de datos de audio y video a través de redes IP. Proporciona cifrado, autenticación de mensajes e integridad para el tráfico RTP (Protocolo de Transporte en Tiempo Real), protegiendo contra escuchas y ataques de repetición."
+    }
+  },
+  {
+    "id": "T18-Q0024",
+    "type": "tf",
+    "required_answers": 1,
+    "prompt": {
+      "en": "UDP is a connection-oriented protocol using a three-way handshake which is a set of initial steps required for establishing network connection. UDP supports retransmission of lost packets, flow control (managing the amount of data that is being sent), and sequencing (rearranging packets that arrived out of order). Example applications of UDP include transmission of text and image data.",
+      "es": "UDP es un protocolo orientado a la conexión que utiliza un saludo de tres vías que es un conjunto de pasos iniciales necesarios para establecer la conexión de red. UDP soporta la retransmisión de paquetes perdidos, el control de flujo (gestionar la cantidad de datos que se están enviando) y la secuenciación (reordenar los paquetes que llegaron fuera de orden). Ejemplos de aplicaciones de UDP incluyen la transmisión de datos de texto e imagen."
+    },
+    "options": [
+      { "key": "A", "text": { "en": "True", "es": "Verdadero" }, "correct": false },
+      { "key": "B", "text": { "en": "False", "es": "Falso" }, "correct": true }
+    ],
+    "explanation": {
+      "en": "The statement is false. UDP (User Datagram Protocol) is a connectionless protocol that does not use a three-way handshake and does not provide reliability features like retransmission, flow control, or sequencing. It is a 'best-effort' protocol used for applications where speed is more important than reliability, such as video and audio streaming.",
+      "es": "La afirmación es falsa. UDP (Protocolo de Datagramas de Usuario) es un protocolo sin conexión que no utiliza un saludo de tres vías y no proporciona características de fiabilidad como retransmisión, control de flujo o secuenciación. Es un protocolo de 'mejor esfuerzo' utilizado para aplicaciones donde la velocidad es más importante que la fiabilidad, como la transmisión de video y audio."
+    }
+  },
+  {
+    "id": "T18-Q0025",
+    "type": "tf",
+    "required_answers": 1,
+    "prompt": {
+      "en": "TCP is an example of a connectionless protocol. Because TCP does not support three-way handshake while establishing a network connection, it is referred to as unreliable or best-effort protocol. Example applications of TCP include transmission of video and audio streaming data.",
+      "es": "TCP es un ejemplo de un protocolo sin conexión. Debido a que TCP no admite el saludo de tres vías al establecer una conexión de red, se le conoce como protocolo no confiable o de mejor esfuerzo. Ejemplos de aplicaciones de TCP incluyen la transmisión de datos de transmisión de video y audio."
+    },
+    "options": [
+      { "key": "A", "text": { "en": "True", "es": "Verdadero" }, "correct": false },
+      { "key": "B", "text": { "en": "False", "es": "Falso" }, "correct": true }
+    ],
+    "explanation": {
+      "en": "The statement is false. TCP (Transmission Control Protocol) is a connection-oriented, reliable protocol that uses a three-way handshake to establish a connection. It supports retransmission and sequencing, making it suitable for applications where data integrity is critical, such as web browsing and file transfers. UDP is the connectionless, best-effort protocol used for streaming.",
+      "es": "La afirmación es falsa. TCP (Protocolo de Control de Transmisión) es un protocolo fiable y orientado a la conexión que utiliza un saludo de tres vías para establecer una conexión. Soporta la retransmisión y la secuenciación, lo que lo hace adecuado para aplicaciones donde la integridad de los datos es crítica, como la navegación web y las transferencias de archivos. UDP es el protocolo sin conexión y de mejor esfuerzo utilizado para la transmisión."
+    }
+  }
+]

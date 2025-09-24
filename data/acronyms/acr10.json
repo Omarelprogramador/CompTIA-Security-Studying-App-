@@ -1,0 +1,2133 @@
+[
+  {
+    "id": "AC10-Q0001",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A detailed agreement between a client and a vendor describing the work to be performed on a project is referred to as:",
+      "es": "Un acuerdo detallado entre un cliente y un proveedor que describe el trabajo a realizar en un proyecto se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MSA",
+          "es": "MSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SLA",
+          "es": "SLA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "WO",
+          "es": "WO"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SOW",
+          "es": "SOW"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "SOW stands for Statement of Work, which is a detailed document that defines the project-specific activities, deliverables, and timelines.",
+      "es": "SOW significa Statement of Work, que es un documento detallado que define las actividades, entregables y plazos específicos del proyecto."
+    }
+  },
+  {
+    "id": "AC10-Q0002",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to an analog telephone service providing basic voice communication over copper telephone lines?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un servicio telefónico analógico que proporciona comunicación de voz básica a través de líneas telefónicas de cobre?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PSTN",
+          "es": "PSTN"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "ISDN",
+          "es": "ISDN"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PBX",
+          "es": "PBX"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "POTS",
+          "es": "POTS"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "POTS stands for Plain Old Telephone Service, which refers to the traditional analog telephone system.",
+      "es": "POTS significa Plain Old Telephone Service, que se refiere al sistema telefónico analógico tradicional."
+    }
+  },
+  {
+    "id": "AC10-Q0003",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A protocol designed to improve the security of existing WEP implementations is known as:",
+      "es": "Un protocolo diseñado para mejorar la seguridad de las implementaciones existentes de WEP se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SRTP",
+          "es": "SRTP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "TKIP",
+          "es": "TKIP"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "CCMP",
+          "es": "CCMP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "WPA2",
+          "es": "WPA2"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "TKIP stands for Temporal Key Integrity Protocol, which was an interim solution to WEP's security flaws.",
+      "es": "TKIP significa Temporal Key Integrity Protocol, que fue una solución provisional para los fallos de seguridad de WEP."
+    }
+  },
+  {
+    "id": "AC10-Q0004",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the acronyms listed below refers to a technology used in cameras and surveillance systems that enables remote control of camera functions?",
+      "es": "¿Cuál de los acrónimos a continuación se refiere a una tecnología utilizada en cámaras y sistemas de vigilancia que permite el control remoto de las funciones de la cámara?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "RDP",
+          "es": "RDP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CCTV",
+          "es": "CCTV"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PTZ",
+          "es": "PTZ"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "TCP/IP",
+          "es": "TCP/IP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "PTZ stands for Pan-Tilt-Zoom, which are the functions of a camera that can be remotely controlled.",
+      "es": "PTZ significa Pan-Tilt-Zoom, que son las funciones de una cámara que se pueden controlar de forma remota."
+    }
+  },
+  {
+    "id": "AC10-Q0005",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following provides granular control over user access to specific network segments and resources based on their assigned roles and permissions?",
+      "es": "¿Cuál de los siguientes proporciona un control granular sobre el acceso de los usuarios a segmentos de red y recursos específicos según sus roles y permisos asignados?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "IAM",
+          "es": "IAM"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SSO",
+          "es": "SSO"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PAM",
+          "es": "PAM"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MFA",
+          "es": "MFA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "IAM stands for Identity and Access Management, which is a framework that controls who can access what resources.",
+      "es": "IAM significa Identity and Access Management, que es un marco que controla quién puede acceder a qué recursos."
+    }
+  },
+  {
+    "id": "AC10-Q0006",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A security solution designed to detect anomalies in the log and event data collected from multiple network devices is called:",
+      "es": "Una solución de seguridad diseñada para detectar anomalías en los datos de registro y eventos recopilados de múltiples dispositivos de red se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SNMP",
+          "es": "SNMP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "PCAP",
+          "es": "PCAP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "HIPS",
+          "es": "HIPS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SIEM",
+          "es": "SIEM"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "SIEM stands for Security Information and Event Management, which is a system that centralizes and analyzes security data from various sources.",
+      "es": "SIEM significa Security Information and Event Management, que es un sistema que centraliza y analiza los datos de seguridad de varias fuentes."
+    }
+  },
+  {
+    "id": "AC10-Q0007",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a smart card used in mobile phones to identify the phone user?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a una tarjeta inteligente utilizada en teléfonos móviles para identificar al usuario del teléfono?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "IMSI",
+          "es": "IMSI"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SoC",
+          "es": "SoC"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "IMEI",
+          "es": "IMEI"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SIM",
+          "es": "SIM"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "SIM stands for Subscriber Identity Module, which is a smart card that securely stores the international mobile subscriber identity (IMSI) and related keys used to identify a mobile phone user.",
+      "es": "SIM significa Subscriber Identity Module, que es una tarjeta inteligente que almacena de forma segura la identidad de suscriptor móvil internacional (IMSI) y las claves relacionadas utilizadas para identificar a un usuario de teléfono móvil."
+    }
+  },
+  {
+    "id": "AC10-Q0008",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following devices would be used for connecting a router to a T1 line?",
+      "es": "¿Cuál de los siguientes dispositivos se utilizaría para conectar un enrutador a una línea T1?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CSU",
+          "es": "CSU"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IDF",
+          "es": "IDF"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "NIC",
+          "es": "NIC"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "EDR",
+          "es": "EDR"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "CSU stands for Channel Service Unit, and DSU stands for Data Service Unit. A CSU/DSU is a device that connects a router to a digital circuit like a T1 line.",
+      "es": "CSU significa Channel Service Unit, y DSU significa Data Service Unit. Un CSU/DSU es un dispositivo que conecta un enrutador a un circuito digital como una línea T1."
+    }
+  },
+  {
+    "id": "AC10-Q0009",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "What are the applications of PGP? (Select 3 answers)",
+      "es": "¿Cuáles son las aplicaciones de PGP? (Seleccione 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Compressing data",
+          "es": "Comprimir datos"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Encrypting and decrypting data",
+          "es": "Cifrar y descifrar datos"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Signing and verifying digital signatures",
+          "es": "Firmar y verificar firmas digitales"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Managing public and private keys",
+          "es": "Administrar claves públicas y privadas"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Securing website traffic",
+          "es": "Asegurar el tráfico del sitio web"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "PGP (Pretty Good Privacy) is a cryptographic protocol used for encrypting and decrypting data, signing and verifying digital signatures, and managing public and private keys.",
+      "es": "PGP (Pretty Good Privacy) es un protocolo criptográfico utilizado para cifrar y descifrar datos, firmar y verificar firmas digitales, y administrar claves públicas y privadas."
+    }
+  },
+  {
+    "id": "AC10-Q0010",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A field in an SSL/TLS certificate that allows the certificate to be used for multiple domain names or IP addresses is referred to as:",
+      "es": "Un campo en un certificado SSL/TLS que permite que el certificado se use para múltiples nombres de dominio o direcciones IP se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CNAME",
+          "es": "CNAME"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SAN",
+          "es": "SAN"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MX",
+          "es": "MX"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "PTR",
+          "es": "PTR"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SAN stands for Subject Alternative Name, an extension to X.509 that allows multiple values to be associated with a security certificate.",
+      "es": "SAN significa Subject Alternative Name, una extensión de X.509 que permite asociar múltiples valores a un certificado de seguridad."
+    }
+  },
+  {
+    "id": "AC10-Q0011",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a tunneling protocol commonly used in creating VPNs?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un protocolo de túnel comúnmente utilizado para crear VPN?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "VRRP",
+          "es": "VRRP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "GRE",
+          "es": "GRE"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "RTSP",
+          "es": "RTSP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "BGP",
+          "es": "BGP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "GRE stands for Generic Routing Encapsulation, which is a tunneling protocol that can encapsulate a wide variety of network layer protocols inside virtual point-to-point links over an Internet Protocol network.",
+      "es": "GRE significa Generic Routing Encapsulation, que es un protocolo de túnel que puede encapsular una amplia variedad de protocolos de capa de red dentro de enlaces virtuales punto a punto sobre una red de Protocolo de Internet."
+    }
+  },
+  {
+    "id": "AC10-Q0012",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a professional that oversees the management and maintenance of an information repository?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un profesional que supervisa la gestión y el mantenimiento de un repositorio de información?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CTO",
+          "es": "CTO"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "PM",
+          "es": "PM"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "DBA",
+          "es": "DBA"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CIO",
+          "es": "CIO"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "DBA stands for Database Administrator, a professional responsible for the management and maintenance of databases.",
+      "es": "DBA significa Database Administrator, un profesional responsable de la gestión y el mantenimiento de las bases de datos."
+    }
+  },
+  {
+    "id": "AC10-Q0013",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below refers to a US government initiative for real-time sharing of cyber threat indicators?",
+      "es": "¿Cuál de los siguientes términos se refiere a una iniciativa del gobierno de EE.UU. para el intercambio en tiempo real de indicadores de ciberamenazas?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "NVD",
+          "es": "NVD"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "AIS",
+          "es": "AIS"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "TTP",
+          "es": "TTP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CVSS",
+          "es": "CVSS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "AIS stands for Automated Indicator Sharing, a U.S. government program that enables the real-time sharing of cyber threat indicators.",
+      "es": "AIS significa Automated Indicator Sharing, un programa del gobierno de EE.UU. que permite el intercambio en tiempo real de indicadores de ciberamenazas."
+    }
+  },
+  {
+    "id": "AC10-Q0014",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A type of OS characterized by low delay between the execution of tasks required in specific applications, such as in military missile guidance systems or in automotive braking systems, is known as:",
+      "es": "Un tipo de SO caracterizado por un bajo retardo entre la ejecución de las tareas requeridas en aplicaciones específicas, como en los sistemas de guía de misiles militares o en los sistemas de frenado de automóviles, se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "UNIX",
+          "es": "UNIX"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Windows NT",
+          "es": "Windows NT"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "POSIX",
+          "es": "POSIX"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "RTOS",
+          "es": "RTOS"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "RTOS stands for Real-Time Operating System, an OS that guarantees a certain capability within a specified time constraint.",
+      "es": "RTOS significa Real-Time Operating System, un SO que garantiza una cierta capacidad dentro de una restricción de tiempo especificada."
+    }
+  },
+  {
+    "id": "AC10-Q0015",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following block cipher modes is the simplest/weakest and therefore not recommended for use?",
+      "es": "¿Cuál de los siguientes modos de cifrado de bloque es el más simple/débil y, por lo tanto, no se recomienda su uso?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CBC",
+          "es": "CBC"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "GCM",
+          "es": "GCM"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "ECB",
+          "es": "ECB"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CTR",
+          "es": "CTR"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ECB stands for Electronic Codebook, which is the simplest and weakest block cipher mode. It is not recommended for use as it does not hide data patterns.",
+      "es": "ECB significa Electronic Codebook, que es el modo de cifrado de bloque más simple y débil. No se recomienda su uso, ya que no oculta los patrones de datos."
+    }
+  },
+  {
+    "id": "AC10-Q0016",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which communication method supports real-time text-based messaging, multimedia sharing, group chats, and video calls?",
+      "es": "¿Qué método de comunicación admite mensajería de texto en tiempo real, intercambio multimedia, chats grupales y videollamadas?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SMS",
+          "es": "SMS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "MMS",
+          "es": "MMS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "IM",
+          "es": "IM"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "RTC",
+          "es": "RTC"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "IM stands for Instant Messaging, which is a form of real-time communication between two or more people based on typed text. It often includes multimedia sharing and other features.",
+      "es": "IM significa Instant Messaging, que es una forma de comunicación en tiempo real entre dos o más personas basada en texto escrito. A menudo incluye intercambio multimedia y otras funciones."
+    }
+  },
+  {
+    "id": "AC10-Q0017",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which senior executive position assumes the responsibility for protecting assets, data, and people from potential threats?",
+      "es": "¿Qué puesto ejecutivo senior asume la responsabilidad de proteger los activos, los datos y las personas de posibles amenazas?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CEO",
+          "es": "CEO"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CIO",
+          "es": "CIO"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "CSO",
+          "es": "CSO"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CTO",
+          "es": "CTO"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "CSO stands for Chief Security Officer, who is the senior executive responsible for the security of an organization's assets.",
+      "es": "CSO significa Chief Security Officer, que es el ejecutivo senior responsable de la seguridad de los activos de una organización."
+    }
+  },
+  {
+    "id": "AC10-Q0018",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which cybersecurity role is primarily responsible for hands-on implementation and oversight of security measures for specific systems and networks?",
+      "es": "¿Qué rol de ciberseguridad es el principal responsable de la implementación práctica y la supervisión de las medidas de seguridad para sistemas y redes específicos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CSO",
+          "es": "CSO"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CTO",
+          "es": "CTO"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "DPO",
+          "es": "DPO"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "ISSO",
+          "es": "ISSO"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "ISSO stands for Information System Security Officer, who is responsible for the implementation and oversight of security measures for a specific system or network.",
+      "es": "ISSO significa Information System Security Officer, que es responsable de la implementación y supervisión de las medidas de seguridad para un sistema o red específicos."
+    }
+  },
+  {
+    "id": "AC10-Q0019",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A company or organization that offers cloud computing services over the Internet is called:",
+      "es": "Una empresa u organización que ofrece servicios de computación en la nube a través de Internet se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ISP",
+          "es": "ISP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "MSSP",
+          "es": "MSSP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "CSP",
+          "es": "CSP"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MSP",
+          "es": "MSP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "CSP stands for Cloud Service Provider, a company that offers cloud computing services to its customers.",
+      "es": "CSP significa Cloud Service Provider, una empresa que ofrece servicios de computación en la nube a sus clientes."
+    }
+  },
+  {
+    "id": "AC10-Q0020",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below refers to a global community focused around the development of engineering standards?",
+      "es": "¿Cuál de los siguientes términos se refiere a una comunidad global centrada en el desarrollo de estándares de ingeniería?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ANSI",
+          "es": "ANSI"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "NIST",
+          "es": "NIST"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "CERT",
+          "es": "CERT"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "IEEE",
+          "es": "IEEE"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "IEEE stands for Institute of Electrical and Electronics Engineers, a professional organization for advancing technology.",
+      "es": "IEEE significa Institute of Electrical and Electronics Engineers, una organización profesional para el avance de la tecnología."
+    }
+  },
+  {
+    "id": "AC10-Q0021",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a device designed to supply (and monitor the quality of) electric power to multiple outlets?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un dispositivo diseñado para suministrar (y monitorear la calidad de) la energía eléctrica a múltiples tomas de corriente?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PSU",
+          "es": "PSU"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "MDF",
+          "es": "MDF"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PDU",
+          "es": "PDU"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "IDF",
+          "es": "IDF"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "PDU stands for Power Distribution Unit, which is a device with multiple outlets designed to distribute electric power.",
+      "es": "PDU significa Power Distribution Unit, que es un dispositivo con múltiples tomas diseñado para distribuir energía eléctrica."
+    }
+  },
+  {
+    "id": "AC10-Q0022",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a global standard development organization composed of different national standards bodies?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a una organización global de desarrollo de estándares compuesta por diferentes organismos nacionales de normalización?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "NIST",
+          "es": "NIST"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "ISO",
+          "es": "ISO"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "IEEE",
+          "es": "IEEE"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "ANSI",
+          "es": "ANSI"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ISO stands for International Organization for Standardization, an international standard-setting body.",
+      "es": "ISO significa International Organization for Standardization, un organismo internacional de normalización."
+    }
+  },
+  {
+    "id": "AC10-Q0023",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following acronyms refers to the process of identifying and preparing for potential disruptions or unexpected events to ensure business continuity?",
+      "es": "¿Cuál de los siguientes acrónimos se refiere al proceso de identificar y prepararse para posibles interrupciones o eventos inesperados para garantizar la continuidad del negocio?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "BIA",
+          "es": "BIA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SLE",
+          "es": "SLE"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "CP",
+          "es": "CP"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "BPA",
+          "es": "BPA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "CP stands for Continuity Plan, which is a plan for how a business will continue to operate during an unexpected event.",
+      "es": "CP significa Continuity Plan, que es un plan sobre cómo una empresa continuará operando durante un evento inesperado."
+    }
+  },
+  {
+    "id": "AC10-Q0024",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A dedicated local network consisting of devices providing data access is referred to as:",
+      "es": "Una red local dedicada que consta de dispositivos que proporcionan acceso a datos se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SDN",
+          "es": "SDN"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "NAS",
+          "es": "NAS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "iSCSI",
+          "es": "iSCSI"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SAN",
+          "es": "SAN"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "SAN stands for Storage Area Network, a dedicated high-speed network that provides access to consolidated, block-level data storage.",
+      "es": "SAN significa Storage Area Network, una red dedicada de alta velocidad que proporciona acceso a un almacenamiento de datos consolidado a nivel de bloque."
+    }
+  },
+  {
+    "id": "AC10-Q0025",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which senior executive is responsible for managing an organization's IT strategy and systems?",
+      "es": "¿Qué alto ejecutivo es responsable de gestionar la estrategia y los sistemas de TI de una organización?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CEO",
+          "es": "CEO"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CIO",
+          "es": "CIO"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "CSO",
+          "es": "CSO"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CTO",
+          "es": "CTO"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "CIO stands for Chief Information Officer, who is the senior executive responsible for managing IT strategy and systems.",
+      "es": "CIO significa Chief Information Officer, que es el ejecutivo senior responsable de gestionar la estrategia y los sistemas de TI."
+    }
+  },
+  {
+    "id": "AC10-Q0026",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a framework used on Unix-like OSs to manage authentication-related tasks?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un marco utilizado en sistemas operativos tipo Unix para gestionar tareas relacionadas con la autenticación?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PAM",
+          "es": "PAM"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SSO",
+          "es": "SSO"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MFA",
+          "es": "MFA"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "OAuth",
+          "es": "OAuth"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "PAM stands for Pluggable Authentication Modules, a framework used on Unix-like OSs to manage authentication-related tasks.",
+      "es": "PAM significa Pluggable Authentication Modules, un marco utilizado en sistemas operativos tipo Unix para gestionar tareas relacionadas con la autenticación."
+    }
+  },
+  {
+    "id": "AC10-Q0027",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a network protocol for delivering audio and video over IP networks?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un protocolo de red para entregar audio y video a través de redes IP?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "RDP",
+          "es": "RDP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "VoIP",
+          "es": "VoIP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "RTP",
+          "es": "RTP"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "UDP",
+          "es": "UDP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "RTP stands for Real-time Transport Protocol, which is used for delivering audio and video over IP networks.",
+      "es": "RTP significa Real-time Transport Protocol, que se utiliza para entregar audio y video a través de redes IP."
+    }
+  },
+  {
+    "id": "AC10-Q0028",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below refers to a specialized suite of software tools used for developing applications for a specific platform?",
+      "es": "¿Cuál de los siguientes términos se refiere a un conjunto especializado de herramientas de software utilizadas para desarrollar aplicaciones para una plataforma específica?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "GUI",
+          "es": "GUI"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SDLC",
+          "es": "SDLC"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "API",
+          "es": "API"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SDK",
+          "es": "SDK"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "SDK stands for Software Development Kit, which is a collection of tools, libraries, and documentation that developers can use to create applications for a specific platform.",
+      "es": "SDK significa Software Development Kit, que es una colección de herramientas, bibliotecas y documentación que los desarrolladores pueden usar para crear aplicaciones para una plataforma específica."
+    }
+  },
+  {
+    "id": "AC10-Q0029",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A type of software that serves as an intermediary between users and the hardware, allowing users to interact with the computer and run applications is known as:",
+      "es": "Un tipo de software que sirve como intermediario entre los usuarios y el hardware, permitiendo a los usuarios interactuar con el ordenador y ejecutar aplicaciones se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ROM",
+          "es": "ROM"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "BIOS",
+          "es": "BIOS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "OS",
+          "es": "OS"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "RAM",
+          "es": "RAM"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "OS stands for Operating System, which is a software that manages computer hardware and software resources and provides common services for computer programs.",
+      "es": "OS significa Operating System, que es un software que gestiona los recursos de hardware y software de la computadora y proporciona servicios comunes para los programas de computadora."
+    }
+  },
+  {
+    "id": "AC10-Q0030",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to an encryption protocol primarily used in Wi-Fi networks implementing the WPA2 security standard?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un protocolo de encriptación utilizado principalmente en redes Wi-Fi que implementan el estándar de seguridad WPA2?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "TKIP",
+          "es": "TKIP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CCMP",
+          "es": "CCMP"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SSL",
+          "es": "SSL"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "HMAC",
+          "es": "HMAC"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "CCMP stands for Counter Mode with Cipher Block Chaining Message Authentication Code Protocol, which is the standard encryption protocol used with WPA2.",
+      "es": "CCMP significa Counter Mode with Cipher Block Chaining Message Authentication Code Protocol, que es el protocolo de encriptación estándar utilizado con WPA2."
+    }
+  },
+  {
+    "id": "AC10-Q0031",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In telecommunications, a type of main hub connecting internal networks with outside cabling is called:",
+      "es": "En telecomunicaciones, un tipo de centro principal que conecta redes internas con cableado externo se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MDF",
+          "es": "MDF"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "ICS",
+          "es": "ICS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MDI",
+          "es": "MDI"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "IDF",
+          "es": "IDF"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "MDF stands for Main Distribution Frame, which is a signal distribution frame or cable rack used to connect communication cables.",
+      "es": "MDF significa Main Distribution Frame, que es un bastidor de distribución de señal o bastidor de cables utilizado para conectar cables de comunicación."
+    }
+  },
+  {
+    "id": "AC10-Q0032",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the acronyms listed below refers to a protocol used in network management systems for monitoring network-attached devices?",
+      "es": "¿Cuál de los acrónimos a continuación se refiere a un protocolo utilizado en los sistemas de gestión de redes para monitorear los dispositivos conectados a la red?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SSH",
+          "es": "SSH"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "VNC",
+          "es": "VNC"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SNMP",
+          "es": "SNMP"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "RDP",
+          "es": "RDP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SNMP stands for Simple Network Management Protocol, a protocol used to manage and monitor network devices.",
+      "es": "SNMP significa Simple Network Management Protocol, un protocolo utilizado para gestionar y monitorear dispositivos de red."
+    }
+  },
+  {
+    "id": "AC10-Q0033",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a routing protocol?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un protocolo de enrutamiento?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "RTP",
+          "es": "RTP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "BGP",
+          "es": "BGP"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "RDP",
+          "es": "RDP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "EAP",
+          "es": "EAP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "BGP stands for Border Gateway Protocol, which is a standardized exterior gateway protocol designed to exchange routing and reachability information between autonomous systems on the Internet.",
+      "es": "BGP significa Border Gateway Protocol, que es un protocolo de pasarela exterior estandarizado diseñado para intercambiar información de enrutamiento y accesibilidad entre sistemas autónomos en Internet."
+    }
+  },
+  {
+    "id": "AC10-Q0034",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A specific URI type most commonly used to identify web pages is referred to as:",
+      "es": "Un tipo de URI específico que se utiliza con mayor frecuencia para identificar páginas web se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "DOI",
+          "es": "DOI"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "ISBN",
+          "es": "ISBN"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "OUI",
+          "es": "OUI"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "URL",
+          "es": "URL"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "URL stands for Uniform Resource Locator, which is a specific type of URI that provides a means of locating a resource on the Internet.",
+      "es": "URL significa Uniform Resource Locator, que es un tipo específico de URI que proporciona un medio para localizar un recurso en Internet."
+    }
+  },
+  {
+    "id": "AC10-Q0035",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a solution that simplifies web browser configurations by using predefined rules or scripts to make server selection decisions for specific web traffic?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a una solución que simplifica las configuraciones del navegador web mediante el uso de reglas o scripts predefinidos para tomar decisiones de selección de servidor para tráfico web específico?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PAC",
+          "es": "PAC"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DDNS",
+          "es": "DDNS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PAM",
+          "es": "PAM"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "NAT",
+          "es": "NAT"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "PAC stands for Proxy Auto-Config, a file that defines how web browsers can automatically choose the correct proxy server for a given URL.",
+      "es": "PAC significa Proxy Auto-Config, un archivo que define cómo los navegadores web pueden elegir automáticamente el servidor proxy correcto para una URL determinada."
+    }
+  },
+  {
+    "id": "AC10-Q0036",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following terms refers to a network of physical devices, vehicles, buildings, and other items embedded with sensors, software, and other technologies that connect and exchange data with other devices and systems over the Internet?",
+      "es": "¿Cuál de los siguientes términos se refiere a una red de dispositivos físicos, vehículos, edificios y otros elementos incrustados con sensores, software y otras tecnologías que se conectan e intercambian datos con otros dispositivos y sistemas a través de Internet?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SoC",
+          "es": "SoC"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "PAN",
+          "es": "PAN"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "IoT",
+          "es": "IoT"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "WMN",
+          "es": "WMN"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "IoT stands for Internet of Things, which refers to the network of physical objects that are embedded with technology to connect and exchange data.",
+      "es": "IoT significa Internet of Things, que se refiere a la red de objetos físicos que están incrustados con tecnología para conectarse e intercambiar datos."
+    }
+  },
+  {
+    "id": "AC10-Q0037",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a unique 32-bit identifier embedded in older mobile phones and used by network operators to identify and authenticate the device on the cellular network?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un identificador único de 32 bits incrustado en teléfonos móviles más antiguos y utilizado por los operadores de red para identificar y autenticar el dispositivo en la red celular?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MAC",
+          "es": "MAC"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "ESN",
+          "es": "ESN"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "IP",
+          "es": "IP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "OID",
+          "es": "OID"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ESN stands for Electronic Serial Number, a unique 32-bit number used to identify mobile phones.",
+      "es": "ESN significa Electronic Serial Number, un número único de 32 bits utilizado para identificar teléfonos móviles."
+    }
+  },
+  {
+    "id": "AC10-Q0038",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a software-based solution that allows users to access and interact with a virtual OS from anywhere using any device with an Internet connection?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a una solución basada en software que permite a los usuarios acceder e interactuar con un SO virtual desde cualquier lugar utilizando cualquier dispositivo con una conexión a Internet?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "VDU",
+          "es": "VDU"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "VTC",
+          "es": "VTC"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "VDE",
+          "es": "VDE"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "VNC",
+          "es": "VNC"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "VDE stands for Virtual Desktop Environment, a software-based solution that allows users to access and interact with a virtual OS from anywhere.",
+      "es": "VDE significa Virtual Desktop Environment, una solución basada en software que permite a los usuarios acceder e interactuar con un SO virtual desde cualquier lugar."
+    }
+  },
+  {
+    "id": "AC10-Q0039",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the acronyms listed below refers to a broader term used to describe an organization responsible for responding to computer-related emergencies?",
+      "es": "¿Cuál de los siguientes acrónimos se refiere a un término más amplio utilizado para describir una organización responsable de responder a emergencias relacionadas con la informática?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CIRT",
+          "es": "CIRT"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CERN",
+          "es": "CERN"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "CERT",
+          "es": "CERT"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CSIRT",
+          "es": "CSIRT"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "CERT stands for Computer Emergency Response Team, a broader term for a group of experts responsible for responding to computer-related emergencies.",
+      "es": "CERT significa Computer Emergency Response Team, un término más amplio para un grupo de expertos responsables de responder a emergencias relacionadas con la informática."
+    }
+  },
+  {
+    "id": "AC10-Q0040",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following acronyms refers to a discontinued research program focused on promoting innovation and development in the field of telecommunications and information technology?",
+      "es": "¿Cuál de los siguientes acrónimos se refiere a un programa de investigación discontinuado centrado en promover la innovación y el desarrollo en el campo de las telecomunicaciones y la tecnología de la información?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "IETF",
+          "es": "IETF"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CERN",
+          "es": "CERN"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "DARPA",
+          "es": "DARPA"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "RACE",
+          "es": "RACE"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "RACE stands for Research and development in Advanced Communication technologies in Europe, a discontinued research program.",
+      "es": "RACE significa Research and development in Advanced Communication technologies in Europe, un programa de investigación discontinuado."
+    }
+  },
+  {
+    "id": "AC10-Q0041",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a team of experts within an organization focused on responding to a wide variety of computer-related incidents?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un equipo de expertos dentro de una organización enfocado en responder a una amplia variedad de incidentes relacionados con la informática?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CERT",
+          "es": "CERT"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CSIRT",
+          "es": "CSIRT"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "CIRT",
+          "es": "CIRT"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CERN",
+          "es": "CERN"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "CIRT stands for Computer Incident Response Team, a team of experts focused on responding to computer-related incidents.",
+      "es": "CIRT significa Computer Incident Response Team, un equipo de expertos centrado en responder a incidentes relacionados con la informática."
+    }
+  },
+  {
+    "id": "AC10-Q0042",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "GPG is used for: (Select all that apply)",
+      "es": "GPG se utiliza para: (Seleccione todas las que correspondan)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Securing website traffic",
+          "es": "Asegurar el tráfico del sitio web"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Managing public and private keys",
+          "es": "Administrar claves públicas y privadas"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Signing and verifying digital signatures",
+          "es": "Firmar y verificar firmas digitales"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Compressing data",
+          "es": "Comprimir datos"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Encrypting and decrypting data",
+          "es": "Cifrar y descifrar datos"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "GPG stands for GNU Privacy Guard, which is a free implementation of the OpenPGP standard and is used for encrypting and decrypting data, signing and verifying digital signatures, and managing public and private keys.",
+      "es": "GPG significa GNU Privacy Guard, que es una implementación gratuita del estándar OpenPGP y se utiliza para cifrar y descifrar datos, firmar y verificar firmas digitales, y administrar claves públicas y privadas."
+    }
+  },
+  {
+    "id": "AC10-Q0043",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A software system that integrates and manages various business processes and functions across an organization is known as:",
+      "es": "Un sistema de software que integra y gestiona varios procesos y funciones de negocio en una organización se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "BCP",
+          "es": "BCP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CMS",
+          "es": "CMS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "ERP",
+          "es": "ERP"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "BIA",
+          "es": "BIA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ERP stands for Enterprise Resource Planning, which is a software system that integrates and manages various business processes and functions.",
+      "es": "ERP significa Enterprise Resource Planning, que es un sistema de software que integra y gestiona varios procesos y funciones de negocio."
+    }
+  },
+  {
+    "id": "AC10-Q0044",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "What is RIPEMD?",
+      "es": "¿Qué es RIPEMD?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Block cipher encryption mode",
+          "es": "Modo de encriptación de cifrado de bloque"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Digital signature algorithm",
+          "es": "Algoritmo de firma digital"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Family of cryptographic hash functions",
+          "es": "Familia de funciones hash criptográficas"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Symmetric encryption algorithm",
+          "es": "Algoritmo de encriptación simétrica"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "RIPEMD stands for RACE Integrity Primitives Evaluation Message Digest, which is a family of cryptographic hash functions.",
+      "es": "RIPEMD significa RACE Integrity Primitives Evaluation Message Digest, que es una familia de funciones hash criptográficas."
+    }
+  },
+  {
+    "id": "AC10-Q0045",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following acronyms refers to a dedicated facility responsible for monitoring, detecting, investigating, and responding to cybersecurity incidents?",
+      "es": "¿Cuál de los siguientes acrónimos se refiere a una instalación dedicada responsable de monitorear, detectar, investigar y responder a incidentes de ciberseguridad?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "NOC",
+          "es": "NOC"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "C2",
+          "es": "C2"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "ISAC",
+          "es": "ISAC"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SOC",
+          "es": "SOC"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "SOC stands for Security Operations Center, a centralized unit that deals with security issues on an organizational and technical level.",
+      "es": "SOC significa Security Operations Center, una unidad centralizada que se ocupa de los problemas de seguridad a nivel organizacional y técnico."
+    }
+  }
+]

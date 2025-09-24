@@ -1,0 +1,1209 @@
+[
+  {
+    "id": "T12-Q0001",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A computer system or an application that acts as an intermediary between another computer and the Internet is commonly referred to as:",
+      "es": "Un sistema informático o una aplicación que actúa como intermediario entre otra computadora e Internet se conoce comúnmente como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Bridge",
+          "es": "Puente"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Active hub",
+          "es": "Concentrador activo"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Server",
+          "es": "Servidor"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Proxy",
+          "es": "Proxy"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "A proxy server acts as an intermediary for requests from clients seeking resources from other servers. It can be used for security, privacy, and performance.",
+      "es": "Un servidor proxy actúa como intermediario para las solicitudes de los clientes que buscan recursos de otros servidores. Puede ser utilizado para la seguridad, la privacidad y el rendimiento."
+    }
+  },
+  {
+    "id": "T12-Q0002",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a solution that simplifies web browser configurations by using predefined rules or scripts to make server selection decisions for specific web traffic?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a una solución que simplifica las configuraciones del navegador web mediante el uso de reglas o scripts predefinidos para tomar decisiones de selección de servidor para tráfico web específico?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PAC",
+          "es": "PAC"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DDNS",
+          "es": "DDNS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PAM",
+          "es": "PAM"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "NAT",
+          "es": "NAT"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A PAC (Proxy Auto-Configuration) file is a script that a web browser can use to determine whether to use a proxy server for a given URL, simplifying the configuration process for users.",
+      "es": "Un archivo PAC (Proxy Auto-Configuration) es un script que un navegador web puede usar para determinar si debe usar un servidor proxy para una URL determinada, simplificando el proceso de configuración para los usuarios."
+    }
+  },
+  {
+    "id": "T12-Q0003",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following provides passive network security breach response on an individual computer system?",
+      "es": "¿Cuál de los siguientes proporciona una respuesta pasiva a las brechas de seguridad de la red en un sistema informático individual?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "HIDS",
+          "es": "HIDS"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "NIPS",
+          "es": "NIPS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "HIPS",
+          "es": "HIPS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "NIDS",
+          "es": "NIDS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A HIDS (Host-based Intrusion Detection System) monitors a single host system for suspicious activity and generates alerts, but it does not take any action to stop or prevent the activity. It is a passive monitoring solution.",
+      "es": "Un HIDS (Sistema de Detección de Intrusiones Basado en Host) monitorea un solo sistema host en busca de actividad sospechosa y genera alertas, pero no toma ninguna medida para detener o prevenir la actividad. Es una solución de monitoreo pasivo."
+    }
+  },
+  {
+    "id": "T12-Q0004",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the answers listed below refer to the characteristic features of a NIDS? (Select 3 answers)",
+      "es": "¿Cuáles de las respuestas listadas a continuación se refieren a las características de un NIDS? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Takes proactive measures to block or mitigate intrusion attempts",
+          "es": "Toma medidas proactivas para bloquear o mitigar los intentos de intrusión"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Does not take direct action to block or prevent attacks",
+          "es": "No toma medidas directas para bloquear o prevenir ataques"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Generates alerts and notifies security personnel or administrators when suspicious activity is detected",
+          "es": "Genera alertas y notifica al personal de seguridad o a los administradores cuando se detecta actividad sospechosa"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Monitors network traffic without direct involvement in traffic routing or packet modification",
+          "es": "Monitorea el tráfico de la red sin participación directa en el enrutamiento del tráfico o la modificación de paquetes"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Can drop or reject network packets, terminate connections, or take other actions to stop the attack",
+          "es": "Puede descartar o rechazar paquetes de red, terminar conexiones o tomar otras medidas para detener el ataque"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Operates in an inline mode, actively intercepting and inspecting network traffic",
+          "es": "Opera en modo en línea, interceptando e inspeccionando activamente el tráfico de la red"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A NIDS (Network Intrusion Detection System) is a passive system. It listens to network traffic and raises an alarm when it detects malicious activity, but it does not actively block or interfere with the traffic.",
+      "es": "Un NIDS (Sistema de Detección de Intrusiones en la Red) es un sistema pasivo. Escucha el tráfico de la red y emite una alarma cuando detecta actividad maliciosa, pero no bloquea ni interfiere activamente con el tráfico."
+    }
+  },
+  {
+    "id": "T12-Q0005",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the following answers refer to a NIPS? (Select 3 answers)",
+      "es": "¿Cuáles de las siguientes respuestas se refieren a un NIPS? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Takes proactive measures to block or mitigate intrusion attempts",
+          "es": "Toma medidas proactivas para bloquear o mitigar los intentos de intrusión"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Generates alerts and notifies security personnel or administrators when suspicious activity is detected",
+          "es": "Genera alertas y notifica al personal de seguridad o a los administradores cuando se detecta actividad sospechosa"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Operates in an inline mode, actively intercepting and inspecting network traffic",
+          "es": "Opera en modo en línea, interceptando e inspeccionando activamente el tráfico de la red"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Monitors network traffic without direct involvement in traffic routing or packet modification",
+          "es": "Monitorea el tráfico de la red sin participación directa en el enrutamiento del tráfico o la modificación de paquetes"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Can drop or reject network packets, terminate connections, or take other actions to stop the attack",
+          "es": "Puede descartar o rechazar paquetes de red, terminar conexiones o tomar otras medidas para detener el ataque"
+        },
+        "correct": true
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Does not take direct action to block or prevent attacks",
+          "es": "No toma medidas directas para bloquear o prevenir ataques"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A NIPS (Network Intrusion Prevention System) is an active security solution. It is deployed inline with network traffic and can actively block or prevent attacks by dropping packets or terminating connections.",
+      "es": "Un NIPS (Sistema de Prevención de Intrusiones en la Red) es una solución de seguridad activa. Se implementa en línea con el tráfico de la red y puede bloquear o prevenir activamente los ataques descartando paquetes o terminando las conexiones."
+    }
+  },
+  {
+    "id": "T12-Q0006",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to network security technology designed to monitor WLANs for unauthorized access, security threats, and suspicious activities?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a la tecnología de seguridad de red diseñada para monitorear WLANs en busca de acceso no autorizado, amenazas de seguridad y actividades sospechosas?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "UTM",
+          "es": "UTM"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "WIDS",
+          "es": "WIDS"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "NGFW",
+          "es": "NGFW"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "WAF",
+          "es": "WAF"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A WIDS (Wireless Intrusion Detection System) is a passive system that monitors a wireless network for unauthorized access and malicious activities and alerts administrators to potential threats.",
+      "es": "Un WIDS (Sistema de Detección de Intrusiones Inalámbricas) es un sistema pasivo que monitorea una red inalámbrica en busca de acceso no autorizado y actividades maliciosas y alerta a los administradores sobre posibles amenazas."
+    }
+  },
+  {
+    "id": "T12-Q0007",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to network security technology designed to monitor, detect, and mitigate unauthorized access, security threats, and suspicious activities in WLANs?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a la tecnología de seguridad de red diseñada para monitorear, detectar y mitigar el acceso no autorizado, las amenazas de seguridad y las actividades sospechosas en WLANs?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "WIPS",
+          "es": "WIPS"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "NIDS",
+          "es": "NIDS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "WIDS",
+          "es": "WIDS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "NIPS",
+          "es": "NIPS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A WIPS (Wireless Intrusion Prevention System) is an active security solution that not only detects wireless threats but also automatically takes action to prevent or block them.",
+      "es": "Un WIPS (Sistema de Prevención de Intrusiones Inalámbricas) es una solución de seguridad activa que no solo detecta amenazas inalámbricas, sino que también toma medidas automáticamente para prevenirlas o bloquearlas."
+    }
+  },
+  {
+    "id": "T12-Q0008",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A network hardware or software solution designed for managing the optimal distribution of workloads across multiple computing resources is known as:",
+      "es": "Una solución de hardware o software de red diseñada para gestionar la distribución óptima de las cargas de trabajo entre múltiples recursos informáticos se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Content filter",
+          "es": "Filtro de contenido"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Proxy server",
+          "es": "Servidor proxy"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Load balancer",
+          "es": "Balanceador de carga"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Domain controller",
+          "es": "Controlador de dominio"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A load balancer is a device or software that distributes network traffic across a group of servers, ensuring that no single server becomes overwhelmed, thereby improving application availability and responsiveness.",
+      "es": "Un balanceador de carga es un dispositivo o software que distribuye el tráfico de la red entre un grupo de servidores, lo que garantiza que ningún servidor se sature, lo que mejora la disponibilidad y la capacidad de respuesta de la aplicación."
+    }
+  },
+  {
+    "id": "T12-Q0009",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In active-active mode, load balancers distribute network traffic across:",
+      "es": "En modo activo-activo, los balanceadores de carga distribuyen el tráfico de la red entre:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Least utilized servers",
+          "es": "Servidores menos utilizados"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "None of the servers",
+          "es": "Ninguno de los servidores"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "All servers",
+          "es": "Todos los servidores"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Most utilized servers",
+          "es": "Servidores más utilizados"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "In an active-active load balancing configuration, all servers in the cluster are actively handling traffic. This increases the total capacity and performance of the system.",
+      "es": "En una configuración de balanceo de carga activo-activo, todos los servidores del clúster están manejando activamente el tráfico. Esto aumenta la capacidad total y el rendimiento del sistema."
+    }
+  },
+  {
+    "id": "T12-Q0010",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In active-passive mode, load balancers distribute network traffic across:",
+      "es": "En modo activo-pasivo, los balanceadores de carga distribuyen el tráfico de la red entre:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "All servers",
+          "es": "Todos los servidores"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Servers marked as active",
+          "es": "Servidores marcados como activos"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Least utilized servers",
+          "es": "Servidores menos utilizados"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Servers marked as passive",
+          "es": "Servidores marcados como pasivos"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "In an active-passive configuration, only the active server handles traffic. The passive server is in a standby state and only takes over if the active server fails. The traffic is not distributed among all servers; it is directed to the active one.",
+      "es": "En una configuración activo-pasivo, solo el servidor activo maneja el tráfico. El servidor pasivo está en un estado de espera y solo se hace cargo si el servidor activo falla. El tráfico no se distribuye entre todos los servidores; se dirige al activo."
+    }
+  },
+  {
+    "id": "T12-Q0011",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to an IEEE standard that can be implemented in a situation where an Ethernet switch acts as an authenticator for devices that intend to connect to a network through one of its ports?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a un estándar IEEE que se puede implementar en una situación en la que un switch Ethernet actúa como autenticador para los dispositivos que intentan conectarse a una red a través de uno de sus puertos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "IEEE 802.1X",
+          "es": "IEEE 802.1X"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IEEE 802.11ac",
+          "es": "IEEE 802.11ac"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "IEEE 802.1D",
+          "es": "IEEE 802.1D"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "IEEE 802.11x",
+          "es": "IEEE 802.11x"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "IEEE 802.1X is a standard for port-based network access control that provides an authentication framework to allow or deny network access based on the user or device identity.",
+      "es": "IEEE 802.1X es un estándar para el control de acceso a la red basado en puertos que proporciona un marco de autenticación para permitir o denegar el acceso a la red en función de la identidad del usuario o del dispositivo."
+    }
+  },
+  {
+    "id": "T12-Q0012",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Extensible Authentication Protocol (EAP) is an authentication framework frequently used in wireless networks and point-to-point connections. EAP provides an authentication framework, not a specific authentication mechanism. There are many authentication mechanisms (referred to as EAP methods) that can be used with EAP. Wireless networks take advantage of several EAP methods, including PEAP, LEAP, EAP-FAST, EAP-TLS, and EAP-TTLS.",
+      "es": "El Protocolo de Autenticación Extensible (EAP) es un marco de autenticación que se utiliza con frecuencia en redes inalámbricas y conexiones punto a punto. EAP proporciona un marco de autenticación, no un mecanismo de autenticación específico. Hay muchos mecanismos de autenticación (denominados métodos EAP) que se pueden utilizar con EAP. Las redes inalámbricas aprovechan varios métodos EAP, incluidos PEAP, LEAP, EAP-FAST, EAP-TLS y EAP-TTLS."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "This statement is true. EAP is a flexible framework that supports various authentication methods, allowing for different levels of security and compatibility with different environments.",
+      "es": "Esta afirmación es verdadera. EAP es un marco flexible que admite varios métodos de autenticación, lo que permite diferentes niveles de seguridad y compatibilidad con diferentes entornos."
+    }
+  },
+  {
+    "id": "T12-Q0013",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following EAP methods offers the highest level of security?",
+      "es": "¿Cuál de los siguientes métodos EAP ofrece el nivel más alto de seguridad?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PEAP",
+          "es": "PEAP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "EAP-FAST",
+          "es": "EAP-FAST"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "EAP-TLS",
+          "es": "EAP-TLS"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "EAP-TTLS",
+          "es": "EAP-TTLS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "EAP-TLS (Transport Layer Security) is widely considered the most secure EAP method because it uses mutual authentication with digital certificates, which are much harder to compromise than passwords.",
+      "es": "EAP-TLS (Transport Layer Security) se considera ampliamente el método EAP más seguro porque utiliza la autenticación mutua con certificados digitales, que son mucho más difíciles de comprometer que las contraseñas."
+    }
+  },
+  {
+    "id": "T12-Q0014",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A dedicated security solution that filters, monitors, and blocks HTTP/HTTPS traffic between a web application and the Internet is called:",
+      "es": "Una solución de seguridad dedicada que filtra, monitorea y bloquea el tráfico HTTP/HTTPS entre una aplicación web e Internet se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "UTM",
+          "es": "UTM"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "NGFW",
+          "es": "NGFW"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "UEM",
+          "es": "UEM"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "WAF",
+          "es": "WAF"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "A WAF (Web Application Firewall) is a security solution specifically designed to protect web applications from various attacks by filtering and monitoring HTTP/HTTPS traffic.",
+      "es": "Un WAF (Firewall de Aplicación Web) es una solución de seguridad diseñada específicamente para proteger las aplicaciones web de varios ataques al filtrar y monitorear el tráfico HTTP/HTTPS."
+    }
+  },
+  {
+    "id": "T12-Q0015",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The term \"Unified Threat Management\" (UTM) refers to a network security solution, commonly in the form of a dedicated device (called UTM appliance or web security gateway), which combines the functionality of a firewall with additional features such as URL filtering, content inspection, spam filtering, gateway antivirus protection, IDS/IPS function, or malware inspection.",
+      "es": "El término \"Gestión Unificada de Amenazas\" (UTM) se refiere a una solución de seguridad de red, comúnmente en forma de un dispositivo dedicado (llamado appliance UTM o gateway de seguridad web), que combina la funcionalidad de un firewall con características adicionales como filtrado de URL, inspección de contenido, filtrado de spam, protección antivirus de gateway, función IDS/IPS o inspección de malware."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "The statement accurately describes a UTM device. It is a single appliance that provides multiple security functions, simplifying security management.",
+      "es": "La afirmación describe con precisión un dispositivo UTM. Es un solo dispositivo que proporciona múltiples funciones de seguridad, lo que simplifica la gestión de la seguridad."
+    }
+  },
+  {
+    "id": "T12-Q0016",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a firewall type that improves upon first- and second-generation firewalls by offering additional features, such as more in-depth inspection of network traffic and application-level inspection?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a un tipo de firewall que mejora los firewalls de primera y segunda generación al ofrecer características adicionales, como una inspección más profunda del tráfico de red e inspección a nivel de aplicación?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "IDS",
+          "es": "IDS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Packet filter",
+          "es": "Filtro de paquetes"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "NGFW",
+          "es": "NGFW"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Stateful firewall",
+          "es": "Firewall con estado"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A NGFW (Next-Generation Firewall) is a modern firewall that includes advanced features like deep packet inspection, application-aware security, and integrated intrusion prevention systems.",
+      "es": "Un NGFW (Firewall de próxima generación) es un firewall moderno que incluye características avanzadas como la inspección profunda de paquetes, la seguridad consciente de la aplicación y los sistemas de prevención de intrusiones integrados."
+    }
+  },
+  {
+    "id": "T12-Q0017",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the following answers refer to the characteristic features of a Layer 4 firewall? (Select 3 answers)",
+      "es": "¿Cuáles de las siguientes respuestas se refieren a las características de un firewall de Capa 4? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Operates at the application layer of the OSI model",
+          "es": "Opera en la capa de aplicación del modelo OSI"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Offers complex (slower) traffic filtering",
+          "es": "Ofrece un filtrado de tráfico complejo (más lento)"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Filters traffic based on source/destination IP addresses, ports, and protocol types (e.g., TCP/UDP)",
+          "es": "Filtra el tráfico en función de las direcciones IP de origen/destino, los puertos y los tipos de protocolo (por ejemplo, TCP/UDP)"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Offers basic (faster) traffic filtering",
+          "es": "Ofrece un filtrado de tráfico básico (más rápido)"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Operates at the transport layer of the OSI model",
+          "es": "Opera en la capa de transporte del modelo OSI"
+        },
+        "correct": true
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Adds the ability to inspect the contents of data packets in addition to the header information",
+          "es": "Agrega la capacidad de inspeccionar el contenido de los paquetes de datos además de la información del encabezado"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A Layer 4 firewall operates at the transport layer of the OSI model and is concerned with source and destination IP addresses and ports. This type of filtering is basic and fast.",
+      "es": "Un firewall de Capa 4 opera en la capa de transporte del modelo OSI y se preocupa por las direcciones IP y los puertos de origen y destino. Este tipo de filtrado es básico y rápido."
+    }
+  },
+  {
+    "id": "T12-Q0018",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the answers listed below refer to a Layer 7 firewall? (Select 3 answers)",
+      "es": "¿Cuáles de las respuestas listadas a continuación se refieren a un firewall de Capa 7? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Offers complex (slower) traffic filtering",
+          "es": "Ofrece un filtrado de tráfico complejo (más lento)"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Filters traffic based on source/destination IP addresses, ports, and protocol types (e.g., TCP/UDP)",
+          "es": "Filtra el tráfico en función de las direcciones IP de origen/destino, los puertos y los tipos de protocolo (por ejemplo, TCP/UDP)"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Operates at the transport layer of the OSI model",
+          "es": "Opera en la capa de transporte del modelo OSI"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Adds the ability to inspect the contents of data packets in addition to the header information",
+          "es": "Agrega la capacidad de inspeccionar el contenido de los paquetes de datos además de la información del encabezado"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Offers basic (faster) traffic filtering",
+          "es": "Ofrece un filtrado de tráfico básico (más rápido)"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Operates at the application layer of the OSI model",
+          "es": "Opera en la capa de aplicación del modelo OSI"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "A Layer 7 firewall, also known as an Application-Layer Gateway (ALG), operates at the application layer of the OSI model. It inspects the actual content of the data packets, not just the headers, which allows for more complex but slower traffic filtering.",
+      "es": "Un firewall de Capa 7, también conocido como Gateway de Capa de Aplicación (ALG), opera en la capa de aplicación del modelo OSI. Inspecciona el contenido real de los paquetes de datos, no solo los encabezados, lo que permite un filtrado de tráfico más complejo pero más lento."
+    }
+  },
+  {
+    "id": "T12-Q0019",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Examples of protocols typically used for implementing secure VPN tunnels include: (Select all that apply)",
+      "es": "Ejemplos de protocolos que se utilizan típicamente para implementar túneles VPN seguros incluyen: (Selecciona todos los que apliquen)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "IPsec",
+          "es": "IPsec"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SRTP",
+          "es": "SRTP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "TLS",
+          "es": "TLS"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "bcrypt",
+          "es": "bcrypt"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "L2TP",
+          "es": "L2TP"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "IPsec (Internet Protocol Security), TLS (Transport Layer Security), and L2TP (Layer 2 Tunneling Protocol) are common protocols used to create secure VPN tunnels. L2TP is often paired with IPsec for encryption.",
+      "es": "IPsec (Internet Protocol Security), TLS (Transport Layer Security) y L2TP (Layer 2 Tunneling Protocol) son protocolos comunes utilizados para crear túneles VPN seguros. L2TP a menudo se combina con IPsec para el cifrado."
+    }
+  },
+  {
+    "id": "T12-Q0020",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following terms is used to describe a type of VPN that alleviates bottlenecks and conserves bandwidth by enabling utilization of both the VPN and public network links?",
+      "es": "¿Cuál de los siguientes términos se utiliza para describir un tipo de VPN que alivia los cuellos de botella y conserva el ancho de banda al permitir la utilización de los enlaces de la VPN y de la red pública?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Split tunnel",
+          "es": "Túnel dividido"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Clientless",
+          "es": "Sin cliente"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Full tunnel",
+          "es": "Túnel completo"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Remote access",
+          "es": "Acceso remoto"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A split tunnel VPN configuration routes some traffic through the VPN tunnel while allowing other, non-sensitive traffic to go directly to the internet, which reduces the load on the VPN server and conserves bandwidth.",
+      "es": "Una configuración de VPN de túnel dividido enruta parte del tráfico a través del túnel VPN mientras permite que otro tráfico no sensible vaya directamente a Internet, lo que reduce la carga en el servidor VPN y conserva el ancho de banda."
+    }
+  },
+  {
+    "id": "T12-Q0021",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "Which VPN type is used for connecting computers to a network? (Select 2 answers)",
+      "es": "¿Qué tipo de VPN se utiliza para conectar computadoras a una red? (Selecciona 2 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Remote access",
+          "es": "Acceso remoto"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Intranet-based",
+          "es": "Basada en intranet"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Client-to-site",
+          "es": "Cliente a sitio"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Site-to-site",
+          "es": "Sitio a sitio"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Extranet-based",
+          "es": "Basada en extranet"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Remote access and client-to-site VPNs are both used to connect an individual user or computer to a corporate network from a remote location. They are essentially the same concept with slightly different terminology.",
+      "es": "Las VPN de acceso remoto y de cliente a sitio se utilizan para conectar a un usuario o computadora individual a una red corporativa desde una ubicación remota. Son esencialmente el mismo concepto con una terminología ligeramente diferente."
+    }
+  },
+  {
+    "id": "T12-Q0022",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which type of VPN enables connectivity between two networks?",
+      "es": "¿Qué tipo de VPN permite la conectividad entre dos redes?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Site-to-site",
+          "es": "Sitio a sitio"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Host-to-network",
+          "es": "Host a red"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Remote access",
+          "es": "Acceso remoto"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Client-to-site",
+          "es": "Cliente a sitio"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A site-to-site VPN connects two separate networks, such as two offices of the same company, to create a secure, private communication link between them.",
+      "es": "Una VPN de sitio a sitio conecta dos redes separadas, como dos oficinas de la misma empresa, para crear un enlace de comunicación seguro y privado entre ellas."
+    }
+  },
+  {
+    "id": "T12-Q0023",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "An HTML5 VPN portal is an example of clientless VPN implementation where an HTML5-compliant web browser along with TLS encryption can be used instead of a dedicated VPN client software.",
+      "es": "Un portal VPN de HTML5 es un ejemplo de implementación de VPN sin cliente donde se puede usar un navegador web compatible con HTML5 junto con el cifrado TLS en lugar de un software de cliente VPN dedicado."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "The statement is true. Clientless VPNs, often implemented via HTML5 web portals, allow users to access corporate resources securely without installing and configuring a VPN client, using only a web browser.",
+      "es": "La afirmación es verdadera. Las VPN sin cliente, a menudo implementadas a través de portales web HTML5, permiten a los usuarios acceder a los recursos corporativos de forma segura sin instalar y configurar un cliente VPN, utilizando solo un navegador web."
+    }
+  },
+  {
+    "id": "T12-Q0024",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a hardware or software solution providing secure remote access to networks and resources?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a una solución de hardware o software que proporciona acceso remoto seguro a redes y recursos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "NAC",
+          "es": "NAC"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RDP",
+          "es": "RDP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SSH",
+          "es": "SSH"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "RAS",
+          "es": "RAS"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "A RAS (Remote Access Service) is a service that enables users to connect to and use network resources from a remote location. It provides a secure connection over a public network.",
+      "es": "Un RAS (Servicio de Acceso Remoto) es un servicio que permite a los usuarios conectarse y utilizar los recursos de la red desde una ubicación remota. Proporciona una conexión segura a través de una red pública."
+    }
+  },
+  {
+    "id": "T12-Q0025",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a protocol designed to secure data transmitted over WLANs?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un protocolo diseñado para proteger los datos transmitidos a través de WLANs?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SCP",
+          "es": "SCP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IPsec",
+          "es": "IPsec"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SSH",
+          "es": "SSH"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "WTLS",
+          "es": "WTLS"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "WTLS (Wireless Transport Layer Security) is a security protocol that provides authentication, confidentiality, and integrity for data transmitted over wireless networks, particularly in mobile applications.",
+      "es": "WTLS (Wireless Transport Layer Security) es un protocolo de seguridad que proporciona autenticación, confidencialidad e integridad para los datos transmitidos a través de redes inalámbricas, particularmente en aplicaciones móviles."
+    }
+  }
+]

@@ -1,0 +1,1735 @@
+[
+  {
+    "id": "AC08-Q0001",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a mobile device's built-in functionality enabling the usage of locator applications?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a una funcionalidad incorporada en un dispositivo móvil que permite el uso de aplicaciones de localización?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "WPS",
+          "es": "WPS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "GSM",
+          "es": "GSM"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SIM",
+          "es": "SIM"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "GPS",
+          "es": "GPS"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "GPS (Global Positioning System) is a mobile device's built-in functionality enabling the usage of locator applications.",
+      "es": "GPS (Global Positioning System) es una funcionalidad incorporada en un dispositivo móvil que permite el uso de aplicaciones de localización."
+    }
+  },
+  {
+    "id": "AC08-Q0002",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a unique 48-bit address assigned to every network adapter?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a una dirección única de 48 bits asignada a cada adaptador de red?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PIN",
+          "es": "PIN"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SSID",
+          "es": "SSID"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "IP",
+          "es": "IP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MAC",
+          "es": "MAC"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "MAC (Media Access Control) is a unique 48-bit address assigned to every network adapter.",
+      "es": "MAC (Media Access Control) es una dirección única de 48 bits asignada a cada adaptador de red."
+    }
+  },
+  {
+    "id": "AC08-Q0003",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In older, non-UEFI based PCs, the first sector of a storage drive containing information about partitions and a piece of executable code used to load the installed OS is called:",
+      "es": "En los PC más antiguos, no basados en UEFI, el primer sector de una unidad de almacenamiento que contiene información sobre las particiones y un fragmento de código ejecutable utilizado para cargar el sistema operativo instalado se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MBR",
+          "es": "MBR"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "GPT",
+          "es": "GPT"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PXE",
+          "es": "PXE"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "GUID",
+          "es": "GUID"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "MBR stands for Master Boot Record, which is the first sector of a data storage drive in older PCs that contains the partition information and bootloader.",
+      "es": "MBR significa Master Boot Record, que es el primer sector de una unidad de almacenamiento de datos en PCs antiguos que contiene la información de la partición y el cargador de arranque."
+    }
+  },
+  {
+    "id": "AC08-Q0004",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In cloud computing, users on an on-premises network take advantage of a transit gateway to connect to:",
+      "es": "En la computación en la nube, los usuarios en una red local aprovechan una puerta de enlace de tránsito para conectarse a:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "WAN",
+          "es": "WAN"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "VPC",
+          "es": "VPC"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SAN",
+          "es": "SAN"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "VLAN",
+          "es": "VLAN"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "VPC stands for Virtual Private Cloud, a private cloud computing environment within a public cloud, and a transit gateway helps connect an on-premises network to it.",
+      "es": "VPC significa Virtual Private Cloud, un entorno de computación en la nube privado dentro de una nube pública, y una puerta de enlace de tránsito ayuda a conectar una red local a ella."
+    }
+  },
+  {
+    "id": "AC08-Q0005",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the answers listed below refer to DSA? (Select 3 answers)",
+      "es": "¿Cuál de las respuestas a continuación se refiere a DSA? (Seleccione 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Asymmetric algorithm",
+          "es": "Algoritmo asimétrico"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Used for the key exchange process",
+          "es": "Utilizado para el proceso de intercambio de claves"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Symmetric algorithm",
+          "es": "Algoritmo simétrico"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Provides authentication, integrity, and non-repudiation",
+          "es": "Proporciona autenticación, integridad y no repudio"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Specifically designed for creating and verifying digital signatures",
+          "es": "Específicamente diseñado para crear y verificar firmas digitales"
+        },
+        "correct": true
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Used for encryption",
+          "es": "Utilizado para encriptación"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "DSA (Digital Signature Algorithm) is a public-key asymmetric algorithm used for digital signatures to ensure authentication, integrity, and non-repudiation.",
+      "es": "DSA (Digital Signature Algorithm) es un algoritmo asimétrico de clave pública utilizado para firmas digitales para garantizar la autenticación, integridad y no repudio."
+    }
+  },
+  {
+    "id": "AC08-Q0006",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "Which of the following acronyms refer to office equipment that combines the functionality of multiple devices? (Select 2 answers)",
+      "es": "¿Cuál de los siguientes acrónimos se refiere a equipos de oficina que combinan la funcionalidad de múltiples dispositivos? (Seleccione 2 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MFD",
+          "es": "MFD"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IoT",
+          "es": "IoT"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MFP",
+          "es": "MFP"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "PED",
+          "es": "PED"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "MFA",
+          "es": "MFA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "MFD (Multifunction Device) and MFP (Multifunction Printer) are terms for office equipment that combine the functions of a printer, scanner, copier, and sometimes fax machine.",
+      "es": "MFD (Multifunction Device) y MFP (Multifunction Printer) son términos para equipos de oficina que combinan las funciones de una impresora, escáner, copiadora y, a veces, máquina de fax."
+    }
+  },
+  {
+    "id": "AC08-Q0007",
+    "type": "ms",
+    "required_answers": 4,
+    "prompt": {
+      "en": "Which of the answers listed below describe(s) the characteristics of ECDSA? (Select all that apply)",
+      "es": "¿Cuál de las respuestas a continuación describe las características de ECDSA? (Seleccione todas las que apliquen)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Provides authentication, integrity, and non-repudiation",
+          "es": "Proporciona autenticación, integridad y no repudio"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Based on elliptic curve cryptography",
+          "es": "Basado en criptografía de curva elíptica"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Designed for data encryption",
+          "es": "Diseñado para encriptación de datos"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Specifically designed for creating and verifying digital signatures",
+          "es": "Específicamente diseñado para crear y verificar firmas digitales"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "More computationally efficient than other signature algorithms",
+          "es": "Más eficiente computacionalmente que otros algoritmos de firma"
+        },
+        "correct": true
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Enables the key exchange process",
+          "es": "Permite el proceso de intercambio de claves"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ECDSA (Elliptic Curve Digital Signature Algorithm) is a variant of the DSA that uses elliptic curve cryptography to create and verify digital signatures, offering similar security with smaller key sizes and greater computational efficiency.",
+      "es": "ECDSA (Elliptic Curve Digital Signature Algorithm) es una variante de DSA que utiliza criptografía de curva elíptica para crear y verificar firmas digitales, ofreciendo una seguridad similar con tamaños de clave más pequeños y mayor eficiencia computacional."
+    }
+  },
+  {
+    "id": "AC08-Q0008",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a deprecated stream cipher used in some legacy applications, such as WEP?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un cifrado de flujo obsoleto utilizado en algunas aplicaciones heredadas, como WEP?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "RSA",
+          "es": "RSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DES",
+          "es": "DES"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SSL",
+          "es": "SSL"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "RC4",
+          "es": "RC4"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "RC4 is a deprecated stream cipher known for its weaknesses, particularly in its use with WEP (Wired Equivalent Privacy).",
+      "es": "RC4 es un cifrado de flujo obsoleto conocido por sus debilidades, particularmente en su uso con WEP (Wired Equivalent Privacy)."
+    }
+  },
+  {
+    "id": "AC08-Q0009",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a wireless network authentication protocol that enhances security by encapsulating the authentication process within an encrypted TLS tunnel?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un protocolo de autenticación de red inalámbrica que mejora la seguridad encapsulando el proceso de autenticación dentro de un túnel TLS encriptado?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PEAP",
+          "es": "PEAP"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "EAP",
+          "es": "EAP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "LEAP",
+          "es": "LEAP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "RADIUS",
+          "es": "RADIUS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "PEAP (Protected Extensible Authentication Protocol) enhances EAP security by using a TLS tunnel to protect the authentication process.",
+      "es": "PEAP (Protected Extensible Authentication Protocol) mejora la seguridad de EAP utilizando un túnel TLS para proteger el proceso de autenticación."
+    }
+  },
+  {
+    "id": "AC08-Q0010",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A type of metric used to evaluate the profitability of an investment by comparing the return generated from the investment relative to its cost is referred to as:",
+      "es": "Un tipo de métrica utilizada para evaluar la rentabilidad de una inversión comparando el retorno generado de la inversión con su costo se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ROA",
+          "es": "ROA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "ROI",
+          "es": "ROI"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "ROS",
+          "es": "ROS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "ROC",
+          "es": "ROC"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ROI stands for Return on Investment, a metric to measure the profitability of an investment.",
+      "es": "ROI significa Return on Investment, una métrica para medir la rentabilidad de una inversión."
+    }
+  },
+  {
+    "id": "AC08-Q0011",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following facilitates the enforcement of mobile device policies and procedures?",
+      "es": "¿Cuál de los siguientes facilita la aplicación de políticas y procedimientos de dispositivos móviles?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MFA",
+          "es": "MFA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "MMC",
+          "es": "MMC"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MDM",
+          "es": "MDM"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MFD",
+          "es": "MFD"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "MDM stands for Mobile Device Management, a solution for enforcing policies and procedures on mobile devices.",
+      "es": "MDM significa Mobile Device Management, una solución para aplicar políticas y procedimientos en dispositivos móviles."
+    }
+  },
+  {
+    "id": "AC08-Q0012",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to an identifier used for objects in a PKI, such as CAs, digital certificates, and public key algorithms?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un identificador utilizado para objetos en una PKI, como CAs, certificados digitales y algoritmos de clave pública?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "OID",
+          "es": "OID"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DN",
+          "es": "DN"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SAN",
+          "es": "SAN"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "GUID",
+          "es": "GUID"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "OID (Object Identifier) is an identifier used for objects in a PKI (Public Key Infrastructure).",
+      "es": "OID (Object Identifier) es un identificador utilizado para objetos en una PKI (Public Key Infrastructure)."
+    }
+  },
+  {
+    "id": "AC08-Q0013",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a solution designed to strengthen the security of session keys?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a una solución diseñada para fortalecer la seguridad de las claves de sesión?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ECB",
+          "es": "ECB"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "PFS",
+          "es": "PFS"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "EFS",
+          "es": "EFS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "PFX",
+          "es": "PFX"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "PFS stands for Perfect Forward Secrecy, a cryptographic property ensuring that a compromise of a long-term key will not compromise past session keys.",
+      "es": "PFS significa Perfect Forward Secrecy, una propiedad criptográfica que asegura que el compromiso de una clave a largo plazo no comprometerá las claves de sesión pasadas."
+    }
+  },
+  {
+    "id": "AC08-Q0014",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a twisted-pair copper cabling type not surrounded by any shielding that would provide protection against interference from outside sources?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un tipo de cable de cobre de par trenzado no rodeado por ningún blindaje que proporcionaría protección contra interferencias de fuentes externas?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "STP",
+          "es": "STP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Coax",
+          "es": "Coax"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "UTP",
+          "es": "UTP"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Twinax",
+          "es": "Twinax"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "UTP stands for Unshielded Twisted Pair, a type of twisted-pair copper cabling that does not have shielding.",
+      "es": "UTP significa Unshielded Twisted Pair, un tipo de cable de cobre de par trenzado que no tiene blindaje."
+    }
+  },
+  {
+    "id": "AC08-Q0015",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following terms refers to a technology that enables real-time audio and video communication between individuals or groups?",
+      "es": "¿Cuál de los siguientes términos se refiere a una tecnología que permite la comunicación de audio y video en tiempo real entre individuos o grupos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "VPC",
+          "es": "VPC"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "VTC",
+          "es": "VTC"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "VoIP",
+          "es": "VoIP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "VDI",
+          "es": "VDI"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "VTC stands for Video Teleconferencing, a technology that enables real-time audio and video communication.",
+      "es": "VTC significa Video Teleconferencing, una tecnología que permite la comunicación de audio y video en tiempo real."
+    }
+  },
+  {
+    "id": "AC08-Q0016",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A dedicated data storage solution that combines multiple disk drive components into a single logical unit to increase volume size, performance, or reliability is known as:",
+      "es": "Una solución de almacenamiento de datos dedicada que combina múltiples componentes de disco duro en una única unidad lógica para aumentar el tamaño del volumen, el rendimiento o la fiabilidad se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SAN",
+          "es": "SAN"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RAID",
+          "es": "RAID"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "NAS",
+          "es": "NAS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "JBOD",
+          "es": "JBOD"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "RAID stands for Redundant Array of Independent Disks, a technology that combines multiple physical disk drives into a single logical unit.",
+      "es": "RAID significa Redundant Array of Independent Disks, una tecnología que combina múltiples unidades de disco físicas en una única unidad lógica."
+    }
+  },
+  {
+    "id": "AC08-Q0017",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the answers listed below can be used to describe XSRF? (Select 3 answers)",
+      "es": "¿Cuál de las respuestas a continuación se puede utilizar para describir XSRF? (Seleccione 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Exploits the trust a website has in the user's web browser",
+          "es": "Explota la confianza que un sitio web tiene en el navegador web del usuario"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "A user is tricked by an attacker into submitting unauthorized web requests",
+          "es": "Un usuario es engañado por un atacante para que envíe solicitudes web no autorizadas"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Website executes attacker's requests",
+          "es": "El sitio web ejecuta las solicitudes del atacante"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Exploits the trust a user's web browser has in a website",
+          "es": "Explota la confianza que el navegador web de un usuario tiene en un sitio web"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "A malicious script is injected into a trusted website",
+          "es": "Un script malicioso es inyectado en un sitio web de confianza"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "User's browser executes attacker's script",
+          "es": "El navegador del usuario ejecuta el script del atacante"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "XSRF (Cross-Site Request Forgery) is a type of attack where a user's browser is tricked into sending unauthorized requests to a trusted site.",
+      "es": "XSRF (Cross-Site Request Forgery) es un tipo de ataque en el que el navegador de un usuario es engañado para enviar solicitudes no autorizadas a un sitio de confianza."
+    }
+  },
+  {
+    "id": "AC08-Q0018",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the following answers can be used to describe the characteristics of an XSS attack? (Select 3 answers)",
+      "es": "¿Cuál de las siguientes respuestas se puede utilizar para describir las características de un ataque XSS? (Seleccione 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Exploits the trust a user's web browser has in a website",
+          "es": "Explota la confianza que el navegador web de un usuario tiene en un sitio web"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "A malicious script is injected into a trusted website",
+          "es": "Un script malicioso es inyectado en un sitio web de confianza"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "User's browser executes attacker's script",
+          "es": "El navegador del usuario ejecuta el script del atacante"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Exploits the trust a website has in the user's web browser",
+          "es": "Explota la confianza que un sitio web tiene en el navegador web del usuario"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "A user is tricked by an attacker into submitting unauthorized web requests",
+          "es": "Un usuario es engañado por un atacante para que envíe solicitudes web no autorizadas"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Website executes attacker's requests",
+          "es": "El sitio web ejecuta las solicitudes del atacante"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "XSS (Cross-Site Scripting) is a type of attack where a malicious script is injected into a trusted website, and the user's browser executes it, exploiting the trust the browser has in the site.",
+      "es": "XSS (Cross-Site Scripting) es un tipo de ataque en el que un script malicioso es inyectado en un sitio web de confianza, y el navegador del usuario lo ejecuta, explotando la confianza que el navegador tiene en el sitio."
+    }
+  },
+  {
+    "id": "AC08-Q0019",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to an encoding method (and a file format) for storing cryptographic objects such as X.509 certificates, CRLs, and private keys?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un método de codificación (y un formato de archivo) para almacenar objetos criptográficos como certificados X.509, CRLs y claves privadas?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ECB",
+          "es": "ECB"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "PEM",
+          "es": "PEM"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "FIM",
+          "es": "FIM"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "PFS",
+          "es": "PFS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "PEM (Privacy Enhanced Mail) is a standard file format used for storing and transmitting cryptographic keys, certificates, and other data.",
+      "es": "PEM (Privacy Enhanced Mail) es un formato de archivo estándar utilizado para almacenar y transmitir claves criptográficas, certificados y otros datos."
+    }
+  },
+  {
+    "id": "AC08-Q0020",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a centralized server that is used to distribute cryptographic keys and authenticate users and services within a computer network?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un servidor centralizado que se utiliza para distribuir claves criptográficas y autenticar usuarios y servicios dentro de una red de computadoras?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PKI",
+          "es": "PKI"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RAS",
+          "es": "RAS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "KDC",
+          "es": "KDC"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "NAS",
+          "es": "NAS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "KDC (Key Distribution Center) is a server that distributes cryptographic keys and authenticates users in a network.",
+      "es": "KDC (Key Distribution Center) es un servidor que distribuye claves criptográficas y autentica usuarios en una red."
+    }
+  },
+  {
+    "id": "AC08-Q0021",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "An AI feature that enables it to accomplish tasks based on training data without explicit human instructions is called:",
+      "es": "Una característica de la IA que le permite realizar tareas basadas en datos de entrenamiento sin instrucciones humanas explícitas se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "AGI",
+          "es": "AGI"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "ML",
+          "es": "ML"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "NN",
+          "es": "NN"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "LLM",
+          "es": "LLM"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ML stands for Machine Learning, a field of AI that gives computers the ability to learn without being explicitly programmed.",
+      "es": "ML significa Machine Learning, un campo de la IA que da a los ordenadores la capacidad de aprender sin ser programados explícitamente."
+    }
+  },
+  {
+    "id": "AC08-Q0022",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which data packet type is specifically used to detect and prevent network loops in Ethernet networks?",
+      "es": "¿Qué tipo de paquete de datos se utiliza específicamente para detectar y prevenir bucles de red en redes Ethernet?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MTU",
+          "es": "MTU"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Jumbo frame",
+          "es": "Jumbo frame"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "BPDU",
+          "es": "BPDU"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Magic packet",
+          "es": "Magic packet"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "BPDU stands for Bridge Protocol Data Unit, a data frame used by the Spanning Tree Protocol (STP) to prevent network loops.",
+      "es": "BPDU significa Bridge Protocol Data Unit, una trama de datos utilizada por el Protocolo de Árbol de Expansión (STP) para prevenir bucles de red."
+    }
+  },
+  {
+    "id": "AC08-Q0023",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a key exchange protocol that generates temporary keys for each session, providing forward secrecy to protect past and future communications?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un protocolo de intercambio de claves que genera claves temporales para cada sesión, proporcionando secreto hacia adelante para proteger las comunicaciones pasadas y futuras?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PFS",
+          "es": "PFS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SHA",
+          "es": "SHA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PGP",
+          "es": "PGP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "DHE",
+          "es": "DHE"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "DHE stands for Diffie-Hellman Ephemeral, a key exchange protocol that provides forward secrecy by generating temporary session keys.",
+      "es": "DHE significa Diffie-Hellman Ephemeral, un protocolo de intercambio de claves que proporciona secreto hacia adelante al generar claves de sesión temporales."
+    }
+  },
+  {
+    "id": "AC08-Q0024",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following terms refers to a method for managing infrastructure resources through scripts and templates?",
+      "es": "¿Cuál de los siguientes términos se refiere a un método para gestionar recursos de infraestructura a través de scripts y plantillas?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "IaaS",
+          "es": "IaaS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "ML",
+          "es": "ML"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "IaC",
+          "es": "IaC"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SDN",
+          "es": "SDN"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "IaC stands for Infrastructure as Code, a method of managing and provisioning computer data centers through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools.",
+      "es": "IaC significa Infrastructure as Code, un método para gestionar y aprovisionar centros de datos de computadoras a través de archivos de definición legibles por máquina, en lugar de la configuración física del hardware o herramientas de configuración interactivas."
+    }
+  },
+  {
+    "id": "AC08-Q0025",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the answers listed below refer to the characteristic features of NIDS? (Select 3 answers)",
+      "es": "¿Cuál de las respuestas a continuación se refiere a las características de NIDS? (Seleccione 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Takes proactive measures to block or mitigate intrusion attempts",
+          "es": "Toma medidas proactivas para bloquear o mitigar intentos de intrusión"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Does not take direct action to block or prevent attacks",
+          "es": "No toma medidas directas para bloquear o prevenir ataques"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Generates alerts and notifies security personnel or administrators when suspicious activity is detected",
+          "es": "Genera alertas y notifica al personal de seguridad o a los administradores cuando se detecta actividad sospechosa"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Monitors network traffic without direct involvement in traffic routing or packet modification",
+          "es": "Supervisa el tráfico de la red sin una participación directa en el enrutamiento del tráfico o la modificación de paquetes"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Can drop or reject network packets, terminate connections, or take other actions to stop the attack",
+          "es": "Puede descartar o rechazar paquetes de red, terminar conexiones o tomar otras acciones para detener el ataque"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Operates in an inline mode, actively intercepting and inspecting network traffic",
+          "es": "Opera en un modo en línea, interceptando e inspeccionando activamente el tráfico de la red"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "NIDS stands for Network Intrusion Detection System, a passive security solution that monitors network traffic and generates alerts without actively blocking or modifying traffic.",
+      "es": "NIDS significa Network Intrusion Detection System, una solución de seguridad pasiva que monitorea el tráfico de la red y genera alertas sin bloquear o modificar activamente el tráfico."
+    }
+  },
+  {
+    "id": "AC08-Q0026",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a cybersecurity framework that combines network and security functions into a single cloud-based service?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un marco de ciberseguridad que combina funciones de red y seguridad en un único servicio basado en la nube?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SASE",
+          "es": "SASE"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SIEM",
+          "es": "SIEM"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SWG",
+          "es": "SWG"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SOAR",
+          "es": "SOAR"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SASE stands for Secure Access Service Edge, a cloud-based security model that combines networking capabilities with security functions.",
+      "es": "SASE significa Secure Access Service Edge, un modelo de seguridad basado en la nube que combina capacidades de red con funciones de seguridad."
+    }
+  },
+  {
+    "id": "AC08-Q0027",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A process used by organizations to assess and evaluate the potential impact of disruptive incidents or disasters on their critical business functions and operations is referred to as:",
+      "es": "Un proceso utilizado por las organizaciones para evaluar y valorar el impacto potencial de incidentes disruptivos o desastres en sus funciones y operaciones de negocio críticas se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "BPA",
+          "es": "BPA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "BIA",
+          "es": "BIA"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SLE",
+          "es": "SLE"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "BCP",
+          "es": "BCP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "BIA stands for Business Impact Analysis, which is a process to determine the potential effects of a disaster or disruption on business operations.",
+      "es": "BIA significa Business Impact Analysis, que es un proceso para determinar los efectos potenciales de un desastre o interrupción en las operaciones de negocio."
+    }
+  },
+  {
+    "id": "AC08-Q0028",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to one of the last stages in SDLC?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a una de las últimas etapas en SDLC?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "UCD",
+          "es": "UCD"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "QA",
+          "es": "QA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "UAT",
+          "es": "UAT"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "AUT",
+          "es": "AUT"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "UAT stands for User Acceptance Testing, which is one of the final stages of the SDLC (Software Development Life Cycle) before deployment.",
+      "es": "UAT significa User Acceptance Testing, que es una de las etapas finales del SDLC (Software Development Life Cycle) antes del despliegue."
+    }
+  },
+  {
+    "id": "AC08-Q0029",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which cipher mode transforms a block cipher into a stream cipher enabling the encryption of individual bits or bytes of data?",
+      "es": "¿Qué modo de cifrado transforma un cifrado de bloque en un cifrado de flujo, permitiendo la encriptación de bits o bytes individuales de datos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CFB",
+          "es": "CFB"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CBC",
+          "es": "CBC"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "GCM",
+          "es": "GCM"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "ECB",
+          "es": "ECB"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "CFB stands for Cipher Feedback, a mode of operation for a block cipher that enables it to function as a stream cipher.",
+      "es": "CFB significa Cipher Feedback, un modo de operación para un cifrado de bloque que le permite funcionar como un cifrado de flujo."
+    }
+  },
+  {
+    "id": "AC08-Q0030",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Rewriting the destination IP address of incoming data packets, commonly utilized to reroute traffic to alternative locations or ports is a characteristic feature of:",
+      "es": "La reescritura de la dirección IP de destino de los paquetes de datos entrantes, comúnmente utilizada para redirigir el tráfico a ubicaciones o puertos alternativos, es una característica de:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "IDS",
+          "es": "IDS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DNAT",
+          "es": "DNAT"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "QoS",
+          "es": "QoS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "VPN",
+          "es": "VPN"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "DNAT stands for Destination Network Address Translation, a technique used to rewrite the destination IP address of incoming data packets.",
+      "es": "DNAT significa Destination Network Address Translation, una técnica utilizada para reescribir la dirección IP de destino de los paquetes de datos entrantes."
+    }
+  },
+  {
+    "id": "AC08-Q0031",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a deprecated encryption protocol?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un protocolo de encriptación obsoleto?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SSH",
+          "es": "SSH"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SHA-256",
+          "es": "SHA-256"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "S/MIME",
+          "es": "S/MIME"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SSL",
+          "es": "SSL"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "SSL stands for Secure Sockets Layer, which is a deprecated cryptographic protocol that has been replaced by TLS (Transport Layer Security).",
+      "es": "SSL significa Secure Sockets Layer, que es un protocolo criptográfico obsoleto que ha sido reemplazado por TLS (Transport Layer Security)."
+    }
+  },
+  {
+    "id": "AC08-Q0032",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A collection of precompiled functions designed to be used by more than one Microsoft Windows application simultaneously to save system resources is known as:",
+      "es": "Una colección de funciones precompiladas diseñadas para ser utilizadas por más de una aplicación de Microsoft Windows simultáneamente para ahorrar recursos del sistema se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "DLL",
+          "es": "DLL"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "API",
+          "es": "API"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "INI",
+          "es": "INI"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "EXE",
+          "es": "EXE"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "DLL stands for Dynamic Link Library, a collection of precompiled functions used by Windows applications to share resources and functionality.",
+      "es": "DLL significa Dynamic Link Library, una colección de funciones precompiladas utilizadas por las aplicaciones de Windows para compartir recursos y funcionalidad."
+    }
+  },
+  {
+    "id": "AC08-Q0033",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below refers to a documented plan outlining the steps that should be taken in each phase of a cybersecurity incident?",
+      "es": "¿Cuál de los siguientes términos se refiere a un plan documentado que describe los pasos que se deben seguir en cada fase de un incidente de ciberseguridad?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "DRP",
+          "es": "DRP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IRP",
+          "es": "IRP"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "BCP",
+          "es": "BCP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "ERP",
+          "es": "ERP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "IRP stands for Incident Response Plan, which is a documented plan to handle cybersecurity incidents.",
+      "es": "IRP significa Incident Response Plan, que es un plan documentado para manejar incidentes de ciberseguridad."
+    }
+  },
+  {
+    "id": "AC08-Q0034",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A block cipher mode that combines a unique counter with an encryption key to generate a stream of pseudorandom data blocks which are then used for encrypting data is called:",
+      "es": "Un modo de cifrado de bloque que combina un contador único con una clave de encriptación para generar un flujo de bloques de datos pseudoaleatorios que luego se utilizan para encriptar datos se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CBC",
+          "es": "CBC"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "GCM",
+          "es": "GCM"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "CFB",
+          "es": "CFB"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CTM",
+          "es": "CTM"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "CTM (Counter Mode) combines a unique counter with an encryption key to produce a keystream, which is then used to encrypt the plaintext. This mode is also referred to as CTR (Counter).",
+      "es": "CTM (Counter Mode) combina un contador único con una clave de encriptación para producir un flujo de claves, que luego se utiliza para encriptar el texto plano. Este modo también se conoce como CTR (Counter)."
+    }
+  },
+  {
+    "id": "AC08-Q0035",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following combines a cryptographic hash function with a secret key to provide a means of verifying both the authenticity and integrity of a message or data?",
+      "es": "¿Cuál de los siguientes combina una función hash criptográfica con una clave secreta para proporcionar un medio de verificar tanto la autenticidad como la integridad de un mensaje o datos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MD5",
+          "es": "MD5"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DSA",
+          "es": "DSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "HMAC",
+          "es": "HMAC"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "DES",
+          "es": "DES"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "HMAC stands for Hash-based Message Authentication Code, which combines a cryptographic hash function with a secret key to verify the authenticity and integrity of a message.",
+      "es": "HMAC significa Hash-based Message Authentication Code, que combina una función hash criptográfica con una clave secreta para verificar la autenticidad e integridad de un mensaje."
+    }
+  }
+]

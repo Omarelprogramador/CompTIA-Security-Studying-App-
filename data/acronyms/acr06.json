@@ -1,0 +1,1409 @@
+[
+  {
+    "id": "AC06-Q0001",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A network protocol used for secure file transfer over SSH is known as:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "TFTP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SFTP"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SCP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "FTPS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SFTP (SSH File Transfer Protocol) is a secure file transfer protocol that operates over SSH."
+    }
+  },
+  {
+    "id": "AC06-Q0002",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a virtualization platform for delivering virtual desktops to a community of users?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "VDE"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "VNC"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "VDI"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "RDP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "VDI (Virtual Desktop Infrastructure) is a technology that hosts desktop operating systems within virtual machines on a centralized server."
+    }
+  },
+  {
+    "id": "AC06-Q0003",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A solution that simplifies configuration of new wireless networks by allowing non-technical users to easily configure network security settings and add new devices to an existing network is called:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "WPA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "WPS"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "WEP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "WAP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "WPS (Wi-Fi Protected Setup) is a network security standard that was created to provide a quick and easy way for home users to set up a wireless network and add new devices to the network."
+    }
+  },
+  {
+    "id": "AC06-Q0004",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a text-based command interpreter and scripting language for Unix-like operating systems?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CLI"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "JS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Bash"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "cmd.exe"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Bash (Bourne Again SHell) is a Unix shell and command language that is the default command interpreter on most Linux distributions."
+    }
+  },
+  {
+    "id": "AC06-Q0005",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A networking hardware device connecting wireless devices to a wired network is referred to as:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "WAF"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "AP"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "RAS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "NIC"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "An AP (Access Point) is a networking device that allows wireless devices to connect to a wired network."
+    }
+  },
+  {
+    "id": "AC06-Q0006",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a mobile device deployment model where organizations provide and own the devices while allowing their personal use?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "BYOD"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "COPE"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "VDI"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CYOD"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "COPE (Corporate-Owned, Personally Enabled) is a mobile device deployment model in which the company owns the device but allows employees to use it for personal tasks."
+    }
+  },
+  {
+    "id": "AC06-Q0007",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a non-cryptographic hash function often used for error-checking purposes?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MD5"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CRC"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SHA"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "RIPEMD"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "CRC (Cyclic Redundancy Check) is a non-cryptographic hash function used for detecting accidental changes to raw data."
+    }
+  },
+  {
+    "id": "AC06-Q0008",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "What is the name of a network layer protocol that specifies the format of packets and addressing scheme in network communications?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "UDP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IP"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "TCP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "NetBIOS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "IP (Internet Protocol) is the principal communications protocol that defines how data is sent and addressed over a network."
+    }
+  },
+  {
+    "id": "AC06-Q0009",
+    "type": "t/f",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The term \"P2P\" refers to a centralized network architecture in which each participant in the network can act both as a client and a server, enabling direct communication and file sharing between individual users without the need for a central server or intermediary."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "P2P (Peer-to-Peer) refers to a decentralized network architecture, not a centralized one."
+    }
+  },
+  {
+    "id": "AC06-Q0010",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a set of standards and specifications that define various cryptographic techniques, including formats for public keys, private keys, digital signatures, and digital certificates?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ITIL"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RFC"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PKCS"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "ISO/IEC"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "PKCS (Public-Key Cryptography Standards) is a set of standards that specify formats and protocols for cryptographic keys, certificates, and other data."
+    }
+  },
+  {
+    "id": "AC06-Q0011",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a tunneling point-to-point protocol?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "EAP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "PPTP"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MPLS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "PPP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "PPTP (Point-to-Point Tunneling Protocol) is a protocol used for implementing virtual private networks (VPNs)."
+    }
+  },
+  {
+    "id": "AC06-Q0012",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a logical operation commonly used in the context of cybersecurity, particularly in encryption and obfuscation techniques?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "AND"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "OR"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "NOT"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "XOR"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "XOR (Exclusive OR) is a logical operation that is often used in cryptography because of its reversibility."
+    }
+  },
+  {
+    "id": "AC06-Q0013",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a public-key cryptosystem used for digital signatures, secure key exchange, and encryption?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "DHE"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RSA"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "AES"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "DSA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "RSA is a public-key cryptosystem widely used for secure data transmission and digital signatures."
+    }
+  },
+  {
+    "id": "AC06-Q0014",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "An authentication mechanism that generates one-time passwords based on the current time and a secret key is known as:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "OAuth"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "TOTP"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "RADIUS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "HOTP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "TOTP (Time-Based One-Time Password) is an algorithm that computes a one-time password based on the current time."
+    }
+  },
+  {
+    "id": "AC06-Q0015",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to the process of maintaining the integrity of files and data?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "DLP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SIEM"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "FIM"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SHA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "FIM (File Integrity Monitoring) is a technology that monitors and detects changes to files that could indicate a security breach."
+    }
+  },
+  {
+    "id": "AC06-Q0016",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following provides a countermeasure against SPOF?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "HA"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DLP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "VM"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "AAA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "HA (High Availability) is a system design approach that aims to minimize downtime and prevent SPOF (Single Point of Failure) by ensuring that the system is operational for a given period of time."
+    }
+  },
+  {
+    "id": "AC06-Q0017",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In the AAA security architecture, the process of tracking accessed services and logging resource consumption is called:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Auditing"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Authentication"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Authorization"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Accounting"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Accounting is the 'A' in the AAA (Authentication, Authorization, and Accounting) security architecture. It is the process of tracking user access and resource usage."
+    }
+  },
+  {
+    "id": "AC06-Q0018",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a method that enables secure conversion of user passwords into cryptographic keys?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PBKDF2"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "PFS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "RIPEMD"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "PKCS #7"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "PBKDF2 (Password-Based Key Derivation Function 2) is a key derivation function that is used to reduce the vulnerability of a system to brute-force attacks by increasing the computation time required to check each password."
+    }
+  },
+  {
+    "id": "AC06-Q0019",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following solutions provides passive network security breach response on an individual computer system?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "HIDS"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "NIPS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "HIPS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "NIDS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "HIDS (Host-based Intrusion Detection System) is a passive system that monitors a single host for malicious activity."
+    }
+  },
+  {
+    "id": "AC06-Q0020",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a system that identifies, defines, and catalogs publicly known cybersecurity vulnerabilities?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "TAXII"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CVE"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "STIX"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CVSS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "CVE (Common Vulnerabilities and Exposures) is a list of publicly disclosed cybersecurity vulnerabilities."
+    }
+  },
+  {
+    "id": "AC06-Q0021",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a deprecated (largely replaced by AES) symmetric-key block cipher encryption algorithm?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ECDSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "IDEA"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "DSA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "IDEA (International Data Encryption Algorithm) is a block cipher that was widely used but has largely been replaced by AES due to its stronger security."
+    }
+  },
+  {
+    "id": "AC06-Q0022",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A limit on the maximum amount of data that can be transmitted over a network without fragmentation is referred to as:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "DSU"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CSU"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "FPS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MTU"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "MTU (Maximum Transmission Unit) is the size of the largest packet that a network can transmit without fragmentation."
+    }
+  },
+  {
+    "id": "AC06-Q0023",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a standardized method employed by the U.S. federal government to authenticate the identities of employees and contractors via smart card-based credentials?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PIV"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "MFA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SAE"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "PKI"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "PIV (Personal Identity Verification) is a set of standards for smart card-based authentication for U.S. federal employees and contractors."
+    }
+  },
+  {
+    "id": "AC06-Q0024",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to an organized approach to managing and mitigating security incidents?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "XDR"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IR"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SOAR"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "IRP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "IR (Incident Response) is the process of managing and mitigating the aftermath of a cybersecurity attack."
+    }
+  },
+  {
+    "id": "AC06-Q0025",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which type of technology enables contactless payment transactions?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "NFC"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IR"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PED"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "WAP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "NFC (Near-Field Communication) is a technology that allows for contactless data exchange between devices."
+    }
+  },
+  {
+    "id": "AC06-Q0026",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "An agreement between a service provider and users defining the nature, availability, quality, and scope of the service to be provided is known as:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SOW"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "MSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SLA"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MOU"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SLA (Service Level Agreement) is a contract between a service provider and a customer that defines the service to be provided, the metrics by which it is measured, and the penalties for non-compliance."
+    }
+  },
+  {
+    "id": "AC06-Q0027",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a cybersecurity approach that focuses on recognizing and addressing potential threats originating from multiple sources?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "XDR"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "WAF"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "EDR"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SWG"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "XDR (Extended Detection and Response) is a cybersecurity approach that integrates and correlates data from multiple security layers to provide a comprehensive view of threats."
+    }
+  },
+  {
+    "id": "AC06-Q0028",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following acronyms refers to a client authentication method used in WPA3?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SAE"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IKE"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PSK"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "AES"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SAE (Simultaneous Authentication of Equals) is an authentication method used in WPA3 to prevent password dictionary attacks."
+    }
+  },
+  {
+    "id": "AC06-Q0029",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a solution used for authentication, authorization, and user identity management?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ICS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "AAA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "CIA"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "IAM"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "IAM (Identity and Access Management) is a security framework that ensures only authorized users can access the right resources."
+    }
+  },
+  {
+    "id": "AC06-Q0030",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a security solution that provides control over elevated (i.e., administrative type) accounts?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MFA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IAM"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SSO"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "PAM"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "PAM (Privileged Access Management) is a security solution that provides control over privileged accounts, which are often targets for cyberattacks."
+    }
+  },
+  {
+    "id": "AC06-Q0031",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A device designed to provide emergency power during an unexpected main power source outage is called:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "UPS"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "PoE"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SVC"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "PSU"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "UPS (Uninterruptible Power Supply) is a device that provides emergency power to a load when the input power source or main power fails."
+    }
+  },
+  {
+    "id": "AC06-Q0032",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to an authentication method that enables the signing of an outbound email message with a digital signature?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SPF"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DKIM"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SRV"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "DMARC"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "DKIM (DomainKeys Identified Mail) is an email authentication method that uses a digital signature to verify the sender of an email."
+    }
+  },
+  {
+    "id": "AC06-Q0033",
+    "type": "t/f",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The term \"VLAN\" refers to a logical grouping of computers that allow computer hosts to function as if they were attached to the same broadcast domain regardless of their physical location."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "VLAN (Virtual LAN) is a logical grouping of network devices that are not restricted to a single physical location."
+    }
+  },
+  {
+    "id": "AC06-Q0034",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a method that binds a combination of private IP address and port number with a corresponding public IP address and port information?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PAT"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "NAC"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "DNS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "ARP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "PAT (Port Address Translation) is a type of network address translation (NAT) that maps multiple private IP addresses and port numbers to a single public IP address and unique port numbers."
+    }
+  },
+  {
+    "id": "AC06-Q0035",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A file system format used in Windows OSs that offers improved performance, security, and file management is referred to as:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ext4"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "EFS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "NTFS"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "HFS+"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "NTFS (New Technology File System) is a proprietary file system developed by Microsoft for its Windows operating systems."
+    }
+  }
+]

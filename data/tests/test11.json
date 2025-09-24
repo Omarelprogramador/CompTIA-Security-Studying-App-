@@ -1,0 +1,1137 @@
+[
+  {
+    "id": "T11-Q0001",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "Which of the answers listed below refer to the concept of data isolation? (Select 2 answers)",
+      "es": "¿Cuáles de las siguientes respuestas se refieren al concepto de aislamiento de datos? (Selecciona 2 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "DLP",
+          "es": "DLP"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SDN",
+          "es": "SDN"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "EFS",
+          "es": "EFS"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SWG",
+          "es": "SWG"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "EDR",
+          "es": "EDR"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "DLP (Data Loss Prevention) is a set of tools and processes used to ensure that sensitive data is not leaked from a company's network, and EFS (Encrypting File System) is a data encryption feature in Windows that provides data isolation by making files unreadable to unauthorized users.",
+      "es": "DLP (Prevención de pérdida de datos) es un conjunto de herramientas y procesos utilizados para garantizar que los datos confidenciales no se filtren de la red de una empresa, y EFS (Sistema de archivos de cifrado) es una función de cifrado de datos en Windows que proporciona aislamiento de datos al hacer que los archivos sean ilegibles para usuarios no autorizados."
+    }
+  },
+  {
+    "id": "T11-Q0002",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "A type of firewall used for protecting a single computer is commonly referred to as: (Select 2 answers)",
+      "es": "Un tipo de firewall utilizado para proteger una sola computadora se conoce comúnmente como: (Selecciona 2 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Hardware firewall",
+          "es": "Firewall de hardware"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Host-based firewall",
+          "es": "Firewall basado en host"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Proxy firewall",
+          "es": "Firewall proxy"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Network-based firewall",
+          "es": "Firewall basado en red"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Personal firewall",
+          "es": "Firewall personal"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Host-based firewalls and personal firewalls are two terms that describe the same type of software-based firewall that runs on a single computer system to protect it from network threats.",
+      "es": "Los firewalls basados en host y los firewalls personales son dos términos que describen el mismo tipo de firewall basado en software que se ejecuta en un solo sistema informático para protegerlo de las amenazas de la red."
+    }
+  },
+  {
+    "id": "T11-Q0003",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following provides active network security breach response on an individual computer system?",
+      "es": "¿Cuál de los siguientes proporciona una respuesta activa a las brechas de seguridad de la red en un sistema informático individual?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "NIDS",
+          "es": "NIDS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "HIDS",
+          "es": "HIDS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "NIPS",
+          "es": "NIPS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "HIPS",
+          "es": "HIPS"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "A HIPS (Host-based Intrusion Prevention System) monitors and responds to malicious activity on a single computer system by actively blocking or quarantining threats.",
+      "es": "Un HIPS (Sistema de Prevención de Intrusiones Basado en Host) monitorea y responde a la actividad maliciosa en un solo sistema informático al bloquear o poner en cuarentena activamente las amenazas."
+    }
+  },
+  {
+    "id": "T11-Q0004",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The process of securing networking devices should include the practice of disabling unused physical and logical ports.",
+      "es": "El proceso de asegurar los dispositivos de red debe incluir la práctica de deshabilitar los puertos físicos y lógicos no utilizados."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Disabling unused ports is a key security practice as it reduces the attack surface and prevents unauthorized access to the network or device.",
+      "es": "Deshabilitar los puertos no utilizados es una práctica de seguridad clave, ya que reduce la superficie de ataque y evita el acceso no autorizado a la red o al dispositivo."
+    }
+  },
+  {
+    "id": "T11-Q0005",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The importance of changing default usernames and passwords can be illustrated on the example of certain network devices (such as routers) which are often shipped with default and well-known admin credentials that can be looked up on the web.",
+      "es": "La importancia de cambiar los nombres de usuario y contraseñas predeterminados se puede ilustrar con el ejemplo de ciertos dispositivos de red (como los routers) que a menudo se envían con credenciales de administrador predeterminadas y bien conocidas que se pueden buscar en la web."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "This is a true statement. Default credentials are a common attack vector, as they are often publicly known and can be used by an attacker to gain unauthorized access to a device.",
+      "es": "Esta es una afirmación verdadera. Las credenciales predeterminadas son un vector de ataque común, ya que a menudo se conocen públicamente y un atacante puede usarlas para obtener acceso no autorizado a un dispositivo."
+    }
+  },
+  {
+    "id": "T11-Q0006",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A type of document outlining the shared responsibilities between a CSP and its customers for securing and managing data and resources is known as: (Select best answer)",
+      "es": "Un tipo de documento que describe las responsabilidades compartidas entre un CSP y sus clientes para asegurar y administrar datos y recursos se conoce como: (Selecciona la mejor respuesta)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Service Level Agreement",
+          "es": "Acuerdo de Nivel de Servicio"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Acceptable Use Policy",
+          "es": "Política de uso aceptable"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Cloud Responsibility Matrix",
+          "es": "Matriz de responsabilidad en la nube"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Master Service Agreement",
+          "es": "Acuerdo de Servicio Maestro"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A Cloud Responsibility Matrix, also known as a Shared Responsibility Model, clearly defines what security and management tasks are the responsibility of the cloud service provider (CSP) and what tasks are the responsibility of the customer.",
+      "es": "Una Matriz de Responsabilidad en la Nube, también conocida como Modelo de Responsabilidad Compartida, define claramente qué tareas de seguridad y gestión son responsabilidad del proveedor de servicios en la nube (CSP) y qué tareas son responsabilidad del cliente."
+    }
+  },
+  {
+    "id": "T11-Q0007",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The term \"Hybrid cloud\" refers to a mixed computing environment that can include different cloud service models like public and private clouds, as well as on-premises infrastructure.",
+      "es": "El término \"nube híbrida\" se refiere a un entorno informático mixto que puede incluir diferentes modelos de servicios en la nube como nubes públicas y privadas, así como infraestructura local."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A hybrid cloud is a combination of two or more distinct cloud infrastructures (public, private, or on-premises) that remain unique but are bound together by a standardized or proprietary technology that enables data and application portability.",
+      "es": "Una nube híbrida es una combinación de dos o más infraestructuras de nube distintas (pública, privada o local) que siguen siendo únicas, pero están unidas por una tecnología estandarizada o propietaria que permite la portabilidad de datos y aplicaciones."
+    }
+  },
+  {
+    "id": "T11-Q0008",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below refers to a method for managing infrastructure resources through scripts and templates?",
+      "es": "¿Cuál de los términos listados a continuación se refiere a un método para administrar los recursos de infraestructura a través de scripts y plantillas?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "IaaS",
+          "es": "IaaS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "ML",
+          "es": "ML"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "IaC",
+          "es": "IaC"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SDN",
+          "es": "SDN"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "IaC (Infrastructure as Code) is the process of managing and provisioning data centers through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools.",
+      "es": "IaC (Infraestructura como código) es el proceso de administrar y aprovisionar centros de datos a través de archivos de definición legibles por máquina, en lugar de la configuración física del hardware o las herramientas de configuración interactivas."
+    }
+  },
+  {
+    "id": "T11-Q0009",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A serverless architecture allows developers to create apps and services without having to manage the required infrastructure resources (such as servers, databases, and storage systems), which are handled by:",
+      "es": "Una arquitectura sin servidor permite a los desarrolladores crear aplicaciones y servicios sin tener que administrar los recursos de infraestructura necesarios (como servidores, bases de datos y sistemas de almacenamiento), que son manejados por:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CSP",
+          "es": "CSP"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "ISP",
+          "es": "ISP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MSP",
+          "es": "MSP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "IdP",
+          "es": "IdP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "In a serverless architecture, the Cloud Service Provider (CSP) manages the underlying infrastructure, allowing developers to focus solely on their code.",
+      "es": "En una arquitectura sin servidor, el Proveedor de Servicios en la Nube (CSP) gestiona la infraestructura subyacente, lo que permite a los desarrolladores centrarse únicamente en su código."
+    }
+  },
+  {
+    "id": "T11-Q0010",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In software engineering, the term \"Microservice\" describes independent and self-contained code components that can be put together to form an application.",
+      "es": "En ingeniería de software, el término \"microservicio\" describe componentes de código independientes y autocontenidos que se pueden unir para formar una aplicación."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Microservices are a software development architectural style where a large application is broken down into smaller, independent, and loosely coupled services that can be deployed and managed independently.",
+      "es": "Los microservicios son un estilo arquitectónico de desarrollo de software donde una aplicación grande se descompone en servicios más pequeños, independientes y débilmente acoplados que se pueden implementar y administrar de forma independiente."
+    }
+  },
+  {
+    "id": "T11-Q0011",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following provides isolation from external computer networks?",
+      "es": "¿Cuál de los siguientes proporciona aislamiento de las redes informáticas externas?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Network segmentation",
+          "es": "Segmentación de red"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Air gap",
+          "es": "Air gap"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Hardware firewall",
+          "es": "Firewall de hardware"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Protected cable distribution",
+          "es": "Distribución de cables protegida"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "An air gap is a security measure in which a computer system is physically isolated from other networks, ensuring that there is no network connectivity, either physical or logical.",
+      "es": "Un air gap es una medida de seguridad en la que un sistema informático está físicamente aislado de otras redes, lo que garantiza que no haya conectividad de red, ni física ni lógica."
+    }
+  },
+  {
+    "id": "T11-Q0012",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a means for logical network segmentation?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a un medio para la segmentación lógica de la red?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Switch",
+          "es": "Switch"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "VLAN",
+          "es": "VLAN"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Screened subnet",
+          "es": "Subred filtrada"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Router",
+          "es": "Router"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A VLAN (Virtual LAN) is a logical grouping of network devices that allows them to communicate as if they were on the same physical network, regardless of their actual location.",
+      "es": "Una VLAN (LAN Virtual) es una agrupación lógica de dispositivos de red que les permite comunicarse como si estuvieran en la misma red física, independientemente de su ubicación real."
+    }
+  },
+  {
+    "id": "T11-Q0013",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to software technology designed to simplify network infrastructure management?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a la tecnología de software diseñada para simplificar la gestión de la infraestructura de red?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SDN",
+          "es": "SDN"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SaaS",
+          "es": "SaaS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "VDI",
+          "es": "VDI"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SNMP",
+          "es": "SNMP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SDN (Software-Defined Networking) is a technology that allows network administrators to manage network services and infrastructure through a centralized software interface, simplifying network management.",
+      "es": "SDN (Redes definidas por software) es una tecnología que permite a los administradores de red gestionar los servicios y la infraestructura de la red a través de una interfaz de software centralizada, lo que simplifica la gestión de la red."
+    }
+  },
+  {
+    "id": "T11-Q0014",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to the process of packaging an application and its dependencies into a single, self-contained unit, which can run across different computing environments?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere al proceso de empaquetar una aplicación y sus dependencias en una sola unidad autocontenida, que puede ejecutarse en diferentes entornos informáticos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Edge computing",
+          "es": "Computación de borde"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Containerization",
+          "es": "Contenedorización"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Virtualization",
+          "es": "Virtualización"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Cloud computing",
+          "es": "Computación en la nube"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Containerization is a form of operating system virtualization in which an application and its dependencies are packaged into a single, isolated container that can run consistently across different computing environments.",
+      "es": "La contenedorización es una forma de virtualización del sistema operativo en la que una aplicación y sus dependencias se empaquetan en un solo contenedor aislado que puede ejecutarse de manera consistente en diferentes entornos informáticos."
+    }
+  },
+  {
+    "id": "T11-Q0015",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a solution that allows multiple OSs to work simultaneously on the same hardware?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a una solución que permite que varios sistemas operativos funcionen simultáneamente en el mismo hardware?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Clustering",
+          "es": "Clustering"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Hyperthreading",
+          "es": "Hyperthreading"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Multitasking",
+          "es": "Multitarea"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Virtualization",
+          "es": "Virtualización"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Virtualization is a technology that allows multiple operating systems to run on a single physical machine by using a hypervisor to manage and allocate the underlying hardware resources.",
+      "es": "La virtualización es una tecnología que permite que varios sistemas operativos se ejecuten en una sola máquina física mediante el uso de un hipervisor para administrar y asignar los recursos de hardware subyacentes."
+    }
+  },
+  {
+    "id": "T11-Q0016",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a network of interconnected devices equipped with sensors (such as wearable tech or home automation devices) that can interact with each other to perform various tasks and functions?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a una red de dispositivos interconectados equipados con sensores (como tecnología portátil o dispositivos de domótica) que pueden interactuar entre sí para realizar diversas tareas y funciones?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ICS",
+          "es": "ICS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "PAN",
+          "es": "PAN"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "IoT",
+          "es": "IoT"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SoC",
+          "es": "SoC"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "IoT (Internet of Things) is a network of physical objects embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet.",
+      "es": "IoT (Internet de las cosas) es una red de objetos físicos incrustados con sensores, software y otras tecnologías con el propósito de conectarse e intercambiar datos con otros dispositivos y sistemas a través de Internet."
+    }
+  },
+  {
+    "id": "T11-Q0017",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following refers to a broad term that encompasses various control and automation systems used in industrial settings to control and monitor physical processes and machinery?",
+      "es": "¿Cuál de los siguientes se refiere a un término amplio que abarca varios sistemas de control y automatización utilizados en entornos industriales para controlar y monitorear procesos físicos y maquinaria?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ICS",
+          "es": "ICS"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "PLC",
+          "es": "PLC"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SCADA",
+          "es": "SCADA"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "HMI",
+          "es": "HMI"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ICS (Industrial Control System) is a general term for various control systems and associated instrumentation, including SCADA, that are used in industrial production.",
+      "es": "ICS (Sistema de control industrial) es un término general para varios sistemas de control e instrumentación asociada, incluido SCADA, que se utilizan en la producción industrial."
+    }
+  },
+  {
+    "id": "T11-Q0018",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a specific type of ICS?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a un tipo específico de ICS?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SoC",
+          "es": "SoC"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CMS",
+          "es": "CMS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SCADA",
+          "es": "SCADA"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "RTOS",
+          "es": "RTOS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SCADA (Supervisory Control and Data Acquisition) is a type of industrial control system (ICS) that is used to monitor and control industrial processes across large areas or sites.",
+      "es": "SCADA (Control de supervisión y adquisición de datos) es un tipo de sistema de control industrial (ICS) que se utiliza para monitorear y controlar procesos industriales en grandes áreas o sitios."
+    }
+  },
+  {
+    "id": "T11-Q0019",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to an OS type characterized by low delay between the execution of tasks required in specific applications, such as in military missile guidance systems or in automotive braking systems?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un tipo de sistema operativo caracterizado por un bajo retardo entre la ejecución de tareas requeridas en aplicaciones específicas, como en sistemas de guía de misiles militares o en sistemas de frenado automotriz?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Unix-like OS",
+          "es": "Sistema operativo similar a Unix"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SoC",
+          "es": "SoC"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Firmware",
+          "es": "Firmware"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "RTOS",
+          "es": "RTOS"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "An RTOS (Real-Time Operating System) is an operating system intended for real-time applications where the processing of data must be completed within a strict time frame.",
+      "es": "Un RTOS (Sistema Operativo en Tiempo Real) es un sistema operativo destinado a aplicaciones en tiempo real donde el procesamiento de datos debe completarse dentro de un marco de tiempo estricto."
+    }
+  },
+  {
+    "id": "T11-Q0020",
+    "type": "ms",
+    "required_answers": 4,
+    "prompt": {
+      "en": "Which of the answers listed below refer(s) to embedded systems? (Select all that apply)",
+      "es": "¿Cuáles de las respuestas listadas a continuación se refieren a los sistemas integrados? (Selecciona todas las que apliquen)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Often designed to operate in real-time or with low latency",
+          "es": "A menudo diseñados para operar en tiempo real o con baja latencia"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Typically equipped with constrained computing resources and storage",
+          "es": "Típicamente equipados con recursos informáticos y almacenamiento limitados"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Designed to perform a single task or a few closely related tasks within a larger system",
+          "es": "Diseñados para realizar una sola tarea o unas pocas tareas estrechamente relacionadas dentro de un sistema más grande"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Often integrated with hardware components like sensors and actuators",
+          "es": "A menudo integrados con componentes de hardware como sensores y actuadores"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Embedded systems are special-purpose computer systems designed to perform a dedicated function within a larger mechanical or electrical system. They are typically optimized for low power, small size, and specific performance, often operating in real-time with limited resources and integrated hardware.",
+      "es": "Los sistemas integrados son sistemas informáticos de propósito especial diseñados para realizar una función dedicada dentro de un sistema mecánico o eléctrico más grande. Por lo general, están optimizados para bajo consumo de energía, tamaño pequeño y rendimiento específico, a menudo operando en tiempo real con recursos limitados y hardware integrado."
+    }
+  },
+  {
+    "id": "T11-Q0021",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following terms can be used to describe a system designed to aim for minimized downtime and uninterrupted operation?",
+      "es": "¿Cuál de los siguientes términos se puede utilizar para describir un sistema diseñado para minimizar el tiempo de inactividad y la operación ininterrumpida?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ICS",
+          "es": "ICS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "HA",
+          "es": "HA"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "RTOS",
+          "es": "RTOS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SoC",
+          "es": "SoC"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "HA (High Availability) is a system design approach that aims to ensure a high level of operational performance for a given period of time, minimizing downtime.",
+      "es": "HA (Alta disponibilidad) es un enfoque de diseño de sistemas que tiene como objetivo garantizar un alto nivel de rendimiento operativo durante un período de tiempo determinado, minimizando el tiempo de inactividad."
+    }
+  },
+  {
+    "id": "T11-Q0022",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a device failure mode in which maintaining service availability is prioritized over security?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a un modo de falla de dispositivo en el que se prioriza el mantenimiento de la disponibilidad del servicio sobre la seguridad?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Fail-safe",
+          "es": "A prueba de fallos"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Fail-close",
+          "es": "Cierre por fallo"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Fail-open",
+          "es": "Apertura por fallo"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Fail-secure",
+          "es": "Fallo seguro"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "The fail-open failure mode ensures that a device continues to allow traffic or operations even in the event of a failure, prioritizing availability over security.",
+      "es": "El modo de falla de apertura por fallo garantiza que un dispositivo continúe permitiendo el tráfico o las operaciones incluso en caso de falla, priorizando la disponibilidad sobre la seguridad."
+    }
+  },
+  {
+    "id": "T11-Q0023",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which failure mode prioritizes security over availability, ensuring that no potentially malicious traffic can get through the device?",
+      "es": "¿Qué modo de falla prioriza la seguridad sobre la disponibilidad, asegurando que no pase tráfico potencialmente malicioso a través del dispositivo?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Fail-soft",
+          "es": "Fallo suave"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Fail-through",
+          "es": "Fallo a través"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Fail-safe",
+          "es": "A prueba de fallos"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Fail-close",
+          "es": "Cierre por fallo"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "The fail-close failure mode, also known as fail-secure, ensures that a device blocks all traffic in the event of a failure to prevent any security breaches, prioritizing security over availability.",
+      "es": "El modo de falla de cierre por fallo, también conocido como fallo seguro, garantiza que un dispositivo bloquee todo el tráfico en caso de falla para evitar cualquier violación de seguridad, priorizando la seguridad sobre la disponibilidad."
+    }
+  },
+  {
+    "id": "T11-Q0024",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "Which of the following answers refer to passive network monitoring techniques? (Select 2 answers)",
+      "es": "¿Cuáles de las siguientes respuestas se refieren a técnicas de monitoreo de red pasivo? (Selecciona 2 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Network tap",
+          "es": "Network tap"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Trunk port",
+          "es": "Puerto troncal"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Port mirroring",
+          "es": "Duplicación de puerto"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SNMP trap",
+          "es": "Trampa SNMP"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Registered port",
+          "es": "Puerto registrado"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Network taps and port mirroring are both passive network monitoring techniques as they allow an administrator to non-intrusively capture and analyze network traffic without actively participating in the communication.",
+      "es": "Los network taps y la duplicación de puerto son ambas técnicas de monitoreo de red pasivo, ya que permiten a un administrador capturar y analizar de forma no intrusiva el tráfico de red sin participar activamente en la comunicación."
+    }
+  },
+  {
+    "id": "T11-Q0025",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A type of hardened server used as a secure gateway for remote administration of devices placed in a different security zone is called:",
+      "es": "Un tipo de servidor reforzado utilizado como una puerta de enlace segura para la administración remota de dispositivos ubicados en una zona de seguridad diferente se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "C2 server",
+          "es": "Servidor C2"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Jump server",
+          "es": "Jump server"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "UC server",
+          "es": "Servidor UC"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Proxy server",
+          "es": "Servidor proxy"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A jump server is a hardened and tightly controlled server that acts as a secure intermediary for administrators to connect to other servers or devices in a different security zone, reducing the attack surface.",
+      "es": "Un jump server es un servidor reforzado y estrictamente controlado que actúa como un intermediario seguro para que los administradores se conecten a otros servidores o dispositivos en una zona de seguridad diferente, lo que reduce la superficie de ataque."
+    }
+  }
+]

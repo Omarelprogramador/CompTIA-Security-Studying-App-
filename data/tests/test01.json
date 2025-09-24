@@ -1,0 +1,1337 @@
+[
+  {
+    "id": "T01-Q0001",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the following answers can be used to describe technical security controls? (Select 3 answers)",
+      "es": "¿Cuáles de las siguientes respuestas pueden usarse para describir los controles de seguridad técnicos? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Focused on protecting material assets",
+          "es": "Enfocados en proteger activos materiales"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Sometimes called logical security controls",
+          "es": "A veces llamados controles de seguridad lógicos"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Executed by computer systems (instead of people)",
+          "es": "Ejecutados por sistemas informáticos (en lugar de personas)"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Also known as administrative controls",
+          "es": "También conocidos como controles administrativos"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Implemented with technology",
+          "es": "Implementados con tecnología"
+        },
+        "correct": true
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Primarily implemented and executed by people (as opposed to computer systems)",
+          "es": "Implementados y ejecutados principalmente por personas (en lugar de sistemas informáticos)"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Technical controls are also called logical controls, they are implemented with technology, and executed by computer systems.",
+      "es": "Los controles técnicos también se llaman controles lógicos, se implementan con tecnología y son ejecutados por sistemas informáticos."
+    }
+  },
+  {
+    "id": "T01-Q0002",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the answers listed below refer to examples of technical security controls? (Select 3 answers)",
+      "es": "¿Cuáles de las respuestas a continuación se refieren a ejemplos de controles de seguridad técnicos? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Security audits",
+          "es": "Auditorías de seguridad"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Encryption",
+          "es": "Cifrado"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Organizational security policy",
+          "es": "Política de seguridad organizacional"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "IDSs",
+          "es": "Sistemas de Detección de Intrusos (IDSs)"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Configuration management",
+          "es": "Gestión de la configuración"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Firewalls",
+          "es": "Cortafuegos"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Examples of technical security controls include encryption, IDSs, and firewalls.",
+      "es": "Ejemplos de controles de seguridad técnicos son el cifrado, los IDSs y los cortafuegos."
+    }
+  },
+  {
+    "id": "T01-Q0003",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the following answers refer to the characteristic features of managerial security controls? (Select 3 answers)",
+      "es": "¿Cuáles de las siguientes respuestas se refieren a las características de los controles de seguridad de gestión? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Also known as administrative controls",
+          "es": "También conocidos como controles administrativos"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Sometimes referred to as logical security controls",
+          "es": "A veces denominados controles de seguridad lógicos"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Focused on reducing the risk of security incidents",
+          "es": "Enfocados en reducir el riesgo de incidentes de seguridad"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Executed by computer systems (instead of people)",
+          "es": "Ejecutados por sistemas informáticos (en lugar de personas)"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Documented in written policies",
+          "es": "Documentados en políticas escritas"
+        },
+        "correct": true
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Focused on protecting material assets",
+          "es": "Enfocados en proteger activos materiales"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Managerial controls are also known as administrative controls, are focused on reducing security risks, and are documented in policies.",
+      "es": "Los controles de gestión también son conocidos como controles administrativos, se enfocan en la reducción de riesgos de seguridad y están documentados en políticas."
+    }
+  },
+  {
+    "id": "T01-Q0004",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Examples of managerial security controls include: (Select 3 answers)",
+      "es": "Ejemplos de controles de seguridad de gestión incluyen: (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Configuration management",
+          "es": "Gestión de la configuración"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Data backups",
+          "es": "Copias de seguridad de datos"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Organizational security policy",
+          "es": "Política de seguridad organizacional"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Risk assessments",
+          "es": "Evaluaciones de riesgos"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Security awareness training",
+          "es": "Capacitación en concienciación de seguridad"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Managerial controls include policies, risk assessments, and security awareness training.",
+      "es": "Los controles de gestión incluyen políticas, evaluaciones de riesgos y capacitación en concienciación de seguridad."
+    }
+  },
+  {
+    "id": "T01-Q0005",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the answers listed below can be used to describe operational security controls (Select 3 answers)",
+      "es": "¿Cuáles de las respuestas a continuación se pueden usar para describir los controles de seguridad operativos? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Also known as administrative controls",
+          "es": "También conocidos como controles administrativos"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Focused on the day-to-day procedures of an organization",
+          "es": "Enfocados en los procedimientos diarios de una organización"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Executed by computer systems (instead of people)",
+          "es": "Ejecutados por sistemas informáticos (en lugar de personas)"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Used to ensure that the equipment continues to work as specified",
+          "es": "Utilizados para asegurar que el equipo siga funcionando como se especifica"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Focused on managing risk",
+          "es": "Enfocados en la gestión de riesgos"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Primarily implemented and executed by people (as opposed to computer systems)",
+          "es": "Implementados y ejecutados principalmente por personas (en lugar de sistemas informáticos)"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Operational controls are people-driven, focused on day-to-day procedures, and are used to ensure that equipment continues to work as specified.",
+      "es": "Los controles operativos son impulsados por personas, se enfocan en los procedimientos diarios y se utilizan para asegurar que el equipo siga funcionando como se especifica."
+    }
+  },
+  {
+    "id": "T01-Q0006",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the following examples fall into the category of operational security controls? (Select 3 answers)",
+      "es": "¿Cuáles de los siguientes ejemplos entran en la categoría de controles de seguridad operativos? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Risk assessments",
+          "es": "Evaluaciones de riesgos"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Configuration management",
+          "es": "Gestión de la configuración"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "System backups",
+          "es": "Copias de seguridad del sistema"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Authentication protocols",
+          "es": "Protocolos de autenticación"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Patch management",
+          "es": "Gestión de parches"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Examples of operational controls are configuration management, system backups, and patch management.",
+      "es": "Ejemplos de controles operativos son la gestión de la configuración, las copias de seguridad del sistema y la gestión de parches."
+    }
+  },
+  {
+    "id": "T01-Q0007",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to security controls designed to deter, detect, and prevent unauthorized access, theft, damage, or destruction of material assets?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a los controles de seguridad diseñados para disuadir, detectar y prevenir el acceso no autorizado, el robo, el daño o la destrucción de activos materiales?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Managerial security controls",
+          "es": "Controles de seguridad de gestión"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Physical security controls",
+          "es": "Controles de seguridad físicos"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Technical security controls",
+          "es": "Controles de seguridad técnicos"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Operational security controls",
+          "es": "Controles de seguridad operativos"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Physical security controls are designed to protect material assets from threats such as theft or damage.",
+      "es": "Los controles de seguridad físicos están diseñados para proteger los activos materiales de amenazas como el robo o el daño."
+    }
+  },
+  {
+    "id": "T01-Q0008",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the following examples do not fall into the category of physical security controls? (Select 3 answers)",
+      "es": "¿Cuáles de los siguientes ejemplos no entran en la categoría de controles de seguridad físicos? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Lighting",
+          "es": "Iluminación"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Access control vestibules",
+          "es": "Vestíbulos de control de acceso"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Data backups",
+          "es": "Copias de seguridad de datos"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Fencing/Bollards/Barricades",
+          "es": "Vallas/Bolardos/Barricadas"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Firewalls",
+          "es": "Cortafuegos"
+        },
+        "correct": true
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Security guards",
+          "es": "Guardias de seguridad"
+        },
+        "correct": false
+      },
+      {
+        "key": "G",
+        "text": {
+          "en": "Asset management",
+          "es": "Gestión de activos"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Data backups, firewalls, and asset management are not physical controls; they belong to other categories such as operational, technical, or managerial.",
+      "es": "Las copias de seguridad de datos, los cortafuegos y la gestión de activos no son controles físicos; pertenecen a otras categorías como operativas, técnicas o de gestión."
+    }
+  },
+  {
+    "id": "T01-Q0009",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "What are the examples of preventive security controls? (Select 3 answers)",
+      "es": "¿Cuáles son los ejemplos de controles de seguridad preventivos? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Encryption",
+          "es": "Cifrado"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IDS",
+          "es": "IDS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Sensors",
+          "es": "Sensores"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Firewalls",
+          "es": "Cortafuegos"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Warning signs",
+          "es": "Señales de advertencia"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "AV software",
+          "es": "Software antivirus"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Preventive controls are designed to stop an incident from occurring. Encryption, firewalls, and antivirus software are examples of these controls.",
+      "es": "Los controles preventivos están diseñados para evitar que ocurra un incidente. El cifrado, los cortafuegos y el software antivirus son ejemplos de estos controles."
+    }
+  },
+  {
+    "id": "T01-Q0010",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Examples of deterrent security controls include: (Select 3 answers)",
+      "es": "Ejemplos de controles de seguridad disuasivos incluyen: (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Warning signs",
+          "es": "Señales de advertencia"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Sensors",
+          "es": "Sensores"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Lighting",
+          "es": "Iluminación"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Video surveillance",
+          "es": "Videovigilancia"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Security audits",
+          "es": "Auditorías de seguridad"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Fencing/Bollards",
+          "es": "Vallas/Bolardos"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Deterrent controls aim to discourage attackers. Warning signs, proper lighting, and physical barriers like fences are examples.",
+      "es": "Los controles disuasivos tienen como objetivo desanimar a los atacantes. Las señales de advertencia, la iluminación adecuada y las barreras físicas como vallas son ejemplos."
+    }
+  },
+  {
+    "id": "T01-Q0011",
+    "type": "ms",
+    "required_answers": 5,
+    "prompt": {
+      "en": "Which of the answers listed below refer(s) to detective security control(s)? (Select all that apply)",
+      "es": "¿Cuáles de las respuestas a continuación se refieren a controles de seguridad de detección? (Selecciona todas las que apliquen)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Lighting",
+          "es": "Iluminación"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Log monitoring",
+          "es": "Monitorización de registros"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Sandboxing",
+          "es": "Sandboxing"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Security audits",
+          "es": "Auditorías de seguridad"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "CCTV",
+          "es": "CCTV"
+        },
+        "correct": true
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "IDS",
+          "es": "IDS"
+        },
+        "correct": true
+      },
+      {
+        "key": "G",
+        "text": {
+          "en": "Vulnerability scanning",
+          "es": "Análisis de vulnerabilidades"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Detective controls are used to discover an event after it has happened. Examples include log monitoring, security audits, CCTV, IDS, and vulnerability scanning.",
+      "es": "Los controles de detección se utilizan para descubrir un evento después de que ha ocurrido. Ejemplos incluyen la monitorización de registros, auditorías de seguridad, CCTV, IDS y el análisis de vulnerabilidades."
+    }
+  },
+  {
+    "id": "T01-Q0012",
+    "type": "ms",
+    "required_answers": 4,
+    "prompt": {
+      "en": "Which of the following answers refer(s) to corrective security control(s)? (Select all that apply)",
+      "es": "¿Cuáles de las siguientes respuestas se refieren a controles de seguridad correctivos? (Selecciona todas las que apliquen)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Recovering data from backup copies",
+          "es": "Recuperar datos de copias de seguridad"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Applying software updates and patches to fix vulnerabilities",
+          "es": "Aplicar actualizaciones de software y parches para corregir vulnerabilidades"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Developing and implementing IRPs to respond to and recover from security incidents",
+          "es": "Desarrollar e implementar Planes de Respuesta a Incidentes (IRPs) para responder y recuperarse de incidentes de seguridad"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Regularly reviewing logs for anomalies or patterns indicative of attacks",
+          "es": "Revisar regularmente los registros en busca de anomalías o patrones que indiquen ataques"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Activating and executing DRPs to restore operations after a major incident",
+          "es": "Activar y ejecutar Planes de Recuperación ante Desastres (DRPs) para restaurar las operaciones después de un incidente grave"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Corrective controls are used after an incident to minimize its impact. Examples include data recovery, applying patches, and activating disaster recovery plans.",
+      "es": "Los controles correctivos se utilizan después de un incidente para minimizar su impacto. Ejemplos incluyen la recuperación de datos, la aplicación de parches y la activación de planes de recuperación ante desastres."
+    }
+  },
+  {
+    "id": "T01-Q0013",
+    "type": "ms",
+    "required_answers": 4,
+    "prompt": {
+      "en": "Which of the answers listed below refer(s) to compensating security control(s)? (Select all that apply)",
+      "es": "¿Cuáles de las respuestas a continuación se refieren a controles de seguridad compensatorios? (Selecciona todas las que apliquen)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Backup power systems",
+          "es": "Sistemas de energía de respaldo"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Video surveillance",
+          "es": "Videovigilancia"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MFA",
+          "es": "MFA"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Application sandboxing",
+          "es": "Sandboxing de aplicaciones"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Network segmentation",
+          "es": "Segmentación de la red"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Compensating controls are alternative security measures used when a primary control cannot be implemented. Examples include backup power systems, MFA, application sandboxing, and network segmentation.",
+      "es": "Los controles compensatorios son medidas de seguridad alternativas que se utilizan cuando no se puede implementar un control principal. Ejemplos incluyen sistemas de energía de respaldo, MFA, sandboxing de aplicaciones y segmentación de la red."
+    }
+  },
+  {
+    "id": "T01-Q0014",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The term \"Directive security controls\" refers to the category of security controls that are implemented through policies and procedures.",
+      "es": "El término \"Controles de seguridad directivos\" se refiere a la categoría de controles de seguridad que se implementan a través de políticas y procedimientos."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Directive controls are typically policies and procedures that direct or guide the behavior of people within an organization.",
+      "es": "Los controles directivos son típicamente políticas y procedimientos que dirigen o guían el comportamiento de las personas dentro de una organización."
+    }
+  },
+  {
+    "id": "T01-Q0015",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "Which of the following terms fall into the category of directive security controls? (Select 2 answers)",
+      "es": "¿Cuáles de los siguientes términos entran en la categoría de controles de seguridad directivos? (Selecciona 2 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "IRP",
+          "es": "Plan de Respuesta a Incidentes (IRP)"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "AUP",
+          "es": "Política de Uso Aceptable (AUP)"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "IDS",
+          "es": "IDS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MFA",
+          "es": "MFA"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "IPS",
+          "es": "IPS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Directive controls are policies, and both Incident Response Plans (IRPs) and Acceptable Use Policies (AUPs) are examples of these.",
+      "es": "Los controles directivos son políticas, y tanto los Planes de Respuesta a Incidentes (IRPs) como las Políticas de Uso Aceptable (AUPs) son ejemplos de estos."
+    }
+  },
+  {
+    "id": "T01-Q0016",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below can be used to describe the basic principles of information security?",
+      "es": "¿Cuál de los siguientes términos puede usarse para describir los principios básicos de la seguridad de la información?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PKI",
+          "es": "PKI"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "AAA",
+          "es": "AAA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "GDPR",
+          "es": "GDPR"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CIA",
+          "es": "CIA"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "The CIA triad (Confidentiality, Integrity, Availability) is a foundational model for information security.",
+      "es": "La tríada CIA (Confidencialidad, Integridad, Disponibilidad) es un modelo fundamental para la seguridad de la información."
+    }
+  },
+  {
+    "id": "T01-Q0017",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The term \"Non-repudiation\" describes the inability to deny responsibility for performing a specific action. In the context of data security, non-repudiation ensures data confidentiality, provides proof of data integrity, and proof of data origin.",
+      "es": "El término \"No repudio\" describe la incapacidad de negar la responsabilidad de realizar una acción específica. En el contexto de la seguridad de los datos, el no repudio asegura la confidencialidad de los datos, proporciona prueba de la integridad de los datos y prueba del origen de los datos."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Non-repudiation primarily provides proof of data integrity and origin, but not confidentiality. It ensures that a sender cannot deny having sent a message and that a receiver cannot deny having received it.",
+      "es": "El no repudio principalmente proporciona prueba de la integridad y el origen de los datos, pero no de la confidencialidad. Asegura que un remitente no puede negar haber enviado un mensaje y que un receptor no puede negar haberlo recibido."
+    }
+  },
+  {
+    "id": "T01-Q0018",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following best applies to the concept of non-repudiation?",
+      "es": "¿Cuál de los siguientes se aplica mejor al concepto de no repudio?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Digital certificate",
+          "es": "Certificado digital"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "MFA",
+          "es": "MFA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Hashing",
+          "es": "Hashing"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Encryption",
+          "es": "Cifrado"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Digital certificates and digital signatures are the primary tools used to achieve non-repudiation, as they cryptographically prove the origin and integrity of a message or document.",
+      "es": "Los certificados digitales y las firmas digitales son las principales herramientas utilizadas para lograr el no repudio, ya que prueban criptográficamente el origen y la integridad de un mensaje o documento."
+    }
+  },
+  {
+    "id": "T01-Q0019",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which type of user account violates the concept of non-repudiation?",
+      "es": "¿Qué tipo de cuenta de usuario viola el concepto de no repudio?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Standard user account",
+          "es": "Cuenta de usuario estándar"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Shared account",
+          "es": "Cuenta compartida"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Guest user account",
+          "es": "Cuenta de invitado"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Service account",
+          "es": "Cuenta de servicio"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Shared accounts violate non-repudiation because multiple individuals can use them, making it impossible to attribute specific actions to a single person.",
+      "es": "Las cuentas compartidas violan el no repudio porque varias personas pueden usarlas, lo que hace imposible atribuir acciones específicas a una sola persona."
+    }
+  },
+  {
+    "id": "T01-Q0020",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which part of the AAA security architecture deals with the verification of the identity of a person or process?",
+      "es": "¿Qué parte de la arquitectura de seguridad AAA se ocupa de la verificación de la identidad de una persona o proceso?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Authentication",
+          "es": "Autenticación"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Authorization",
+          "es": "Autorización"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Accounting",
+          "es": "Contabilidad"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Authentication is the process of verifying a user's identity, often with credentials like a password or biometric data.",
+      "es": "La autenticación es el proceso de verificar la identidad de un usuario, a menudo con credenciales como una contraseña o datos biométricos."
+    }
+  },
+  {
+    "id": "T01-Q0021",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In the AAA security architecture, the process of granting or denying access to resources is known as:",
+      "es": "En la arquitectura de seguridad AAA, el proceso de conceder o denegar el acceso a los recursos se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Authentication",
+          "es": "Autenticación"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Authorization",
+          "es": "Autorización"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Accounting",
+          "es": "Contabilidad"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Authorization determines what a user is allowed to do once their identity has been authenticated.",
+      "es": "La autorización determina lo que un usuario tiene permitido hacer una vez que su identidad ha sido autenticada."
+    }
+  },
+  {
+    "id": "T01-Q0022",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In the AAA security architecture, the process of tracking accessed services and logging resource consumption is called:",
+      "es": "En la arquitectura de seguridad AAA, el proceso de rastrear los servicios accedidos y registrar el consumo de recursos se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Authentication",
+          "es": "Autenticación"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Authorization",
+          "es": "Autorización"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Accounting",
+          "es": "Contabilidad"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Accounting, or auditing, involves tracking and logging the activities of a user to ensure accountability and monitor resource usage.",
+      "es": "La contabilidad (o 'auditing') implica rastrear y registrar las actividades de un usuario para asegurar la rendición de cuentas y monitorear el uso de recursos."
+    }
+  },
+  {
+    "id": "T01-Q0023",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "Which of the following solutions provide(s) the AAA functionality? (Select all that apply)",
+      "es": "¿Cuáles de las siguientes soluciones proporcionan la funcionalidad AAA? (Selecciona todas las que apliquen)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CHAP",
+          "es": "CHAP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "TACACS+",
+          "es": "TACACS+"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PAP",
+          "es": "PAP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "RADIUS",
+          "es": "RADIUS"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "MS-CHAP",
+          "es": "MS-CHAP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "TACACS+ and RADIUS are protocols that provide Authentication, Authorization, and Accounting (AAA) services.",
+      "es": "TACACS+ y RADIUS son protocolos que proporcionan servicios de Autenticación, Autorización y Contabilidad (AAA)."
+    }
+  },
+  {
+    "id": "T01-Q0024",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "In the context of the AAA framework, common methods for authenticating people include: (Select 3 answers)",
+      "es": "En el contexto del marco AAA, los métodos comunes para autenticar a las personas incluyen: (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "IP addresses",
+          "es": "Direcciones IP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Usernames and passwords",
+          "es": "Nombres de usuario y contraseñas"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MAC addresses",
+          "es": "Direcciones MAC"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Biometrics",
+          "es": "Biometría"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "MFA",
+          "es": "MFA"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Common methods for authenticating people are usernames and passwords, biometrics, and multi-factor authentication (MFA).",
+      "es": "Los métodos comunes para autenticar a las personas son los nombres de usuario y las contraseñas, la biometría y la autenticación multifactor (MFA)."
+    }
+  },
+  {
+    "id": "T01-Q0025",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the answers listed below refer to common methods of device authentication used within the AAA framework? (Select 3 answers)",
+      "es": "¿Cuáles de las respuestas a continuación se refieren a métodos comunes de autenticación de dispositivos utilizados dentro del marco AAA? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Usernames and passwords",
+          "es": "Nombres de usuario y contraseñas"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Digital certificates",
+          "es": "Certificados digitales"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "IP addresses",
+          "es": "Direcciones IP"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MFA",
+          "es": "MFA"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Biometric authentication",
+          "es": "Autenticación biométrica"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "MAC addresses",
+          "es": "Direcciones MAC"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Common methods for authenticating devices include digital certificates, IP addresses, and MAC addresses.",
+      "es": "Los métodos comunes para autenticar dispositivos incluyen certificados digitales, direcciones IP y direcciones MAC."
+    }
+  }
+]

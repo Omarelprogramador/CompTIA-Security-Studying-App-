@@ -1,0 +1,474 @@
+[
+  {
+    "id": "T21-Q0001",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following terms refers to the use of technology to perform individual tasks with minimal human intervention?",
+      "es": "¿Cuál de los siguientes términos se refiere al uso de la tecnología para realizar tareas individuales con una intervención humana mínima?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Automation", "es": "Automatización" }, "correct": true },
+      { "key": "B", "text": { "en": "Scripting", "es": "Scripting" }, "correct": false },
+      { "key": "C", "text": { "en": "Orchestration", "es": "Orquestación" }, "correct": false },
+      { "key": "D", "text": { "en": "Sequencing", "es": "Secuenciación" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "Automation is the use of technology to perform tasks with minimal human intervention. In cybersecurity, it involves using tools and scripts to automatically handle repetitive tasks like log analysis, threat detection, and vulnerability scanning, making processes faster and more efficient.",
+      "es": "La automatización es el uso de la tecnología para realizar tareas con una intervención humana mínima. En ciberseguridad, implica el uso de herramientas y scripts para manejar automáticamente tareas repetitivas como el análisis de registros, la detección de amenazas y el escaneo de vulnerabilidades, haciendo que los procesos sean más rápidos y eficientes."
+    }
+  },
+  {
+    "id": "T21-Q0002",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below refers to a process that deals with coordinating and managing multiple repetitive tasks?",
+      "es": "¿Cuál de los términos listados a continuación se refiere a un proceso que se ocupa de coordinar y gestionar múltiples tareas repetitivas?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Sequencing", "es": "Secuenciación" }, "correct": false },
+      { "key": "B", "text": { "en": "Orchestration", "es": "Orquestación" }, "correct": true },
+      { "key": "C", "text": { "en": "Scripting", "es": "Scripting" }, "correct": false },
+      { "key": "D", "text": { "en": "Automation", "es": "Automatización" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "Orchestration is the process of coordinating and managing multiple automated tasks and systems to work together as a cohesive workflow. While automation focuses on individual tasks, orchestration connects different automated processes to achieve a larger goal, such as responding to a security incident.",
+      "es": "La orquestación es el proceso de coordinar y gestionar múltiples tareas y sistemas automatizados para que trabajen juntos como un flujo de trabajo cohesivo. Mientras que la automatización se centra en tareas individuales, la orquestación conecta diferentes procesos automatizados para lograr un objetivo más grande, como responder a un incidente de seguridad."
+    }
+  },
+  {
+    "id": "T21-Q0003",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following technologies enables automated handling of multiple security incidents?",
+      "es": "¿Cuál de las siguientes tecnologías permite el manejo automatizado de múltiples incidentes de seguridad?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "SOAP", "es": "SOAP" }, "correct": false },
+      { "key": "B", "text": { "en": "SASE", "es": "SASE" }, "correct": false },
+      { "key": "C", "text": { "en": "SOAR", "es": "SOAR" }, "correct": true },
+      { "key": "D", "text": { "en": "SIEM", "es": "SIEM" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "SOAR stands for Security Orchestration, Automation, and Response. It is a technology that integrates various security tools and automates repetitive tasks to handle and respond to a large volume of security incidents efficiently.",
+      "es": "SOAR significa Orquestación, Automatización y Respuesta de Seguridad. Es una tecnología que integra varias herramientas de seguridad y automatiza tareas repetitivas para manejar y responder de manera eficiente a un gran volumen de incidentes de seguridad."
+    }
+  },
+  {
+    "id": "T21-Q0004",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A checklist of actions that can be performed in response to a security incident is known as a:",
+      "es": "Una lista de verificación de acciones que se pueden realizar en respuesta a un incidente de seguridad se conoce como:"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Runbook", "es": "Runbook" }, "correct": false },
+      { "key": "B", "text": { "en": "Template", "es": "Plantilla" }, "correct": false },
+      { "key": "C", "text": { "en": "Playbook", "es": "Playbook" }, "correct": true },
+      { "key": "D", "text": { "en": "Script", "es": "Script" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "A playbook is a structured set of guidelines and procedures for handling specific types of security incidents. It outlines the step-by-step actions, roles, and responsibilities, acting as a blueprint for a coordinated response.",
+      "es": "Un playbook es un conjunto estructurado de pautas y procedimientos para manejar tipos específicos de incidentes de seguridad. Describe las acciones paso a paso, los roles y las responsabilidades, actuando como un modelo para una respuesta coordinada."
+    }
+  },
+  {
+    "id": "T21-Q0005",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below refers to a term that describes an exact sequence of steps, including both manual and automated actions, to be taken in response to a specific security incident?",
+      "es": "¿Cuál de los términos listados a continuación se refiere a un término que describe una secuencia exacta de pasos, incluyendo acciones tanto manuales como automatizadas, que se deben tomar en respuesta a un incidente de seguridad específico?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Runbook", "es": "Runbook" }, "correct": true },
+      { "key": "B", "text": { "en": "Script", "es": "Script" }, "correct": false },
+      { "key": "C", "text": { "en": "Template", "es": "Plantilla" }, "correct": false },
+      { "key": "D", "text": { "en": "Playbook", "es": "Playbook" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "A runbook is a detailed, step-by-step guide for performing a specific task or a sequence of tasks, often used in IT operations and incident response. It is a more granular, operational guide compared to a high-level playbook.",
+      "es": "Un runbook es una guía detallada, paso a paso, para realizar una tarea específica o una secuencia de tareas, a menudo utilizada en operaciones de TI y respuesta a incidentes. Es una guía operacional más granular en comparación con un playbook de alto nivel."
+    }
+  },
+  {
+    "id": "T21-Q0006",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a set of rules, policies, or automated controls designed to regulate technology-related decisions and actions within an organization?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un conjunto de reglas, políticas o controles automatizados diseñados para regular las decisiones y acciones relacionadas con la tecnología dentro de una organización?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Technical standards", "es": "Estándares técnicos" }, "correct": false },
+      { "key": "B", "text": { "en": "Compliance requirements", "es": "Requisitos de cumplimiento" }, "correct": false },
+      { "key": "C", "text": { "en": "Guardrails", "es": "Guardrails" }, "correct": true },
+      { "key": "D", "text": { "en": "Security baselines", "es": "Líneas base de seguridad" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "In a technology context, 'guardrails' refer to automated controls or policies that define and enforce safe boundaries for systems and processes. They are designed to prevent actions that could lead to security risks or operational failures without constant human oversight.",
+      "es": "En un contexto tecnológico, 'guardrails' (barandillas de seguridad) se refieren a controles o políticas automatizadas que definen y aplican límites seguros para sistemas y procesos. Están diseñados para prevenir acciones que podrían conducir a riesgos de seguridad o fallas operativas sin una supervisión humana constante."
+    }
+  },
+  {
+    "id": "T21-Q0007",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a term primarily used in software development to describe the cost of short-term decisions that can lead to long-term problems?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a un término utilizado principalmente en el desarrollo de software para describir el costo de las decisiones a corto plazo que pueden conducir a problemas a largo plazo?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Code entropy", "es": "Entropía del código" }, "correct": false },
+      { "key": "B", "text": { "en": "Exposure factor", "es": "Factor de exposición" }, "correct": false },
+      { "key": "C", "text": { "en": "Risk register", "es": "Registro de riesgos" }, "correct": false },
+      { "key": "D", "text": { "en": "Technical debt", "es": "Deuda técnica" }, "correct": true }
+    ],
+    "explanation": {
+      "en": "Technical debt is a concept in software development that reflects the implied cost of additional rework caused by choosing an easy, but limited, solution instead of a better approach that would take longer. This often happens to meet a deadline, but the 'debt' must be paid back later through refactoring.",
+      "es": "La deuda técnica es un concepto en el desarrollo de software que refleja el costo implícito de un trabajo adicional causado por la elección de una solución fácil, pero limitada, en lugar de un enfoque mejor que llevaría más tiempo. Esto a menudo sucede para cumplir con un plazo, pero la 'deuda' debe ser pagada más tarde a través de la refactorización."
+    }
+  },
+  {
+    "id": "T21-Q0008",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which part of the incident response process involves establishing and maintaining the incident response capability as well as setting up an incident response team?",
+      "es": "¿Qué parte del proceso de respuesta a incidentes implica el establecimiento y mantenimiento de la capacidad de respuesta a incidentes, así como la creación de un equipo de respuesta a incidentes?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Preparation", "es": "Preparación" }, "correct": true },
+      { "key": "B", "text": { "en": "Detection and analysis", "es": "Detección y análisis" }, "correct": false },
+      { "key": "C", "text": { "en": "Containment, eradication, and recovery", "es": "Contención, erradicación y recuperación" }, "correct": false },
+      { "key": "D", "text": { "en": "Post-incident activity", "es": "Actividad posterior al incidente" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "The Preparation phase of the incident response process involves all activities that occur before an incident. This includes developing policies, creating the incident response team, acquiring necessary tools, and training staff to ensure the organization is ready to respond when an incident occurs.",
+      "es": "La fase de Preparación del proceso de respuesta a incidentes incluye todas las actividades que ocurren antes de un incidente. Esto incluye el desarrollo de políticas, la creación del equipo de respuesta a incidentes, la adquisición de las herramientas necesarias y la capacitación del personal para asegurar que la organización esté lista para responder cuando ocurra un incidente."
+    }
+  },
+  {
+    "id": "T21-Q0009",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In the incident response process, the step that involves identifying and understanding potential incidents to determine their scope, impact, and root cause is a part of the:",
+      "es": "En el proceso de respuesta a incidentes, el paso que implica identificar y comprender los incidentes potenciales para determinar su alcance, impacto y causa raíz es parte de la:"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Preparation stage", "es": "Etapa de preparación" }, "correct": false },
+      { "key": "B", "text": { "en": "Detection and analysis stage", "es": "Etapa de detección y análisis" }, "correct": true },
+      { "key": "C", "text": { "en": "Containment, eradication, and recovery stage", "es": "Etapa de contención, erradicación y recuperación" }, "correct": false },
+      { "key": "D", "text": { "en": "Post-incident activity stage", "es": "Etapa de actividad posterior al incidente" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "The Detection and Analysis phase is where an organization identifies and verifies that a security event is indeed an incident. This phase involves monitoring systems, analyzing logs, and gathering evidence to determine the nature, scope, and impact of the incident.",
+      "es": "La fase de Detección y Análisis es donde una organización identifica y verifica que un evento de seguridad es realmente un incidente. Esta fase implica la supervisión de sistemas, el análisis de registros y la recopilación de pruebas para determinar la naturaleza, el alcance y el impacto del incidente."
+    }
+  },
+  {
+    "id": "T21-Q0010",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the following answers refer(s) to the containment, eradication, and recovery stage of the incident response process? (Select all that apply)",
+      "es": "¿Cuál de las siguientes respuestas se refiere a la etapa de contención, erradicación y recuperación del proceso de respuesta a incidentes? (Selecciona todas las que apliquen)"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Restoring normal operations", "es": "Restaurar operaciones normales" }, "correct": true },
+      { "key": "B", "text": { "en": "Eliminating the threat", "es": "Eliminar la amenaza" }, "correct": true },
+      { "key": "C", "text": { "en": "Monitoring and detecting potential incidents", "es": "Monitorear y detectar incidentes potenciales" }, "correct": false },
+      { "key": "D", "text": { "en": "Establishing and maintaining an incident response policy", "es": "Establecer y mantener una política de respuesta a incidentes" }, "correct": false },
+      { "key": "E", "text": { "en": "Mitigating the impact of the incident", "es": "Mitigar el impacto del incidente" }, "correct": true }
+    ],
+    "explanation": {
+      "en": "The Containment, Eradication, and Recovery phase is where the hands-on work of handling an incident takes place. Containment focuses on mitigating the immediate impact by stopping the spread of the incident. Eradication involves eliminating the root cause, and recovery is the process of restoring systems to a normal, secure state.",
+      "es": "La fase de Contención, Erradicación y Recuperación es donde se lleva a cabo el trabajo práctico de manejar un incidente. La contención se centra en mitigar el impacto inmediato deteniendo la propagación del incidente. La erradicación implica eliminar la causa raíz, y la recuperación es el proceso de restaurar los sistemas a un estado normal y seguro."
+    }
+  },
+  {
+    "id": "T21-Q0011",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which stage of the incident response process involves updating incident response plans, policies, and procedures?",
+      "es": "¿Qué etapa del proceso de respuesta a incidentes implica la actualización de los planes, políticas y procedimientos de respuesta a incidentes?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Preparation", "es": "Preparación" }, "correct": false },
+      { "key": "B", "text": { "en": "Detection and analysis", "es": "Detección y análisis" }, "correct": false },
+      { "key": "C", "text": { "en": "Containment, eradication, and recovery", "es": "Contención, erradicación y recuperación" }, "correct": false },
+      { "key": "D", "text": { "en": "Post-incident activity", "es": "Actividad posterior al incidente" }, "correct": true }
+    ],
+    "explanation": {
+      "en": "Post-incident activity, often referred to as 'Lessons Learned', is the final stage of the incident response process. It involves a review of the incident and the response to identify what went well, what could be improved, and how to update plans and procedures to prevent future incidents.",
+      "es": "La actividad posterior al incidente, a menudo conocida como 'Lecciones aprendidas', es la etapa final del proceso de respuesta a incidentes. Implica una revisión del incidente y la respuesta para identificar lo que salió bien, lo que podría mejorarse y cómo actualizar los planes y procedimientos para prevenir futuros incidentes."
+    }
+  },
+  {
+    "id": "T21-Q0012",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a discussion-based activity where team members walk through different scenarios to evaluate the incident response plan without activating any systems?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a una actividad basada en la discusión donde los miembros del equipo recorren diferentes escenarios para evaluar el plan de respuesta a incidentes sin activar ningún sistema?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Tabletop exercise", "es": "Ejercicio de mesa" }, "correct": true },
+      { "key": "B", "text": { "en": "Simulation", "es": "Simulación" }, "correct": false },
+      { "key": "C", "text": { "en": "Threat hunting", "es": "Caza de amenazas" }, "correct": false },
+      { "key": "D", "text": { "en": "Root cause analysis", "es": "Análisis de la causa raíz" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "A tabletop exercise is a discussion-based training session where a facilitator leads participants through a simulated cybersecurity incident. The goal is to evaluate the incident response plan, roles, and communication without using actual systems or live data.",
+      "es": "Un ejercicio de mesa es una sesión de entrenamiento basada en la discusión donde un facilitador guía a los participantes a través de un incidente de ciberseguridad simulado. El objetivo es evaluar el plan de respuesta a incidentes, los roles y la comunicación sin utilizar sistemas reales o datos en vivo."
+    }
+  },
+  {
+    "id": "T21-Q0013",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a more in-depth exercise, which can include activating systems and performing real actions to respond to the incident?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un ejercicio más profundo, que puede incluir la activación de sistemas y la realización de acciones reales para responder al incidente?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Penetration testing", "es": "Pruebas de penetración" }, "correct": false },
+      { "key": "B", "text": { "en": "Threat hunting", "es": "Caza de amenazas" }, "correct": false },
+      { "key": "C", "text": { "en": "Simulation", "es": "Simulación" }, "correct": true },
+      { "key": "D", "text": { "en": "Vulnerability scanning", "es": "Escaneo de vulnerabilidades" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "A security simulation is a hands-on exercise that mimics a real-world cyber attack more closely than a tabletop exercise. It involves activating systems, using tools, and performing live actions to test the technical and procedural aspects of an incident response plan.",
+      "es": "Una simulación de seguridad es un ejercicio práctico que imita un ataque cibernético del mundo real más de cerca que un ejercicio de mesa. Implica la activación de sistemas, el uso de herramientas y la realización de acciones en vivo para probar los aspectos técnicos y de procedimiento de un plan de respuesta a incidentes."
+    }
+  },
+  {
+    "id": "T21-Q0014",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "During the post-incident activity stage, this step involves analyzing logs, forensics data, and other evidence to prevent incident reoccurrence.",
+      "es": "Durante la etapa de actividad posterior al incidente, este paso implica el análisis de registros, datos forenses y otras pruebas para evitar la reaparición del incidente."
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Reporting", "es": "Informes" }, "correct": false },
+      { "key": "B", "text": { "en": "E-discovery", "es": "E-discovery" }, "correct": false },
+      { "key": "C", "text": { "en": "Root cause analysis", "es": "Análisis de la causa raíz" }, "correct": true },
+      { "key": "D", "text": { "en": "Threat hunting", "es": "Caza de amenazas" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "Root Cause Analysis (RCA) is a step in the post-incident activity phase where the team investigates the fundamental cause of the incident. By analyzing logs and forensic data, they can identify the underlying vulnerability or weakness that led to the incident and take steps to prevent it from happening again.",
+      "es": "El Análisis de la Causa Raíz (RCA) es un paso en la fase de actividad posterior al incidente donde el equipo investiga la causa fundamental del incidente. Al analizar los registros y los datos forenses, pueden identificar la vulnerabilidad o debilidad subyacente que condujo al incidente y tomar medidas para evitar que vuelva a ocurrir."
+    }
+  },
+  {
+    "id": "T21-Q0015",
+    "type": "tf",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The term \"Threat hunting\" refers to a proactive search for IoC to identify and address potential threats and vulnerabilities before they can escalate into full-blown incidents.",
+      "es": "El término \"Caza de amenazas\" se refiere a una búsqueda proactiva de IoC para identificar y abordar amenazas y vulnerabilidades potenciales antes de que puedan escalar a incidentes completos."
+    },
+    "options": [
+      { "key": "A", "text": { "en": "True", "es": "Verdadero" }, "correct": true },
+      { "key": "B", "text": { "en": "False", "es": "Falso" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "The statement is true. Threat hunting is a proactive and iterative process of actively searching for threats within a network that may have gone undetected by traditional security tools. It uses Indicators of Compromise (IoC) to find malicious activity and is an essential part of a mature security program.",
+      "es": "La afirmación es verdadera. La caza de amenazas es un proceso proactivo e iterativo de búsqueda activa de amenazas dentro de una red que pueden haber pasado desapercibidas para las herramientas de seguridad tradicionales. Utiliza Indicadores de Compromiso (IoC) para encontrar actividad maliciosa y es una parte esencial de un programa de seguridad maduro."
+    }
+  },
+  {
+    "id": "T21-Q0016",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The process of maintaining a documented record of the handling and movement of evidence to ensure its integrity and admissibility in court is called:",
+      "es": "El proceso de mantener un registro documentado del manejo y movimiento de pruebas para asegurar su integridad y admisibilidad en la corte se llama:"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Chain of custody", "es": "Cadena de custodia" }, "correct": true },
+      { "key": "B", "text": { "en": "Chain of evidence", "es": "Cadena de pruebas" }, "correct": false },
+      { "key": "C", "text": { "en": "Chain of accountability", "es": "Cadena de responsabilidad" }, "correct": false },
+      { "key": "D", "text": { "en": "Chain of responsibility", "es": "Cadena de responsabilidad" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "Chain of custody is a legal and procedural term that refers to the chronological record of the movement, handling, and analysis of physical or electronic evidence. It is a crucial process in forensic investigations to prove that evidence has not been tampered with and is admissible in legal proceedings.",
+      "es": "La cadena de custodia es un término legal y de procedimiento que se refiere al registro cronológico del movimiento, manejo y análisis de pruebas físicas o electrónicas. Es un proceso crucial en las investigaciones forenses para demostrar que las pruebas no han sido manipuladas y son admisibles en procedimientos legales."
+    }
+  },
+  {
+    "id": "T21-Q0017",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The process of identifying, collecting, and producing electronically stored information with the intent of using it in a legal proceeding or investigation is referred to as:",
+      "es": "El proceso de identificar, recopilar y producir información almacenada electrónicamente con la intención de usarla en un procedimiento legal o una investigación se conoce como:"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Litigation hold", "es": "Retención de litigio" }, "correct": false },
+      { "key": "B", "text": { "en": "Evidence management", "es": "Gestión de pruebas" }, "correct": false },
+      { "key": "C", "text": { "en": "Digital forensics", "es": "Análisis forense digital" }, "correct": false },
+      { "key": "D", "text": { "en": "E-discovery", "es": "E-discovery" }, "correct": true }
+    ],
+    "explanation": {
+      "en": "E-discovery (electronic discovery) is the process of locating, securing, and producing electronically stored information (ESI) in the context of legal and regulatory matters. This includes data from computers, emails, and mobile devices.",
+      "es": "E-discovery (descubrimiento electrónico) es el proceso de localizar, asegurar y producir información almacenada electrónicamente (ESI) en el contexto de asuntos legales y regulatorios. Esto incluye datos de computadoras, correos electrónicos y dispositivos móviles."
+    }
+  },
+  {
+    "id": "T21-Q0018",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which type of server is used for collecting diagnostic and monitoring data from networked devices?",
+      "es": "¿Qué tipo de servidor se utiliza para recopilar datos de diagnóstico y monitoreo de dispositivos en red?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Jump server", "es": "Servidor de salto" }, "correct": false },
+      { "key": "B", "text": { "en": "C2 server", "es": "Servidor C2" }, "correct": false },
+      { "key": "C", "text": { "en": "Syslog server", "es": "Servidor Syslog" }, "correct": true },
+      { "key": "D", "text": { "en": "ICS server", "es": "Servidor ICS" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "A Syslog server is a central logging server that collects log data from various devices (routers, switches, servers, etc.) across a network. It provides a centralized repository for security monitoring, troubleshooting, and analysis.",
+      "es": "Un servidor Syslog es un servidor de registro central que recopila datos de registro de varios dispositivos (enrutadores, conmutadores, servidores, etc.) en una red. Proporciona un repositorio centralizado para la supervisión de la seguridad, la solución de problemas y el análisis."
+    }
+  },
+  {
+    "id": "T21-Q0019",
+    "type": "tf",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The term \"Metadata\" refers to data that provides information about other data, but not the actual content of the data. Typically, metadata is not visible to the user by default but can be accessed if needed. For example, email metadata, found in email headers, includes detailed information about the sender, recipient, and the route the message took. Mobile device metadata encompasses details such as the device model, geolocation, camera information, internet usage, phone call and text messaging activity, application usage statistics, and metadata from various files on the device. In web browsing, metadata comes from HTML meta tags located in the head section of a web page. For files, metadata includes details about the author (e.g., the file creator), file type, size, creation date and time, and the last modification date and time.",
+      "es": "El término \"Metadatos\" se refiere a datos que proporcionan información sobre otros datos, pero no el contenido real de los datos. Típicamente, los metadatos no son visibles para el usuario por defecto, pero se pueden acceder si es necesario. Por ejemplo, los metadatos de correo electrónico, que se encuentran en los encabezados de correo electrónico, incluyen información detallada sobre el remitente, el destinatario y la ruta que tomó el mensaje. Los metadatos de dispositivos móviles abarcan detalles como el modelo del dispositivo, la geolocalización, la información de la cámara, el uso de Internet, la actividad de llamadas telefónicas y mensajes de texto, las estadísticas de uso de aplicaciones y los metadatos de varios archivos en el dispositivo. En la navegación web, los metadatos provienen de las etiquetas meta de HTML ubicadas en la sección de encabezado de una página web. Para los archivos, los metadatos incluyen detalles sobre el autor (por ejemplo, el creador del archivo), el tipo de archivo, el tamaño, la fecha y hora de creación, y la fecha y hora de la última modificación."
+    },
+    "options": [
+      { "key": "A", "text": { "en": "True", "es": "Verdadero" }, "correct": true },
+      { "key": "B", "text": { "en": "False", "es": "Falso" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "The statement is true and provides a comprehensive definition of metadata with several correct examples. Metadata is indeed 'data about data' and is critical in many areas of IT and cybersecurity for analysis and investigation.",
+      "es": "La afirmación es verdadera y proporciona una definición completa de los metadatos con varios ejemplos correctos. Los metadatos son, de hecho, 'datos sobre datos' y son críticos en muchas áreas de TI y ciberseguridad para el análisis y la investigación."
+    }
+  },
+  {
+    "id": "T21-Q0020",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A correlation engine used for processing various types of log data into an actionable information is a feature of:",
+      "es": "Un motor de correlación utilizado para procesar varios tipos de datos de registro en una información procesable es una característica de:"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Syslog server", "es": "Servidor Syslog" }, "correct": false },
+      { "key": "B", "text": { "en": "SIEM dashboard", "es": "Panel de SIEM" }, "correct": true },
+      { "key": "C", "text": { "en": "REST API", "es": "API REST" }, "correct": false },
+      { "key": "D", "text": { "en": "Log repository", "es": "Repositorio de registros" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "A correlation engine is a core component of a SIEM (Security Information and Event Management) system. Its purpose is to analyze a large volume of log data from different sources and identify patterns or events that indicate a potential security incident, generating a single, actionable alert.",
+      "es": "Un motor de correlación es un componente central de un sistema SIEM (Gestión de Información y Eventos de Seguridad). Su propósito es analizar un gran volumen de datos de registro de diferentes fuentes e identificar patrones o eventos que indiquen un incidente de seguridad potencial, generando una única alerta procesable."
+    }
+  },
+  {
+    "id": "T21-Q0021",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a process of intercepting network traffic data for analysis and troubleshooting purposes?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a un proceso de interceptar datos de tráfico de red para fines de análisis y solución de problemas?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "AIS", "es": "AIS" }, "correct": false },
+      { "key": "B", "text": { "en": "PCAP", "es": "PCAP" }, "correct": true },
+      { "key": "C", "text": { "en": "EDR", "es": "EDR" }, "correct": false },
+      { "key": "D", "text": { "en": "MaaS", "es": "MaaS" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "PCAP stands for Packet Capture. It is a file format used to store network traffic data captured by network monitoring tools. The process of capturing and analyzing this data is a key part of network forensics and troubleshooting.",
+      "es": "PCAP significa Captura de Paquetes. Es un formato de archivo utilizado para almacenar datos de tráfico de red capturados por herramientas de monitoreo de red. El proceso de capturar y analizar estos datos es una parte clave del análisis forense y la solución de problemas de la red."
+    }
+  },
+  {
+    "id": "T21-Q0022",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A type of document stipulating rules of behavior to be followed by users of computers, networks, and associated resources is known as:",
+      "es": "Un tipo de documento que estipula las reglas de comportamiento que deben seguir los usuarios de computadoras, redes y recursos asociados se conoce como:"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "SLA", "es": "SLA" }, "correct": false },
+      { "key": "B", "text": { "en": "EULA", "es": "EULA" }, "correct": false },
+      { "key": "C", "text": { "en": "AUP", "es": "AUP" }, "correct": true },
+      { "key": "D", "text": { "en": "BPA", "es": "BPA" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "An Acceptable Use Policy (AUP) is a document that outlines the rules for using an organization's technology and network resources. It defines what is considered acceptable and unacceptable behavior for users to protect the organization's assets and data.",
+      "es": "Una Política de Uso Aceptable (AUP) es un documento que describe las reglas para usar la tecnología y los recursos de red de una organización. Define lo que se considera un comportamiento aceptable e inaceptable para los usuarios para proteger los activos y los datos de la organización."
+    }
+  },
+  {
+    "id": "T21-Q0023",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following acronyms refers to a comprehensive strategy and set of procedures designed to ensure that an organization can continue its critical operations and functions during and after a disruptive event?",
+      "es": "¿Cuál de los siguientes acrónimos se refiere a una estrategia integral y un conjunto de procedimientos diseñados para garantizar que una organización pueda continuar con sus operaciones y funciones críticas durante y después de un evento disruptivo?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "DRP", "es": "DRP" }, "correct": false },
+      { "key": "B", "text": { "en": "CP", "es": "CP" }, "correct": false },
+      { "key": "C", "text": { "en": "BCP", "es": "BCP" }, "correct": true },
+      { "key": "D", "text": { "en": "COOP", "es": "COOP" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "A Business Continuity Plan (BCP) is a high-level strategy that outlines how an organization will continue to operate its core business functions during and after a disaster. It is broader than a DRP, as it focuses on all business processes, not just IT systems.",
+      "es": "Un Plan de Continuidad del Negocio (BCP) es una estrategia de alto nivel que describe cómo una organización continuará operando sus funciones comerciales principales durante y después de un desastre. Es más amplio que un DRP, ya que se centra en todos los procesos de negocio, no solo en los sistemas de TI."
+    }
+  },
+  {
+    "id": "T21-Q0024",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a set of procedures put in place to recover IT systems and data following a major disruption?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a un conjunto de procedimientos establecidos para recuperar los sistemas de TI y los datos después de una interrupción importante?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "BCP", "es": "BCP" }, "correct": false },
+      { "key": "B", "text": { "en": "DRP", "es": "DRP" }, "correct": true },
+      { "key": "C", "text": { "en": "IRP", "es": "IRP" }, "correct": false },
+      { "key": "D", "text": { "en": "ERP", "es": "ERP" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "A Disaster Recovery Plan (DRP) is a detailed set of procedures for recovering IT infrastructure and data after a major disruption. It is a subset of the BCP and focuses specifically on the technical aspects of recovery.",
+      "es": "Un Plan de Recuperación ante Desastres (DRP) es un conjunto detallado de procedimientos para recuperar la infraestructura de TI y los datos después de una interrupción importante. Es un subconjunto del BCP y se centra específicamente en los aspectos técnicos de la recuperación."
+    }
+  },
+  {
+    "id": "T21-Q0025",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following terms refers to a documented plan outlining the steps that should be taken in each phase of a cybersecurity incident?",
+      "es": "¿Cuál de los siguientes términos se refiere a un plan documentado que describe los pasos que se deben tomar en cada fase de un incidente de ciberseguridad?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "DRP", "es": "DRP" }, "correct": false },
+      { "key": "B", "text": { "en": "IRP", "es": "IRP" }, "correct": true },
+      { "key": "C", "text": { "en": "BCP", "es": "BCP" }, "correct": false },
+      { "key": "D", "text": { "en": "ERP", "es": "ERP" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "An Incident Response Plan (IRP) is a documented strategy that provides a roadmap for an organization to prepare for, detect, contain, and recover from a cybersecurity incident. It is a crucial component of an organization's overall security program.",
+      "es": "Un Plan de Respuesta a Incidentes (IRP) es una estrategia documentada que proporciona una hoja de ruta para que una organización se prepare, detecte, contenga y se recupere de un incidente de ciberseguridad. Es un componente crucial del programa de seguridad general de una organización."
+    }
+  }
+]

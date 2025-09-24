@@ -1,0 +1,1177 @@
+[
+  {
+    "id": "T15-Q0001",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below is used to describe a foundational level of security configurations and settings required to safeguard a system?",
+      "es": "¿Cuál de los términos listados a continuación se utiliza para describir un nivel fundamental de configuraciones y ajustes de seguridad necesarios para salvaguardar un sistema?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Logical segmentation",
+          "es": "Segmentación lógica"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Secure baseline",
+          "es": "Línea de base segura"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Access control levels",
+          "es": "Niveles de control de acceso"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Principle of least privilege",
+          "es": "Principio de privilegio mínimo"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A secure baseline is a foundational set of security configurations for a system or network. It defines the minimum level of security required to operate, serving as a benchmark for all future configurations.",
+      "es": "Una línea de base segura es un conjunto fundamental de configuraciones de seguridad para un sistema o red. Define el nivel mínimo de seguridad requerido para operar, sirviendo como un punto de referencia para todas las configuraciones futuras."
+    }
+  },
+  {
+    "id": "T15-Q0002",
+    "type": "tf",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Installing mobile apps from trusted sources (e.g., Apple's App Store for iOS devices, or Google Play for Android devices) instead of third-party application stores decreases malware-related security risks.",
+      "es": "Instalar aplicaciones móviles desde fuentes confiables (por ejemplo, la App Store de Apple para dispositivos iOS, o Google Play para dispositivos Android) en lugar de tiendas de aplicaciones de terceros disminuye los riesgos de seguridad relacionados con el malware."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Trusted app stores have a vetting process to review applications for malware and other security vulnerabilities before they are made available to the public. Third-party stores may not have these same rigorous security checks.",
+      "es": "Las tiendas de aplicaciones de confianza tienen un proceso de verificación para revisar las aplicaciones en busca de malware y otras vulnerabilidades de seguridad antes de que estén disponibles para el público. Las tiendas de terceros pueden no tener estos mismos rigurosos controles de seguridad."
+    }
+  },
+  {
+    "id": "T15-Q0003",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Data on a lost or stolen mobile device can be erased by:",
+      "es": "Los datos en un dispositivo móvil perdido o robado pueden ser borrados mediante:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Rooting",
+          "es": "Rooteo"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Sideloading",
+          "es": "Carga lateral"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Low-level formatting",
+          "es": "Formateo de bajo nivel"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Remote wipe",
+          "es": "Borrado remoto"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Remote wipe, a feature often found in MDM solutions, allows an administrator to remotely erase all data from a lost or stolen device to prevent unauthorized access to sensitive information.",
+      "es": "El borrado remoto, una función que a menudo se encuentra en las soluciones MDM, permite a un administrador borrar de forma remota todos los datos de un dispositivo perdido o robado para evitar el acceso no autorizado a información sensible."
+    }
+  },
+  {
+    "id": "T15-Q0004",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a mobile security solution that enables separate controls over the user and enterprise data?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a una solución de seguridad móvil que permite controles separados sobre los datos del usuario y de la empresa?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Resource provisioning",
+          "es": "Aprovisionamiento de recursos"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Content management",
+          "es": "Gestión de contenido"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Storage segmentation",
+          "es": "Segmentación de almacenamiento"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Just-in-time permissions",
+          "es": "Permisos just-in-time"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Storage segmentation is a mobile security technique that creates separate, secure containers for enterprise data and user data on a single device. This allows for corporate data to be managed and secured independently, especially in a BYOD environment.",
+      "es": "La segmentación de almacenamiento es una técnica de seguridad móvil que crea contenedores separados y seguros para los datos de la empresa y los datos del usuario en un solo dispositivo. Esto permite que los datos corporativos se gestionen y aseguren de forma independiente, especialmente en un entorno BYOD."
+    }
+  },
+  {
+    "id": "T15-Q0005",
+    "type": "tf",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Implementing full device encryption is one of the methods for securing sensitive data on a smartphone. When enabled, this type of encryption works in conjunction with the phone's screen lock, i.e., to decrypt the phone (which stays encrypted whenever the phone is locked), a user must first unlock the screen. On Android devices, the unlocking methods include entering a PIN, password, or drawing a simple pattern with a finger. Apple devices use passcodes, facial recognition (Face ID), and fingerprint (Touch ID).",
+      "es": "Implementar el cifrado completo del dispositivo es uno de los métodos para asegurar los datos sensibles en un teléfono inteligente. Cuando se activa, este tipo de cifrado funciona junto con el bloqueo de pantalla del teléfono, es decir, para descifrar el teléfono (que permanece cifrado siempre que el teléfono está bloqueado), un usuario debe primero desbloquear la pantalla. En los dispositivos Android, los métodos de desbloqueo incluyen ingresar un PIN, una contraseña o dibujar un patrón simple con un dedo. Los dispositivos Apple usan códigos de acceso, reconocimiento facial (Face ID) y huellas dactilares (Touch ID)."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Full device encryption uses the screen lock credentials as the key to decrypt the data. This means that an attacker who bypasses the screen lock cannot access the data without the correct PIN, password, or biometric authentication.",
+      "es": "El cifrado completo del dispositivo utiliza las credenciales de bloqueo de pantalla como clave para descifrar los datos. Esto significa que un atacante que omite el bloqueo de pantalla no puede acceder a los datos sin el PIN, la contraseña o la autenticación biométrica correctos."
+    }
+  },
+  {
+    "id": "T15-Q0006",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In the context of MDM, the isolation of corporate applications and data from other parts of the mobile device is referred to as:",
+      "es": "En el contexto de MDM, el aislamiento de aplicaciones y datos corporativos de otras partes del dispositivo móvil se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Containerization",
+          "es": "Contenedorización"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Storage segmentation",
+          "es": "Segmentación de almacenamiento"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Virtualization",
+          "es": "Virtualización"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Content management",
+          "es": "Gestión de contenido"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Containerization is a security technology used in MDM that creates a separate, encrypted 'container' on a mobile device to isolate corporate data and applications from personal data. This allows for secure access and management of corporate assets without interfering with the user's personal information.",
+      "es": "La contenedorización es una tecnología de seguridad utilizada en MDM que crea un 'contenedor' separado y cifrado en un dispositivo móvil para aislar los datos y aplicaciones corporativas de los datos personales. Esto permite un acceso y una gestión seguros de los activos corporativos sin interferir con la información personal del usuario."
+    }
+  },
+  {
+    "id": "T15-Q0007",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the answers listed below refer to workstation hardening techniques? (Select 3 answers)",
+      "es": "¿Cuáles de las respuestas listadas a continuación se refieren a técnicas de endurecimiento de estaciones de trabajo? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Hiding administrator accounts",
+          "es": "Ocultar cuentas de administrador"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Regularly applying security patches and updates to the OS and installed software",
+          "es": "Aplicar regularmente parches de seguridad y actualizaciones al SO y al software instalado"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Disabling all internet access",
+          "es": "Deshabilitar todo el acceso a Internet"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Removing or disabling unnecessary drivers, services, software, and network protocols",
+          "es": "Eliminar o deshabilitar controladores, servicios, software y protocolos de red innecesarios"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Limiting unauthorized or unauthenticated user access",
+          "es": "Limitar el acceso de usuarios no autorizados o no autenticados"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Workstation hardening involves reducing the attack surface by applying security patches, removing unnecessary components, and limiting user access rights. These steps make the system more resilient to attacks.",
+      "es": "El endurecimiento de la estación de trabajo implica reducir la superficie de ataque aplicando parches de seguridad, eliminando componentes innecesarios y limitando los derechos de acceso del usuario. Estos pasos hacen que el sistema sea más resistente a los ataques."
+    }
+  },
+  {
+    "id": "T15-Q0008",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the following answers refer(s) to (a) router hardening technique(s)? (Select all that apply)",
+      "es": "¿Cuál de las siguientes respuestas se refiere(n) a técnica(s) de endurecimiento del enrutador? (Selecciona todas las que apliquen)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Changing default credentials",
+          "es": "Cambiar las credenciales predeterminadas"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Disabling unused services and ports",
+          "es": "Deshabilitar servicios y puertos no utilizados"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Changing device name",
+          "es": "Cambiar el nombre del dispositivo"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Disabling the broadcasting of the router's SSID",
+          "es": "Deshabilitar la difusión del SSID del enrutador"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Implementing regular firmware updates",
+          "es": "Implementar actualizaciones regulares de firmware"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Router hardening involves securing the router's configuration. This includes changing default credentials to prevent unauthorized access, disabling unnecessary services and ports to reduce the attack surface, and regularly updating the firmware to patch security vulnerabilities.",
+      "es": "El endurecimiento del enrutador implica asegurar la configuración del mismo. Esto incluye cambiar las credenciales predeterminadas para evitar el acceso no autorizado, deshabilitar servicios y puertos innecesarios para reducir la superficie de ataque y actualizar regularmente el firmware para parchear las vulnerabilidades de seguridad."
+    }
+  },
+  {
+    "id": "T15-Q0009",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to the process of assessing the physical environment, such as the layout of the building, to identify potential sources of interference and determine the optimal placement of a WAP?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere al proceso de evaluar el entorno físico, como la disposición del edificio, para identificar posibles fuentes de interferencia y determinar la ubicación óptima de un WAP?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Gap analysis",
+          "es": "Análisis de brechas"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Capacity planning",
+          "es": "Planificación de capacidad"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Site survey",
+          "es": "Estudio del sitio"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Vulnerability scanning",
+          "es": "Escaneo de vulnerabilidades"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A site survey is a critical step in deploying a wireless network. It involves analyzing the physical environment to identify the best placement for WAPs, considering factors like interference, coverage, and capacity.",
+      "es": "Un estudio del sitio es un paso crítico en el despliegue de una red inalámbrica. Implica analizar el entorno físico para identificar la mejor ubicación para los WAP, considerando factores como la interferencia, la cobertura y la capacidad."
+    }
+  },
+  {
+    "id": "T15-Q0010",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "An administrator needs to adjust the placement of multiple APs to ensure the best wireless signal coverage for the network. Which of the following would be of help in identifying areas of low signal strength?",
+      "es": "Un administrador necesita ajustar la ubicación de múltiples AP para garantizar la mejor cobertura de señal inalámbrica para la red. ¿Cuál de los siguientes sería de ayuda para identificar áreas de baja intensidad de señal?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Heat map",
+          "es": "Mapa de calor"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Power level controls",
+          "es": "Controles de nivel de potencia"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Logical network diagram",
+          "es": "Diagrama de red lógico"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Wi-Fi hotspots",
+          "es": "Puntos de acceso Wi-Fi"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A heat map is a visual representation of wireless signal strength across a physical area. It uses colors to show areas of strong signal (often red or orange) and weak signal (often blue), helping administrators optimize AP placement.",
+      "es": "Un mapa de calor es una representación visual de la intensidad de la señal inalámbrica en un área física. Utiliza colores para mostrar áreas de señal fuerte (a menudo rojo o naranja) y señal débil (a menudo azul), lo que ayuda a los administradores a optimizar la ubicación del AP."
+    }
+  },
+  {
+    "id": "T15-Q0011",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which type of software allows centralized control over the configuration, monitoring, and security of mobile devices used within an organization?",
+      "es": "¿Qué tipo de software permite el control centralizado sobre la configuración, monitoreo y seguridad de los dispositivos móviles utilizados dentro de una organización?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MDR",
+          "es": "MDR"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IAM",
+          "es": "IAM"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SIEM",
+          "es": "SIEM"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MDM",
+          "es": "MDM"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "MDM, or Mobile Device Management, is a class of software that provides centralized control for an organization's mobile devices, enabling administrators to enforce security policies, manage applications, and perform remote actions like data wipes.",
+      "es": "MDM, o Gestión de Dispositivos Móviles, es una clase de software que proporciona control centralizado para los dispositivos móviles de una organización, permitiendo a los administradores aplicar políticas de seguridad, gestionar aplicaciones y realizar acciones remotas como el borrado de datos."
+    }
+  },
+  {
+    "id": "T15-Q0012",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to software that facilitates the enforcement of mobile device policies and procedures?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a un software que facilita la aplicación de políticas y procedimientos de dispositivos móviles?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "NAC",
+          "es": "NAC"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "MDM",
+          "es": "MDM"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "XDR",
+          "es": "XDR"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "PAM",
+          "es": "PAM"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "MDM software is specifically designed to enforce corporate policies and procedures on mobile devices, such as password requirements, device encryption, and application usage restrictions.",
+      "es": "El software MDM está diseñado específicamente para aplicar políticas y procedimientos corporativos en dispositivos móviles, como requisitos de contraseña, cifrado de dispositivos y restricciones de uso de aplicaciones."
+    }
+  },
+  {
+    "id": "T15-Q0013",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A mobile device deployment model that allows employees to use private mobile devices for accessing the company's restricted data and applications is known as:",
+      "es": "Un modelo de implementación de dispositivos móviles que permite a los empleados usar dispositivos móviles privados para acceder a los datos y aplicaciones restringidos de la compañía se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "COPE",
+          "es": "COPE"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "BYOD",
+          "es": "BYOD"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MDM",
+          "es": "MDM"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CYOD",
+          "es": "CYOD"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "BYOD, or Bring Your Own Device, is a policy that allows employees to use their personal mobile devices for work-related activities. This can increase productivity and reduce costs, but it requires careful security measures to protect corporate data.",
+      "es": "BYOD, o 'Trae tu propio dispositivo', es una política que permite a los empleados usar sus dispositivos móviles personales para actividades relacionadas con el trabajo. Esto puede aumentar la productividad y reducir los costos, pero requiere medidas de seguridad cuidadosas para proteger los datos corporativos."
+    }
+  },
+  {
+    "id": "T15-Q0014",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a mobile device deployment model where organizations provide and own the devices while allowing their personal use?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a un modelo de implementación de dispositivos móviles donde las organizaciones proporcionan y poseen los dispositivos mientras permiten su uso personal?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "BYOD",
+          "es": "BYOD"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "COPE",
+          "es": "COPE"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "ZTA",
+          "es": "ZTA"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CYOD",
+          "es": "CYOD"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "COPE, or Corporate Owned, Personally Enabled, is a deployment model where the organization provides the mobile device to the employee, but also allows them to use it for personal activities. This gives the company more control over security while still providing flexibility to the employee.",
+      "es": "COPE, o Propiedad de la Corporación, Habilitado Personalmente, es un modelo de implementación donde la organización proporciona el dispositivo móvil al empleado, pero también le permite usarlo para actividades personales. Esto le da a la empresa más control sobre la seguridad mientras que todavía proporciona flexibilidad al empleado."
+    }
+  },
+  {
+    "id": "T15-Q0015",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "What is the name of a mobile device deployment model in which employees select devices for work-related tasks from a company-approved device list?",
+      "es": "¿Cuál es el nombre de un modelo de implementación de dispositivos móviles en el que los empleados seleccionan dispositivos para tareas relacionadas con el trabajo de una lista de dispositivos aprobada por la empresa?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CYOD",
+          "es": "CYOD"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "UEM",
+          "es": "UEM"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "BYOD",
+          "es": "BYOD"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "COPE",
+          "es": "COPE"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "CYOD, or Choose Your Own Device, is a deployment model where employees can choose their work device from a curated list of company-approved devices. The company owns and manages the device, but the employee has a choice, which can improve user satisfaction.",
+      "es": "CYOD, o Elige tu propio dispositivo, es un modelo de implementación en el que los empleados pueden elegir su dispositivo de trabajo de una lista curada de dispositivos aprobados por la empresa. La empresa posee y gestiona el dispositivo, pero el empleado tiene una opción, lo que puede mejorar la satisfacción del usuario."
+    }
+  },
+  {
+    "id": "T15-Q0016",
+    "type": "tf",
+    "required_answers": 1,
+    "prompt": {
+      "en": "An SSID is a unique identifier (a.k.a. wireless network name) for a WLAN. Wireless networks advertise their presence by regularly broadcasting SSID in a special packet called beacon frame. In wireless networks with disabled security features, knowing the network SSID is enough to get access to the network. SSID also pinpoints the wireless router that acts as a WAP. Wireless routers from the same manufacturer are frequently configured with default (well-known) SSID names. Since multiple devices with the same SSID displayed on the list of available networks create confusion and encourage accidental access by unauthorized users (applies to networks that lack security), changing the default SSID is a recommended practice.",
+      "es": "Un SSID es un identificador único (también conocido como nombre de red inalámbrica) para una WLAN. Las redes inalámbricas anuncian su presencia al transmitir regularmente el SSID en un paquete especial llamado 'beacon frame'. En redes inalámbricas con funciones de seguridad deshabilitadas, conocer el SSID de la red es suficiente para obtener acceso a la red. El SSID también señala el enrutador inalámbrico que actúa como un WAP. Los enrutadores inalámbricos del mismo fabricante se configuran con frecuencia con nombres SSID predeterminados (bien conocidos). Dado que múltiples dispositivos con el mismo SSID que se muestran en la lista de redes disponibles crean confusión y fomentan el acceso accidental por parte de usuarios no autorizados (se aplica a las redes que carecen de seguridad), cambiar el SSID predeterminado es una práctica recomendada."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "The statement is true. A Service Set Identifier (SSID) is the name of a wireless network. Broadcasting the SSID is the default behavior, and a known default SSID can be a security risk as it can be used to identify the make and model of the router, potentially leading to targeted attacks. Changing the default SSID is a good security practice.",
+      "es": "La afirmación es verdadera. Un identificador de conjunto de servicios (SSID) es el nombre de una red inalámbrica. La difusión del SSID es el comportamiento predeterminado, y un SSID predeterminado conocido puede ser un riesgo de seguridad, ya que se puede usar para identificar la marca y el modelo del enrutador, lo que podría conducir a ataques dirigidos. Cambiar el SSID predeterminado es una buena práctica de seguridad."
+    }
+  },
+  {
+    "id": "T15-Q0017",
+    "type": "tf",
+    "required_answers": 1,
+    "prompt": {
+      "en": "For a wireless client to be able to connect to a network, the security type (e.g., WEP, WPA, WPA2, or WPA3) and encryption type (e.g., TKIP or AES) settings on the connecting host must match the corresponding wireless security settings on a WAP.",
+      "es": "Para que un cliente inalámbrico pueda conectarse a una red, la configuración del tipo de seguridad (por ejemplo, WEP, WPA, WPA2 o WPA3) y el tipo de cifrado (por ejemplo, TKIP o AES) en el host de conexión deben coincidir con la configuración de seguridad inalámbrica correspondiente en un WAP."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "The statement is true. For a successful connection, a wireless client and a WAP must use the same security protocol (e.g., WPA2) and the same encryption algorithm (e.g., AES). A mismatch in these settings will prevent the connection from being established.",
+      "es": "La afirmación es verdadera. Para una conexión exitosa, un cliente inalámbrico y un WAP deben usar el mismo protocolo de seguridad (por ejemplo, WPA2) y el mismo algoritmo de cifrado (por ejemplo, AES). Una falta de coincidencia en estas configuraciones evitará que se establezca la conexión."
+    }
+  },
+  {
+    "id": "T15-Q0018",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a security feature used in Bluetooth device pairing?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a una función de seguridad utilizada en el emparejamiento de dispositivos Bluetooth?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SAE",
+          "es": "SAE"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "PIN",
+          "es": "PIN"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MFA",
+          "es": "MFA"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "ACL",
+          "es": "ACL"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A PIN, or Personal Identification Number, is a common security feature used during the pairing process of Bluetooth devices. The PIN is used to authenticate the two devices to each other and establish a secure, encrypted connection.",
+      "es": "Un PIN, o Número de Identificación Personal, es una característica de seguridad común utilizada durante el proceso de emparejamiento de dispositivos Bluetooth. El PIN se utiliza para autenticar los dos dispositivos entre sí y establecer una conexión segura y cifrada."
+    }
+  },
+  {
+    "id": "T15-Q0019",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following solutions would offer the strongest security for a small network that lacks an authentication server?",
+      "es": "¿Cuál de las siguientes soluciones ofrecería la seguridad más fuerte para una red pequeña que carece de un servidor de autenticación?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "WPA3-SAE",
+          "es": "WPA3-SAE"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "WPA2-Enterprise",
+          "es": "WPA2-Enterprise"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "WPA2-PSK",
+          "es": "WPA2-PSK"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "WPA3-Enterprise",
+          "es": "WPA3-Enterprise"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "For a small network without an authentication server, WPA3-SAE (Simultaneous Authentication of Equals) provides the strongest security. It replaces WPA2-PSK and offers better protection against offline password-guessing attacks.",
+      "es": "Para una red pequeña sin un servidor de autenticación, WPA3-SAE (Autenticación simultánea de iguales) proporciona la seguridad más fuerte. Reemplaza a WPA2-PSK y ofrece una mejor protección contra ataques de adivinación de contraseñas fuera de línea."
+    }
+  },
+  {
+    "id": "T15-Q0020",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "What are the characteristic features of WPA2/WPA3 Enterprise mode? (Select 3 answers)",
+      "es": "¿Cuáles son las características del modo WPA2/WPA3 Enterprise? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Suitable for large corporate networks",
+          "es": "Adecuado para grandes redes corporativas"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IEEE 802.1D",
+          "es": "IEEE 802.1D"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Does not require an authentication server",
+          "es": "No requiere un servidor de autenticación"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "IEEE 802.1X",
+          "es": "IEEE 802.1X"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Suitable for all types of wireless LANs",
+          "es": "Adecuado para todos los tipos de LAN inalámbricas"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Requires RADIUS authentication server",
+          "es": "Requiere un servidor de autenticación RADIUS"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "WPA2/WPA3 Enterprise mode is designed for large networks that require a high level of security. It uses the IEEE 802.1X standard and requires an authentication server, such as RADIUS, to authenticate each user individually.",
+      "es": "El modo WPA2/WPA3 Enterprise está diseñado para grandes redes que requieren un alto nivel de seguridad. Utiliza el estándar IEEE 802.1X y requiere un servidor de autenticación, como RADIUS, para autenticar a cada usuario individualmente."
+    }
+  },
+  {
+    "id": "T15-Q0021",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "What is the name of the encryption protocol primarily used in Wi-Fi networks implementing the WPA3 security standard?",
+      "es": "¿Cuál es el nombre del protocolo de cifrado utilizado principalmente en redes Wi-Fi que implementan el estándar de seguridad WPA3?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "AES-CCMP",
+          "es": "AES-CCMP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CBC-MAC",
+          "es": "CBC-MAC"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "AES-GCMP",
+          "es": "AES-GCMP"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "WPA-TKIP",
+          "es": "WPA-TKIP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "WPA3 primarily uses AES-GCMP (Galois/Counter Mode Protocol) for encryption. This provides a stronger and more efficient method of data protection compared to older standards.",
+      "es": "WPA3 utiliza principalmente AES-GCMP (Protocolo de modo Galois/Counter) para el cifrado. Esto proporciona un método de protección de datos más fuerte y eficiente en comparación con los estándares más antiguos."
+    }
+  },
+  {
+    "id": "T15-Q0022",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following acronyms refers to a client authentication method used in WPA3 Personal mode?",
+      "es": "¿Cuál de los siguientes acrónimos se refiere a un método de autenticación de cliente utilizado en el modo personal de WPA3?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SAE",
+          "es": "SAE"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IKE",
+          "es": "IKE"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PSK",
+          "es": "PSK"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "AES",
+          "es": "AES"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "WPA3 Personal mode uses SAE (Simultaneous Authentication of Equals) instead of the older PSK (Pre-Shared Key) method. SAE provides a more robust and secure handshake, protecting against offline dictionary attacks.",
+      "es": "El modo personal de WPA3 utiliza SAE (Autenticación simultánea de iguales) en lugar del método PSK (Clave pre-compartida) más antiguo. SAE proporciona un 'handshake' más robusto y seguro, protegiendo contra ataques de diccionario fuera de línea."
+    }
+  },
+  {
+    "id": "T15-Q0023",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "What are the characteristics of TACACS+? (Select 3 answers)",
+      "es": "¿Cuáles son las características de TACACS+? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Encrypts only the password in the access-request packet",
+          "es": "Cifra solo la contraseña en el paquete de solicitud de acceso"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Combines authentication and authorization",
+          "es": "Combina la autenticación y la autorización"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Encrypts the entire payload of the access-request packet",
+          "es": "Cifra toda la carga útil del paquete de solicitud de acceso"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Primarily used for device administration",
+          "es": "Se utiliza principalmente para la administración de dispositivos"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Separates authentication and authorization",
+          "es": "Separa la autenticación y la autorización"
+        },
+        "correct": true
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Primarily used for network access",
+          "es": "Se utiliza principalmente para el acceso a la red"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "TACACS+ is a protocol that separates authentication, authorization, and accounting (AAA) services. It encrypts the entire payload of the access-request packet and is primarily used for device administration, such as managing routers and switches.",
+      "es": "TACACS+ es un protocolo que separa los servicios de autenticación, autorización y contabilidad (AAA). Cifra toda la carga útil del paquete de solicitud de acceso y se utiliza principalmente para la administración de dispositivos, como la gestión de enrutadores y conmutadores."
+    }
+  },
+  {
+    "id": "T15-Q0024",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "What are the characteristic features of RADIUS? (Select 3 answers)",
+      "es": "¿Cuáles son las características de RADIUS? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Primarily used for network access",
+          "es": "Se utiliza principalmente para el acceso a la red"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Encrypts the entire payload of the access-request packet",
+          "es": "Cifra toda la carga útil del paquete de solicitud de acceso"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Combines authentication and authorization",
+          "es": "Combina la autenticación y la autorización"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Encrypts only the password in the access-request packet",
+          "es": "Cifra solo la contraseña en el paquete de solicitud de acceso"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Primarily used for device administration",
+          "es": "Se utiliza principalmente para la administración de dispositivos"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Separates authentication and authorization",
+          "es": "Separa la autenticación y la autorización"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "RADIUS is a widely used protocol for network access. It combines authentication and authorization into a single process, and it only encrypts the password in the access-request packet, leaving other information in plain text.",
+      "es": "RADIUS es un protocolo muy utilizado para el acceso a la red. Combina la autenticación y la autorización en un solo proceso, y solo cifra la contraseña en el paquete de solicitud de acceso, dejando otra información en texto plano."
+    }
+  },
+  {
+    "id": "T15-Q0025",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the wireless encryption schemes listed below offers the highest level of protection?",
+      "es": "¿Cuál de los esquemas de cifrado inalámbrico listados a continuación ofrece el nivel más alto de protección?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "WPS",
+          "es": "WPS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "WPA3",
+          "es": "WPA3"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "AES",
+          "es": "AES"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "TKIP",
+          "es": "TKIP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "WPA3 is the latest and most secure wireless security standard. It provides several improvements over WPA2, including a stronger handshake (SAE) and mandatory use of AES-GCMP encryption.",
+      "es": "WPA3 es el estándar de seguridad inalámbrica más reciente y seguro. Proporciona varias mejoras sobre WPA2, incluyendo un 'handshake' más fuerte (SAE) y el uso obligatorio del cifrado AES-GCMP."
+    }
+  }
+]

@@ -1,0 +1,652 @@
+[
+  {
+    "id": "T20-Q0001",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which access control model allows for defining granular rules that consider user roles, time constraints, and network access restrictions?",
+      "es": "¿Qué modelo de control de acceso permite definir reglas granulares que consideran roles de usuario, restricciones de tiempo y restricciones de acceso a la red?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "ABAC", "es": "ABAC" }, "correct": true },
+      { "key": "B", "text": { "en": "MAC", "es": "MAC" }, "correct": false },
+      { "key": "C", "text": { "en": "RuBAC", "es": "RuBAC" }, "correct": false },
+      { "key": "D", "text": { "en": "DAC", "es": "DAC" }, "correct": false },
+      { "key": "E", "text": { "en": "RBAC", "es": "RBAC" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "Attribute-Based Access Control (ABAC) is a highly granular access control model that uses attributes about the user, resource, action, and environment to define policies. It goes beyond simple roles (RBAC) to include contextual factors like time of day, location, and device status, making it more flexible.",
+      "es": "El Control de Acceso Basado en Atributos (ABAC) es un modelo de control de acceso altamente granular que utiliza atributos sobre el usuario, el recurso, la acción y el entorno para definir políticas. Va más allá de los roles simples (RBAC) para incluir factores contextuales como la hora del día, la ubicación y el estado del dispositivo, lo que lo hace más flexible."
+    }
+  },
+  {
+    "id": "T20-Q0002",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Examples of properties used for defining access policies in Attribute-Based Access Control (ABAC) model include:",
+      "es": "Los ejemplos de propiedades utilizadas para definir las políticas de acceso en el modelo de Control de Acceso Basado en Atributos (ABAC) incluyen:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Subject (i.e., user or process requesting access)",
+          "es": "Sujeto (es decir, usuario o proceso que solicita acceso)"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Type of action (for example \"read\", \"write\", \"execute\")",
+          "es": "Tipo de acción (por ejemplo, \"leer\", \"escribir\", \"ejecutar\")"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Resource type (medical record, bank account etc.)",
+          "es": "Tipo de recurso (historial médico, cuenta bancaria, etc.)"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Environment (contextual data, such as time of day or geolocation)",
+          "es": "Entorno (datos contextuales, como la hora del día o la geolocalización)"
+        },
+        "correct": false
+      },
+      { "key": "E", "text": { "en": "All of the above", "es": "Todas las anteriores" }, "correct": true }
+    ],
+    "explanation": {
+      "en": "ABAC policies are defined using a combination of attributes from four categories: subject (the user), object (the resource), action (what the user is trying to do), and environment (the context). Therefore, all the listed options are examples of properties used in ABAC.",
+      "es": "Las políticas de ABAC se definen utilizando una combinación de atributos de cuatro categorías: sujeto (el usuario), objeto (el recurso), acción (lo que el usuario intenta hacer) y entorno (el contexto). Por lo tanto, todas las opciones enumeradas son ejemplos de propiedades utilizadas en ABAC."
+    }
+  },
+  {
+    "id": "T20-Q0003",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which access control model defines access control rules with the use of statements that closely resemble natural language?",
+      "es": "¿Qué modelo de control de acceso define reglas de control de acceso con el uso de declaraciones que se asemejan mucho al lenguaje natural?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "DAC", "es": "DAC" }, "correct": false },
+      { "key": "B", "text": { "en": "ABAC", "es": "ABAC" }, "correct": true },
+      { "key": "C", "text": { "en": "MAC", "es": "MAC" }, "correct": false },
+      { "key": "D", "text": { "en": "RBAC", "es": "RBAC" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "ABAC's policies are often written in a way that is easy to read and understand, as they are based on attributes. For example, a policy might read 'A doctor can view a patient's medical record if the doctor is on duty and located in the hospital.' This closely resembles natural language and makes policy management more intuitive.",
+      "es": "Las políticas de ABAC a menudo se escriben de una manera que es fácil de leer y entender, ya que se basan en atributos. Por ejemplo, una política podría decir 'Un médico puede ver el historial médico de un paciente si el médico está de servicio y se encuentra en el hospital.' Esto se asemeja mucho al lenguaje natural y hace que la gestión de políticas sea más intuitiva."
+    }
+  },
+  {
+    "id": "T20-Q0004",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the access control models listed below enforces the strictest set of access rules?",
+      "es": "¿Cuál de los modelos de control de acceso listados a continuación aplica el conjunto de reglas de acceso más estricto?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "MAC", "es": "MAC" }, "correct": true },
+      { "key": "B", "text": { "en": "RBAC", "es": "RBAC" }, "correct": false },
+      { "key": "C", "text": { "en": "DAC", "es": "DAC" }, "correct": false },
+      { "key": "D", "text": { "en": "ABAC", "es": "ABAC" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "Mandatory Access Control (MAC) is the strictest access control model. Unlike DAC, where a user can grant access, MAC policies are enforced by the system and cannot be changed by the user. Access is based on a rigid classification system (sensitivity labels and clearance levels), making it suitable for high-security environments like the military.",
+      "es": "El Control de Acceso Obligatorio (MAC) es el modelo de control de acceso más estricto. A diferencia del DAC, donde un usuario puede otorgar acceso, las políticas de MAC son aplicadas por el sistema y no pueden ser cambiadas por el usuario. El acceso se basa en un sistema de clasificación rígido (etiquetas de sensibilidad y niveles de autorización), lo que lo hace adecuado para entornos de alta seguridad como el militar."
+    }
+  },
+  {
+    "id": "T20-Q0005",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following access control methods would be the most suitable for scheduling system maintenance tasks during periods of low user activity?",
+      "es": "¿Cuál de los siguientes métodos de control de acceso sería el más adecuado para programar tareas de mantenimiento del sistema durante períodos de baja actividad del usuario?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "Resource provisioning", "es": "Aprovisionamiento de recursos" },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": { "en": "Time-of-day restrictions", "es": "Restricciones por hora del día" },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": { "en": "Principle of least privilege", "es": "Principio del mínimo privilegio" },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": { "en": "Just-in-time permissions", "es": "Permisos Just-in-time" },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Time-of-day restrictions are a type of access control that limits when a user can access a system or resource. This is ideal for tasks like system maintenance, as it can be used to ensure that administrative or maintenance accounts can only be used during off-peak hours.",
+      "es": "Las restricciones por hora del día son un tipo de control de acceso que limita cuándo un usuario puede acceder a un sistema o recurso. Esto es ideal para tareas como el mantenimiento del sistema, ya que se puede usar para garantizar que las cuentas administrativas o de mantenimiento solo se puedan usar fuera de las horas pico."
+    }
+  },
+  {
+    "id": "T20-Q0006",
+    "type": "tf",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The principle of least privilege is a security rule that prevents users from accessing information and resources that lie beyond the scope of their responsibilities.",
+      "es": "El principio del mínimo privilegio es una regla de seguridad que impide a los usuarios acceder a información y recursos que se encuentran fuera del alcance de sus responsabilidades."
+    },
+    "options": [
+      { "key": "A", "text": { "en": "True", "es": "Verdadero" }, "correct": true },
+      { "key": "B", "text": { "en": "False", "es": "Falso" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "The statement is true. The principle of least privilege (PoLP) is a core security concept that dictates that a user should only have the minimum level of access required to perform their job functions. This reduces the risk of data breaches and insider threats.",
+      "es": "La afirmación es verdadera. El principio del mínimo privilegio (PoLP) es un concepto de seguridad central que dicta que un usuario solo debe tener el nivel mínimo de acceso requerido para realizar las funciones de su trabajo. Esto reduce el riesgo de filtraciones de datos y amenazas internas."
+    }
+  },
+  {
+    "id": "T20-Q0007",
+    "type": "tf",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In the context of IT security, the term \"Biometrics\" refers to both biological characteristics of the human body and behavioral traits that can be used for identification and access control purposes.",
+      "es": "En el contexto de la seguridad de TI, el término \"Biometría\" se refiere tanto a las características biológicas del cuerpo humano como a los rasgos de comportamiento que se pueden utilizar para fines de identificación y control de acceso."
+    },
+    "options": [
+      { "key": "A", "text": { "en": "True", "es": "Verdadero" }, "correct": true },
+      { "key": "B", "text": { "en": "False", "es": "Falso" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "The statement is true. Biometrics include both physical traits like fingerprints and iris scans, and behavioral traits like keystroke dynamics or gait analysis. Both are used to uniquely identify individuals for authentication.",
+      "es": "La afirmación es verdadera. La biometría incluye tanto rasgos físicos como huellas dactilares y escaneos de iris, como rasgos de comportamiento como la dinámica de pulsaciones de teclas o el análisis de la marcha. Ambos se utilizan para identificar de forma única a los individuos para la autenticación."
+    }
+  },
+  {
+    "id": "T20-Q0008",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A measure of the likelihood that a biometric security system will incorrectly reject an access attempt by an authorized user is called:",
+      "es": "Una medida de la probabilidad de que un sistema de seguridad biométrico rechace incorrectamente un intento de acceso por parte de un usuario autorizado se llama:"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "FAR", "es": "FAR" }, "correct": false },
+      { "key": "B", "text": { "en": "CER", "es": "CER" }, "correct": false },
+      { "key": "C", "text": { "en": "CRC", "es": "CRC" }, "correct": false },
+      { "key": "D", "text": { "en": "FRR", "es": "FRR" }, "correct": true }
+    ],
+    "explanation": {
+      "en": "False Rejection Rate (FRR) is the measure of how often a legitimate user is incorrectly denied access. This is a crucial metric for evaluating the usability of a biometric system. In contrast, False Acceptance Rate (FAR) measures how often an unauthorized user is granted access.",
+      "es": "La Tasa de Rechazo Falso (FRR) es la medida de la frecuencia con la que un usuario legítimo es denegado incorrectamente el acceso. Esta es una métrica crucial para evaluar la usabilidad de un sistema biométrico. En contraste, la Tasa de Aceptación Falsa (FAR) mide la frecuencia con la que un usuario no autorizado se le concede acceso."
+    }
+  },
+  {
+    "id": "T20-Q0009",
+    "type": "ms",
+    "required_answers": 4,
+    "prompt": {
+      "en": "Which of the answers listed below refer(s) to a medium type that can be used as a hardware authentication token? (Select all that apply)",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a un tipo de medio que se puede usar como un token de autenticación de hardware? (Selecciona todas las que apliquen)"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Smart card", "es": "Tarjeta inteligente" }, "correct": true },
+      { "key": "B", "text": { "en": "Key fob", "es": "Llavero" }, "correct": true },
+      { "key": "C", "text": { "en": "Security key", "es": "Llave de seguridad" }, "correct": true },
+      { "key": "D", "text": { "en": "Passphrase", "es": "Frase de contraseña" }, "correct": false },
+      { "key": "E", "text": { "en": "Biometric reader", "es": "Lector biométrico" }, "correct": false },
+      { "key": "F", "text": { "en": "RFID badge", "es": "Tarjeta RFID" }, "correct": true }
+    ],
+    "explanation": {
+      "en": "Hardware authentication tokens are physical devices used for authentication. Examples include smart cards with embedded chips, key fobs for access control, security keys like YubiKeys for multi-factor authentication, and RFID badges for physical access.",
+      "es": "Los tokens de autenticación de hardware son dispositivos físicos utilizados para la autenticación. Los ejemplos incluyen tarjetas inteligentes con chips incrustados, llaveros para el control de acceso, llaves de seguridad como YubiKeys para la autenticación de múltiples factores y tarjetas RFID para el acceso físico."
+    }
+  },
+  {
+    "id": "T20-Q0010",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following examples does not fall into the category of software authentication tokens?",
+      "es": "¿Cuál de los siguientes ejemplos no entra en la categoría de tokens de autenticación de software?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "QR code token", "es": "Token de código QR" }, "correct": false },
+      { "key": "B", "text": { "en": "Security key", "es": "Llave de seguridad" }, "correct": true },
+      { "key": "C", "text": { "en": "SMS-based OTP", "es": "OTP basado en SMS" }, "correct": false },
+      { "key": "D", "text": { "en": "Authenticator app", "es": "Aplicación de autenticador" }, "correct": false },
+      { "key": "E", "text": { "en": "Email-based OTP", "es": "OTP basado en correo electrónico" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "A security key is a physical hardware device, typically a USB stick, used for authentication. All the other options are software-based tokens: a QR code token is a generated image, an authenticator app (like Google Authenticator) runs on a phone, and OTPs sent via SMS or email are also software-generated and transmitted.",
+      "es": "Una llave de seguridad es un dispositivo físico de hardware, típicamente una memoria USB, que se utiliza para la autenticación. Todas las demás opciones son tokens basados en software: un token de código QR es una imagen generada, una aplicación de autenticador (como Google Authenticator) se ejecuta en un teléfono, y las OTPs enviadas a través de SMS o correo electrónico también se generan y transmiten por software."
+    }
+  },
+  {
+    "id": "T20-Q0011",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the answers listed below refer to the features of a security key? (Select 3 answers)",
+      "es": "¿Cuáles de las respuestas listadas a continuación se refieren a las características de una llave de seguridad? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Used for OTP generation, remote vehicle access, and building access",
+          "es": "Se utiliza para la generación de OTP, el acceso remoto a vehículos y el acceso a edificios"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": { "en": "Hardware authentication token", "es": "Token de autenticación de hardware" },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Typically, a physical USB stick or key fob-sized device",
+          "es": "Típicamente, un dispositivo físico con forma de memoria USB o llavero"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Primarily used for digital security (2FA/MFA)",
+          "es": "Se utiliza principalmente para la seguridad digital (2FA/MFA)"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": { "en": "Software authentication token", "es": "Token de autenticación de software" },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Typically, a credit card-sized plastic card with an embedded chip",
+          "es": "Típicamente, una tarjeta de plástico del tamaño de una tarjeta de crédito con un chip incrustado"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A security key is a hardware token, usually a small physical device like a USB stick, that is used for strong authentication, particularly for multi-factor authentication (MFA). It is distinct from a smart card (credit card-sized) and provides a secure, phishing-resistant second factor.",
+      "es": "Una llave de seguridad es un token de hardware, generalmente un pequeño dispositivo físico como una memoria USB, que se utiliza para una autenticación fuerte, particularmente para la autenticación de múltiples factores (MFA). Es distinta de una tarjeta inteligente (del tamaño de una tarjeta de crédito) y proporciona un segundo factor seguro y resistente al phishing."
+    }
+  },
+  {
+    "id": "T20-Q0012",
+    "type": "tf",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Authentication process can be based on various categories of authentication factors. These include knowledge-based factors such as usernames, passwords, PINs, or security question answers (\"something you know\"), possession-based factors (i.e., physical tokens) such as smart cards, key fobs, or security keys (\"something you have\"), inherence-based factors that include unique physical traits of each individual, such as fingerprints, iris scans, facial recognition, or voice patterns (\"something you are\"), or location-based factors such as geolocation data or IP addresses (\"somewhere you are\"). A multifactor authentication system requires the implementation of authentication factors from two or more distinct categories.",
+      "es": "El proceso de autenticación puede basarse en varias categorías de factores de autenticación. Estos incluyen factores basados en el conocimiento, como nombres de usuario, contraseñas, PIN o respuestas a preguntas de seguridad (\"algo que sabes\"), factores basados en la posesión (es decir, tokens físicos) como tarjetas inteligentes, llaveros o llaves de seguridad (\"algo que tienes\"), factores basados en la inherencia que incluyen rasgos físicos únicos de cada individuo, como huellas dactilares, escaneos de iris, reconocimiento facial o patrones de voz (\"algo que eres\"), o factores basados en la ubicación, como datos de geolocalización o direcciones IP (\"en algún lugar en el que estás\"). Un sistema de autenticación multifactor requiere la implementación de factores de autenticación de dos o más categorías distintas."
+    },
+    "options": [
+      { "key": "A", "text": { "en": "True", "es": "Verdadero" }, "correct": true },
+      { "key": "B", "text": { "en": "False", "es": "Falso" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "The statement is a correct and comprehensive description of authentication factors and multi-factor authentication (MFA). MFA requires at least two factors from different categories, such as a password (something you know) and a security key (something you have), to provide a stronger security posture than single-factor authentication.",
+      "es": "La afirmación es una descripción correcta y completa de los factores de autenticación y la autenticación de múltiples factores (MFA). MFA requiere al menos dos factores de diferentes categorías, como una contraseña (algo que sabes) y una llave de seguridad (algo que tienes), para proporcionar una postura de seguridad más fuerte que la autenticación de un solo factor."
+    }
+  },
+  {
+    "id": "T20-Q0013",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "The two factors that are considered important for creating strong passwords are: (Select 2 answers)",
+      "es": "Los dos factores que se consideran importantes para crear contraseñas fuertes son: (Selecciona 2 respuestas)"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Password length", "es": "Longitud de la contraseña" }, "correct": true },
+      { "key": "B", "text": { "en": "Minimum password age", "es": "Edad mínima de la contraseña" }, "correct": false },
+      { "key": "C", "text": { "en": "Password history", "es": "Historial de contraseñas" }, "correct": false },
+      { "key": "D", "text": { "en": "Password complexity", "es": "Complejidad de la contraseña" }, "correct": true },
+      { "key": "E", "text": { "en": "Maximum password age", "es": "Edad máxima de la contraseña" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "Password length and complexity are the two most crucial factors for password strength. Length increases the time required for a brute-force attack, while complexity (using a mix of character types) makes dictionary and other common attacks ineffective.",
+      "es": "La longitud y la complejidad de la contraseña son los dos factores más cruciales para la fuerza de la contraseña. La longitud aumenta el tiempo requerido para un ataque de fuerza bruta, mientras que la complejidad (utilizando una mezcla de tipos de caracteres) hace que los ataques de diccionario y otros ataques comunes sean ineficaces."
+    }
+  },
+  {
+    "id": "T20-Q0014",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A strong password that meets the password complexity requirement should contain: (Select the best answer)",
+      "es": "Una contraseña fuerte que cumpla con el requisito de complejidad de la contraseña debe contener: (Selecciona la mejor respuesta)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "Uppercase letters (A-Z)", "es": "Letras mayúsculas (A-Z)" },
+        "correct": false
+      },
+      { "key": "B", "text": { "en": "Digits (0-9)", "es": "Dígitos (0-9)" }, "correct": false },
+      {
+        "key": "C",
+        "text": {
+          "en": "Non-alphanumeric characters if permitted (e.g., !, @, #, $)",
+          "es": "Caracteres no alfanuméricos si están permitidos (por ejemplo, !, @, #, $)"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": { "en": "Lowercase letters (a-z)", "es": "Letras minúsculas (a-z)" },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "A combination of characters from at least 3 character groups",
+          "es": "Una combinación de caracteres de al menos 3 grupos de caracteres"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Password complexity is a policy that requires passwords to contain a mix of different character types. While the individual options (uppercase, lowercase, digits, special characters) are all part of complexity, the best answer is the one that combines them, as a strong password uses a mix of these groups.",
+      "es": "La complejidad de la contraseña es una política que requiere que las contraseñas contengan una mezcla de diferentes tipos de caracteres. Si bien las opciones individuales (mayúsculas, minúsculas, dígitos, caracteres especiales) son parte de la complejidad, la mejor respuesta es la que las combina, ya que una contraseña fuerte utiliza una mezcla de estos grupos."
+    }
+  },
+  {
+    "id": "T20-Q0015",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following passwords is the most complex?",
+      "es": "¿Cuál de las siguientes contraseñas es la más compleja?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "T$7C52WL4SU", "es": "T$7C52WL4SU" }, "correct": false },
+      { "key": "B", "text": { "en": "GdL3tU8wxYz", "es": "GdL3tU8wxYz" }, "correct": false },
+      { "key": "C", "text": { "en": "@TxBL$nW@Xt", "es": "@TxBL$nW@Xt" }, "correct": false },
+      { "key": "D", "text": { "en": "G$L3tU8wY@z", "es": "G$L3tU8wY@z" }, "correct": true }
+    ],
+    "explanation": {
+      "en": "The password 'G$L3tU8wY@z' has the most character types (uppercase, lowercase, digits, and special characters) and a reasonable length, making it the most complex and therefore strongest among the given options.",
+      "es": "La contraseña 'G$L3tU8wY@z' tiene la mayor cantidad de tipos de caracteres (mayúsculas, minúsculas, dígitos y caracteres especiales) y una longitud razonable, lo que la hace la más compleja y, por lo tanto, la más fuerte entre las opciones dadas."
+    }
+  },
+  {
+    "id": "T20-Q0016",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which password policy would be the most effective in decreasing the risk of a security breach across multiple accounts?",
+      "es": "¿Qué política de contraseñas sería la más efectiva para disminuir el riesgo de una violación de seguridad en múltiples cuentas?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "Password expiration policy", "es": "Política de caducidad de contraseñas" },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": { "en": "Minimum password age policy", "es": "Política de edad mínima de la contraseña" },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": { "en": "Password reuse policy", "es": "Política de reutilización de contraseñas" },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": { "en": "Maximum password age policy", "es": "Política de edad máxima de la contraseña" },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A password reuse policy prevents users from reusing old passwords, which is a major security risk. If a password is stolen from one account, it can't be used to access other accounts if the user is forced to create a new, unique password. This policy is more effective than simple expiration in preventing widespread breaches.",
+      "es": "Una política de reutilización de contraseñas impide a los usuarios reutilizar contraseñas antiguas, lo que es un gran riesgo de seguridad. Si una contraseña es robada de una cuenta, no se puede usar para acceder a otras cuentas si el usuario se ve obligado a crear una contraseña nueva y única. Esta política es más efectiva que la simple caducidad para prevenir violaciones generalizadas."
+    }
+  },
+  {
+    "id": "T20-Q0017",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which password policy enforces a mandatory password change after a specific time?",
+      "es": "¿Qué política de contraseñas impone un cambio de contraseña obligatorio después de un tiempo específico?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "Password expiration policy", "es": "Política de caducidad de contraseñas" },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": { "en": "Password history policy", "es": "Política de historial de contraseñas" },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": { "en": "Minimum password age policy", "es": "Política de edad mínima de la contraseña" },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": { "en": "Password reuse policy", "es": "Política de reutilización de contraseñas" },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A password expiration policy, also known as maximum password age, requires users to change their passwords after a specified period of time has passed (e.g., every 90 days).",
+      "es": "Una política de caducidad de contraseñas, también conocida como edad máxima de la contraseña, requiere que los usuarios cambien sus contraseñas después de que haya pasado un período de tiempo específico (por ejemplo, cada 90 días)."
+    }
+  },
+  {
+    "id": "T20-Q0018",
+    "type": "tf",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The minimum password age policy setting determines the period of time that a password can be used before the system requires the user to change it.",
+      "es": "La configuración de la política de edad mínima de la contraseña determina el período de tiempo que se puede usar una contraseña antes de que el sistema requiera que el usuario la cambie."
+    },
+    "options": [
+      { "key": "A", "text": { "en": "True", "es": "Verdadero" }, "correct": false },
+      { "key": "B", "text": { "en": "False", "es": "Falso" }, "correct": true }
+    ],
+    "explanation": {
+      "en": "The statement is false. The minimum password age policy determines the period of time that a password must be used before the user can change it. This prevents users from repeatedly changing their password to get back to a preferred one. The maximum password age is the policy that determines when a password must be changed.",
+      "es": "La afirmación es falsa. La política de edad mínima de la contraseña determina el período de tiempo que una contraseña debe ser utilizada antes de que el usuario pueda cambiarla. Esto evita que los usuarios cambien repetidamente su contraseña para volver a una preferida. La edad máxima de la contraseña es la política que determina cuándo debe cambiarse una contraseña."
+    }
+  },
+  {
+    "id": "T20-Q0019",
+    "type": "tf",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The maximum password age policy setting determines the period of time that a password must be used before the user can change it.",
+      "es": "La configuración de la política de edad máxima de la contraseña determina el período de tiempo que una contraseña debe ser utilizada antes de que el usuario pueda cambiarla."
+    },
+    "options": [
+      { "key": "A", "text": { "en": "True", "es": "Verdadero" }, "correct": false },
+      { "key": "B", "text": { "en": "False", "es": "Falso" }, "correct": true }
+    ],
+    "explanation": {
+      "en": "The statement is false. The maximum password age policy setting determines the period of time that a password can be used before the system requires the user to change it. This is also known as password expiration. The minimum password age determines the time a password must be used before a change is allowed.",
+      "es": "La afirmación es falsa. La configuración de la política de edad máxima de la contraseña determina el período de tiempo que se puede usar una contraseña antes de que el sistema requiera que el usuario la cambie. Esto también se conoce como caducidad de la contraseña. La edad mínima de la contraseña determina el tiempo que una contraseña debe ser utilizada antes de que se permita un cambio."
+    }
+  },
+  {
+    "id": "T20-Q0020",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a software tool specifically designed to store and manage login credentials?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a una herramienta de software diseñada específicamente para almacenar y gestionar credenciales de inicio de sesión?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "BitLocker", "es": "BitLocker" }, "correct": false },
+      { "key": "B", "text": { "en": "Password manager", "es": "Gestor de contraseñas" }, "correct": true },
+      { "key": "C", "text": { "en": "Key escrow", "es": "Depósito de claves" }, "correct": false },
+      { "key": "D", "text": { "en": "Password vault", "es": "Bóveda de contraseñas" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "A password manager is a software application designed to securely store and manage a user's login credentials. It helps users create, store, and retrieve strong, unique passwords for various websites and applications, often requiring only a single master password to access the vault.",
+      "es": "Un gestor de contraseñas es una aplicación de software diseñada para almacenar y gestionar de forma segura las credenciales de inicio de sesión de un usuario. Ayuda a los usuarios a crear, almacenar y recuperar contraseñas fuertes y únicas para varios sitios web y aplicaciones, a menudo requiriendo solo una única contraseña maestra para acceder a la bóveda."
+    }
+  },
+  {
+    "id": "T20-Q0021",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following technologies cannot be used as a passwordless authentication method?",
+      "es": "¿Cuál de las siguientes tecnologías no se puede utilizar como un método de autenticación sin contraseña?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Biometrics", "es": "Biometría" }, "correct": false },
+      { "key": "B", "text": { "en": "Hardware tokens", "es": "Tokens de hardware" }, "correct": false },
+      { "key": "C", "text": { "en": "QR codes", "es": "Códigos QR" }, "correct": false },
+      { "key": "D", "text": { "en": "OTPs", "es": "OTPs" }, "correct": false },
+      { "key": "E", "text": { "en": "Passkeys", "es": "Claves de acceso" }, "correct": false },
+      {
+        "key": "F",
+        "text": {
+          "en": "All of the above can be used as a means for passwordless authentication",
+          "es": "Todas las anteriores se pueden utilizar como medio para la autenticación sin contraseña"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "All of the listed technologies can be used for passwordless authentication. Biometrics (e.g., fingerprint, facial scan), hardware tokens (e.g., FIDO keys), QR codes (e.g., for login via a mobile app), OTPs (sent to email/SMS), and passkeys all provide a way to authenticate a user without requiring a traditional password.",
+      "es": "Todas las tecnologías listadas se pueden utilizar para la autenticación sin contraseña. La biometría (por ejemplo, huella dactilar, escaneo facial), los tokens de hardware (por ejemplo, claves FIDO), los códigos QR (por ejemplo, para iniciar sesión a través de una aplicación móvil), las OTPs (enviadas a correo electrónico/SMS) y las claves de acceso, todas proporcionan una forma de autenticar a un usuario sin requerir una contraseña tradicional."
+    }
+  },
+  {
+    "id": "T20-Q0022",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A security solution that provides control over elevated (i.e., administrative type) accounts is referred to as:",
+      "es": "Una solución de seguridad que proporciona control sobre cuentas elevadas (es decir, de tipo administrativo) se conoce como:"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "MFA", "es": "MFA" }, "correct": false },
+      { "key": "B", "text": { "en": "IAM", "es": "IAM" }, "correct": false },
+      { "key": "C", "text": { "en": "SSO", "es": "SSO" }, "correct": false },
+      { "key": "D", "text": { "en": "PAM", "es": "PAM" }, "correct": true }
+    ],
+    "explanation": {
+      "en": "PAM (Privileged Access Management) is a security solution that manages, monitors, and controls privileged accounts, which have elevated permissions (e.g., administrator, root). PAM solutions are critical for minimizing the risk of a breach from a compromised privileged account.",
+      "es": "PAM (Gestión de Acceso Privilegiado) es una solución de seguridad que gestiona, monitorea y controla las cuentas privilegiadas, que tienen permisos elevados (por ejemplo, administrador, root). Las soluciones PAM son críticas para minimizar el riesgo de una violación de una cuenta privilegiada comprometida."
+    }
+  },
+  {
+    "id": "T20-Q0023",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a solution designed to minimize the risk of unauthorized access to privileged accounts?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a una solución diseñada para minimizar el riesgo de acceso no autorizado a cuentas privilegiadas?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "Principle of least privilege", "es": "Principio del mínimo privilegio" },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": { "en": "Just-in-time-permissions", "es": "Permisos Just-in-time" },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": { "en": "Passwordless authentication", "es": "Autenticación sin contraseña" },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": { "en": "Multifactor authentication", "es": "Autenticación de múltiples factores" },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Just-in-time (JIT) permissions are a method for granting elevated permissions for a limited period of time, and only when they are needed. This approach, a key component of a Privileged Access Management (PAM) solution, minimizes the attack surface by ensuring that privileged accounts are not active for longer than necessary.",
+      "es": "Los permisos Just-in-time (JIT) son un método para otorgar permisos elevados por un período de tiempo limitado, y solo cuando son necesarios. Este enfoque, un componente clave de una solución de Gestión de Acceso Privilegiado (PAM), minimiza la superficie de ataque al garantizar que las cuentas privilegiadas no estén activas por más tiempo del necesario."
+    }
+  },
+  {
+    "id": "T20-Q0024",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to an encrypted database that provides secure storage space for user credentials?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a una base de datos cifrada que proporciona un espacio de almacenamiento seguro para las credenciales de usuario?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "Secure enclave", "es": "Enclave seguro" },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": { "en": "Password manager", "es": "Gestor de contraseñas" },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": { "en": "Rainbow table", "es": "Tabla de arco iris" },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": { "en": "Password vault", "es": "Bóveda de contraseñas" },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "A password vault is the encrypted database component of a password manager where a user's credentials are securely stored. It protects the sensitive data with strong encryption, requiring a master password to access it.",
+      "es": "Una bóveda de contraseñas es el componente de base de datos cifrada de un gestor de contraseñas donde las credenciales de un usuario se almacenan de forma segura. Protege los datos sensibles con un cifrado fuerte, que requiere una contraseña maestra para acceder a él."
+    }
+  },
+  {
+    "id": "T20-Q0025",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the terms listed below refer(s) to the concept of ephemeral access, where access to systems, resources, or permissions is provided for a limited duration? (Select all that apply)",
+      "es": "¿Cuál de los términos listados a continuación se refiere al concepto de acceso efímero, donde el acceso a sistemas, recursos o permisos se proporciona por una duración limitada? (Selecciona todas las que apliquen)"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "TOTP", "es": "TOTP" }, "correct": true },
+      { "key": "B", "text": { "en": "OTP", "es": "OTP" }, "correct": true },
+      { "key": "C", "text": { "en": "Just-in-time permissions", "es": "Permisos Just-in-time" }, "correct": true },
+      { "key": "D", "text": { "en": "User password", "es": "Contraseña de usuario" }, "correct": false },
+      { "key": "E", "text": { "en": "API key", "es": "Clave de API" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "The concept of ephemeral access, or short-lived credentials, is central to modern security. TOTP (Time-Based One-Time Password), OTP (One-Time Password), and Just-in-time permissions are all examples of this. They provide temporary access for a single use or a limited time, reducing the risk of a long-term credential compromise.",
+      "es": "El concepto de acceso efímero, o credenciales de corta duración, es fundamental para la seguridad moderna. TOTP (Contraseña de un solo uso basada en el tiempo), OTP (Contraseña de un solo uso) y los permisos Just-in-time son todos ejemplos de esto. Proporcionan acceso temporal para un solo uso o un tiempo limitado, reduciendo el riesgo de un compromiso de credenciales a largo plazo."
+    }
+  }
+]

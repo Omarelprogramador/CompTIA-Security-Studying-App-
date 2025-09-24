@@ -1,0 +1,1169 @@
+[
+  {
+    "id": "T22-Q0001",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below refers to the process of creating and maintaining computer applications?",
+      "es": "¿Cuál de los términos listados a continuación se refiere al proceso de crear y mantener aplicaciones informáticas?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "RAD",
+          "es": "RAD"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SDLC",
+          "es": "SDLC"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "OOP",
+          "es": "OOP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SaaS",
+          "es": "SaaS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "The Software Development Life Cycle (SDLC) is a process used in the software industry to plan, create, test, and deploy applications.",
+      "es": "El Ciclo de Vida del Desarrollo de Software (SDLC) es un proceso utilizado en la industria del software para planificar, crear, probar y desplegar aplicaciones."
+    }
+  },
+  {
+    "id": "T22-Q0002",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following terms is used to describe all aspects of software development?",
+      "es": "¿Cuál de los siguientes términos se usa para describir todos los aspectos del desarrollo de software?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PLC",
+          "es": "PLC"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SDLC",
+          "es": "SDLC"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "QA",
+          "es": "QA"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SDLM",
+          "es": "SDLM"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SDLC (Software Development Life Cycle) is a framework that defines the stages involved in software development, from inception to maintenance.",
+      "es": "SDLC (Ciclo de Vida del Desarrollo de Software) es un marco que define las etapas involucradas en el desarrollo de software, desde el inicio hasta el mantenimiento."
+    }
+  },
+  {
+    "id": "T22-Q0003",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A new-user setup checklist includes all the activities that enable a new hire to become productive. Examples of such activities (which are part of the so-called onboarding process) include setting up the hardware and software environment for the new user as well as providing all the necessary training. An end-user termination checklist deals with all the actions that should take place during the offboarding process (i.e., whenever an employee leaves the company). Examples of the checklist items include fulfilling all the required documents, removing the employee's access to resources (e.g., company-owned devices, user accounts, etc.), and discussing their reasons for leaving and experiences with the employer during an exit interview.",
+      "es": "Una lista de verificación de configuración de nuevo usuario incluye todas las actividades que permiten que un nuevo empleado se vuelva productivo. Ejemplos de tales actividades (que son parte del llamado proceso de incorporación) incluyen configurar el entorno de hardware y software para el nuevo usuario, así como proporcionar toda la capacitación necesaria. Una lista de verificación de terminación de usuario final trata con todas las acciones que deben tener lugar durante el proceso de desvinculación (es decir, cuando un empleado deja la empresa). Ejemplos de los elementos de la lista de verificación incluyen completar todos los documentos requeridos, eliminar el acceso del empleado a los recursos (por ejemplo, dispositivos propiedad de la empresa, cuentas de usuario, etc.) y discutir sus razones para irse y sus experiencias con el empleador durante una entrevista de salida."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "This statement accurately describes the purpose and contents of new-user and end-user termination checklists, which are crucial for security and operational efficiency.",
+      "es": "Esta afirmación describe con precisión el propósito y el contenido de las listas de verificación de configuración de nuevos usuarios y de terminación de usuarios finales, que son cruciales para la seguridad y la eficiencia operativa."
+    }
+  },
+  {
+    "id": "T22-Q0004",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below best describes GDPR as an act of law?",
+      "es": "¿Cuál de los términos listados a continuación describe mejor GDPR como un acto de ley?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Regulatory",
+          "es": "Regulatorio"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Local",
+          "es": "Local"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Industry-specific",
+          "es": "Específico de la industria"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Global",
+          "es": "Global"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "GDPR (General Data Protection Regulation) is a regulatory framework for data protection and privacy in the European Union.",
+      "es": "GDPR (Reglamento General de Protección de Datos) es un marco regulatorio para la protección de datos y la privacidad en la Unión Europea."
+    }
+  },
+  {
+    "id": "T22-Q0005",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following terms refers to an industry-specific regulation?",
+      "es": "¿Cuál de los siguientes términos se refiere a una regulación específica de la industria?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "RFC",
+          "es": "RFC"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "ISO",
+          "es": "ISO"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PCI DSS",
+          "es": "PCI DSS"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "GDPR",
+          "es": "GDPR"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "PCI DSS (Payment Card Industry Data Security Standard) is a set of security standards designed to ensure that all companies that accept, process, store, or transmit credit card information maintain a secure environment.",
+      "es": "PCI DSS (Estándar de Seguridad de Datos para la Industria de Tarjetas de Pago) es un conjunto de estándares de seguridad diseñados para garantizar que todas las empresas que aceptan, procesan, almacenan o transmiten información de tarjetas de crédito mantengan un entorno seguro."
+    }
+  },
+  {
+    "id": "T22-Q0006",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to an organization that develops a wide range of standards on a global level?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a una organización que desarrolla una amplia gama de estándares a nivel global?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "IEEE",
+          "es": "IEEE"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "ANSI",
+          "es": "ANSI"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "ISO",
+          "es": "ISO"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "NIST",
+          "es": "NIST"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ISO (International Organization for Standardization) is a non-governmental organization that develops and publishes international standards.",
+      "es": "ISO (Organización Internacional de Normalización) es una organización no gubernamental que desarrolla y publica estándares internacionales."
+    }
+  },
+  {
+    "id": "T22-Q0007",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which decision-making authorities assume the responsibility for strategic direction and governance oversight at the highest level of an organization?",
+      "es": "¿Qué autoridades de toma de decisiones asumen la responsabilidad de la dirección estratégica y la supervisión de la gobernanza al más alto nivel de una organización?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Stakeholders",
+          "es": "Partes interesadas"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Boards",
+          "es": "Juntas directivas"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Committees",
+          "es": "Comités"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Government entities",
+          "es": "Entidades gubernamentales"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Boards of directors or similar governing bodies are at the top of an organization's hierarchy and are responsible for its strategic direction and oversight.",
+      "es": "Las juntas directivas o cuerpos de gobierno similares están en la cima de la jerarquía de una organización y son responsables de su dirección estratégica y supervisión."
+    }
+  },
+  {
+    "id": "T22-Q0008",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a general term used to describe a specialized group within an organization focusing on specific tasks or areas of responsibility?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un término general utilizado para describir un grupo especializado dentro de una organización que se enfoca en tareas o áreas de responsabilidad específicas?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Council",
+          "es": "Consejo"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Advisory board",
+          "es": "Junta asesora"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Committee",
+          "es": "Comité"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Task force",
+          "es": "Grupo de trabajo"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A committee is a group of people appointed for a specific function, typically advisory or decision-making.",
+      "es": "Un comité es un grupo de personas designado para una función específica, típicamente de asesoramiento o toma de decisiones."
+    }
+  },
+  {
+    "id": "T22-Q0009",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to public sector organizations that set and enforce laws and regulations at local, regional, or national levels?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a organizaciones del sector público que establecen y hacen cumplir leyes y regulaciones a nivel local, regional o nacional?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Government entities",
+          "es": "Entidades gubernamentales"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Trade associations",
+          "es": "Asociaciones comerciales"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Statutory bodies",
+          "es": "Cuerpos estatutarios"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Regulatory agencies",
+          "es": "Agencias reguladoras"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Government entities are public sector organizations that create, implement, and enforce laws and regulations at various levels.",
+      "es": "Las entidades gubernamentales son organizaciones del sector público que crean, implementan y hacen cumplir leyes y regulaciones en varios niveles."
+    }
+  },
+  {
+    "id": "T22-Q0010",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following terms describes individuals or entities with overall accountability and authority over the data or system?",
+      "es": "¿Cuál de los siguientes términos describe a individuos o entidades con responsabilidad y autoridad general sobre los datos o el sistema?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Custodians",
+          "es": "Custodios"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Owners",
+          "es": "Propietarios"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Processors",
+          "es": "Procesadores"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Controllers",
+          "es": "Controladores"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Data owners are the individuals or departments with the ultimate responsibility for the data, its accuracy, and its protection.",
+      "es": "Los propietarios de datos son los individuos o departamentos con la máxima responsabilidad sobre los datos, su precisión y su protección."
+    }
+  },
+  {
+    "id": "T22-Q0011",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to organizations or individuals responsible for ensuring compliance with data protection laws?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a organizaciones o individuos responsables de asegurar el cumplimiento de las leyes de protección de datos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Controllers",
+          "es": "Controladores"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Stewards",
+          "es": "Administradores"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Owners",
+          "es": "Propietarios"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Processors",
+          "es": "Procesadores"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Data controllers determine the purpose and means of processing personal data and are responsible for ensuring compliance with data protection laws like GDPR.",
+      "es": "Los controladores de datos determinan el propósito y los medios del procesamiento de datos personales y son responsables de asegurar el cumplimiento de las leyes de protección de datos como GDPR."
+    }
+  },
+  {
+    "id": "T22-Q0012",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to entities that act on behalf of the data controller to perform specific data-related tasks?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a entidades que actúan en nombre del controlador de datos para realizar tareas específicas relacionadas con los datos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Stewards",
+          "es": "Administradores"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Owners",
+          "es": "Propietarios"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Processors",
+          "es": "Procesadores"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Controllers",
+          "es": "Controladores"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Data processors handle data on behalf of a data controller, following their instructions. They are often third-party organizations.",
+      "es": "Los procesadores de datos manejan los datos en nombre de un controlador de datos, siguiendo sus instrucciones. A menudo son organizaciones de terceros."
+    }
+  },
+  {
+    "id": "T22-Q0013",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "Which of the answers listed below refer(s) to individuals responsible for the day-to-day management, storage, and protection of data? (Select all that apply)",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a individuos responsables de la gestión diaria, el almacenamiento y la protección de los datos? (Selecciona todas las que apliquen)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Processors",
+          "es": "Procesadores"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Controllers",
+          "es": "Controladores"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Stewards",
+          "es": "Administradores"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Owners",
+          "es": "Propietarios"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Custodians",
+          "es": "Custodios"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Data stewards and data custodians are responsible for the day-to-day operational tasks related to data management, including storage and protection.",
+      "es": "Los administradores de datos y los custodios de datos son responsables de las tareas operativas diarias relacionadas con la gestión de datos, incluido el almacenamiento y la protección."
+    }
+  },
+  {
+    "id": "T22-Q0014",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The process of determining potential risks that could affect an organization's ability to achieve its objectives is called:",
+      "es": "El proceso de determinar los riesgos potenciales que podrían afectar la capacidad de una organización para lograr sus objetivos se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Risk assessment",
+          "es": "Evaluación de riesgos"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Risk identification",
+          "es": "Identificación de riesgos"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Risk analysis",
+          "es": "Análisis de riesgos"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Risk management",
+          "es": "Gestión de riesgos"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Risk identification is the first step in the risk management process, where potential threats and vulnerabilities are identified.",
+      "es": "La identificación de riesgos es el primer paso en el proceso de gestión de riesgos, donde se identifican las amenazas y vulnerabilidades potenciales."
+    }
+  },
+  {
+    "id": "T22-Q0015",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The process of evaluating discovered risks to understand their potential impact and likelihood is referred to as:",
+      "es": "El proceso de evaluar los riesgos descubiertos para comprender su impacto potencial y probabilidad se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Risk analysis",
+          "es": "Análisis de riesgos"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Risk assessment",
+          "es": "Evaluación de riesgos"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Risk identification",
+          "es": "Identificación de riesgos"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Risk management",
+          "es": "Gestión de riesgos"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Risk analysis involves examining and evaluating identified risks to understand their potential impact and likelihood.",
+      "es": "El análisis de riesgos implica examinar y evaluar los riesgos identificados para comprender su impacto potencial y probabilidad."
+    }
+  },
+  {
+    "id": "T22-Q0016",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a risk assessment method based on need, typically conducted in response to specific events or changes, such as after a major organizational change or a security breach?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un método de evaluación de riesgos basado en la necesidad, típicamente realizado en respuesta a eventos o cambios específicos, como después de un cambio organizacional importante o una brecha de seguridad?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Ad hoc",
+          "es": "Ad hoc"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Recurring",
+          "es": "Recurrente"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "One-time",
+          "es": "Única vez"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Continuous",
+          "es": "Continua"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "An ad hoc risk assessment is performed on an as-needed basis in response to an unexpected event or change.",
+      "es": "Una evaluación de riesgos ad hoc se realiza según sea necesario en respuesta a un evento o cambio inesperado."
+    }
+  },
+  {
+    "id": "T22-Q0017",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to an example of recurring risk assessment?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a un ejemplo de evaluación de riesgos recurrente?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Real-time monitoring of network security threats",
+          "es": "Monitoreo en tiempo real de amenazas de seguridad de red"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Assessing risk after a major organizational change or a security breach",
+          "es": "Evaluación de riesgos después de un cambio organizacional importante o una brecha de seguridad"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Quarterly or annual risk assessments",
+          "es": "Evaluaciones de riesgo trimestrales o anuales"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Risk assessment for a new product launch",
+          "es": "Evaluación de riesgos para el lanzamiento de un nuevo producto"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Recurring risk assessments are scheduled at regular intervals, such as quarterly or annually, to ensure ongoing risk management.",
+      "es": "Las evaluaciones de riesgos recurrentes se programan a intervalos regulares, como trimestral o anualmente, para asegurar la gestión continua del riesgo."
+    }
+  },
+  {
+    "id": "T22-Q0018",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a risk assessment conducted for a specific purpose or project, without plans for regular reassessment (e.g., risk assessment for a new product launch)?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a una evaluación de riesgos realizada con un propósito o proyecto específico, sin planes de reevaluación regular (por ejemplo, evaluación de riesgos para el lanzamiento de un nuevo producto)?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "One-time",
+          "es": "Única vez"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Recurring",
+          "es": "Recurrente"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Ad hoc",
+          "es": "Ad hoc"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Continuous",
+          "es": "Continua"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A one-time risk assessment is a single event conducted for a specific purpose or project, such as a new product launch, without a scheduled follow-up.",
+      "es": "Una evaluación de riesgos única es un evento único realizado para un propósito o proyecto específico, como el lanzamiento de un nuevo producto, sin un seguimiento programado."
+    }
+  },
+  {
+    "id": "T22-Q0019",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to an example of continuous risk assessment?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a un ejemplo de evaluación de riesgos continua?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Quarterly or annual risk assessments",
+          "es": "Evaluaciones de riesgo trimestrales o anuales"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Risk assessment for a new product launch",
+          "es": "Evaluación de riesgos para el lanzamiento de un nuevo producto"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Assessing risk after a major organizational change or a security breach",
+          "es": "Evaluación de riesgos después de un cambio organizacional importante o una brecha de seguridad"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Real-time monitoring of network security threats",
+          "es": "Monitoreo en tiempo real de amenazas de seguridad de red"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Continuous risk assessment involves ongoing monitoring and evaluation of risks in real-time, such as monitoring network security threats.",
+      "es": "La evaluación de riesgos continua implica el monitoreo y la evaluación en curso de los riesgos en tiempo real, como el monitoreo de las amenazas de seguridad de la red."
+    }
+  },
+  {
+    "id": "T22-Q0020",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Assessment of risk probability and its impact based on subjective judgment falls into the category of:",
+      "es": "La evaluación de la probabilidad de riesgo y su impacto basada en un juicio subjetivo cae en la categoría de:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Risk acceptance",
+          "es": "Aceptación de riesgos"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Quantitative risk assessment",
+          "es": "Evaluación de riesgos cuantitativa"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Risk tolerance",
+          "es": "Tolerancia al riesgo"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Qualitative risk assessment",
+          "es": "Evaluación de riesgos cualitativa"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Qualitative risk assessment uses subjective judgment and descriptive terms (e.g., low, medium, high) to evaluate risk probability and impact.",
+      "es": "La evaluación de riesgos cualitativa utiliza un juicio subjetivo y términos descriptivos (por ejemplo, bajo, medio, alto) para evaluar la probabilidad e impacto del riesgo."
+    }
+  },
+  {
+    "id": "T22-Q0021",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A calculation of SLE is an example of:",
+      "es": "Un cálculo de SLE es un ejemplo de:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Quantitative risk assessment",
+          "es": "Evaluación de riesgos cuantitativa"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Ad hoc risk assessment",
+          "es": "Evaluación de riesgos ad hoc"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Qualitative risk assessment",
+          "es": "Evaluación de riesgos cualitativa"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Recurring risk assessment",
+          "es": "Evaluación de riesgos recurrente"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SLE (Single Loss Expectancy) is a monetary value that represents the expected loss from a single security incident. Calculating SLE is a key component of quantitative risk assessment.",
+      "es": "SLE (Expectativa de Pérdida Única) es un valor monetario que representa la pérdida esperada de un solo incidente de seguridad. Calcular el SLE es un componente clave de la evaluación de riesgos cuantitativa."
+    }
+  },
+  {
+    "id": "T22-Q0022",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following terms is used to describe the predicted loss of value to an asset based on a single security incident?",
+      "es": "¿Cuál de los siguientes términos se usa para describir la pérdida de valor prevista para un activo basada en un solo incidente de seguridad?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SLE",
+          "es": "SLE"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "ARO",
+          "es": "ARO"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "ALE",
+          "es": "ALE"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SLA",
+          "es": "SLA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SLE (Single Loss Expectancy) is the expected monetary loss every time a risk event occurs.",
+      "es": "SLE (Expectativa de Pérdida Única) es la pérdida monetaria esperada cada vez que ocurre un evento de riesgo."
+    }
+  },
+  {
+    "id": "T22-Q0023",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the acronyms listed below refers to a risk assessment formula defining probable financial loss due to a risk over a one-year period?",
+      "es": "¿Cuál de los acrónimos listados a continuación se refiere a una fórmula de evaluación de riesgos que define la pérdida financiera probable debido a un riesgo durante un período de un año?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ARO",
+          "es": "ARO"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SLE",
+          "es": "SLE"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "ALE",
+          "es": "ALE"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SLA",
+          "es": "SLA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ALE (Annualized Loss Expectancy) is the product of SLE and ARO, representing the expected financial loss from a risk over a year.",
+      "es": "ALE (Expectativa de Pérdida Anualizada) es el producto de SLE y ARO, que representa la pérdida financiera esperada de un riesgo durante un año."
+    }
+  },
+  {
+    "id": "T22-Q0024",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to the correct formula for calculating probable financial loss due to a risk over a one-year period?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a la fórmula correcta para calcular la pérdida financiera probable debido a un riesgo durante un período de un año?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SLE = AV x EF",
+          "es": "SLE = AV x EF"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "ALE = ARO x SLE",
+          "es": "ALE = ARO x SLE"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SLE = ALE x AV",
+          "es": "SLE = ALE x AV"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "ALE = AV x EF",
+          "es": "ALE = AV x EF"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "The correct formula for Annualized Loss Expectancy (ALE) is ALE = Annualized Rate of Occurrence (ARO) multiplied by Single Loss Expectancy (SLE).",
+      "es": "La fórmula correcta para la Expectativa de Pérdida Anualizada (ALE) es ALE = Tasa de Ocurrencia Anualizada (ARO) multiplicada por la Expectativa de Pérdida Única (SLE)."
+    }
+  },
+  {
+    "id": "T22-Q0025",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In quantitative risk assessment, this term is used for estimating the likelihood of occurrence of a future threat.",
+      "es": "En la evaluación de riesgos cuantitativa, este término se usa para estimar la probabilidad de ocurrencia de una amenaza futura."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ALE",
+          "es": "ALE"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SLA",
+          "es": "SLA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "ARO",
+          "es": "ARO"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SLE",
+          "es": "SLE"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ARO (Annualized Rate of Occurrence) is an estimate of the number of times a threat is likely to occur over a period of one year.",
+      "es": "ARO (Tasa de Ocurrencia Anualizada) es una estimación del número de veces que es probable que una amenaza ocurra durante un período de un año."
+    }
+  }
+]

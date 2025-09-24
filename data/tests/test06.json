@@ -1,0 +1,726 @@
+[
+  {
+    "id": "T06-Q0001",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the following answers can be used to describe self-signed digital certificates? (Select 3 answers)",
+      "es": "¿Cuáles de las siguientes respuestas pueden usarse para describir certificados digitales autofirmados? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Backed by a well-known and trusted third party",
+          "es": "Respaldado por una tercera parte reconocida y confiable"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Not trusted by default by web browsers and other applications",
+          "es": "No son confiables por defecto en navegadores y aplicaciones"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Used in trusted environments, such as internal networks and development environments",
+          "es": "Usados en entornos confiables como redes internas y entornos de desarrollo"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Suitable for websites and other applications that are accessible to the public",
+          "es": "Adecuados para sitios web y aplicaciones accesibles al público"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Trusted by default by web browsers and other applications",
+          "es": "Confiados por defecto en navegadores y aplicaciones"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Not backed by a well-known and trusted third party",
+          "es": "No están respaldados por una tercera parte reconocida y confiable"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Self-signed certificates are created and signed by the entity itself, not a CA, so they are not trusted by default and best suited for internal/development use.",
+      "es": "Los certificados autofirmados son creados y firmados por la propia entidad, no por una CA, por lo que no son confiables por defecto y se usan en entornos internos o de desarrollo."
+    }
+  },
+  {
+    "id": "T06-Q0002",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A self-signed digital certificate is also referred to as:",
+      "es": "Un certificado digital autofirmado también se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Client certificate",
+          "es": "Certificado de cliente"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "EV certificate",
+          "es": "Certificado EV"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Server certificate",
+          "es": "Certificado de servidor"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Wildcard certificate",
+          "es": "Certificado comodín"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "None of the above",
+          "es": "Ninguna de las anteriores"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Self-signed certificates are not a specific type like EV, server, or wildcard; they are any certificate signed by its own key.",
+      "es": "Los certificados autofirmados no son un tipo específico como EV, servidor o comodín; son cualquier certificado firmado con su propia clave."
+    }
+  },
+  {
+    "id": "T06-Q0003",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Third-party digital certificates, issued by trusted CAs, are automatically trusted by most browsers and operating systems, involve a cost, and require validation of the applicant's identity. In contrast, self-signed certificates, issued by the entity to itself, are not automatically trusted, are free to create and use, and do not require validation by a CA.",
+      "es": "Los certificados digitales de terceros, emitidos por CAs confiables, son confiados automáticamente, tienen costo y requieren validación de identidad. En contraste, los autofirmados no son confiados automáticamente, son gratuitos y no requieren validación por CA."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Trusted CA certificates are widely recognized and involve identity validation, while self-signed ones do not.",
+      "es": "Los certificados de CA confiables son ampliamente reconocidos y validan identidad, mientras que los autofirmados no."
+    }
+  },
+  {
+    "id": "T06-Q0004",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In the context of digital certificates, the term 'Root of trust' refers to the highest level of trust within a PKI system...",
+      "es": "En el contexto de certificados digitales, 'Raíz de confianza' se refiere al nivel más alto de confianza en un sistema PKI..."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "The root CA anchors trust in PKI; all other certs derive trust through the chain of trust back to the root.",
+      "es": "La CA raíz ancla la confianza en la PKI; todos los demás certificados derivan confianza a través de la cadena de confianza hacia la raíz."
+    }
+  },
+  {
+    "id": "T06-Q0005",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a PKI trust model?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un modelo de confianza PKI?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Single CA model",
+          "es": "Modelo de CA única"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Hierarchical model (root CA + intermediate CAs)",
+          "es": "Modelo jerárquico (CA raíz + intermedias)"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Mesh model (cross-certifying CAs)",
+          "es": "Modelo en malla (CAs con certificación cruzada)"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Web of trust model (all CAs function as root CAs)",
+          "es": "Modelo de red de confianza (todas las CAs funcionan como raíz)"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Chain of trust model (multiple CAs in a sequential chain)",
+          "es": "Modelo de cadena de confianza (múltiples CAs en cadena secuencial)"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Bridge model (cross-certifying between separate PKIs)",
+          "es": "Modelo puente (certificación cruzada entre PKIs separadas)"
+        },
+        "correct": false
+      },
+      {
+        "key": "G",
+        "text": {
+          "en": "Hybrid model (combining aspects of different models)",
+          "es": "Modelo híbrido (combinando aspectos de distintos modelos)"
+        },
+        "correct": false
+      },
+      {
+        "key": "H",
+        "text": {
+          "en": "All of the above",
+          "es": "Todos los anteriores"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Several PKI trust models exist including single, hierarchical, mesh, web of trust, chain, bridge, and hybrid.",
+      "es": "Existen varios modelos de confianza PKI incluyendo único, jerárquico, malla, red de confianza, cadena, puente e híbrido."
+    }
+  },
+   {
+    "id": "T06-Q0006",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a cryptographic file generated by an entity requesting a digital certificate from a CA?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un archivo criptográfico generado por una entidad que solicita un certificado digital a una CA?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "OID", "es": "OID" }, "correct": false },
+      { "key": "B", "text": { "en": "CSR", "es": "CSR" }, "correct": true },
+      { "key": "C", "text": { "en": "DN", "es": "DN" }, "correct": false },
+      { "key": "D", "text": { "en": "CRL", "es": "CRL" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "A Certificate Signing Request (CSR) is generated by an entity to request a digital certificate from a CA.",
+      "es": "Una Solicitud de Firma de Certificado (CSR) es generada por una entidad para solicitar un certificado digital a una CA."
+    }
+  },
+  {
+    "id": "T06-Q0007",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A type of digital certificate that can be used to secure multiple subdomains within a primary domain is known as:",
+      "es": "Un tipo de certificado digital que puede usarse para asegurar múltiples subdominios dentro de un dominio principal se conoce como:"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Root signing certificate", "es": "Certificado raíz de firma" }, "correct": false },
+      { "key": "B", "text": { "en": "Subject Alternative Name (SAN) certificate", "es": "Certificado con Nombre Alternativo del Sujeto (SAN)" }, "correct": false },
+      { "key": "C", "text": { "en": "Extended Validation (EV) certificate", "es": "Certificado de Validación Extendida (EV)" }, "correct": false },
+      { "key": "D", "text": { "en": "Wildcard certificate", "es": "Certificado comodín" }, "correct": true }
+    ],
+    "explanation": {
+      "en": "Wildcard certificates can secure a primary domain and all its subdomains using a single certificate.",
+      "es": "Los certificados comodín pueden asegurar un dominio principal y todos sus subdominios con un único certificado."
+    }
+  },
+  {
+    "id": "T06-Q0008",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which digital certificate type allows to secure multiple domain names or subdomains with a single certificate?",
+      "es": "¿Qué tipo de certificado digital permite asegurar múltiples nombres de dominio o subdominios con un solo certificado?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Extended Validation (EV) certificate", "es": "Certificado de Validación Extendida (EV)" }, "correct": false },
+      { "key": "B", "text": { "en": "Wildcard certificate", "es": "Certificado comodín" }, "correct": false },
+      { "key": "C", "text": { "en": "Subject Alternative Name (SAN) certificate", "es": "Certificado con Nombre Alternativo del Sujeto (SAN)" }, "correct": true },
+      { "key": "D", "text": { "en": "Root signing certificate", "es": "Certificado raíz de firma" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "SAN (Subject Alternative Name) certificates allow securing multiple domains or subdomains with a single certificate.",
+      "es": "Los certificados SAN (Nombre Alternativo del Sujeto) permiten asegurar múltiples dominios o subdominios con un solo certificado."
+    }
+  },
+  {
+    "id": "T06-Q0009",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to an identifier used for PKI objects?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un identificador usado para objetos PKI?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "OID", "es": "OID" }, "correct": true },
+      { "key": "B", "text": { "en": "DN", "es": "DN" }, "correct": false },
+      { "key": "C", "text": { "en": "SAN", "es": "SAN" }, "correct": false },
+      { "key": "D", "text": { "en": "GUID", "es": "GUID" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "OID (Object Identifier) is a globally unique identifier used to name objects in PKI and other standards.",
+      "es": "OID (Identificador de Objeto) es un identificador globalmente único usado para nombrar objetos en PKI y otros estándares."
+    }
+  },
+  {
+    "id": "T06-Q0010",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In IT security, the term 'Shadow IT' is used to describe the practice of using IT systems, software, or services within an organization without the explicit approval or oversight of the organization's IT department.",
+      "es": "En seguridad informática, el término 'Shadow IT' se usa para describir la práctica de usar sistemas, software o servicios de TI dentro de una organización sin la aprobación o supervisión explícita del departamento de TI."
+    },
+    "options": [
+      { "key": "A", "text": { "en": "True", "es": "Verdadero" }, "correct": true },
+      { "key": "B", "text": { "en": "False", "es": "Falso" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "Shadow IT refers to unsanctioned IT usage, which can introduce security risks due to lack of oversight.",
+      "es": "Shadow IT se refiere al uso no autorizado de TI, lo que puede introducir riesgos de seguridad debido a la falta de supervisión."
+    }
+  },
+  {
+    "id": "T06-Q0011",
+    "type": "match",
+    "prompt": {
+      "en": "Match each threat actor type with its common attack vector attribute.",
+      "es": "Relaciona cada tipo de actor de amenaza con su atributo común de vector de ataque."
+    },
+    "pairs": [
+      {
+        "question": { "en": "Nation-state", "es": "Estado-nación" },
+        "answer": { "en": "External", "es": "Externo" }
+      },
+      {
+        "question": { "en": "Unskilled attacker", "es": "Atacante sin habilidades" },
+        "answer": { "en": "Internal/External", "es": "Interno/Externo" }
+      },
+      {
+        "question": { "en": "Hacktivist", "es": "Hacktivista" },
+        "answer": { "en": "External", "es": "Externo" }
+      },
+      {
+        "question": { "en": "Insider threat", "es": "Amenaza interna" },
+        "answer": { "en": "Internal", "es": "Interno" }
+      },
+      {
+        "question": { "en": "Organized crime", "es": "Crimen organizado" },
+        "answer": { "en": "External", "es": "Externo" }
+      },
+      {
+        "question": { "en": "Shadow IT", "es": "TI en la sombra" },
+        "answer": { "en": "Internal", "es": "Interno" }
+      }
+    ],
+    "explanation": {
+      "en": "Different threat actors typically operate through different attack vectors: e.g., insiders internally, hacktivists and nation-states externally.",
+      "es": "Distintos actores de amenaza operan típicamente a través de diferentes vectores: por ejemplo, los internos desde dentro, los hacktivistas y estados-nación desde fuera."
+    }
+  },
+   {
+    "id": "T06-Q0012",
+    "type": "match",
+    "prompt": {
+      "en": "Match each threat actor type with its corresponding resources/funding attribute.",
+      "es": "Relaciona cada tipo de actor de amenaza con su atributo correspondiente de recursos/financiamiento."
+    },
+    "pairs": [
+      {
+        "question": { "en": "Nation-state", "es": "Estado-nación" },
+        "answer": { "en": "High resources and funding", "es": "Altos recursos y financiamiento" }
+      },
+      {
+        "question": { "en": "Unskilled attacker", "es": "Atacante sin habilidades" },
+        "answer": { "en": "Low resources and funding", "es": "Bajos recursos y financiamiento" }
+      },
+      {
+        "question": { "en": "Hacktivist", "es": "Hacktivista" },
+        "answer": { "en": "Low to medium resources and funding", "es": "Recursos y financiamiento de bajos a medios" }
+      },
+      {
+        "question": { "en": "Insider threat", "es": "Amenaza interna" },
+        "answer": { "en": "Low to high resources and funding", "es": "Recursos y financiamiento de bajos a altos" }
+      },
+      {
+        "question": { "en": "Organized crime", "es": "Crimen organizado" },
+        "answer": { "en": "Medium to high resources and funding", "es": "Recursos y financiamiento de medios a altos" }
+      },
+      {
+        "question": { "en": "Shadow IT", "es": "TI en la sombra" },
+        "answer": { "en": "Low to medium resources and funding", "es": "Recursos y financiamiento de bajos a medios" }
+      }
+    ],
+    "explanation": {
+      "en": "Threat actors differ in available resources: nation-states have the most, unskilled attackers the least, while others fall in between depending on organization and motive.",
+      "es": "Los actores de amenaza difieren en recursos: los estados-nación tienen los más altos, los atacantes sin habilidades los más bajos, y los demás se sitúan en niveles intermedios según organización y motivo."
+    }
+  },
+  {
+    "id": "T06-Q0013",
+    "type": "match",
+    "prompt": {
+      "en": "Assign the level of sophistication attribute to each threat actor type listed below.",
+      "es": "Asigna el nivel de sofisticación a cada tipo de actor de amenaza listado a continuación."
+    },
+    "pairs": [
+      {
+        "question": { "en": "Nation-state", "es": "Estado-nación" },
+        "answer": { "en": "High level of sophistication", "es": "Alto nivel de sofisticación" }
+      },
+      {
+        "question": { "en": "Unskilled attacker", "es": "Atacante sin habilidades" },
+        "answer": { "en": "Low level of sophistication", "es": "Bajo nivel de sofisticación" }
+      },
+      {
+        "question": { "en": "Hacktivist", "es": "Hacktivista" },
+        "answer": { "en": "Low to medium level of sophistication", "es": "Nivel de sofisticación de bajo a medio" }
+      },
+      {
+        "question": { "en": "Insider threat", "es": "Amenaza interna" },
+        "answer": { "en": "Low to high level of sophistication", "es": "Nivel de sofisticación de bajo a alto" }
+      },
+      {
+        "question": { "en": "Organized crime", "es": "Crimen organizado" },
+        "answer": { "en": "Medium to high level of sophistication", "es": "Nivel de sofisticación de medio a alto" }
+      },
+      {
+        "question": { "en": "Shadow IT", "es": "TI en la sombra" },
+        "answer": { "en": "Low to medium level of sophistication", "es": "Nivel de sofisticación de bajo a medio" }
+      }
+    ],
+    "explanation": {
+      "en": "Nation-states usually have the highest sophistication, while unskilled attackers have the lowest. Others vary depending on structure and intent.",
+      "es": "Los estados-nación suelen tener la mayor sofisticación, mientras que los atacantes sin habilidades la menor. Los demás varían según su estructura e intención."
+    }
+  },
+  {
+    "id": "T06-Q0014",
+    "type": "match",
+    "prompt": {
+      "en": "Select the typical motivations behind the actions of each threat actor type.",
+      "es": "Selecciona las motivaciones típicas detrás de las acciones de cada tipo de actor de amenaza."
+    },
+    "pairs": [
+      {
+        "question": { "en": "Nation-state", "es": "Estado-nación" },
+        "answer": { "en": "Espionage, political/philosophical beliefs, disruption/chaos, war", "es": "Espionaje, creencias políticas/filosóficas, disrupción/caos, guerra" }
+      },
+      {
+        "question": { "en": "Unskilled attacker", "es": "Atacante sin habilidades" },
+        "answer": { "en": "Disruption/chaos, financial gain, revenge", "es": "Disrupción/caos, beneficio financiero, venganza" }
+      },
+      {
+        "question": { "en": "Hacktivist", "es": "Hacktivista" },
+        "answer": { "en": "Ethical beliefs, philosophical/political beliefs, disruption/chaos", "es": "Creencias éticas, creencias filosóficas/políticas, disrupción/caos" }
+      },
+      {
+        "question": { "en": "Insider threat", "es": "Amenaza interna" },
+        "answer": { "en": "Revenge, financial gain, service disruption", "es": "Venganza, beneficio financiero, interrupción de servicios" }
+      },
+      {
+        "question": { "en": "Organized crime", "es": "Crimen organizado" },
+        "answer": { "en": "Financial gain, data exfiltration, extortion", "es": "Beneficio financiero, exfiltración de datos, extorsión" }
+      },
+      {
+        "question": { "en": "Shadow IT", "es": "TI en la sombra" },
+        "answer": { "en": "Convenience, lack of awareness of security risks, meeting specific needs", "es": "Comodidad, falta de conciencia de riesgos de seguridad, cubrir necesidades específicas" }
+      }
+    ],
+    "explanation": {
+      "en": "Each threat actor type has different motivations: states focus on espionage and war, organized crime on money, insiders on revenge or gain, etc.",
+      "es": "Cada tipo de actor de amenaza tiene distintas motivaciones: los estados en espionaje y guerra, el crimen organizado en dinero, los internos en venganza o ganancia, etc."
+    }
+  },
+  {
+    "id": "T06-Q0015",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following terms is used to describe sophisticated and prolonged cyberattacks often carried out by well-funded and organized groups, such as nation-states?",
+      "es": "¿Cuál de los siguientes términos se usa para describir ciberataques sofisticados y prolongados, a menudo realizados por grupos bien financiados y organizados, como los estados-nación?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "MitM", "es": "MitM" }, "correct": false },
+      { "key": "B", "text": { "en": "APT", "es": "APT" }, "correct": true },
+      { "key": "C", "text": { "en": "XSRF", "es": "XSRF" }, "correct": false },
+      { "key": "D", "text": { "en": "DDoS", "es": "DDoS" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "APT (Advanced Persistent Threat) refers to long-term, targeted attacks often attributed to nation-states or organized groups.",
+      "es": "APT (Amenaza Persistente Avanzada) se refiere a ataques prolongados y dirigidos, a menudo atribuidos a estados-nación o grupos organizados."
+    }
+  },
+   {
+    "id": "T06-Q0016",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "An attack surface is the sum of all the potential points (vulnerabilities) through which an attacker can interact with or compromise a system or network. A threat vector represents the method or means through which a cyber threat is introduced to a target system.",
+      "es": "La superficie de ataque es la suma de todos los puntos potenciales (vulnerabilidades) a través de los cuales un atacante puede interactuar o comprometer un sistema o red. Un vector de amenaza representa el método o medio por el cual se introduce una amenaza cibernética en un sistema objetivo."
+    },
+    "options": [
+      { "key": "A", "text": { "en": "True", "es": "Verdadero" }, "correct": true },
+      { "key": "B", "text": { "en": "False", "es": "Falso" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "The attack surface defines where vulnerabilities exist, while the threat vector defines how an attacker exploits them.",
+      "es": "La superficie de ataque define dónde existen vulnerabilidades, mientras que el vector de amenaza define cómo un atacante las explota."
+    }
+  },
+  {
+    "id": "T06-Q0017",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to an email-based threat vector?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un vector de amenaza basado en correo electrónico?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Spoofing", "es": "Suplantación (Spoofing)" }, "correct": false },
+      { "key": "B", "text": { "en": "Phishing", "es": "Phishing" }, "correct": false },
+      { "key": "C", "text": { "en": "BEC attacks", "es": "Ataques BEC" }, "correct": false },
+      { "key": "D", "text": { "en": "Malicious links", "es": "Enlaces maliciosos" }, "correct": false },
+      { "key": "E", "text": { "en": "Malware attachments", "es": "Adjuntos con malware" }, "correct": false },
+      { "key": "F", "text": { "en": "All of the above", "es": "Todos los anteriores" }, "correct": true }
+    ],
+    "explanation": {
+      "en": "Email-based threat vectors include phishing, spoofing, malicious attachments, BEC, and links. Therefore, all listed options apply.",
+      "es": "Los vectores de amenaza basados en correo electrónico incluyen phishing, spoofing, adjuntos maliciosos, BEC y enlaces. Por lo tanto, todas las opciones aplican."
+    }
+  },
+  {
+    "id": "T06-Q0018",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following terms refers to a threat vector commonly associated with SMS-based communication?",
+      "es": "¿Cuál de los siguientes términos se refiere a un vector de amenaza comúnmente asociado con la comunicación basada en SMS?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Phishing", "es": "Phishing" }, "correct": false },
+      { "key": "B", "text": { "en": "Vishing", "es": "Vishing" }, "correct": false },
+      { "key": "C", "text": { "en": "Smishing", "es": "Smishing" }, "correct": true },
+      { "key": "D", "text": { "en": "Pharming", "es": "Pharming" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "Smishing is phishing conducted through SMS text messages.",
+      "es": "Smishing es phishing realizado a través de mensajes SMS."
+    }
+  },
+  {
+    "id": "T06-Q0019",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to an example of a potential threat vector in IM-based communication?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un ejemplo de vector de amenaza potencial en comunicación basada en mensajería instantánea (IM)?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Phishing attack", "es": "Ataque de phishing" }, "correct": false },
+      { "key": "B", "text": { "en": "Malware distribution", "es": "Distribución de malware" }, "correct": false },
+      { "key": "C", "text": { "en": "Spoofing attack", "es": "Ataque de spoofing" }, "correct": false },
+      { "key": "D", "text": { "en": "Eavesdropping", "es": "Intercepción de comunicaciones" }, "correct": false },
+      { "key": "E", "text": { "en": "Account hijacking", "es": "Secuestro de cuentas" }, "correct": false },
+      { "key": "F", "text": { "en": "Malicious link/attachment", "es": "Enlace/adjunto malicioso" }, "correct": false },
+      { "key": "G", "text": { "en": "All of the above", "es": "Todos los anteriores" }, "correct": true }
+    ],
+    "explanation": {
+      "en": "Instant messaging platforms can be exploited through phishing, malware, spoofing, hijacking, eavesdropping, or malicious attachments, making all options valid.",
+      "es": "Las plataformas de mensajería instantánea pueden explotarse mediante phishing, malware, spoofing, secuestro de cuentas, intercepción o adjuntos maliciosos, por lo que todas las opciones son válidas."
+    }
+  },
+  {
+    "id": "T06-Q0020",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the following answers refer to examples of image-based threat vectors? (Select 3 answers)",
+      "es": "¿Cuáles de las siguientes respuestas se refieren a ejemplos de vectores de amenaza basados en imágenes? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Steganography", "es": "Esteganografía" }, "correct": true },
+      { "key": "B", "text": { "en": "BEC attacks", "es": "Ataques BEC" }, "correct": false },
+      { "key": "C", "text": { "en": "Image spoofing (deepfakes)", "es": "Falsificación de imágenes (deepfakes)" }, "correct": true },
+      { "key": "D", "text": { "en": "Brand impersonation", "es": "Suplantación de marca" }, "correct": false },
+      { "key": "E", "text": { "en": "Malware-embedded images", "es": "Imágenes con malware incrustado" }, "correct": true }
+    ],
+    "explanation": {
+      "en": "Steganography, image spoofing (deepfakes), and malware-embedded images are all methods that use images to deliver or facilitate cyber threats.",
+      "es": "La esteganografía, la falsificación de imágenes (deepfakes) y las imágenes con malware incrustado son todos métodos que utilizan imágenes para entregar o facilitar amenazas cibernéticas."
+    }
+  },
+  {
+    "id": "T06-Q0021",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a file-based threat vector?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a un vector de amenaza basado en archivos?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "PDF exploits", "es": "PDF exploits" }, "correct": false },
+      { "key": "B", "text": { "en": "Malicious macros in documents", "es": "Macros maliciosas en documentos" }, "correct": false },
+      { "key": "C", "text": { "en": "Compressed files (ZIP, RAR)", "es": "Archivos comprimidos (ZIP, RAR)" }, "correct": false },
+      { "key": "D", "text": { "en": "Malicious scripts in web pages", "es": "Scripts maliciosos en páginas web" }, "correct": false },
+      { "key": "E", "text": { "en": "Infected images", "es": "Imágenes infectadas" }, "correct": false },
+      { "key": "F", "text": { "en": "Malicious executables", "es": "Ejecutables maliciosos" }, "correct": false },
+      { "key": "G", "text": { "en": "All of the above", "es": "Todos los anteriores" }, "correct": true }
+    ],
+    "explanation": {
+      "en": "All the options listed (PDF exploits, malicious macros, compressed files, malicious executables, and infected images) are examples of file-based threat vectors.",
+      "es": "Todas las opciones listadas (exploits de PDF, macros maliciosas, archivos comprimidos, ejecutables maliciosos e imágenes infectadas) son ejemplos de vectores de amenaza basados en archivos."
+    }
+  },
+  {
+    "id": "T06-Q0022",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answer choices is an example of a threat vector type that is typical for voice communication?",
+      "es": "¿Cuál de las siguientes respuestas es un ejemplo de un tipo de vector de amenaza que es típico para la comunicación de voz?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Smishing", "es": "Smishing" }, "correct": false },
+      { "key": "B", "text": { "en": "Pharming", "es": "Pharming" }, "correct": false },
+      { "key": "C", "text": { "en": "Vishing", "es": "Vishing" }, "correct": true },
+      { "key": "D", "text": { "en": "Phishing", "es": "Phishing" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "Vishing (voice phishing) is a social engineering attack conducted over the phone to trick people into revealing personal information.",
+      "es": "Vishing (phishing de voz) es un ataque de ingeniería social realizado por teléfono para engañar a las personas para que revelen información personal."
+    }
+  },
+  {
+    "id": "T06-Q0023",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "Examples of threat vectors directly related to the use of removable devices include: (Select 2 answers)",
+      "es": "Ejemplos de vectores de amenaza directamente relacionados con el uso de dispositivos extraíbles incluyen: (Selecciona 2 respuestas)"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Pretexting", "es": "Pretexting" }, "correct": false },
+      { "key": "B", "text": { "en": "Malware delivery", "es": "Entrega de malware" }, "correct": true },
+      { "key": "C", "text": { "en": "Watering hole attacks", "es": "Ataques de abrevadero" }, "correct": false },
+      { "key": "D", "text": { "en": "Data exfiltration", "es": "Exfiltración de datos" }, "correct": true },
+      { "key": "E", "text": { "en": "Social engineering attacks", "es": "Ataques de ingeniería social" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "Removable devices can be used to deliver malware to a system or to exfiltrate data from a compromised system. Pretexting and watering hole attacks are not directly tied to removable media.",
+      "es": "Los dispositivos extraíbles se pueden usar para entregar malware a un sistema o para exfiltrar datos de un sistema comprometido. El pretexting y los ataques de abrevadero no están directamente relacionados con medios extraíbles."
+    }
+  },
+  {
+    "id": "T06-Q0024",
+    "type": "ms",
+    "required_answers": 5,
+    "prompt": {
+      "en": "Which of the answers listed below refer(s) to client-based software threat vector(s)? (Select all that apply)",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a vector(es) de amenaza de software basado(s) en el cliente? (Selecciona todas las que apliquen)"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Drive-by download via web browser", "es": "Descarga de conducción (drive-by download) a través del navegador web" }, "correct": true },
+      { "key": "B", "text": { "en": "Malicious macro", "es": "Macro maliciosa" }, "correct": true },
+      { "key": "C", "text": { "en": "Vulnerability in a network protocol or device", "es": "Vulnerabilidad en un protocolo o dispositivo de red" }, "correct": false },
+      { "key": "D", "text": { "en": "USB-based attack", "es": "Ataque basado en USB" }, "correct": true },
+      { "key": "E", "text": { "en": "Infected executable file", "es": "Archivo ejecutable infectado" }, "correct": true },
+      { "key": "F", "text": { "en": "Malicious attachment in email application", "es": "Adjunto malicioso en aplicación de correo electrónico" }, "correct": true }
+    ],
+    "explanation": {
+      "en": "Client-based software vectors are those that exploit vulnerabilities or functionalities of software running on a client's device, such as web browsers, email clients, or operating systems handling file types. Vulnerabilities in network protocols or devices are not client-based.",
+      "es": "Los vectores de software basados en el cliente son aquellos que explotan vulnerabilidades o funcionalidades del software que se ejecuta en el dispositivo de un cliente, como navegadores web, clientes de correo electrónico o sistemas operativos que manejan tipos de archivos. Las vulnerabilidades en los protocolos o dispositivos de red no son basadas en el cliente."
+    }
+  },
+  {
+    "id": "T06-Q0025",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "Which of the following answers refer to agentless software threat vectors? (Select 2 answers)",
+      "es": "¿Cuáles de las siguientes respuestas se refieren a vectores de amenaza de software sin agente? (Selecciona 2 respuestas)"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Phishing email", "es": "Correo electrónico de phishing" }, "correct": false },
+      { "key": "B", "text": { "en": "Malicious USB drive", "es": "Dispositivo USB malicioso" }, "correct": false },
+      { "key": "C", "text": { "en": "Network protocol vulnerability", "es": "Vulnerabilidad de protocolo de red" }, "correct": true },
+      { "key": "D", "text": { "en": "Infected macro", "es": "Macro infectada" }, "correct": false },
+      { "key": "E", "text": { "en": "Packet sniffing", "es": "Análisis de paquetes" }, "correct": true }
+    ],
+    "explanation": {
+      "en": "Agentless threat vectors do not require software to be installed or run on the target system. Network protocol vulnerabilities and packet sniffing are agentless because they exploit network communication directly without needing to compromise the endpoint's software.",
+      "es": "Los vectores de amenaza sin agente no requieren que se instale o ejecute software en el sistema objetivo. Las vulnerabilidades de protocolo de red y el análisis de paquetes son sin agente porque explotan la comunicación de red directamente sin necesidad de comprometer el software del punto final."
+    }
+  }
+]

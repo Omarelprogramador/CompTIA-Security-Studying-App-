@@ -1,0 +1,1177 @@
+[
+  {
+    "id": "T10-Q0001",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following URLs is a potential indicator of a directory traversal attack?",
+      "es": "¿Cuál de las siguientes URLs es un indicador potencial de un ataque de recorrido de directorio?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "http://www.example.com/var/../etc/passwd",
+          "es": "http://www.example.com/var/../etc/passwd"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "http://www.example.com/var/www/../../etc/passwd",
+          "es": "http://www.example.com/var/www/../../etc/passwd"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "http://www.example.com/var/www/files/../../../etc/passwd",
+          "es": "http://www.example.com/var/www/files/../../../etc/passwd"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "http://www.example.com/var/www/files/images/../../../../etc/passwd",
+          "es": "http://www.example.com/var/www/files/images/../../../../etc/passwd"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Any of the above",
+          "es": "Cualquiera de los anteriores"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "A directory traversal attack uses 'dot-dot-slash' (../) sequences to navigate to unauthorized directories, and all of the provided URLs contain these sequences, making them potential indicators of this type of attack.",
+      "es": "Un ataque de recorrido de directorio utiliza secuencias 'punto-punto-barra' (../) para navegar a directorios no autorizados, y todas las URLs proporcionadas contienen estas secuencias, lo que las convierte en indicadores potenciales de este tipo de ataque."
+    }
+  },
+  {
+    "id": "T10-Q0002",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A type of cryptographic attack that forces a network protocol to revert to its older, less secure version is known as:",
+      "es": "Un tipo de ataque criptográfico que obliga a un protocolo de red a revertir a su versión más antigua y menos segura se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Downgrade attack",
+          "es": "Ataque de degradación"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Replay attack",
+          "es": "Ataque de repetición"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Deauthentication attack",
+          "es": "Ataque de desautenticación"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Spraying attack",
+          "es": "Ataque de rociado"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A downgrade attack forces a system to use a weaker protocol or algorithm, making it easier for an attacker to compromise the communication.",
+      "es": "Un ataque de degradación obliga a un sistema a utilizar un protocolo o algoritmo más débil, lo que facilita que un atacante comprometa la comunicación."
+    }
+  },
+  {
+    "id": "T10-Q0003",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A hash collision occurs when cryptographic hash function produces two different digests for the same data input.",
+      "es": "Una colisión de hash ocurre cuando una función de hash criptográfica produce dos resúmenes diferentes para la misma entrada de datos."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "A hash collision is when two different inputs produce the same hash digest. The statement is incorrect because it claims the opposite.",
+      "es": "Una colisión de hash es cuando dos entradas diferentes producen el mismo resumen de hash. La afirmación es incorrecta porque afirma lo contrario."
+    }
+  },
+  {
+    "id": "T10-Q0004",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which cryptographic attack relies on the concepts of probability theory?",
+      "es": "¿Qué ataque criptográfico se basa en los conceptos de la teoría de la probabilidad?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Brute-force",
+          "es": "Fuerza bruta"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "KPA",
+          "es": "KPA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Dictionary",
+          "es": "Diccionario"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Birthday",
+          "es": "Cumpleaños"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "The Birthday attack is a cryptographic attack that uses probability theory to find hash collisions more efficiently than a brute-force approach.",
+      "es": "El ataque de cumpleaños es un ataque criptográfico que utiliza la teoría de la probabilidad para encontrar colisiones de hash de manera más eficiente que un enfoque de fuerza bruta."
+    }
+  },
+  {
+    "id": "T10-Q0005",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A short list of commonly used passwords tried against large number of user accounts is a characteristic feature of:",
+      "es": "Una lista corta de contraseñas de uso común probadas contra un gran número de cuentas de usuario es una característica de:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Replay attack",
+          "es": "Ataque de repetición"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Dictionary attack",
+          "es": "Ataque de diccionario"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Spraying attack",
+          "es": "Ataque de rociado"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Birthday attack",
+          "es": "Ataque de cumpleaños"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A spraying attack, or password spraying, involves using a small list of passwords against a large number of user accounts to avoid account lockout policies.",
+      "es": "Un ataque de rociado, o rociado de contraseñas, implica el uso de una lista pequeña de contraseñas contra un gran número de cuentas de usuario para evitar las políticas de bloqueo de cuentas."
+    }
+  },
+  {
+    "id": "T10-Q0006",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which password attack bypasses account-lockout policies?",
+      "es": "¿Qué ataque de contraseña evita las políticas de bloqueo de cuentas?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Birthday attack",
+          "es": "Ataque de cumpleaños"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Replay attack",
+          "es": "Ataque de repetición"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Spraying attack",
+          "es": "Ataque de rociado"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Dictionary attack",
+          "es": "Ataque de diccionario"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Password spraying is designed to bypass account-lockout policies by trying one or two common passwords on many accounts before moving on.",
+      "es": "El rociado de contraseñas está diseñado para eludir las políticas de bloqueo de cuentas al probar una o dos contraseñas comunes en muchas cuentas antes de continuar."
+    }
+  },
+  {
+    "id": "T10-Q0007",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "An attack against encrypted data that relies heavily on computing power to check all possible keys and passwords until the correct one is found is called:",
+      "es": "Un ataque contra datos cifrados que se basa en gran medida en la potencia informática para verificar todas las claves y contraseñas posibles hasta que se encuentra la correcta se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Replay attack",
+          "es": "Ataque de repetición"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Brute-force attack",
+          "es": "Ataque de fuerza bruta"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Dictionary attack",
+          "es": "Ataque de diccionario"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Birthday attack",
+          "es": "Ataque de cumpleaños"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A brute-force attack involves systematically checking all possible passwords and keys until the correct one is found. This requires significant computational power.",
+      "es": "Un ataque de fuerza bruta implica verificar sistemáticamente todas las contraseñas y claves posibles hasta que se encuentra la correcta. Esto requiere una potencia computacional significativa."
+    }
+  },
+  {
+    "id": "T10-Q0008",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "One of the measures for bypassing the failed logon attempt account lockout policy is to capture any relevant data that might contain the password and brute force it offline.",
+      "es": "Una de las medidas para eludir la política de bloqueo de cuentas por intentos de inicio de sesión fallidos es capturar cualquier dato relevante que pueda contener la contraseña y forzarla de forma bruta sin conexión."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Brute-forcing an attack offline bypasses account lockout policies because the attack is not being conducted against the live system, and therefore the system's security controls are not being triggered.",
+      "es": "Forzar un ataque de forma bruta sin conexión elude las políticas de bloqueo de cuentas porque el ataque no se realiza contra el sistema en vivo y, por lo tanto, no se activan los controles de seguridad del sistema."
+    }
+  },
+  {
+    "id": "T10-Q0009",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A type of forensic evidence that can be used to detect unauthorized access attempts or other malicious activities is called:",
+      "es": "Un tipo de evidencia forense que se puede utilizar para detectar intentos de acceso no autorizados u otras actividades maliciosas se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CVE",
+          "es": "CVE"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IoC",
+          "es": "IoC"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "AIS",
+          "es": "AIS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "OSINT",
+          "es": "OSINT"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "An Indicator of Compromise (IoC) is a piece of forensic data that indicates that an attack or a security breach has occurred. Examples of IoCs are malicious IP addresses, unusual network traffic, or unexpected changes to files.",
+      "es": "Un Indicador de Compromiso (IoC) es un dato forense que indica que ha ocurrido un ataque o una brecha de seguridad. Ejemplos de IoC son las direcciones IP maliciosas, el tráfico de red inusual o los cambios inesperados en los archivos."
+    }
+  },
+  {
+    "id": "T10-Q0010",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "An account lockout might indicate which type of malicious activity?",
+      "es": "¿Un bloqueo de cuenta podría indicar qué tipo de actividad maliciosa?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Attempt to deliver malicious content",
+          "es": "Intento de entregar contenido malicioso"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DoS attack",
+          "es": "Ataque DoS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Account compromise",
+          "es": "Compromiso de cuenta"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Password brute-forcing attempt",
+          "es": "Intento de fuerza bruta de contraseña"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Account lockout policies are a security measure to prevent password brute-force attacks by limiting the number of failed login attempts within a specific time period. Therefore, an account lockout is a strong indicator of a brute-forcing attempt.",
+      "es": "Las políticas de bloqueo de cuentas son una medida de seguridad para prevenir los ataques de fuerza bruta de contraseñas al limitar el número de intentos de inicio de sesión fallidos dentro de un período de tiempo específico. Por lo tanto, un bloqueo de cuenta es un fuerte indicador de un intento de fuerza bruta."
+    }
+  },
+  {
+    "id": "T10-Q0011",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below most accurately describes a situation wherein a single account is being used from multiple locations/devices at the same time?",
+      "es": "¿Cuál de los términos listados a continuación describe con mayor precisión una situación en la que una sola cuenta se utiliza desde múltiples ubicaciones/dispositivos al mismo tiempo?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Spraying attack",
+          "es": "Ataque de rociado"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Concurrent session usage",
+          "es": "Uso de sesión concurrente"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Single Sign-On (SSO)",
+          "es": "Inicio de sesión único (SSO)"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Impossible travel",
+          "es": "Viaje imposible"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Concurrent session usage is a term used to describe when a single account is being accessed from multiple devices or locations simultaneously, which can be an indicator of a compromised account.",
+      "es": "El uso de sesión concurrente es un término utilizado para describir cuando se accede a una sola cuenta desde múltiples dispositivos o ubicaciones simultáneamente, lo que puede ser un indicador de una cuenta comprometida."
+    }
+  },
+  {
+    "id": "T10-Q0012",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following terms refers to a malicious activity indicator in a situation where a firewall or other security measure prevents an attempt to deliver malicious payload or perform an unauthorized action?",
+      "es": "¿Cuál de los siguientes términos se refiere a un indicador de actividad maliciosa en una situación en la que un firewall u otra medida de seguridad evita un intento de entregar una carga útil maliciosa o realizar una acción no autorizada?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "DoS attack",
+          "es": "Ataque DoS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Resource inaccessibility",
+          "es": "Inaccesibilidad de recursos"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Blocked content",
+          "es": "Contenido bloqueado"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Excessive system resource consumption",
+          "es": "Consumo excesivo de recursos del sistema"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Blocked content refers to a situation where a security device, such as a firewall or IDS/IPS, successfully prevents malicious traffic from reaching its destination, which is a strong indicator of an attempted attack.",
+      "es": "El contenido bloqueado se refiere a una situación en la que un dispositivo de seguridad, como un firewall o un IDS/IPS, impide con éxito que el tráfico malicioso llegue a su destino, lo que es un fuerte indicador de un intento de ataque."
+    }
+  },
+  {
+    "id": "T10-Q0013",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below most accurately describes a situation wherein an account is accessed from a location that is physically impossible for the user to be in?",
+      "es": "¿Cuál de los términos listados a continuación describe con mayor precisión una situación en la que se accede a una cuenta desde una ubicación en la que es físicamente imposible que el usuario esté?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Login time restrictions",
+          "es": "Restricciones de tiempo de inicio de sesión"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Impossible travel",
+          "es": "Viaje imposible"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Concurrent session usage",
+          "es": "Uso de sesión concurrente"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Out-of-cycle logging",
+          "es": "Registro fuera de ciclo"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Impossible travel is a security indicator that detects if a user has logged in from two geographically distant locations within a time frame that would be impossible to travel between. This often indicates a compromised account.",
+      "es": "El viaje imposible es un indicador de seguridad que detecta si un usuario ha iniciado sesión desde dos ubicaciones geográficamente distantes en un período de tiempo que sería imposible viajar. Esto a menudo indica una cuenta comprometida."
+    }
+  },
+  {
+    "id": "T10-Q0014",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The term \"Out-of-cycle logging\" refers to instances where systems or applications produce logs outside their regular intervals or in abnormal volumes, potentially signaling malicious activity.",
+      "es": "El término \"registro fuera de ciclo\" se refiere a instancias en las que los sistemas o aplicaciones producen registros fuera de sus intervalos regulares o en volúmenes anormales, lo que podría indicar actividad maliciosa."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "This is the correct definition of out-of-cycle logging. Unusual logging patterns are a strong indicator of suspicious or malicious activity.",
+      "es": "Esta es la definición correcta de registro fuera de ciclo. Los patrones de registro inusuales son un fuerte indicador de actividad sospechosa o maliciosa."
+    }
+  },
+  {
+    "id": "T10-Q0015",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following would indicate an attempt to hide evidence of malicious activity?",
+      "es": "¿Cuál de los siguientes indicaría un intento de ocultar evidencia de actividad maliciosa?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Account lockout",
+          "es": "Bloqueo de cuenta"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Resource inaccessibility",
+          "es": "Inaccesibilidad de recursos"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Missing logs",
+          "es": "Falta de registros"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Concurrent session usage",
+          "es": "Uso de sesión concurrente"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Missing or altered logs are a common tactic used by attackers to hide their tracks and erase evidence of their activities.",
+      "es": "La falta o alteración de registros es una táctica común utilizada por los atacantes para ocultar sus rastros y borrar la evidencia de sus actividades."
+    }
+  },
+  {
+    "id": "T10-Q0016",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below refers to a logical grouping of computers that allow computer hosts to function as if they were attached to the same broadcast domain regardless of their physical location?",
+      "es": "¿Cuál de los términos listados a continuación se refiere a una agrupación lógica de computadoras que permite que los hosts de computadoras funcionen como si estuvieran conectados al mismo dominio de difusión, independientemente de su ubicación física?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "VLAN",
+          "es": "VLAN"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DMZ",
+          "es": "DMZ"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SNMP community",
+          "es": "Comunidad SNMP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "VPN",
+          "es": "VPN"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A VLAN (Virtual LAN) is a logical grouping of network devices that allows them to communicate as if they were on the same physical network, regardless of their actual location.",
+      "es": "Una VLAN (LAN Virtual) es una agrupación lógica de dispositivos de red que les permite comunicarse como si estuvieran en la misma red física, independientemente de su ubicación real."
+    }
+  },
+  {
+    "id": "T10-Q0017",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "What is the name of a solution that increases the efficiency of IP address space management by allowing network administrators to divide networks into subnets of different sizes?",
+      "es": "¿Cuál es el nombre de una solución que aumenta la eficiencia de la gestión del espacio de direcciones IP al permitir a los administradores de red dividir las redes en subredes de diferentes tamaños?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "DNAT",
+          "es": "DNAT"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "VLSM",
+          "es": "VLSM"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MPLS",
+          "es": "MPLS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "VLAN",
+          "es": "VLAN"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "VLSM (Variable Length Subnet Masking) is a technique that allows network administrators to create subnets of varying sizes from a single IP address space, improving address allocation efficiency.",
+      "es": "VLSM (Máscara de subred de longitud variable) es una técnica que permite a los administradores de red crear subredes de diferentes tamaños a partir de un único espacio de direcciones IP, mejorando la eficiencia de la asignación de direcciones."
+    }
+  },
+  {
+    "id": "T10-Q0018",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following provides granular control over user access to specific network segments and resources based on their assigned roles and permissions?",
+      "es": "¿Cuál de los siguientes proporciona un control granular sobre el acceso de los usuarios a segmentos de red y recursos específicos en función de sus roles y permisos asignados?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "EDR",
+          "es": "EDR"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IAM",
+          "es": "IAM"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "AAA",
+          "es": "AAA"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "IPS",
+          "es": "IPS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "IAM (Identity and Access Management) is a security framework that provides granular control over user access to resources based on predefined roles and permissions.",
+      "es": "IAM (Gestión de identidades y accesos) es un marco de seguridad que proporciona un control granular sobre el acceso de los usuarios a los recursos en función de roles y permisos predefinidos."
+    }
+  },
+  {
+    "id": "T10-Q0019",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a solution that allows for easier management and control of network segmentation policies through software applications?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a una solución que permite una gestión y un control más sencillos de las políticas de segmentación de la red a través de aplicaciones de software?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "VDI",
+          "es": "VDI"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SDN",
+          "es": "SDN"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "VPC",
+          "es": "VPC"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "EDR",
+          "es": "EDR"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SDN (Software-Defined Networking) separates the control plane from the data plane, enabling network administrators to manage network segmentation and other policies programmatically through software.",
+      "es": "SDN (Redes definidas por software) separa el plano de control del plano de datos, lo que permite a los administradores de red gestionar la segmentación de la red y otras políticas de forma programática a través del software."
+    }
+  },
+  {
+    "id": "T10-Q0020",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following acronyms refers to a set of rules that specify which users or system processes are granted access to objects as well as what operations are allowed on a given object?",
+      "es": "¿Cuál de las siguientes siglas se refiere a un conjunto de reglas que especifican a qué usuarios o procesos del sistema se les otorga acceso a los objetos, así como qué operaciones están permitidas en un objeto dado?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ACL",
+          "es": "ACL"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "MFA",
+          "es": "MFA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "NAC",
+          "es": "NAC"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "AUP",
+          "es": "AUP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "An ACL (Access Control List) is a list of permissions that specifies which users or systems can access a resource and what actions they can perform on it.",
+      "es": "Una ACL (Lista de Control de Acceso) es una lista de permisos que especifica qué usuarios o sistemas pueden acceder a un recurso y qué acciones pueden realizar en él."
+    }
+  },
+  {
+    "id": "T10-Q0021",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A rule-based access control mechanism implemented on routers, switches, and firewalls is referred to as:",
+      "es": "Un mecanismo de control de acceso basado en reglas implementado en routers, switches y firewalls se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MAC",
+          "es": "MAC"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "AUP",
+          "es": "AUP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "DAC",
+          "es": "DAC"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "ACL",
+          "es": "ACL"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "ACLs are commonly implemented on network devices such as routers, switches, and firewalls to filter traffic based on a set of rules.",
+      "es": "Las ACL se implementan comúnmente en dispositivos de red como routers, switches y firewalls para filtrar el tráfico en función de un conjunto de reglas."
+    }
+  },
+  {
+    "id": "T10-Q0022",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a rule-based access control mechanism associated with files and/or directories?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a un mecanismo de control de acceso basado en reglas asociado con archivos y/o directorios?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "EFS",
+          "es": "EFS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "FACL",
+          "es": "FACL"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "FIM",
+          "es": "FIM"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "NTFS",
+          "es": "NTFS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "FACL (File System Access Control List) is a rule-based access control mechanism that provides granular permissions for files and directories, extending beyond the basic permissions of traditional file systems.",
+      "es": "FACL (Lista de Control de Acceso del Sistema de Archivos) es un mecanismo de control de acceso basado en reglas que proporciona permisos granulares para archivos y directorios, extendiéndose más allá de los permisos básicos de los sistemas de archivos tradicionales."
+    }
+  },
+  {
+    "id": "T10-Q0023",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following policies applies to any requests that fall outside the criteria defined in an ACL?",
+      "es": "¿Cuál de las siguientes políticas se aplica a cualquier solicitud que no cumpla con los criterios definidos en una ACL?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Fair access policy",
+          "es": "Política de acceso justo"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Implicit deny policy",
+          "es": "Política de denegación implícita"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Transitive trust",
+          "es": "Confianza transitiva"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Context-aware authentication",
+          "es": "Autenticación consciente del contexto"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "The implicit deny policy is a fundamental security principle that states that anything not explicitly permitted is denied by default. This is often the final rule in an ACL.",
+      "es": "La política de denegación implícita es un principio de seguridad fundamental que establece que todo lo que no esté explícitamente permitido se deniega por defecto. Esta es a menudo la regla final en una ACL."
+    }
+  },
+  {
+    "id": "T10-Q0024",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below does not refer to the concept of network isolation?",
+      "es": "¿Cuál de las respuestas listadas a continuación no se refiere al concepto de aislamiento de red?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "VLANs",
+          "es": "VLAN"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Subnetting",
+          "es": "Subnetting"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "DLP",
+          "es": "DLP"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Firewalls",
+          "es": "Firewalls"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "DMZs",
+          "es": "DMZ"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "NAC",
+          "es": "NAC"
+        },
+        "correct": false
+      },
+      {
+        "key": "G",
+        "text": {
+          "en": "SDN",
+          "es": "SDN"
+        },
+        "correct": false
+      },
+      {
+        "key": "H",
+        "text": {
+          "en": "Air gaps",
+          "es": "Air gaps"
+        },
+        "correct": false
+      },
+      {
+        "key": "I",
+        "text": {
+          "en": "Zero Trust network architecture",
+          "es": "Arquitectura de red de Confianza Cero"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "DLP (Data Loss Prevention) focuses on preventing data exfiltration and misuse. It does not directly relate to isolating networks. All the other options are used for various forms of network isolation or segmentation.",
+      "es": "DLP (Prevención de pérdida de datos) se enfoca en prevenir la exfiltración y el uso indebido de datos. No se relaciona directamente con el aislamiento de redes. Todas las demás opciones se utilizan para diversas formas de aislamiento o segmentación de redes."
+    }
+  },
+  {
+    "id": "T10-Q0025",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers does not refer to the concept of system/application isolation?",
+      "es": "¿Cuál de las siguientes respuestas no se refiere al concepto de aislamiento de sistema/aplicación?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Virtualization",
+          "es": "Virtualización"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Containerization",
+          "es": "Contenedorización"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Sandboxing",
+          "es": "Sandboxing"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Data encryption",
+          "es": "Cifrado de datos"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Data encryption is a security measure that protects data from unauthorized access by making it unreadable without the proper key. It is not a method of isolating a system or application from the rest of the environment. The other options are all techniques for system/application isolation.",
+      "es": "El cifrado de datos es una medida de seguridad que protege los datos del acceso no autorizado al hacerlos ilegibles sin la clave adecuada. No es un método para aislar un sistema o aplicación del resto del entorno. Las otras opciones son todas técnicas para el aislamiento de sistemas/aplicaciones."
+    }
+  }
+]

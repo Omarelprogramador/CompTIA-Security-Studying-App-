@@ -1,0 +1,521 @@
+[
+  {
+    "id": "T19-Q0001",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a policy framework that allows domain owners to specify how email receivers should handle emails that fail authentication checks?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un marco de políticas que permite a los propietarios de dominios especificar cómo deben manejar los receptores de correo electrónico los correos que fallan en las verificaciones de autenticación?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "DKIM", "es": "DKIM" }, "correct": false },
+      { "key": "B", "text": { "en": "SPF", "es": "SPF" }, "correct": false },
+      { "key": "C", "text": { "en": "PEM", "es": "PEM" }, "correct": false },
+      { "key": "D", "text": { "en": "DMARC", "es": "DMARC" }, "correct": true }
+    ],
+    "explanation": {
+      "en": "DMARC (Domain-based Message Authentication, Reporting, and Conformance) is an email authentication protocol that builds on top of SPF and DKIM. It allows a domain owner to publish a policy in their DNS records to tell a receiving mail server how to handle messages that fail DMARC authentication checks. This helps protect against email spoofing and phishing.",
+      "es": "DMARC (Autenticación de Mensajes Basada en Dominio, Informes y Conformidad) es un protocolo de autenticación de correo electrónico que se basa en SPF y DKIM. Permite al propietario de un dominio publicar una política en sus registros DNS para decirle a un servidor de correo receptor cómo manejar los mensajes que fallan en las verificaciones de autenticación DMARC. Esto ayuda a proteger contra la suplantación de identidad por correo electrónico y el phishing."
+    }
+  },
+  {
+    "id": "T19-Q0002",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to an authentication method that enables the signing of an outbound email message with a digital signature?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a un método de autenticación que permite firmar un mensaje de correo electrónico saliente con una firma digital?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "SPF", "es": "SPF" }, "correct": false },
+      { "key": "B", "text": { "en": "DKIM", "es": "DKIM" }, "correct": true },
+      { "key": "C", "text": { "en": "DMARC", "es": "DMARC" }, "correct": false },
+      { "key": "D", "text": { "en": "PEM", "es": "PEM" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "DKIM (DomainKeys Identified Mail) uses a digital signature to verify that an email message was not altered in transit. The sending organization signs the message with a private key, and the receiving mail server uses the public key from the organization's DNS records to verify the signature. This ensures message integrity and authenticity.",
+      "es": "DKIM (Correo Identificado por DomainKeys) utiliza una firma digital para verificar que un mensaje de correo electrónico no fue alterado en tránsito. La organización remitente firma el mensaje con una clave privada, y el servidor de correo receptor utiliza la clave pública de los registros DNS de la organización para verificar la firma. Esto asegura la integridad y autenticidad del mensaje."
+    }
+  },
+  {
+    "id": "T19-Q0003",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to an email authentication mechanism that allows domain owners to specify which IP addresses are authorized to send emails on behalf of their domain?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un mecanismo de autenticación de correo electrónico que permite a los propietarios de dominios especificar qué direcciones IP están autorizadas para enviar correos electrónicos en nombre de su dominio?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "DMARC", "es": "DMARC" }, "correct": false },
+      { "key": "B", "text": { "en": "PEM", "es": "PEM" }, "correct": false },
+      { "key": "C", "text": { "en": "DKIM", "es": "DKIM" }, "correct": false },
+      { "key": "D", "text": { "en": "SPF", "es": "SPF" }, "correct": true }
+    ],
+    "explanation": {
+      "en": "SPF (Sender Policy Framework) is an email authentication protocol that allows a domain owner to publish a list of authorized mail servers (by their IP addresses) in their DNS records. When a receiving mail server gets an email, it checks the SPF record to see if the sending server is on the authorized list. This helps prevent email spoofing.",
+      "es": "SPF (Marco de Política del Remitente) es un protocolo de autenticación de correo electrónico que permite a un propietario de dominio publicar una lista de servidores de correo autorizados (por sus direcciones IP) en sus registros DNS. Cuando un servidor de correo receptor recibe un correo electrónico, verifica el registro SPF para ver si el servidor remitente está en la lista autorizada. Esto ayuda a prevenir la suplantación de identidad por correo electrónico."
+    }
+  },
+  {
+    "id": "T19-Q0004",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a cryptographic standard (and a file format) used for the storage and transmission of private keys in email communications?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a un estándar criptográfico (y un formato de archivo) utilizado para el almacenamiento y la transmisión de claves privadas en las comunicaciones por correo electrónico?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "PEM", "es": "PEM" }, "correct": true },
+      { "key": "B", "text": { "en": "DMARC", "es": "DMARC" }, "correct": false },
+      { "key": "C", "text": { "en": "SPF", "es": "SPF" }, "correct": false },
+      { "key": "D", "text": { "en": "DKIM", "es": "DKIM" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "PEM (Privacy Enhanced Mail) is a file format standard for storing and transmitting cryptographic keys, certificates, and other data. It is widely used in email security and other cryptographic applications to handle public and private keys, including those used for DKIM and S/MIME.",
+      "es": "PEM (Correo con Privacidad Mejorada) es un estándar de formato de archivo para almacenar y transmitir claves criptográficas, certificados y otros datos. Se utiliza ampliamente en la seguridad del correo electrónico y otras aplicaciones criptográficas para manejar claves públicas y privadas, incluidas las utilizadas para DKIM y S/MIME."
+    }
+  },
+  {
+    "id": "T19-Q0005",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following solutions would be the best choice for real-time protection against spam and phishing attacks?",
+      "es": "¿Cuál de las siguientes soluciones sería la mejor opción para la protección en tiempo real contra el spam y los ataques de phishing?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Email client filter", "es": "Filtro de cliente de correo electrónico" }, "correct": false },
+      { "key": "B", "text": { "en": "Host-based AV software", "es": "Software AV basado en host" }, "correct": false },
+      { "key": "C", "text": { "en": "Email security gateway", "es": "Puerta de enlace de seguridad de correo electrónico" }, "correct": true },
+      { "key": "D", "text": { "en": "Cloud-based email service", "es": "Servicio de correo electrónico basado en la nube" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "An email security gateway is a dedicated solution that sits at the perimeter of an organization's network to scan and filter all inbound and outbound email traffic in real-time. It provides comprehensive, centralized protection against spam, phishing, and malware before messages even reach the user's inbox.",
+      "es": "Una puerta de enlace de seguridad de correo electrónico es una solución dedicada que se encuentra en el perímetro de la red de una organización para escanear y filtrar todo el tráfico de correo electrónico entrante y saliente en tiempo real. Proporciona una protección completa y centralizada contra el spam, el phishing y el malware antes de que los mensajes lleguen a la bandeja de entrada del usuario."
+    }
+  },
+  {
+    "id": "T19-Q0006",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to the process of maintaining the integrity of files and data?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere al proceso de mantener la integridad de los archivos y los datos?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "DLP", "es": "DLP" }, "correct": false },
+      { "key": "B", "text": { "en": "SIEM", "es": "SIEM" }, "correct": false },
+      { "key": "C", "text": { "en": "FIM", "es": "FIM" }, "correct": true },
+      { "key": "D", "text": { "en": "SHA", "es": "SHA" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "FIM (File Integrity Monitoring) is a process that validates the integrity of operating system and application files by comparing their current state to a known, good baseline. It alerts administrators to unauthorized or malicious changes, which is a key part of maintaining file integrity.",
+      "es": "FIM (Monitoreo de Integridad de Archivos) es un proceso que valida la integridad de los archivos del sistema operativo y de las aplicaciones comparando su estado actual con una línea de base conocida y buena. Alerta a los administradores sobre cambios no autorizados o maliciosos, lo cual es una parte clave del mantenimiento de la integridad de los archivos."
+    }
+  },
+  {
+    "id": "T19-Q0007",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a solution that helps organizations mitigate risks associated with data breaches, insider threats, and compliance violations?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a una solución que ayuda a las organizaciones a mitigar los riesgos asociados con las filtraciones de datos, las amenazas internas y las violaciones de cumplimiento?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "EDR", "es": "EDR" }, "correct": false },
+      { "key": "B", "text": { "en": "DLP", "es": "DLP" }, "correct": true },
+      { "key": "C", "text": { "en": "IAM", "es": "IAM" }, "correct": false },
+      { "key": "D", "text": { "en": "UTM", "es": "UTM" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "DLP (Data Loss Prevention) is a set of tools and processes designed to ensure that sensitive data is not leaked from an organization's network. It can be used to prevent data breaches, protect against insider threats, and enforce compliance with data privacy regulations.",
+      "es": "DLP (Prevención de Pérdida de Datos) es un conjunto de herramientas y procesos diseñados para garantizar que los datos sensibles no se filtren de la red de una organización. Se puede utilizar para prevenir filtraciones de datos, proteger contra amenazas internas y hacer cumplir las regulaciones de privacidad de datos."
+    }
+  },
+  {
+    "id": "T19-Q0008",
+    "type": "tf",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Network Access Control (NAC) defines a set of rules enforced in a network that the clients attempting to access the network must comply with. With NAC, policies can be enforced before (pre-admission NAC) and/or after end-stations gain access to the network (post-admission NAC). NAC can be implemented with the use of agent software which can be installed on the client machine permanently (this type of software is referred to as permanent agent) or used only temporarily during checks (this type of software is known as dissolvable agent). Another implementation option is agentless NAC, where checks are performed remotely by an external security device without the need for any client software agents.",
+      "es": "El Control de Acceso a la Red (NAC) define un conjunto de reglas aplicadas en una red que los clientes que intentan acceder a la red deben cumplir. Con el NAC, las políticas se pueden aplicar antes (NAC de preadmisión) y/o después de que las estaciones finales obtengan acceso a la red (NAC de post-admisión). El NAC se puede implementar con el uso de software de agente que se puede instalar en la máquina cliente de forma permanente (este tipo de software se conoce como agente permanente) o se usa solo temporalmente durante las verificaciones (este tipo de software se conoce como agente disoluble). Otra opción de implementación es el NAC sin agente, donde las verificaciones se realizan de forma remota por un dispositivo de seguridad externo sin la necesidad de ningún agente de software del cliente."
+    },
+    "options": [
+      { "key": "A", "text": { "en": "True", "es": "Verdadero" }, "correct": true },
+      { "key": "B", "text": { "en": "False", "es": "Falso" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "The statement accurately describes Network Access Control (NAC). NAC is a comprehensive security solution that enforces policies for all devices attempting to connect to a network. It can be implemented using agents (permanent or dissolvable) or in an agentless manner to ensure compliance and security.",
+      "es": "La afirmación describe con precisión el Control de Acceso a la Red (NAC). El NAC es una solución de seguridad integral que aplica políticas para todos los dispositivos que intentan conectarse a una red. Se puede implementar utilizando agentes (permanentes o disolubles) o de forma sin agente para garantizar el cumplimiento y la seguridad."
+    }
+  },
+  {
+    "id": "T19-Q0009",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a security solution that provides the capability for detection, analysis, response, and real-time monitoring of cyber threats at the device level?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a una solución de seguridad que proporciona la capacidad de detección, análisis, respuesta y monitoreo en tiempo real de las ciberamenazas a nivel de dispositivo?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "SWG", "es": "SWG" }, "correct": false },
+      { "key": "B", "text": { "en": "CASB", "es": "CASB" }, "correct": false },
+      { "key": "C", "text": { "en": "EDR", "es": "EDR" }, "correct": true },
+      { "key": "D", "text": { "en": "NGFW", "es": "NGFW" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "EDR (Endpoint Detection and Response) is a security solution that continuously monitors and responds to security threats on endpoints (e.g., laptops, desktops, servers). It provides visibility into endpoint activity, allowing for real-time threat detection, investigation, and response.",
+      "es": "EDR (Detección y Respuesta de Punto Final) es una solución de seguridad que monitorea y responde continuamente a las amenazas de seguridad en los puntos finales (por ejemplo, computadoras portátiles, de escritorio, servidores). Proporciona visibilidad de la actividad del punto final, lo que permite la detección, investigación y respuesta de amenazas en tiempo real."
+    }
+  },
+  {
+    "id": "T19-Q0010",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a cybersecurity approach that focuses on recognizing and addressing potential threats originating from multiple sources?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un enfoque de ciberseguridad que se centra en reconocer y abordar posibles amenazas originadas en múltiples fuentes?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "XDR", "es": "XDR" }, "correct": true },
+      { "key": "B", "text": { "en": "WAF", "es": "WAF" }, "correct": false },
+      { "key": "C", "text": { "en": "EDR", "es": "EDR" }, "correct": false },
+      { "key": "D", "text": { "en": "SWG", "es": "SWG" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "XDR (Extended Detection and Response) is a unified security platform that collects and correlates data from multiple security layers, including endpoints, email, cloud, and network. It provides a more comprehensive view of threats across the entire infrastructure, enabling faster and more effective threat detection and response than siloed solutions like EDR.",
+      "es": "XDR (Detección y Respuesta Extendida) es una plataforma de seguridad unificada que recopila y correlaciona datos de múltiples capas de seguridad, incluyendo puntos finales, correo electrónico, nube y red. Proporciona una visión más completa de las amenazas en toda la infraestructura, lo que permite una detección y respuesta de amenazas más rápida y efectiva que las soluciones aisladas como EDR."
+    }
+  },
+  {
+    "id": "T19-Q0011",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a cybersecurity approach aimed at identifying insider threats, compromised accounts, or malicious activity?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a un enfoque de ciberseguridad destinado a identificar amenazas internas, cuentas comprometidas o actividad maliciosa?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Threat intelligence", "es": "Inteligencia de amenazas" }, "correct": false },
+      { "key": "B", "text": { "en": "User behavior analytics", "es": "Análisis de comportamiento de usuario" }, "correct": true },
+      { "key": "C", "text": { "en": "Security policies and procedures", "es": "Políticas y procedimientos de seguridad" }, "correct": false },
+      { "key": "D", "text": { "en": "Defense in depth", "es": "Defensa en profundidad" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "User Behavior Analytics (UBA) is a cybersecurity process that uses machine learning and analytics to detect anomalous or suspicious behavior by users, devices, or applications. It is particularly effective at identifying insider threats and compromised accounts by establishing a baseline of normal user behavior and then flagging deviations from that baseline.",
+      "es": "El Análisis de Comportamiento del Usuario (UBA) es un proceso de ciberseguridad que utiliza el aprendizaje automático y el análisis para detectar comportamientos anómalos o sospechosos por parte de usuarios, dispositivos o aplicaciones. Es particularmente efectivo para identificar amenazas internas y cuentas comprometidas al establecer una línea de base del comportamiento normal del usuario y luego marcar las desviaciones de esa línea de base."
+    }
+  },
+  {
+    "id": "T19-Q0012",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a framework for managing access control to digital resources?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un marco para gestionar el control de acceso a los recursos digitales?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "PAM", "es": "PAM" }, "correct": false },
+      { "key": "B", "text": { "en": "SSO", "es": "SSO" }, "correct": false },
+      { "key": "C", "text": { "en": "IAM", "es": "IAM" }, "correct": true },
+      { "key": "D", "text": { "en": "MFA", "es": "MFA" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "IAM (Identity and Access Management) is a security framework that enables the right individuals to access the right resources at the right times for the right reasons. It encompasses the processes, policies, and technologies that manage digital identities and control how users are authenticated and authorized to access resources.",
+      "es": "IAM (Gestión de Identidad y Acceso) es un marco de seguridad que permite a las personas adecuadas acceder a los recursos adecuados en los momentos adecuados por las razones adecuadas. Abarca los procesos, políticas y tecnologías que gestionan las identidades digitales y controlan cómo se autentica y autoriza a los usuarios para acceder a los recursos."
+    }
+  },
+  {
+    "id": "T19-Q0013",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below is used to describe the technical process of removing a user's access to an organization's systems and resources?",
+      "es": "¿Cuál de los términos listados a continuación se utiliza para describir el proceso técnico de eliminar el acceso de un usuario a los sistemas y recursos de una organización?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "De-provisioning", "es": "Desaprovisionamiento" }, "correct": true },
+      { "key": "B", "text": { "en": "Group Policy", "es": "Política de Grupo" }, "correct": false },
+      { "key": "C", "text": { "en": "IAM", "es": "IAM" }, "correct": false },
+      { "key": "D", "text": { "en": "Offboarding", "es": "Desvinculación" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "De-provisioning is the technical process of revoking a user's access to systems, applications, and resources. It is a critical part of the offboarding process, ensuring that former employees or contractors no longer have access to sensitive data or systems.",
+      "es": "El desaprovisionamiento es el proceso técnico de revocar el acceso de un usuario a los sistemas, aplicaciones y recursos. Es una parte crítica del proceso de desvinculación, asegurando que los antiguos empleados o contratistas ya no tengan acceso a datos o sistemas sensibles."
+    }
+  },
+  {
+    "id": "T19-Q0014",
+    "type": "tf",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A general characteristics of a standard user account is that it provides access to basic system resources but does not allow the user to make system changes.",
+      "es": "Una característica general de una cuenta de usuario estándar es que proporciona acceso a los recursos básicos del sistema pero no permite al usuario realizar cambios en el sistema."
+    },
+    "options": [
+      { "key": "A", "text": { "en": "True", "es": "Verdadero" }, "correct": true },
+      { "key": "B", "text": { "en": "False", "es": "Falso" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "The statement is true. A standard user account, or a non-privileged account, is designed to allow users to perform daily tasks without the ability to make significant system-wide changes, which helps to prevent the introduction of malware or accidental damage.",
+      "es": "La afirmación es verdadera. Una cuenta de usuario estándar, o una cuenta sin privilegios, está diseñada para permitir a los usuarios realizar tareas diarias sin la capacidad de realizar cambios significativos en todo el sistema, lo que ayuda a prevenir la introducción de malware o daños accidentales."
+    }
+  },
+  {
+    "id": "T19-Q0015",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "An authentication subsystem in which a single set of authentication credentials provides access to multiple systems across different organizations or security domains is referred to as:",
+      "es": "Un subsistema de autenticación en el que un único conjunto de credenciales de autenticación proporciona acceso a múltiples sistemas en diferentes organizaciones o dominios de seguridad se conoce como:"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Syndication", "es": "Sindicación" }, "correct": false },
+      { "key": "B", "text": { "en": "Federation", "es": "Federación" }, "correct": true },
+      { "key": "C", "text": { "en": "Association", "es": "Asociación" }, "correct": false },
+      { "key": "D", "text": { "en": "Propagation", "es": "Propagación" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "Federation is an authentication and access management model that allows for the secure exchange of identity and access information between different security domains or organizations. It enables users to use a single set of credentials to access resources across multiple, disparate systems without having to re-authenticate.",
+      "es": "La federación es un modelo de autenticación y gestión de acceso que permite el intercambio seguro de información de identidad y acceso entre diferentes dominios de seguridad u organizaciones. Permite a los usuarios utilizar un único conjunto de credenciales para acceder a recursos a través de múltiples sistemas dispares sin tener que volver a autenticarse."
+    }
+  },
+  {
+    "id": "T19-Q0016",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "An authentication subsystem that enables a user to access multiple, connected system components (such as separate hosts on a network) after a single login on only one of the components is known as:",
+      "es": "Un subsistema de autenticación que permite a un usuario acceder a múltiples componentes del sistema conectados (como hosts separados en una red) después de un solo inicio de sesión en solo uno de los componentes se conoce como:"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "NAC", "es": "NAC" }, "correct": false },
+      { "key": "B", "text": { "en": "SSO", "es": "SSO" }, "correct": true },
+      { "key": "C", "text": { "en": "AAA", "es": "AAA" }, "correct": false },
+      { "key": "D", "text": { "en": "MFA", "es": "MFA" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "SSO (Single Sign-On) is an authentication method that allows a user to log in once and gain access to multiple related, but independent, software systems without being prompted to log in again. It improves the user experience and simplifies credential management.",
+      "es": "SSO (Inicio de Sesión Único) es un método de autenticación que permite a un usuario iniciar sesión una vez y obtener acceso a múltiples sistemas de software relacionados, pero independientes, sin que se le solicite iniciar sesión nuevamente. Mejora la experiencia del usuario y simplifica la gestión de credenciales."
+    }
+  },
+  {
+    "id": "T19-Q0017",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a protocol designed for accessing and managing information related to user accounts, groups, devices, and other resources within an organization?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un protocolo diseñado para acceder y gestionar información relacionada con cuentas de usuario, grupos, dispositivos y otros recursos dentro de una organización?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "SOAP", "es": "SOAP" }, "correct": false },
+      { "key": "B", "text": { "en": "RDP", "es": "RDP" }, "correct": false },
+      { "key": "C", "text": { "en": "LDAP", "es": "LDAP" }, "correct": true },
+      { "key": "D", "text": { "en": "SAML", "es": "SAML" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "LDAP (Lightweight Directory Access Protocol) is an open, vendor-neutral, industry-standard application protocol for accessing and maintaining distributed directory information services over an IP network. It is used to manage user and group information, and it is a fundamental component of many identity and access management systems.",
+      "es": "LDAP (Protocolo Ligero de Acceso a Directorios) es un protocolo de aplicación abierto, neutral al proveedor y estándar de la industria para acceder y mantener servicios de información de directorio distribuidos a través de una red IP. Se utiliza para gestionar la información de usuarios y grupos, y es un componente fundamental de muchos sistemas de gestión de identidad y acceso."
+    }
+  },
+  {
+    "id": "T19-Q0018",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "OAuth is an open standard for:",
+      "es": "OAuth es un estándar abierto para:"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Auditing", "es": "Auditoría" }, "correct": false },
+      { "key": "B", "text": { "en": "Authentication", "es": "Autenticación" }, "correct": false },
+      { "key": "C", "text": { "en": "Authorization", "es": "Autorización" }, "correct": true },
+      { "key": "D", "text": { "en": "Attestation", "es": "Atestación" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "OAuth (Open Authorization) is an open standard for authorization. It allows a user to grant a third-party application access to their information on another website without sharing their password. It is a delegation protocol, not an authentication protocol, and is used to authorize access to resources.",
+      "es": "OAuth (Autorización Abierta) es un estándar abierto para la autorización. Permite a un usuario otorgar a una aplicación de terceros acceso a su información en otro sitio web sin compartir su contraseña. Es un protocolo de delegación, no un protocolo de autenticación, y se utiliza para autorizar el acceso a los recursos."
+    }
+  },
+  {
+    "id": "T19-Q0019",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "OpenID Connect is a protocol used for:",
+      "es": "OpenID Connect es un protocolo utilizado para:"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Attestation", "es": "Atestación" }, "correct": false },
+      { "key": "B", "text": { "en": "Authorization", "es": "Autorización" }, "correct": false },
+      { "key": "C", "text": { "en": "Auditing", "es": "Auditoría" }, "correct": false },
+      { "key": "D", "text": { "en": "Authentication", "es": "Autenticación" }, "correct": true }
+    ],
+    "explanation": {
+      "en": "OpenID Connect (OIDC) is an authentication protocol built on top of the OAuth 2.0 framework. It allows clients to verify the identity of the end-user based on authentication performed by an authorization server. While OAuth handles authorization, OIDC handles the authentication component, confirming the user's identity.",
+      "es": "OpenID Connect (OIDC) es un protocolo de autenticación construido sobre el marco de OAuth 2.0. Permite a los clientes verificar la identidad del usuario final basándose en la autenticación realizada por un servidor de autorización. Mientras que OAuth maneja la autorización, OIDC maneja el componente de autenticación, confirmando la identidad del usuario."
+    }
+  },
+  {
+    "id": "T19-Q0020",
+    "type": "tf",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A common implementation of identity and access controls used in federated SSO systems includes OpenID Connect and OAuth 2.0 used in conjunction to provide authentication and authorization services.",
+      "es": "Una implementación común de controles de identidad y acceso utilizados en los sistemas SSO federados incluye OpenID Connect y OAuth 2.0 utilizados en conjunto para proporcionar servicios de autenticación y autorización."
+    },
+    "options": [
+      { "key": "A", "text": { "en": "True", "es": "Verdadero" }, "correct": true },
+      { "key": "B", "text": { "en": "False", "es": "Falso" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "The statement is true. The combination of OAuth 2.0 (for authorization) and OpenID Connect (for authentication) is a widely used standard for modern federated SSO systems, particularly in web and mobile applications. It allows a single sign-on experience while also providing granular control over what resources a user can access.",
+      "es": "La afirmación es verdadera. La combinación de OAuth 2.0 (para la autorización) y OpenID Connect (para la autenticación) es un estándar ampliamente utilizado para los sistemas SSO federados modernos, particularmente en aplicaciones web y móviles. Permite una experiencia de inicio de sesión único al tiempo que proporciona un control granular sobre los recursos a los que un usuario puede acceder."
+    }
+  },
+  {
+    "id": "T19-Q0021",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "What are the characteristic features of SAML? (Select 3 answers)",
+      "es": "¿Cuáles son las características del SAML? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "Enables only the exchange of SSO authorization data", "es": "Permite solo el intercambio de datos de autorización SSO" },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": { "en": "Handles both authentication and authorization for SSO", "es": "Maneja tanto la autenticación como la autorización para SSO" },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": { "en": "Uses XML for data exchange", "es": "Utiliza XML para el intercambio de datos" },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": { "en": "Commonly used in enterprise environments and legacy systems", "es": "Comúnmente utilizado en entornos empresariales y sistemas heredados" },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": { "en": "Enables only the exchange of SSO authentication data", "es": "Permite solo el intercambio de datos de autenticación SSO" },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": { "en": "Uses JSON for data exchange", "es": "Utiliza JSON para el intercambio de datos" },
+        "correct": false
+      },
+      {
+        "key": "G",
+        "text": { "en": "Specifically designed for web and mobile applications", "es": "Diseñado específicamente para aplicaciones web y móviles" },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SAML (Security Assertion Markup Language) is an XML-based standard for exchanging authentication and authorization data between an identity provider and a service provider. It is widely used for federated SSO in enterprise environments and legacy systems. Unlike the OIDC/OAuth combination, SAML handles both authentication and authorization within a single framework.",
+      "es": "SAML (Lenguaje de Marcado de Aserción de Seguridad) es un estándar basado en XML para intercambiar datos de autenticación y autorización entre un proveedor de identidad y un proveedor de servicios. Se utiliza ampliamente para SSO federado en entornos empresariales y sistemas heredados. A diferencia de la combinación OIDC/OAuth, SAML maneja tanto la autenticación como la autorización dentro de un solo marco."
+    }
+  },
+  {
+    "id": "T19-Q0022",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below refers to the process of confirming the integrity and compliance status of various components such as devices, software, configurations, and user privileges?",
+      "es": "¿Cuál de los términos listados a continuación se refiere al proceso de confirmar la integridad y el estado de cumplimiento de varios componentes, como dispositivos, software, configuraciones y privilegios de usuario?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "Attestation", "es": "Atestación" }, "correct": true },
+      { "key": "B", "text": { "en": "Authentication", "es": "Autenticación" }, "correct": false },
+      { "key": "C", "text": { "en": "Auditing", "es": "Auditoría" }, "correct": false },
+      { "key": "D", "text": { "en": "Authorization", "es": "Autorización" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "Attestation is the process of confirming the integrity of a system's state. In a security context, it involves verifying that a device, software, or configuration is in a trusted and compliant state. This is different from authentication (verifying identity), authorization (granting access), or auditing (reviewing logs for past activity).",
+      "es": "La atestación es el proceso de confirmar la integridad del estado de un sistema. En un contexto de seguridad, implica verificar que un dispositivo, software o configuración se encuentre en un estado confiable y compatible. Esto es diferente de la autenticación (verificación de identidad), la autorización (otorgar acceso) o la auditoría (revisión de registros de actividad pasada)."
+    }
+  },
+  {
+    "id": "T19-Q0023",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the following answers refer(s) to the Mandatory Access Control (MAC) model? (Select all that apply)",
+      "es": "¿Cuáles de las siguientes respuestas se refieren al modelo de Control de Acceso Obligatorio (MAC)? (Selecciona todas las que apliquen)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": { "en": "Users are not allowed to change access policies at their own discretion", "es": "Los usuarios no pueden cambiar las políticas de acceso a su propia discreción" },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": { "en": "Labels and clearance levels can only be applied and changed by an administrator", "es": "Las etiquetas y los niveles de autorización solo pueden ser aplicados y cambiados por un administrador" },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": { "en": "Every object has an owner who at his/her own discretion determines what kind of permissions other users can have to that object", "es": "Cada objeto tiene un propietario que a su propia discreción determina qué tipo de permisos pueden tener otros usuarios sobre ese objeto" },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": { "en": "Access to resources based on user identity", "es": "Acceso a recursos basado en la identidad del usuario" },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": { "en": "Every resource has a sensitivity label matching a clearance level assigned to a user", "es": "Cada recurso tiene una etiqueta de sensibilidad que coincide con un nivel de autorización asignado a un usuario" },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Mandatory Access Control (MAC) is an access control model where the operating system or system administrator enforces access policies. Users cannot alter these policies. Access is granted based on sensitivity labels of resources and clearance levels assigned to users. MAC is a key feature of high-security systems.",
+      "es": "El Control de Acceso Obligatorio (MAC) es un modelo de control de acceso donde el sistema operativo o el administrador del sistema aplican las políticas de acceso. Los usuarios no pueden alterar estas políticas. El acceso se otorga en función de las etiquetas de sensibilidad de los recursos y los niveles de autorización asignados a los usuarios. MAC es una característica clave de los sistemas de alta seguridad."
+    }
+  },
+  {
+    "id": "T19-Q0024",
+    "type": "tf",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Discretionary Access Control (DAC) is an access control model based on user identity. In DAC, every object has an owner who at his/her own discretion determines what kind of permissions other users can have for that object.",
+      "es": "El Control de Acceso Discrecional (DAC) es un modelo de control de acceso basado en la identidad del usuario. En el DAC, cada objeto tiene un propietario que a su propia discreción determina qué tipo de permisos pueden tener otros usuarios para ese objeto."
+    },
+    "options": [
+      { "key": "A", "text": { "en": "True", "es": "Verdadero" }, "correct": true },
+      { "key": "B", "text": { "en": "False", "es": "Falso" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "The statement is true. DAC is a widely used access control model where the owner of a resource (e.g., a file) can grant or deny access to other users. This discretionary nature is the defining characteristic of DAC, and it is the default access control model in many operating systems like Windows and Linux.",
+      "es": "La afirmación es verdadera. DAC es un modelo de control de acceso ampliamente utilizado donde el propietario de un recurso (por ejemplo, un archivo) puede otorgar o denegar el acceso a otros usuarios. Esta naturaleza discrecional es la característica definitoria del DAC, y es el modelo de control de acceso predeterminado en muchos sistemas operativos como Windows y Linux."
+    }
+  },
+  {
+    "id": "T19-Q0025",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which type of control access model connects user permissions to their specific responsibilities?",
+      "es": "¿Qué tipo de modelo de control de acceso conecta los permisos de los usuarios con sus responsabilidades específicas?"
+    },
+    "options": [
+      { "key": "A", "text": { "en": "DAC", "es": "DAC" }, "correct": false },
+      { "key": "B", "text": { "en": "RBAC", "es": "RBAC" }, "correct": true },
+      { "key": "C", "text": { "en": "MAC", "es": "MAC" }, "correct": false },
+      { "key": "D", "text": { "en": "ABAC", "es": "ABAC" }, "correct": false }
+    ],
+    "explanation": {
+      "en": "RBAC (Role-Based Access Control) is an access control model where permissions are tied to roles, and users are assigned to those roles. This simplifies management by basing access on a user's job function or responsibilities, rather than on individual user identity (as in DAC) or fixed labels (as in MAC).",
+      "es": "RBAC (Control de Acceso Basado en Roles) es un modelo de control de acceso donde los permisos están vinculados a roles, y los usuarios se asignan a esos roles. Esto simplifica la gestión al basar el acceso en la función o las responsabilidades del trabajo de un usuario, en lugar de en la identidad de usuario individual (como en DAC) o en etiquetas fijas (como en MAC)."
+    }
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "T24-Q0001",
+    "prompt": "A detailed agreement between a client and a vendor that describes the work to be performed on a project is called:",
+    "type": "sc",
+    "correct_answer": "SOW",
+    "explanation": "A Statement of Work (SOW) is a document that defines the specific project activities, deliverables, and timelines between a client and a vendor."
+  },
+  {
+    "id": "T24-Q0002",
+    "prompt": "A legal contract between the holder of confidential information and another person to whom that information is disclosed restricting that other person from disclosing the confidential information to any other party is referred to as:",
+    "type": "sc",
+    "correct_answer": "NDA",
+    "explanation": "A Non-Disclosure Agreement (NDA) is a legal contract that protects confidential information."
+  },
+  {
+    "id": "T24-Q0003",
+    "prompt": "Which of the terms listed below refers to a formal contract between business partners outlining the rights, responsibilities, and obligations of each partner regarding the management, operation, and decision-making processes within the business?",
+    "type": "sc",
+    "correct_answer": "BPA",
+    "explanation": "A Business Partnership Agreement (BPA) is a formal contract between partners."
+  },
+  {
+    "id": "T24-Q0004",
+    "prompt": "Which of the following terms describes an investigation or assessment done upfront to ensure all facts and risks are known before proceeding?",
+    "type": "sc",
+    "correct_answer": "Due diligence",
+    "explanation": "Due diligence is the process of conducting a thorough investigation before an action to ensure all facts and risks are known."
+  },
+  {
+    "id": "T24-Q0005",
+    "prompt": "Which of the terms listed below is used to describe actions taken to address and mitigate already identified risks?",
+    "type": "sc",
+    "correct_answer": "Due care",
+    "explanation": "Due care describes the actions taken to address and mitigate identified risks."
+  },
+  {
+    "id": "T24-Q0006",
+    "prompt": "Under data privacy regulations, the individual whose personal data undergoes collection and processing is known as:",
+    "type": "sc",
+    "correct_answer": "Data subject",
+    "explanation": "A data subject is the person whose personal data is being processed."
+  },
+  {
+    "id": "T24-Q0007",
+    "prompt": "Which of the following answers refers to an entity (such as an organization or individual) that determines the purpose and means of processing personal data?",
+    "type": "sc",
+    "correct_answer": "Data controller",
+    "explanation": "A data controller determines the purpose and means of processing personal data."
+  },
+  {
+    "id": "T24-Q0008",
+    "prompt": "An entity that acts under the instructions of a controller by processing personal data on behalf of the controller is called:",
+    "type": "sc",
+    "correct_answer": "Data processor",
+    "explanation": "A data processor processes personal data on behalf of a data controller."
+  },
+  {
+    "id": "T24-Q0009",
+    "prompt": "Which of the terms listed below refers to a legal principle that allows individuals to request the removal of personal information from Internet searches and other public sources?",
+    "type": "sc",
+    "correct_answer": "Right to be forgotten",
+    "explanation": "The 'Right to be forgotten' is a legal principle that allows for the removal of personal information from public sources."
+  },
+  {
+    "id": "T24-Q0010",
+    "prompt": "A formal declaration by an auditor that they have performed their work in accordance with all relevant standards and regulations is referred to as:",
+    "type": "sc",
+    "correct_answer": "Attestation",
+    "explanation": "Attestation is a formal declaration by an auditor about the adherence to standards and regulations."
+  },
+  {
+    "id": "T24-Q0011",
+    "prompt": "In the context of audits, an attestation is typically provided by:",
+    "type": "sc",
+    "correct_answer": "External auditor",
+    "explanation": "An attestation is typically provided by an external auditor."
+  },
+  {
+    "id": "T24-Q0012",
+    "prompt": "In cybersecurity exercises, red team takes on the role of:",
+    "type": "sc",
+    "correct_answer": "An attacker",
+    "explanation": "The red team simulates an attacker in cybersecurity exercises."
+  },
+  {
+    "id": "T24-Q0013",
+    "prompt": "In cybersecurity exercises, the defending team is known as:",
+    "type": "sc",
+    "correct_answer": "Blue team",
+    "explanation": "The blue team is the defending team in cybersecurity exercises."
+  },
+  {
+    "id": "T24-Q0014",
+    "prompt": "In cybersecurity exercises, the role of an event overseer (i.e., the referee) is delegated to:",
+    "type": "sc",
+    "correct_answer": "White team",
+    "explanation": "The white team acts as the referee and overseer in cybersecurity exercises."
+  },
+  {
+    "id": "T24-Q0015",
+    "prompt": "In cybersecurity exercises, a purple team assumes the integrated role of all other teams (i.e., red, blue, and white).",
+    "type": "sc",
+    "correct_answer": "False",
+    "explanation": "A purple team is a concept of integrating red and blue teams for better collaboration, not a separate team that assumes all roles."
+  },
+  {
+    "id": "T24-Q0016",
+    "prompt": "A penetration test performed by an authorized professional with the full prior knowledge on how the system that is to be tested works is called:",
+    "type": "sc",
+    "correct_answer": "White-box testing",
+    "explanation": "White-box testing is performed with full knowledge of the system's internal workings."
+  },
+  {
+    "id": "T24-Q0017",
+    "prompt": "Which of the following terms is used to describe a penetration test in which the person conducting the test has limited access to information on the internal workings of the targeted system?",
+    "type": "sc",
+    "correct_answer": "Gray-box testing",
+    "explanation": "Gray-box testing is a hybrid approach with limited knowledge of the system's internal workings."
+  },
+  {
+    "id": "T24-Q0018",
+    "prompt": "A penetration test of a computer system performed without prior knowledge of how the system that is to be tested works is referred to as black-box testing.",
+    "type": "sc",
+    "correct_answer": "True",
+    "explanation": "Black-box testing is a penetration test performed without any prior knowledge of the target system."
+  },
+  {
+    "id": "T24-Q0019",
+    "prompt": "In penetration testing, active reconnaissance involves gathering any type of publicly available information that can be used later for exploiting vulnerabilities found in the targeted system.",
+    "type": "sc",
+    "correct_answer": "False",
+    "explanation": "This is the definition of passive reconnaissance. Active reconnaissance involves direct interaction with the system."
+  },
+  {
+    "id": "T24-Q0020",
+    "prompt": "In penetration testing, passive reconnaissance relies on gathering information on the targeted system with the use of various non-invasive software tools and techniques, such as pinging, port scanning, or OS fingerprinting.",
+    "type": "sc",
+    "correct_answer": "False",
+    "explanation": "This is the definition of active reconnaissance. Passive reconnaissance does not involve direct interaction."
+  },
+  {
+    "id": "T24-Q0021",
+    "prompt": "In email communication, what signs can be of help in recognizing a phishing attempt?",
+    "type": "sc",
+    "correct_answer": "Any of the above",
+    "explanation": "Poor grammar, requests for personal information, urgency, and suspicious links/attachments are all signs of a phishing attempt."
+  },
+  {
+    "id": "T24-Q0022",
+    "prompt": "What would be an appropriate user response to an email phishing attempt? (Select all that apply)",
+    "type": "mc",
+    "correct_answers": [
+      "Not replying to the message or providing any personal information",
+      "Reporting the message to the IT or security department, if applicable",
+      "Deleting the message from the inbox",
+      "Not clicking on any links or downloading any attachments in the message"
+    ],
+    "explanation": "The appropriate responses to a phishing email include not interacting with it, reporting it, and deleting it."
+  },
+  {
+    "id": "T24-Q0023",
+    "prompt": "Which term best describes a disgruntled employee abusing legitimate access to a company’s internal resources?",
+    "type": "sc",
+    "correct_answer": "Insider threat",
+    "explanation": "An insider threat is a security risk from within the organization, such as a disgruntled employee."
+  },
+  {
+    "id": "T24-Q0024",
+    "prompt": "Due to added functionality in its plug, a malicious USB cable can be used for:",
+    "type": "sc",
+    "correct_answer": "Any of the above",
+    "explanation": "Malicious USB cables can be used for various attacks, including keystroke capture, command execution, and malware delivery."
+  },
+  {
+    "id": "T24-Q0025",
+    "prompt": "What is the best countermeasure against social engineering attacks?",
+    "type": "sc",
+    "correct_answer": "User education",
+    "explanation": "User education is considered the best countermeasure against social engineering attacks because it empowers individuals to recognize and resist them."
+  }
+]

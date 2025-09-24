@@ -1,0 +1,1623 @@
+[
+  {
+    "id": "AC03-Q0001",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A less formal document outlining mutual goals and cooperation established between two or more parties is referred to as:",
+      "es": "Un documento menos formal que describe los objetivos mutuos y la cooperación establecida entre dos o más partes se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MOA",
+          "es": "MOA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SOW",
+          "es": "SOW"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MOU",
+          "es": "MOU"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MSA",
+          "es": "MSA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "MOU stands for Memorandum of Understanding, a less formal agreement than a contract.",
+      "es": "MOU significa Memorandum of Understanding, un acuerdo menos formal que un contrato."
+    }
+  },
+  {
+    "id": "AC03-Q0002",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a global standard development organization composed of different national standards bodies?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a una organización global de desarrollo de estándares compuesta por diferentes organismos nacionales de estándares?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "NIST",
+          "es": "NIST"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "ISO",
+          "es": "ISO"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "IEEE",
+          "es": "IEEE"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "ANSI",
+          "es": "ANSI"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ISO stands for International Organization for Standardization, a non-governmental organization that develops and publishes international standards.",
+      "es": "ISO significa International Organization for Standardization, una organización no gubernamental que desarrolla y publica estándares internacionales."
+    }
+  },
+  {
+    "id": "AC03-Q0003",
+    "type": "t/f",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The term \"SD-WAN\" refers to a network technology that uses software to manage and optimize network connections that extend over large geographic areas.",
+      "es": "El término \"SD-WAN\" se refiere a una tecnología de red que utiliza software para gestionar y optimizar las conexiones de red que se extienden sobre grandes áreas geográficas."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SD-WAN stands for Software-Defined Wide Area Network, which uses software to control the network over large distances.",
+      "es": "SD-WAN significa Software-Defined Wide Area Network, que utiliza software para controlar la red a largas distancias."
+    }
+  },
+  {
+    "id": "AC03-Q0004",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a dedicated programming language used in database management?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un lenguaje de programación dedicado utilizado en la gestión de bases de datos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PHP",
+          "es": "PHP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "C",
+          "es": "C"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SQL",
+          "es": "SQL"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "JS",
+          "es": "JS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SQL stands for Structured Query Language, a programming language used for managing relational databases.",
+      "es": "SQL significa Structured Query Language, un lenguaje de programación utilizado para gestionar bases de datos relacionales."
+    }
+  },
+  {
+    "id": "AC03-Q0005",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "Which of the following devices fall(s) into the category of PEDs? (Select all that apply)",
+      "es": "¿Cuál de los siguientes dispositivos(s) entra(n) en la categoría de PEDs? (Seleccione todas las que apliquen)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Smartphone",
+          "es": "Smartphone"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Tablet",
+          "es": "Tablet"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Desktop",
+          "es": "Desktop"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Mainframe",
+          "es": "Mainframe"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "PEDs stands for Portable Electronic Devices. Smartphones and tablets are common examples of PEDs.",
+      "es": "PEDs significa Portable Electronic Devices. Los teléfonos inteligentes y las tabletas son ejemplos comunes de PEDs."
+    }
+  },
+  {
+    "id": "AC03-Q0006",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below is used to describe an average time required to repair a failed component or device?",
+      "es": "¿Cuál de los siguientes términos se utiliza para describir el tiempo promedio requerido para reparar un componente o dispositivo fallido?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MTTF",
+          "es": "MTTF"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RPO",
+          "es": "RPO"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MTTR",
+          "es": "MTTR"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MTBF",
+          "es": "MTBF"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "MTTR stands for Mean Time to Repair, the average time to repair a component after failure.",
+      "es": "MTTR significa Mean Time to Repair, el tiempo promedio para reparar un componente después de un fallo."
+    }
+  },
+  {
+    "id": "AC03-Q0007",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a firewall type that improves upon first- and second-generation firewalls by offering additional features, such as more in-depth inspection of network traffic and application-level inspection?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un tipo de firewall que mejora los firewalls de primera y segunda generación al ofrecer características adicionales, como una inspección más profunda del tráfico de red y una inspección a nivel de aplicación?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "IDS",
+          "es": "IDS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Packet filter",
+          "es": "Filtro de paquetes"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "NGFW",
+          "es": "NGFW"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Stateful firewall",
+          "es": "Firewall con estado"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "NGFW stands for Next-Generation Firewall, which provides deeper inspection and additional security features beyond traditional firewalls.",
+      "es": "NGFW significa Next-Generation Firewall, que proporciona una inspección más profunda y características de seguridad adicionales más allá de los firewalls tradicionales."
+    }
+  },
+  {
+    "id": "AC03-Q0008",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which protocol enables secure, real-time delivery of audio and video over an IP network?",
+      "es": "¿Qué protocolo permite la entrega segura y en tiempo real de audio y video a través de una red IP?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "S/MIME",
+          "es": "S/MIME"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RTP",
+          "es": "RTP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SIP",
+          "es": "SIP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SRTP",
+          "es": "SRTP"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "SRTP stands for Secure Real-time Transport Protocol, which provides secure delivery of voice and video data over IP.",
+      "es": "SRTP significa Secure Real-time Transport Protocol, que proporciona una entrega segura de datos de voz y video a través de IP."
+    }
+  },
+  {
+    "id": "AC03-Q0009",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a network security technology designed to monitor, detect, and mitigate unauthorized access, security threats, and suspicious activities in WLANs?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a una tecnología de seguridad de red diseñada para monitorear, detectar y mitigar el acceso no autorizado, las amenazas de seguridad y las actividades sospechosas en WLANs?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "WIPS",
+          "es": "WIPS"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "NIDS",
+          "es": "NIDS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "NIPS",
+          "es": "NIPS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "WIDS",
+          "es": "WIDS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "WIPS stands for Wireless Intrusion Prevention System, which actively detects and blocks threats on wireless networks.",
+      "es": "WIPS significa Wireless Intrusion Prevention System, que detecta y bloquea activamente las amenazas en las redes inalámbricas."
+    }
+  },
+  {
+    "id": "AC03-Q0010",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a method for creating and verifying digital signatures?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un método para crear y verificar firmas digitales?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "DHE",
+          "es": "DHE"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "AES",
+          "es": "AES"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "DSA",
+          "es": "DSA"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SHA",
+          "es": "SHA"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "DSA stands for Digital Signature Algorithm, a standard for digital signatures.",
+      "es": "DSA significa Digital Signature Algorithm, un estándar para firmas digitales."
+    }
+  },
+  {
+    "id": "AC03-Q0011",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A type of legally binding contract that establishes the foundational terms and conditions governing future agreements between two parties is known as:",
+      "es": "Un tipo de contrato legalmente vinculante que establece los términos y condiciones fundamentales que rigen los acuerdos futuros entre dos partes se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MOU",
+          "es": "MOU"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SLA",
+          "es": "SLA"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MSA",
+          "es": "MSA"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SOW",
+          "es": "SOW"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "MSA stands for Master Service Agreement, a contract that defines the terms for future business transactions.",
+      "es": "MSA significa Master Service Agreement, un contrato que define los términos para futuras transacciones comerciales."
+    }
+  },
+  {
+    "id": "AC03-Q0012",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which part of IPsec provides authentication, integrity, and confidentiality?",
+      "es": "¿Qué parte de IPsec proporciona autenticación, integridad y confidencialidad?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SPD",
+          "es": "SPD"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "PFS",
+          "es": "PFS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "AH",
+          "es": "AH"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "ESP",
+          "es": "ESP"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "ESP stands for Encapsulating Security Payload, an IPsec protocol that provides confidentiality, data origin authentication, connectionless integrity, and an anti-replay service.",
+      "es": "ESP significa Encapsulating Security Payload, un protocolo IPsec que proporciona confidencialidad, autenticación del origen de los datos, integridad sin conexión y un servicio anti-repetición."
+    }
+  },
+  {
+    "id": "AC03-Q0013",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a multi-protocol authentication framework frequently used in 802.11 networks and point-to-point connections?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un marco de autenticación de múltiples protocolos utilizado frecuentemente en redes 802.11 y conexiones punto a punto?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PAP",
+          "es": "PAP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "MS-CHAP",
+          "es": "MS-CHAP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "EAP",
+          "es": "EAP"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CHAP",
+          "es": "CHAP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "EAP stands for Extensible Authentication Protocol, a flexible authentication framework.",
+      "es": "EAP significa Extensible Authentication Protocol, un marco de autenticación flexible."
+    }
+  },
+  {
+    "id": "AC03-Q0014",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following acronyms represents evidence that helps cybersecurity professionals detect potential security incidents?",
+      "es": "¿Cuál de los siguientes acrónimos representa evidencia que ayuda a los profesionales de la ciberseguridad a detectar posibles incidentes de seguridad?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "APT",
+          "es": "APT"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IoC",
+          "es": "IoC"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "ATT&CK",
+          "es": "ATT&CK"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "EDR",
+          "es": "EDR"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "IoC stands for Indicator of Compromise, a piece of forensic evidence that indicates a security breach.",
+      "es": "IoC significa Indicator of Compromise, una pieza de evidencia forense que indica una violación de seguridad."
+    }
+  },
+  {
+    "id": "AC03-Q0015",
+    "type": "t/f",
+    "required_answers": 1,
+    "prompt": {
+      "en": "For a wireless client to be able to connect to a network, the security type (e.g., WEP, WPA, WPA2, or WPA3) and encryption type (e.g., TKIP or AES) settings on the connecting host must match the corresponding wireless security settings on a WAP.",
+      "es": "Para que un cliente inalámbrico pueda conectarse a una red, la configuración del tipo de seguridad (p. ej., WEP, WPA, WPA2 o WPA3) y el tipo de encriptación (p. ej., TKIP o AES) en el host que se conecta debe coincidir con la configuración de seguridad inalámbrica correspondiente en un WAP."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "For a wireless client to successfully connect to a wireless network, its security and encryption settings must match the WAP's settings.",
+      "es": "Para que un cliente inalámbrico se conecte con éxito a una red inalámbrica, su configuración de seguridad y encriptación debe coincidir con la configuración del WAP."
+    }
+  },
+  {
+    "id": "AC03-Q0016",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to an obsolete authentication protocol that sends passwords in cleartext?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un protocolo de autenticación obsoleto que envía contraseñas en texto claro?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PAP",
+          "es": "PAP"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CHAP",
+          "es": "CHAP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "EAP",
+          "es": "EAP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "MS-CHAP",
+          "es": "MS-CHAP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "PAP stands for Password Authentication Protocol, which transmits passwords in cleartext and is considered insecure.",
+      "es": "PAP significa Password Authentication Protocol, que transmite contraseñas en texto claro y se considera inseguro."
+    }
+  },
+  {
+    "id": "AC03-Q0017",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to an internal telephone exchange or switching system implemented in a business or office?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a una centralita telefónica interna o sistema de conmutación implementado en una empresa u oficina?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "POTS",
+          "es": "POTS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "VoIP",
+          "es": "VoIP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PBX",
+          "es": "PBX"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "PSTN",
+          "es": "PSTN"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "PBX stands for Private Branch Exchange, a private telephone network used within a company.",
+      "es": "PBX significa Private Branch Exchange, una red telefónica privada utilizada dentro de una empresa."
+    }
+  },
+  {
+    "id": "AC03-Q0018",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the acronyms listed below refers to a maximum tolerable period of time required for restoring business functions after a failure or disaster?",
+      "es": "¿Cuál de los acrónimos a continuación se refiere a un período de tiempo máximo tolerable requerido para restaurar las funciones comerciales después de un fallo o desastre?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SLA",
+          "es": "SLA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "RTO",
+          "es": "RTO"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "AUP",
+          "es": "AUP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "RPO",
+          "es": "RPO"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "RTO stands for Recovery Time Objective, the maximum time a business function can be offline before serious damage.",
+      "es": "RTO significa Recovery Time Objective, el tiempo máximo que una función de negocio puede estar fuera de línea antes de que ocurra un daño grave."
+    }
+  },
+  {
+    "id": "AC03-Q0019",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A computer network connecting multiple LANs over an area of a city is called:",
+      "es": "Una red de computadoras que conecta múltiples LANs en el área de una ciudad se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PAN",
+          "es": "PAN"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SAN",
+          "es": "SAN"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MAN",
+          "es": "MAN"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CAN",
+          "es": "CAN"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "MAN stands for Metropolitan Area Network, a network that spans a city.",
+      "es": "MAN significa Metropolitan Area Network, una red que abarca una ciudad."
+    }
+  },
+  {
+    "id": "AC03-Q0020",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which cryptographic protocol is designed to provide secure communications over a computer network and is the successor to SSL?",
+      "es": "¿Qué protocolo criptográfico está diseñado para proporcionar comunicaciones seguras a través de una red de computadoras y es el sucesor de SSL?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "WEP",
+          "es": "WEP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CCMP",
+          "es": "CCMP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "TLS",
+          "es": "TLS"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "AES",
+          "es": "AES"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "TLS stands for Transport Layer Security, which is the successor to SSL.",
+      "es": "TLS significa Transport Layer Security, que es el sucesor de SSL."
+    }
+  },
+  {
+    "id": "AC03-Q0021",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to an embedded microcontroller used for secure boot, disk encryption, and system integrity verification?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un microcontrolador incrustado utilizado para el arranque seguro, la encriptación de disco y la verificación de la integridad del sistema?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "TPM",
+          "es": "TPM"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SoC",
+          "es": "SoC"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "UEFI",
+          "es": "UEFI"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "HSM",
+          "es": "HSM"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "TPM stands for Trusted Platform Module, a dedicated microcontroller designed to secure hardware.",
+      "es": "TPM significa Trusted Platform Module, un microcontrolador dedicado diseñado para proteger el hardware."
+    }
+  },
+  {
+    "id": "AC03-Q0022",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "Which of the answers listed below refer to IMAP? (Select 2 answers)",
+      "es": "¿Cuál de las respuestas a continuación se refiere a IMAP? (Seleccione 2 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Offers improved functionality in comparison to POP3",
+          "es": "Ofrece una funcionalidad mejorada en comparación con POP3"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Serves the same function as POP3",
+          "es": "Sirve la misma función que POP3"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Enables sending email messages from client devices",
+          "es": "Permite enviar mensajes de correo electrónico desde dispositivos cliente"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Offers less functions than POP3",
+          "es": "Ofrece menos funciones que POP3"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Enables email exchange between mail servers",
+          "es": "Permite el intercambio de correos electrónicos entre servidores de correo"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "IMAP (Internet Message Access Protocol) is an email protocol that allows clients to access and manage email messages on a mail server, offering more functionality than POP3.",
+      "es": "IMAP (Internet Message Access Protocol) es un protocolo de correo electrónico que permite a los clientes acceder y gestionar mensajes de correo electrónico en un servidor de correo, ofreciendo más funcionalidad que POP3."
+    }
+  },
+  {
+    "id": "AC03-Q0023",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which cryptographic solution would be best suited for low-power devices, such as IoT devices, embedded systems, and mobile devices?",
+      "es": "¿Qué solución criptográfica sería la más adecuada para dispositivos de bajo consumo, como dispositivos IoT, sistemas embebidos y dispositivos móviles?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ECC",
+          "es": "ECC"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DES",
+          "es": "DES"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "RSA",
+          "es": "RSA"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "AES",
+          "es": "AES"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ECC stands for Elliptic-Curve Cryptography, which is well-suited for low-power devices due to its high security with smaller key sizes.",
+      "es": "ECC significa Elliptic-Curve Cryptography, que es muy adecuada para dispositivos de bajo consumo debido a su alta seguridad con tamaños de clave más pequeños."
+    }
+  },
+  {
+    "id": "AC03-Q0024",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The term \"ASLR\" refers to a technique used in modern OSs to enhance:",
+      "es": "El término \"ASLR\" se refiere a una técnica utilizada en los sistemas operativos modernos para mejorar:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Data redundancy",
+          "es": "Redundancia de datos"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "System security",
+          "es": "Seguridad del sistema"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Performance",
+          "es": "Rendimiento"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Storage capacity",
+          "es": "Capacidad de almacenamiento"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "ASLR stands for Address Space Layout Randomization, a security feature that randomizes the memory locations of system processes to make it harder for attackers to exploit vulnerabilities.",
+      "es": "ASLR significa Address Space Layout Randomization, una característica de seguridad que aleatoriza las ubicaciones de memoria de los procesos del sistema para dificultar que los atacantes exploten las vulnerabilidades."
+    }
+  },
+  {
+    "id": "AC03-Q0025",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "Which of the following solutions provide the AAA functionality? (Select 2 answers)",
+      "es": "¿Cuáles de las siguientes soluciones proporcionan la funcionalidad AAA? (Seleccione 2 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CHAP",
+          "es": "CHAP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "TACACS+",
+          "es": "TACACS+"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "PAP",
+          "es": "PAP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "RADIUS",
+          "es": "RADIUS"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "MS-CHAP",
+          "es": "MS-CHAP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "RADIUS (Remote Authentication Dial-In User Service) and TACACS+ (Terminal Access Controller Access-Control System Plus) are both protocols that provide AAA (Authentication, Authorization, and Accounting) functionality.",
+      "es": "RADIUS (Remote Authentication Dial-In User Service) y TACACS+ (Terminal Access Controller Access-Control System Plus) son ambos protocolos que proporcionan la funcionalidad AAA (Autenticación, Autorización y Contabilidad)."
+    }
+  },
+  {
+    "id": "AC03-Q0026",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the acronyms listed below refers to a set of rules that specify which users or system processes are granted access to objects as well as what operations are allowed on a given object?",
+      "es": "¿Cuál de los acrónimos a continuación se refiere a un conjunto de reglas que especifican a qué usuarios o procesos del sistema se les otorga acceso a los objetos, así como qué operaciones están permitidas en un objeto dado?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "CRL",
+          "es": "CRL"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "NAT",
+          "es": "NAT"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "BCP",
+          "es": "BCP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "ACL",
+          "es": "ACL"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "ACL stands for Access Control List, a list of permissions attached to an object.",
+      "es": "ACL significa Access Control List, una lista de permisos adjunta a un objeto."
+    }
+  },
+  {
+    "id": "AC03-Q0027",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A network admin can ping a remote host by its IP address, but not by its domain name. Which of the following is the most probable source of this problem?",
+      "es": "Un administrador de red puede hacer ping a un host remoto por su dirección IP, pero no por su nombre de dominio. ¿Cuál de las siguientes es la fuente más probable de este problema?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "ICMP",
+          "es": "ICMP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "DNS",
+          "es": "DNS"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "HTTP",
+          "es": "HTTP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "DHCP",
+          "es": "DHCP"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "DNS stands for Domain Name System, a service that translates domain names into IP addresses. If you can't ping by domain name but can by IP, the issue is likely with DNS resolution.",
+      "es": "DNS significa Domain Name System, un servicio que traduce nombres de dominio a direcciones IP. Si no se puede hacer ping por nombre de dominio pero sí por IP, el problema probablemente sea con la resolución de DNS."
+    }
+  },
+  {
+    "id": "AC03-Q0028",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "The role of a RA in PKI is to: (Select 2 answers)",
+      "es": "El papel de una RA en PKI es: (Seleccione 2 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Accept requests for digital certificates",
+          "es": "Aceptar solicitudes de certificados digitales"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Validate digital certificates",
+          "es": "Validar certificados digitales"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Authenticate the entity making the request",
+          "es": "Autenticar la entidad que realiza la solicitud"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Provide backup source for cryptographic keys",
+          "es": "Proporcionar fuente de respaldo para claves criptográficas"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Issue digital certificates",
+          "es": "Emitir certificados digitales"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "RA stands for Registration Authority. In a PKI, an RA is responsible for validating the identities of entities requesting digital certificates and accepting their requests before forwarding them to the Certificate Authority (CA).",
+      "es": "RA significa Registration Authority. En una PKI, una RA es responsable de validar las identidades de las entidades que solicitan certificados digitales y de aceptar sus solicitudes antes de reenviarlas a la Autoridad de Certificación (CA)."
+    }
+  },
+  {
+    "id": "AC03-Q0029",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a generic term used to identify any resource?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a un término genérico utilizado para identificar cualquier recurso?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "OUI",
+          "es": "OUI"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "URI",
+          "es": "URI"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "OID",
+          "es": "OID"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "URL",
+          "es": "URL"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "URI stands for Uniform Resource Identifier, which is a string of characters used to identify a resource.",
+      "es": "URI significa Uniform Resource Identifier, que es una cadena de caracteres utilizada para identificar un recurso."
+    }
+  },
+  {
+    "id": "AC03-Q0030",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a framework widely used for enabling secure third-party access to user accounts?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un marco ampliamente utilizado para habilitar el acceso seguro de terceros a las cuentas de usuario?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "SSO",
+          "es": "SSO"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "OAuth",
+          "es": "OAuth"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "MFA",
+          "es": "MFA"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "SAML",
+          "es": "SAML"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "OAuth stands for Open Authorization, a standard that allows third-party services to access user data without needing their password.",
+      "es": "OAuth significa Open Authorization, un estándar que permite a los servicios de terceros acceder a los datos del usuario sin necesidad de su contraseña."
+    }
+  },
+  {
+    "id": "AC03-Q0031",
+    "type": "t/f",
+    "required_answers": 1,
+    "prompt": {
+      "en": "An IV is a random or pseudorandom value used in cryptography to ensure that the same plaintext input does not produce the same ciphertext output, even when the same encryption key is used. The IV is typically used with encryption algorithms in block cipher modes to enhance security by introducing randomness to the encryption process.",
+      "es": "Un IV es un valor aleatorio o pseudoaleatorio utilizado en criptografía para asegurar que la misma entrada de texto plano no produzca la misma salida de texto cifrado, incluso cuando se utiliza la misma clave de encriptación. El IV se utiliza típicamente con algoritmos de encriptación en modos de cifrado de bloque para mejorar la seguridad al introducir aleatoriedad en el proceso de encriptación."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "IV stands for Initialization Vector, a value used to add randomness to the encryption process and ensure that the same plaintext produces a different ciphertext each time it's encrypted with the same key.",
+      "es": "IV significa Initialization Vector, un valor utilizado para agregar aleatoriedad al proceso de encriptación y asegurar que el mismo texto plano produzca un texto cifrado diferente cada vez que se encripta con la misma clave."
+    }
+  },
+  {
+    "id": "AC03-Q0032",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a security vulnerability that allows an attacker to inject malicious code into input fields, such as search bars or login forms, to execute unauthorized commands on a database?",
+      "es": "¿Cuál de las respuestas a continuación se refiere a una vulnerabilidad de seguridad que permite a un atacante inyectar código malicioso en campos de entrada, como barras de búsqueda o formularios de inicio de sesión, para ejecutar comandos no autorizados en una base de datos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "RCE",
+          "es": "RCE"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SQLi",
+          "es": "SQLi"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "XSS",
+          "es": "XSS"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "CSRF",
+          "es": "CSRF"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SQLi stands for SQL injection, a common web security vulnerability that allows an attacker to interfere with the queries that an application makes to its database.",
+      "es": "SQLi significa SQL injection, una vulnerabilidad común de seguridad web que permite a un atacante interferir con las consultas que una aplicación hace a su base de datos."
+    }
+  },
+  {
+    "id": "AC03-Q0033",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "What is the name of a mobile device deployment model in which employees select devices for work-related tasks from a company-approved device list?",
+      "es": "¿Cuál es el nombre de un modelo de despliegue de dispositivos móviles en el que los empleados seleccionan dispositivos para tareas relacionadas con el trabajo de una lista de dispositivos aprobados por la empresa?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "VDI",
+          "es": "VDI"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CYOD",
+          "es": "CYOD"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "BYOD",
+          "es": "BYOD"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "COPE",
+          "es": "COPE"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "CYOD stands for Choose Your Own Device, a policy where employees can select their work devices from a pre-approved list.",
+      "es": "CYOD significa Choose Your Own Device, una política en la que los empleados pueden seleccionar sus dispositivos de trabajo de una lista preaprobada."
+    }
+  },
+  {
+    "id": "AC03-Q0034",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following terms is used to describe sophisticated and prolonged cyberattacks often carried out by well-funded and organized groups, such as nation-states?",
+      "es": "¿Cuál de los siguientes términos se utiliza para describir ciberataques sofisticados y prolongados a menudo llevados a cabo por grupos bien financiados y organizados, como los estados-nación?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MitM",
+          "es": "MitM"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "APT",
+          "es": "APT"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "XSRF",
+          "es": "XSRF"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "DDoS",
+          "es": "DDoS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "APT stands for Advanced Persistent Threat, a stealthy and continuous computer hacking process.",
+      "es": "APT significa Advanced Persistent Threat, un proceso de piratería informática sigiloso y continuo."
+    }
+  },
+  {
+    "id": "AC03-Q0035",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "What is STIX?",
+      "es": "¿Qué es STIX?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Vulnerability database",
+          "es": "Base de datos de vulnerabilidades"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Common language for describing cyber threat information",
+          "es": "Lenguaje común para describir información de ciberamenazas"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "US government initiative for real-time sharing of cyber threat indicators",
+          "es": "Iniciativa del gobierno de EE.UU. para el intercambio en tiempo real de indicadores de ciberamenazas"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Transport mechanism for cyber threat information",
+          "es": "Mecanismo de transporte para información de ciberamenazas"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "STIX stands for Structured Threat Information eXpression, a standardized language for sharing cyber threat intelligence.",
+      "es": "STIX significa Structured Threat Information eXpression, un lenguaje estandarizado para compartir inteligencia sobre ciberamenazas."
+    }
+  }
+]

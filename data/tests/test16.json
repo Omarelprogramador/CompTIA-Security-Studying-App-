@@ -1,0 +1,1137 @@
+[
+  {
+    "id": "T16-Q0001",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a deprecated wireless authentication protocol developed by Cisco?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a un protocolo de autenticación inalámbrica obsoleto desarrollado por Cisco?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PEAP",
+          "es": "PEAP"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "EAP-TTLS",
+          "es": "EAP-TTLS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "LEAP",
+          "es": "LEAP"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "EAP-TLS",
+          "es": "EAP-TLS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "LEAP (Lightweight Extensible Authentication Protocol) is a Cisco-developed wireless authentication protocol that is now considered insecure and has been replaced by more robust protocols like PEAP and EAP-TLS.",
+      "es": "LEAP (Protocolo de Autenticación Extensible Ligero) es un protocolo de autenticación inalámbrica desarrollado por Cisco que ahora se considera inseguro y ha sido reemplazado por protocolos más robustos como PEAP y EAP-TLS."
+    }
+  },
+  {
+    "id": "T16-Q0002",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to an open standard wireless network authentication protocol that enhances security by encapsulating authentication process within an encrypted TLS tunnel?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a un protocolo de autenticación de red inalámbrica de estándar abierto que mejora la seguridad encapsulando el proceso de autenticación dentro de un túnel TLS cifrado?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "PEAP",
+          "es": "PEAP"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "EAP",
+          "es": "EAP"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "LEAP",
+          "es": "LEAP"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "RADIUS",
+          "es": "RADIUS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "PEAP (Protected Extensible Authentication Protocol) is an open-standard protocol that secures the authentication process by creating an encrypted TLS tunnel between the client and the authentication server. This prevents the authentication credentials from being exposed in plain text.",
+      "es": "PEAP (Protocolo de Autenticación Extensible Protegido) es un protocolo de estándar abierto que asegura el proceso de autenticación creando un túnel TLS cifrado entre el cliente y el servidor de autenticación. Esto evita que las credenciales de autenticación se expongan en texto plano."
+    }
+  },
+  {
+    "id": "T16-Q0003",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "Which of the programming aspects listed below are critical in the secure application development process? (Select 2 answers)",
+      "es": "¿Cuáles de los aspectos de programación listados a continuación son críticos en el proceso de desarrollo seguro de aplicaciones? (Selecciona 2 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Patch management",
+          "es": "Gestión de parches"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Input validation",
+          "es": "Validación de entrada"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Password protection",
+          "es": "Protección con contraseña"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Error and exception handling",
+          "es": "Manejo de errores y excepciones"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Application whitelisting",
+          "es": "Listas blancas de aplicaciones"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Input validation ensures that an application only accepts and processes data that is expected and safe, preventing attacks like SQL injection. Proper error and exception handling prevents an application from exposing sensitive information to attackers or crashing in an insecure state.",
+      "es": "La validación de entrada asegura que una aplicación solo acepte y procese datos que se esperan y sean seguros, previniendo ataques como la inyección SQL. El manejo adecuado de errores y excepciones evita que una aplicación exponga información sensible a los atacantes o se caiga en un estado inseguro."
+    }
+  },
+  {
+    "id": "T16-Q0004",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A situation in which a web form field accepts data other than expected (e.g., server commands) is an example of:",
+      "es": "Una situación en la que un campo de formulario web acepta datos diferentes a los esperados (por ejemplo, comandos del servidor) es un ejemplo de:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Zero-day vulnerability",
+          "es": "Vulnerabilidad de día cero"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Improper input validation",
+          "es": "Validación de entrada incorrecta"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Default configuration",
+          "es": "Configuración predeterminada"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Improper error handling",
+          "es": "Manejo de errores incorrecto"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Improper input validation occurs when an application does not properly sanitize or filter user input. This can lead to a variety of attacks, including SQL injection and command injection, where an attacker can execute malicious commands on the server.",
+      "es": "La validación de entrada incorrecta ocurre cuando una aplicación no sanitiza o filtra adecuadamente la entrada del usuario. Esto puede llevar a una variedad de ataques, incluyendo la inyección SQL y la inyección de comandos, donde un atacante puede ejecutar comandos maliciosos en el servidor."
+    }
+  },
+  {
+    "id": "T16-Q0005",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a countermeasure against code injection?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a una contramedida contra la inyección de código?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Fuzzing",
+          "es": "Fuzzing"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Input validation",
+          "es": "Validación de entrada"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Code signing",
+          "es": "Firma de código"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Normalization",
+          "es": "Normalización"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Input validation is the primary countermeasure against code injection attacks. By checking and sanitizing user input, an application can prevent malicious code from being executed on the server or client side.",
+      "es": "La validación de entrada es la principal contramedida contra los ataques de inyección de código. Al verificar y sanitizar la entrada del usuario, una aplicación puede evitar que se ejecute código malicioso en el servidor o en el lado del cliente."
+    }
+  },
+  {
+    "id": "T16-Q0006",
+    "type": "tf",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The term \"Secure cookie\" refers to a type of HTTP cookie that is transmitted over an encrypted HTTPS connection, which helps prevent the cookie from being intercepted or tampered with during transit.",
+      "es": "El término \"cookie segura\" se refiere a un tipo de cookie HTTP que se transmite a través de una conexión HTTPS cifrada, lo que ayuda a evitar que la cookie sea interceptada o manipulada durante el tránsito."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "A secure cookie is a cookie that has the 'secure' attribute set. This tells the browser to only send the cookie to the server over an encrypted HTTPS connection, protecting it from man-in-the-middle attacks.",
+      "es": "Una cookie segura es una cookie que tiene el atributo 'seguro' establecido. Esto le dice al navegador que solo envíe la cookie al servidor a través de una conexión HTTPS cifrada, protegiéndola de ataques de intermediarios."
+    }
+  },
+  {
+    "id": "T16-Q0007",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the terms listed below refers to an automated or manual code review process aimed at discovering logic and syntax errors in the application's source code?",
+      "es": "¿Cuál de los términos listados a continuación se refiere a un proceso de revisión de código automatizado o manual destinado a descubrir errores de lógica y sintaxis en el código fuente de la aplicación?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Input validation",
+          "es": "Validación de entrada"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Dynamic code analysis",
+          "es": "Análisis de código dinámico"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Fuzzing",
+          "es": "Fuzzing"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Static code analysis",
+          "es": "Análisis de código estático"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Static code analysis is a method of debugging and security testing that examines the source code of an application without executing it. It is used to find potential vulnerabilities, bugs, and errors early in the development lifecycle.",
+      "es": "El análisis de código estático es un método de depuración y prueba de seguridad que examina el código fuente de una aplicación sin ejecutarlo. Se utiliza para encontrar posibles vulnerabilidades, errores y fallas temprano en el ciclo de vida del desarrollo."
+    }
+  },
+  {
+    "id": "T16-Q0008",
+    "type": "tf",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A dynamic code analysis allows for detecting application flaws without the need for actual execution of the application code.",
+      "es": "Un análisis de código dinámico permite detectar fallas en la aplicación sin la necesidad de la ejecución real del código de la aplicación."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Dynamic code analysis, or DAST, is the process of executing and analyzing an application's code in a running state. The statement describes static analysis, which does not require execution.",
+      "es": "El análisis de código dinámico, o DAST, es el proceso de ejecutar y analizar el código de una aplicación en un estado de ejecución. La afirmación describe el análisis estático, que no requiere la ejecución."
+    }
+  },
+  {
+    "id": "T16-Q0009",
+    "type": "tf",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The term \"Static code analysis\" refers to the process of discovering application runtime errors.",
+      "es": "El término \"Análisis de código estático\" se refiere al proceso de descubrir errores de tiempo de ejecución de la aplicación."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Static code analysis checks code without running it, so it cannot detect runtime errors. Runtime errors are discovered using dynamic code analysis.",
+      "es": "El análisis de código estático comprueba el código sin ejecutarlo, por lo que no puede detectar errores de tiempo de ejecución. Los errores de tiempo de ejecución se descubren mediante el análisis de código dinámico."
+    }
+  },
+  {
+    "id": "T16-Q0010",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "What is the purpose of code signing? (Select 2 answers)",
+      "es": "¿Cuál es el propósito de la firma de código? (Selecciona 2 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Disables code reuse",
+          "es": "Deshabilita la reutilización de código"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Confirms the application's source of origin",
+          "es": "Confirma la fuente de origen de la aplicación"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Enables application installation",
+          "es": "Habilita la instalación de la aplicación"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Validates the application's integrity",
+          "es": "Valida la integridad de la aplicación"
+        },
+        "correct": true
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Protects the application against unauthorized use",
+          "es": "Protege la aplicación contra el uso no autorizado"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Code signing is a cryptographic process that uses a digital signature to confirm the software's origin and to ensure that the code has not been altered since it was signed. This validates both the source and the integrity of the application.",
+      "es": "La firma de código es un proceso criptográfico que utiliza una firma digital para confirmar el origen del software y para garantizar que el código no ha sido alterado desde que fue firmado. Esto valida tanto la fuente como la integridad de la aplicación."
+    }
+  },
+  {
+    "id": "T16-Q0011",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "The practice of finding vulnerabilities in an application by feeding it incorrect input is called:",
+      "es": "La práctica de encontrar vulnerabilidades en una aplicación alimentándola con una entrada incorrecta se llama:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Normalization",
+          "es": "Normalización"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Hardening",
+          "es": "Endurecimiento"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Dynamic code analysis",
+          "es": "Análisis de código dinámico"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Fuzzing",
+          "es": "Fuzzing"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Fuzzing is a type of software testing that involves providing random, malformed, or unexpected data as input to an application to see how it handles it. This can uncover vulnerabilities such as buffer overflows or crashes.",
+      "es": "El fuzzing es un tipo de prueba de software que implica proporcionar datos aleatorios, mal formados o inesperados como entrada a una aplicación para ver cómo los maneja. Esto puede descubrir vulnerabilidades como desbordamientos de búfer o fallos."
+    }
+  },
+  {
+    "id": "T16-Q0012",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "In computer security, a mechanism for safe execution of untested code or untrusted applications is referred to as:",
+      "es": "En seguridad informática, un mecanismo para la ejecución segura de código no probado o aplicaciones no confiables se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Sideloading",
+          "es": "Carga lateral"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Virtualization",
+          "es": "Virtualización"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Sandboxing",
+          "es": "Sandboxing"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Stress testing",
+          "es": "Prueba de estrés"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Sandboxing is a security mechanism for running programs in a restricted and isolated environment. This prevents the untrusted code from accessing or modifying the host system or network resources.",
+      "es": "El sandboxing es un mecanismo de seguridad para ejecutar programas en un entorno restringido y aislado. Esto evita que el código no confiable acceda o modifique el sistema host o los recursos de la red."
+    }
+  },
+  {
+    "id": "T16-Q0013",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following answers refers to a Windows-specific feature for handling exceptions, errors, and abnormal conditions in software?",
+      "es": "¿Cuál de las siguientes respuestas se refiere a una función específica de Windows para manejar excepciones, errores y condiciones anormales en el software?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "EPC",
+          "es": "EPC"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "SEH",
+          "es": "SEH"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "EH",
+          "es": "EH"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "EXR",
+          "es": "EXR"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "SEH (Structured Exception Handling) is a mechanism in Windows operating systems and programming languages for handling software exceptions and abnormal conditions. It provides a structured way to manage errors and prevent application crashes.",
+      "es": "SEH (Manejo de Excepciones Estructurado) es un mecanismo en los sistemas operativos Windows y lenguajes de programación para manejar excepciones de software y condiciones anormales. Proporciona una forma estructurada de gestionar errores y prevenir fallos de la aplicación."
+    }
+  },
+  {
+    "id": "T16-Q0014",
+    "type": "tf",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Address Space Layout Randomization (ASLR) is an OS security technique that randomizes the location of key data areas in memory. The purpose of ASLR is to prevent attackers from predicting the location of specific code or data in memory, which adds a layer of defense against memory-based attacks, such as buffer overflows.",
+      "es": "La aleatorización del espacio de direcciones (ASLR) es una técnica de seguridad del sistema operativo que aleatoriza la ubicación de áreas de datos clave en la memoria. El propósito de ASLR es evitar que los atacantes predigan la ubicación de código o datos específicos en la memoria, lo que añade una capa de defensa contra ataques basados en la memoria, como los desbordamientos de búfer."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "The statement is true. ASLR makes it more difficult for attackers to execute malicious code by making memory addresses unpredictable, which is a common technique used in exploits like buffer overflows.",
+      "es": "La afirmación es verdadera. ASLR hace que sea más difícil para los atacantes ejecutar código malicioso al hacer que las direcciones de memoria sean impredecibles, que es una técnica común utilizada en exploits como los desbordamientos de búfer."
+    }
+  },
+  {
+    "id": "T16-Q0015",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "A type of user identification mechanism used as a countermeasure against automated software (such as network bots) is known as:",
+      "es": "Un tipo de mecanismo de identificación de usuario utilizado como contramedida contra el software automatizado (como los bots de red) se conoce como:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MFA",
+          "es": "MFA"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "CAPTCHA",
+          "es": "CAPTCHA"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "SSO",
+          "es": "SSO"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "NIDS",
+          "es": "NIDS"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) is a challenge-response test designed to distinguish human users from automated bots. It requires the user to perform a task that is easy for a human but difficult for a computer.",
+      "es": "CAPTCHA (Prueba de Turing pública completamente automatizada para diferenciar computadoras de humanos) es una prueba de desafío-respuesta diseñada para distinguir a los usuarios humanos de los bots automatizados. Requiere que el usuario realice una tarea que es fácil para un humano pero difícil para una computadora."
+    }
+  },
+  {
+    "id": "T16-Q0016",
+    "type": "ms",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the answers listed below refers to a hardware monitoring and asset tracking method?",
+      "es": "¿Cuál de las respuestas listadas a continuación se refiere a un método de monitoreo de hardware y seguimiento de activos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Barcode labels",
+          "es": "Etiquetas de código de barras"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "QR codes",
+          "es": "Códigos QR"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "RFID tags",
+          "es": "Etiquetas RFID"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "GPS tracking",
+          "es": "Seguimiento por GPS"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "All of the above",
+          "es": "Todos los anteriores"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Barcode labels, QR codes, RFID tags, and GPS tracking are all common methods for monitoring and tracking hardware assets. They each have different applications and capabilities, from simple inventory management (barcodes, QR codes) to real-time location tracking (GPS).",
+      "es": "Las etiquetas de código de barras, los códigos QR, las etiquetas RFID y el seguimiento por GPS son todos métodos comunes para monitorear y rastrear los activos de hardware. Cada uno tiene diferentes aplicaciones y capacidades, desde la gestión de inventario simple (códigos de barras, códigos QR) hasta el seguimiento de ubicación en tiempo real (GPS)."
+    }
+  },
+  {
+    "id": "T16-Q0017",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following wireless technologies enables identification and tracking of tags attached to objects?",
+      "es": "¿Cuál de las siguientes tecnologías inalámbricas permite la identificación y el seguimiento de etiquetas adjuntas a objetos?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "GPS",
+          "es": "GPS"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "IR",
+          "es": "IR"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "RFID",
+          "es": "RFID"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "NFC",
+          "es": "NFC"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "RFID (Radio-Frequency Identification) uses electromagnetic fields to automatically identify and track tags attached to objects. The tags contain electronically stored information, and an RFID reader can read this information from a distance.",
+      "es": "RFID (Identificación por Radiofrecuencia) utiliza campos electromagnéticos para identificar y rastrear automáticamente las etiquetas adjuntas a los objetos. Las etiquetas contienen información almacenada electrónicamente, y un lector RFID puede leer esta información a distancia."
+    }
+  },
+  {
+    "id": "T16-Q0018",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which type of software enables monitoring and tracking of mobile devices?",
+      "es": "¿Qué tipo de software permite el monitoreo y seguimiento de dispositivos móviles?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "MDM",
+          "es": "MDM"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "GPS",
+          "es": "GPS"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "NFC",
+          "es": "NFC"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "GSM",
+          "es": "GSM"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "MDM (Mobile Device Management) is a class of software that allows an organization to monitor, manage, and secure mobile devices. It can track the location of devices, enforce security policies, and remotely wipe data if a device is lost or stolen.",
+      "es": "MDM (Gestión de Dispositivos Móviles) es una clase de software que permite a una organización monitorear, gestionar y asegurar los dispositivos móviles. Puede rastrear la ubicación de los dispositivos, aplicar políticas de seguridad y borrar datos de forma remota si un dispositivo se pierde o es robado."
+    }
+  },
+  {
+    "id": "T16-Q0019",
+    "type": "tf",
+    "required_answers": 1,
+    "prompt": {
+      "en": "One of the ways to prevent data recovery from a storage drive is to overwrite its contents. The data overwriting technique is used by drive wipe utilities which might employ different methods (including multiple overwriting rounds) to decrease the likelihood of data retrieval. As an example, a disk sanitization utility might overwrite the data on the drive with the value of one in the first pass, change that value to zero in the second pass, and finally perform a few more passes, overwriting the contents with random characters.",
+      "es": "Una de las formas de prevenir la recuperación de datos de una unidad de almacenamiento es sobrescribir su contenido. La técnica de sobrescritura de datos es utilizada por utilidades de limpieza de unidades que pueden emplear diferentes métodos (incluyendo múltiples rondas de sobrescritura) para disminuir la probabilidad de recuperación de datos. Como ejemplo, una utilidad de sanitización de disco podría sobrescribir los datos de la unidad con el valor de uno en la primera pasada, cambiar ese valor a cero en la segunda pasada y finalmente realizar algunas pasadas más, sobrescribiendo el contenido con caracteres aleatorios."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "The statement is true. Data overwriting is a common method of data sanitization where the original data on a storage medium is replaced with a random pattern of ones and zeros. Multiple passes are often used to ensure the original data is completely unrecoverable.",
+      "es": "La afirmación es verdadera. La sobrescritura de datos es un método común de sanitización de datos donde los datos originales en un medio de almacenamiento se reemplazan con un patrón aleatorio de unos y ceros. A menudo se utilizan múltiples pasadas para asegurar que los datos originales sean completamente irrecuperables."
+    }
+  },
+  {
+    "id": "T16-Q0020",
+    "type": "ms",
+    "required_answers": 2,
+    "prompt": {
+      "en": "Which of the destruction tools/methods listed below allow(s) for secure disposal of physical documents? (Select all that apply)",
+      "es": "¿Cuál(es) de las herramientas/métodos de destrucción listados a continuación permiten la eliminación segura de documentos físicos? (Selecciona todas las que apliquen)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Shredding",
+          "es": "Trituración"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Overwriting",
+          "es": "Sobrescribir"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Burning",
+          "es": "Quema"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Formatting",
+          "es": "Formateo"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Degaussing",
+          "es": "Desmagnetización"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Shredding and burning are both physical destruction methods used for the secure disposal of paper documents. Overwriting, formatting, and degaussing are methods used for electronic data on storage media.",
+      "es": "La trituración y la quema son ambos métodos de destrucción física utilizados para la eliminación segura de documentos en papel. La sobrescritura, el formateo y la desmagnetización son métodos utilizados para datos electrónicos en medios de almacenamiento."
+    }
+  },
+  {
+    "id": "T16-Q0021",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which of the following methods provides the most effective way for permanent removal of data stored on a magnetic drive?",
+      "es": "¿Cuál de los siguientes métodos proporciona la forma más efectiva para la eliminación permanente de datos almacenados en una unidad magnética?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Cryptographic erasure",
+          "es": "Borrado criptográfico"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Data overwriting",
+          "es": "Sobrescritura de datos"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Degaussing",
+          "es": "Desmagnetización"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Low-level formatting",
+          "es": "Formateo de bajo nivel"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Degaussing is a method of sanitizing magnetic media (like hard drives and tapes) by exposing it to a powerful magnetic field. This field scrambles the data and renders the drive unusable, making it the most effective way to permanently destroy the data.",
+      "es": "La desmagnetización es un método de sanitización de medios magnéticos (como discos duros y cintas) exponiéndolos a un potente campo magnético. Este campo revuelve los datos y deja la unidad inutilizable, lo que la convierte en la forma más efectiva de destruir permanentemente los datos."
+    }
+  },
+  {
+    "id": "T16-Q0022",
+    "type": "tf",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Certificate of destruction is a document issued by companies that conduct secure device/document disposal. The certificate verifies proper asset destruction and can be used for auditing purposes. In case of device disposal, the document includes a list of all the items that have been destroyed along with their serial numbers. It may also describe the destruction method, specify location (on-site/off-site), or list the names of witnesses who oversaw the entire process.",
+      "es": "El certificado de destrucción es un documento emitido por las empresas que realizan la eliminación segura de dispositivos/documentos. El certificado verifica la correcta destrucción de los activos y se puede utilizar para fines de auditoría. En caso de eliminación de dispositivos, el documento incluye una lista de todos los elementos que han sido destruidos junto con sus números de serie. También puede describir el método de destrucción, especificar la ubicación (en el sitio/fuera del sitio) o enumerar los nombres de los testigos que supervisaron todo el proceso."
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "True",
+          "es": "Verdadero"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "False",
+          "es": "Falso"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "The statement is true. A certificate of destruction is a legal document that confirms that assets have been securely and properly disposed of, providing a paper trail for compliance and auditing.",
+      "es": "La afirmación es verdadera. Un certificado de destrucción es un documento legal que confirma que los activos han sido eliminados de forma segura y adecuada, proporcionando un rastro de papel para el cumplimiento y la auditoría."
+    }
+  },
+  {
+    "id": "T16-Q0023",
+    "type": "sc",
+    "required_answers": 1,
+    "prompt": {
+      "en": "Which policy typically specifies the period during which certain types of data must be stored prior to disposal?",
+      "es": "¿Qué política típicamente especifica el período durante el cual ciertos tipos de datos deben ser almacenados antes de su eliminación?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Data protection policy",
+          "es": "Política de protección de datos"
+        },
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Data classification policy",
+          "es": "Política de clasificación de datos"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Data backup policy",
+          "es": "Política de copia de seguridad de datos"
+        },
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Data retention policy",
+          "es": "Política de retención de datos"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "A data retention policy outlines how long an organization must keep certain types of data before it can be securely disposed of. This is crucial for compliance with legal and regulatory requirements.",
+      "es": "Una política de retención de datos describe cuánto tiempo una organización debe conservar ciertos tipos de datos antes de que puedan ser eliminados de forma segura. Esto es crucial para el cumplimiento de los requisitos legales y reglamentarios."
+    }
+  },
+  {
+    "id": "T16-Q0024",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Vulnerability scanning: (Select all that apply)",
+      "es": "Escaneo de vulnerabilidad: (Selecciona todas las que apliquen)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Identifies lack of security controls",
+          "es": "Identifica la falta de controles de seguridad"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Actively tests security controls",
+          "es": "Prueba activamente los controles de seguridad"
+        },
+        "correct": false
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Identifies common misconfigurations",
+          "es": "Identifica misconfiguraciones comunes"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Exploits vulnerabilities",
+          "es": "Explota vulnerabilidades"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Passively tests security controls",
+          "es": "Prueba pasivamente los controles de seguridad"
+        },
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "en": "Vulnerability scanning is a passive process that identifies weaknesses and potential vulnerabilities in a system by checking for common misconfigurations and lack of security controls. It does not actively exploit vulnerabilities or test security controls, which are functions of penetration testing.",
+      "es": "El escaneo de vulnerabilidad es un proceso pasivo que identifica debilidades y vulnerabilidades potenciales en un sistema al buscar misconfiguraciones comunes y la falta de controles de seguridad. No explota activamente las vulnerabilidades ni prueba los controles de seguridad, que son funciones de las pruebas de penetración."
+    }
+  },
+  {
+    "id": "T16-Q0025",
+    "type": "ms",
+    "required_answers": 3,
+    "prompt": {
+      "en": "Which of the answers listed below refer to the characteristic features of static code analysis? (Select 3 answers)",
+      "es": "¿Cuáles de las respuestas listadas a continuación se refieren a las características del análisis de código estático? (Selecciona 3 respuestas)"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text": {
+          "en": "Involves examining the code without executing it",
+          "es": "Implica examinar el código sin ejecutarlo"
+        },
+        "correct": true
+      },
+      {
+        "key": "B",
+        "text": {
+          "en": "Often used early in the development process",
+          "es": "A menudo se utiliza al principio del proceso de desarrollo"
+        },
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": {
+          "en": "Examines code structure, syntax, and semantics to detect issues like syntax errors, coding standards violations, security vulnerabilities, and bugs",
+          "es": "Examina la estructura del código, la sintaxis y la semántica para detectar problemas como errores de sintaxis, violaciones de estándares de codificación, vulnerabilidades de seguridad y errores"
+        },
+        "correct": true
+      },
+      {
+        "key": "D",
+        "text": {
+          "en": "Typically used later in the software development lifecycle",
+          "es": "Típicamente utilizado más tarde en el ciclo de vida de desarrollo de software"
+        },
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": {
+          "en": "Involves executing the code and analyzing its behavior at runtime",
+          "es": "Implica ejecutar el código y analizar su comportamiento en tiempo de ejecución"
+        },
+        "correct": false
+      },
+      {
+        "key": "F",
+        "text": {
+          "en": "Analyzes runtime properties like memory usage, performance, and error handling to identify issues such as memory leaks, performance bottlenecks, and runtime errors",
+          "es": "Analiza las propiedades de tiempo de ejecución como el uso de memoria, el rendimiento y el manejo de errores para identificar problemas como fugas de memoria, cuellos de botella de rendimiento y errores de tiempo de ejecución"
+        },
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "en": "Static code analysis is performed on source code without executing it. It is typically done early in the development process to find bugs and security vulnerabilities related to the code's structure and syntax before the application is even built. This contrasts with dynamic analysis, which runs the application to find runtime issues.",
+      "es": "El análisis de código estático se realiza en el código fuente sin ejecutarlo. Típicamente se hace temprano en el proceso de desarrollo para encontrar errores y vulnerabilidades de seguridad relacionadas con la estructura y sintaxis del código antes de que la aplicación sea incluso construida. Esto contrasta con el análisis dinámico, que ejecuta la aplicación para encontrar problemas de tiempo de ejecución."
+    }
+  }
+]
